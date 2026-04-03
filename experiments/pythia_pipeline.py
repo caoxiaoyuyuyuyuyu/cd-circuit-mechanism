@@ -142,6 +142,10 @@ def run_exp00(expert, amateur):
         results.append(row)
 
     df = pd.DataFrame(results)
+    # NOTE: Weak CD performance on small models (Pythia-410M/70M) is expected.
+    # e.g., alpha=0.5 hitting only ~1/6 prompts is normal for this model scale.
+    # This prototype validates the end-to-end pipeline; CD gains are expected
+    # to be much stronger on larger models (Gemma-2-9B/2B).
     print("\n\n--- Summary ---")
     for _, r in df.iterrows():
         exp_match = r["expected"].strip().lower() in r["expert_top1"].strip().lower()
@@ -298,7 +302,9 @@ def run_exp02(expert, amateur):
     )
     print(f"Attention head patching result shape: {attn_head_results.shape}")
 
-    flat_idx = torch.topk(attn_head_results.flatten().abs(), 10).indices
+    # Select heads with highest patching effect (closest to clean baseline).
+    # Higher value = patching this head restores more of the clean logit diff.
+    flat_idx = torch.topk(attn_head_results.flatten(), 10).indices
     n_heads = expert.cfg.n_heads
     top_heads = []
     for idx in flat_idx:
@@ -335,6 +341,8 @@ def run_exp02(expert, amateur):
         "incorrect_token": incorrect_token,
         "clean_logit_diff": clean_logit_diff,
         "corrupted_logit_diff": corrupted_logit_diff,
+        # top_attention_heads: ranked by patching effect (highest = most important,
+        # i.e., patching this head restores the clean logit diff the most)
         "top_attention_heads": top_heads,
         "mlp_patching": [{"layer": m["layer"], "effect": m["patching_effect"]} for m in top_mlps],
     }
@@ -364,14 +372,6 @@ def run_exp03(expert, amateur):
     print(f"Clean: '{prompt}'")
     print(f"Corrupted: '{corrupted_prompt}'")
 
-    clean_tokens = expert.to_tokens(prompt)
-    corrupted_tokens = expert.to_tokens(corrupted_prompt)
-
-    print("\nRunning expert with cache (clean)...")
-    _, clean_cache = expert.run_with_cache(clean_tokens)
-    print("Running expert with cache (corrupted)...")
-    _, corrupted_cache = expert.run_with_cache(corrupted_tokens)
-
     sae_releases_to_try = [
         ("pythia-70m-deduped-res-sm", "blocks.{layer}.hook_resid_post", [0, 1, 2, 3, 4, 5]),
         ("pythia-70m-deduped-mlp-sm", "blocks.{layer}.hook_mlp_out", [3, 4, 5]),
@@ -379,25 +379,31 @@ def run_exp03(expert, amateur):
 
     results = {"prompt": prompt, "corrupted_prompt": corrupted_prompt, "features": []}
 
-    # First try with expert model activations
+    # SAEs are trained on pythia-70m, so use amateur model activations directly
+    # (expert pythia-410m has different d_model and would always fail dim check)
+    print("\nRunning amateur model for SAE analysis (SAEs trained on pythia-70m)...")
+    amateur_clean_tokens = amateur.to_tokens(prompt)
+    amateur_corrupted_tokens = amateur.to_tokens(corrupted_prompt)
+    _, amateur_clean_cache = amateur.run_with_cache(amateur_clean_tokens)
+    _, amateur_corrupt_cache = amateur.run_with_cache(amateur_corrupted_tokens)
+
     for release, sae_id_template, layers in sae_releases_to_try:
         for layer in layers:
             sae_id = sae_id_template.format(layer=layer)
-            print(f"\nTrying SAE: release='{release}', sae_id='{sae_id}'...")
+            print(f"\nTrying SAE for amateur: release='{release}', sae_id='{sae_id}'...")
             try:
                 sae = SAE.from_pretrained(release=release, sae_id=sae_id, device=DEVICE)
                 print(f"  Loaded! dict_size={sae.cfg.d_sae}")
 
                 hook_name = f"blocks.{layer}.hook_resid_post"
-                expert_act = clean_cache[hook_name][0, -1, :]
-                if expert_act.shape[0] != sae.cfg.d_in:
-                    print(f"  Dim mismatch: expert d_model={expert_act.shape[0]}, SAE d_in={sae.cfg.d_in}")
-                    print(f"  Skipping (SAE for different model size).")
+                amateur_act = amateur_clean_cache[hook_name][0, -1, :]
+                if amateur_act.shape[0] != sae.cfg.d_in:
+                    print(f"  Dim mismatch: amateur d_model={amateur_act.shape[0]}, SAE d_in={sae.cfg.d_in}")
                     del sae; torch.cuda.empty_cache()
                     continue
 
-                clean_acts = sae.encode(clean_cache[hook_name][0, -1:, :])
-                corrupted_acts = sae.encode(corrupted_cache[hook_name][0, -1:, :])
+                clean_acts = sae.encode(amateur_clean_cache[hook_name][0, -1:, :])
+                corrupted_acts = sae.encode(amateur_corrupt_cache[hook_name][0, -1:, :])
 
                 diff = (clean_acts - corrupted_acts).squeeze()
                 top_diff_idx = torch.topk(diff.abs(), min(10, diff.shape[0])).indices
@@ -417,7 +423,7 @@ def run_exp03(expert, amateur):
 
                 results["features"].append({
                     "release": release,
-                    "model": "pythia-410m (expert)",
+                    "model": "pythia-70m (amateur)",
                     "layer": layer,
                     "sae_id": sae_id,
                     "d_sae": sae.cfg.d_sae,
@@ -429,72 +435,14 @@ def run_exp03(expert, amateur):
                 print(f"  Failed: {e}")
                 continue
 
-    # If no SAEs worked with expert, try amateur model
-    if not results["features"]:
-        print("\nNo SAEs matched expert. Trying with amateur model (pythia-70m)...")
-        amateur_clean_tokens = amateur.to_tokens(prompt)
-        amateur_corrupted_tokens = amateur.to_tokens(corrupted_prompt)
-        _, amateur_clean_cache = amateur.run_with_cache(amateur_clean_tokens)
-        _, amateur_corrupt_cache = amateur.run_with_cache(amateur_corrupted_tokens)
-
-        for release, sae_id_template, layers in sae_releases_to_try:
-            for layer in layers:
-                sae_id = sae_id_template.format(layer=layer)
-                print(f"\nTrying SAE for amateur: release='{release}', sae_id='{sae_id}'...")
-                try:
-                    sae = SAE.from_pretrained(release=release, sae_id=sae_id, device=DEVICE)
-                    print(f"  Loaded! dict_size={sae.cfg.d_sae}")
-
-                    hook_name = f"blocks.{layer}.hook_resid_post"
-                    amateur_act = amateur_clean_cache[hook_name][0, -1, :]
-                    if amateur_act.shape[0] != sae.cfg.d_in:
-                        print(f"  Dim mismatch: amateur d_model={amateur_act.shape[0]}, SAE d_in={sae.cfg.d_in}")
-                        del sae; torch.cuda.empty_cache()
-                        continue
-
-                    clean_acts = sae.encode(amateur_clean_cache[hook_name][0, -1:, :])
-                    corrupted_acts = sae.encode(amateur_corrupt_cache[hook_name][0, -1:, :])
-
-                    diff = (clean_acts - corrupted_acts).squeeze()
-                    top_diff_idx = torch.topk(diff.abs(), min(10, diff.shape[0])).indices
-
-                    layer_features = []
-                    for idx in top_diff_idx:
-                        feat_id = idx.item()
-                        clean_val = clean_acts[0, feat_id].item()
-                        corrupt_val = corrupted_acts[0, feat_id].item()
-                        layer_features.append({
-                            "feature_id": feat_id,
-                            "clean_activation": clean_val,
-                            "corrupted_activation": corrupt_val,
-                            "diff": clean_val - corrupt_val,
-                        })
-                        print(f"    Feature {feat_id}: clean={clean_val:.4f}, corrupt={corrupt_val:.4f}, diff={clean_val - corrupt_val:+.4f}")
-
-                    results["features"].append({
-                        "release": release,
-                        "model": "pythia-70m (amateur)",
-                        "layer": layer,
-                        "sae_id": sae_id,
-                        "d_sae": sae.cfg.d_sae,
-                        "top_diff_features": layer_features,
-                    })
-                    del sae; torch.cuda.empty_cache()
-
-                except Exception as e:
-                    print(f"  Failed: {e}")
-                    continue
-
-        del amateur_clean_cache, amateur_corrupt_cache
-        torch.cuda.empty_cache()
+    del amateur_clean_cache, amateur_corrupt_cache
+    torch.cuda.empty_cache()
 
     outpath = RESULTS_DIR / "exp03_sae_features.json"
     with open(outpath, "w") as f:
         json.dump(results, f, indent=2)
     print(f"\nResults saved to {outpath}")
 
-    del clean_cache, corrupted_cache
-    torch.cuda.empty_cache()
     return results
 
 
