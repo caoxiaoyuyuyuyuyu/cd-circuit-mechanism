@@ -1,0 +1,195 @@
+Device: cuda
+Steps to run: ['exp-03']
+Results dir: /home/caoxiaoyu/cd-circuit-mechanism/results
+Loading expert model (pythia-410m)...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loaded pretrained model pythia-410m into HookedTransformer
+Loading amateur model (pythia-70m)...
+Loaded pretrained model pythia-70m-deduped into HookedTransformer
+Expert: pythia-410m, 24 layers, 16 heads, d_model=1024
+Amateur: pythia-70m-deduped, 6 layers, 8 heads, d_model=512
+
+############################################################
+# Running exp-03
+############################################################
+
+============================================================
+EXP-03: SAE Feature Extraction
+============================================================
+Clean: 'The capital of France is'
+Corrupted: 'The capital of China is'
+
+Running expert with cache (clean)...
+Running expert with cache (corrupted)...
+
+Trying SAE: release='pythia-70m-deduped-res-sm', sae_id='blocks.0.hook_resid_post'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-res-sm', sae_id='blocks.1.hook_resid_post'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-res-sm', sae_id='blocks.2.hook_resid_post'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-res-sm', sae_id='blocks.3.hook_resid_post'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-res-sm', sae_id='blocks.4.hook_resid_post'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-res-sm', sae_id='blocks.5.hook_resid_post'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-mlp-sm', sae_id='blocks.3.hook_mlp_out'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-mlp-sm', sae_id='blocks.4.hook_mlp_out'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+Trying SAE: release='pythia-70m-deduped-mlp-sm', sae_id='blocks.5.hook_mlp_out'...
+  Loaded! dict_size=32768
+  Dim mismatch: expert d_model=1024, SAE d_in=512
+  Skipping (SAE for different model size).
+
+No SAEs matched expert. Trying with amateur model (pythia-70m)...
+
+Trying SAE for amateur: release='pythia-70m-deduped-res-sm', sae_id='blocks.0.hook_resid_post'...
+  Loaded! dict_size=32768
+    Feature 10964: clean=0.1044, corrupt=0.0000, diff=+0.1044
+    Feature 16889: clean=0.1485, corrupt=0.0765, diff=+0.0721
+    Feature 15910: clean=0.0000, corrupt=0.0713, diff=-0.0713
+    Feature 4383: clean=0.0587, corrupt=0.0000, diff=+0.0587
+    Feature 2052: clean=0.6961, corrupt=0.7534, diff=-0.0573
+    Feature 1130: clean=0.0687, corrupt=0.0147, diff=+0.0540
+    Feature 23580: clean=0.3014, corrupt=0.2488, diff=+0.0525
+    Feature 12261: clean=0.0000, corrupt=0.0502, diff=-0.0502
+    Feature 12774: clean=0.0470, corrupt=0.0953, diff=-0.0483
+    Feature 14264: clean=0.0083, corrupt=0.0541, diff=-0.0457
+
+Trying SAE for amateur: release='pythia-70m-deduped-res-sm', sae_id='blocks.1.hook_resid_post'...
+  Loaded! dict_size=32768
+    Feature 16673: clean=1.7010, corrupt=1.5190, diff=+0.1819
+    Feature 4153: clean=0.2709, corrupt=0.0966, diff=+0.1743
+    Feature 25921: clean=0.3261, corrupt=0.4968, diff=-0.1707
+    Feature 5395: clean=0.2014, corrupt=0.0328, diff=+0.1685
+    Feature 15984: clean=0.1526, corrupt=0.0057, diff=+0.1470
+    Feature 21949: clean=0.0405, corrupt=0.1695, diff=-0.1290
+    Feature 13351: clean=0.3128, corrupt=0.4341, diff=-0.1213
+    Feature 30841: clean=0.1334, corrupt=0.0127, diff=+0.1207
+    Feature 475: clean=0.8470, corrupt=0.9553, diff=-0.1083
+    Feature 3823: clean=0.1005, corrupt=0.2080, diff=-0.1075
+
+Trying SAE for amateur: release='pythia-70m-deduped-res-sm', sae_id='blocks.2.hook_resid_post'...
+  Loaded! dict_size=32768
+    Feature 31732: clean=0.0000, corrupt=0.2558, diff=-0.2558
+    Feature 12554: clean=0.2218, corrupt=0.0000, diff=+0.2218
+    Feature 25069: clean=0.0000, corrupt=0.1934, diff=-0.1934
+    Feature 27329: clean=0.3164, corrupt=0.1269, diff=+0.1895
+    Feature 26626: clean=0.0000, corrupt=0.1801, diff=-0.1801
+    Feature 31715: clean=0.1707, corrupt=0.0000, diff=+0.1707
+    Feature 14584: clean=0.0041, corrupt=0.1714, diff=-0.1673
+    Feature 4439: clean=0.3885, corrupt=0.2219, diff=+0.1666
+    Feature 29410: clean=0.1990, corrupt=0.0403, diff=+0.1587
+    Feature 3614: clean=0.1732, corrupt=0.0166, diff=+0.1565
+
+Trying SAE for amateur: release='pythia-70m-deduped-res-sm', sae_id='blocks.3.hook_resid_post'...
+  Loaded! dict_size=32768
+    Feature 24696: clean=0.4789, corrupt=0.0000, diff=+0.4789
+    Feature 531: clean=0.4163, corrupt=0.0000, diff=+0.4163
+    Feature 29951: clean=0.5170, corrupt=0.2130, diff=+0.3039
+    Feature 23938: clean=0.1208, corrupt=0.3724, diff=-0.2516
+    Feature 1201: clean=0.2434, corrupt=0.0290, diff=+0.2144
+    Feature 12617: clean=1.0504, corrupt=1.2294, diff=-0.1789
+    Feature 7370: clean=0.4779, corrupt=0.6540, diff=-0.1761
+    Feature 3324: clean=0.2128, corrupt=0.0746, diff=+0.1382
+    Feature 2218: clean=0.0000, corrupt=0.1298, diff=-0.1298
+    Feature 18131: clean=0.2517, corrupt=0.3811, diff=-0.1294
+
+Trying SAE for amateur: release='pythia-70m-deduped-res-sm', sae_id='blocks.4.hook_resid_post'...
+  Loaded! dict_size=32768
+    Feature 7026: clean=0.0000, corrupt=2.3101, diff=-2.3101
+    Feature 4919: clean=1.8285, corrupt=0.0000, diff=+1.8285
+    Feature 32691: clean=0.5549, corrupt=0.0181, diff=+0.5368
+    Feature 20220: clean=0.0000, corrupt=0.5143, diff=-0.5143
+    Feature 20171: clean=0.4675, corrupt=0.0000, diff=+0.4675
+    Feature 26868: clean=0.0000, corrupt=0.4129, diff=-0.4129
+    Feature 8235: clean=0.9708, corrupt=1.3646, diff=-0.3938
+    Feature 3201: clean=0.3908, corrupt=0.0000, diff=+0.3908
+    Feature 21049: clean=0.1573, corrupt=0.5406, diff=-0.3833
+    Feature 27409: clean=0.0000, corrupt=0.3481, diff=-0.3481
+
+Trying SAE for amateur: release='pythia-70m-deduped-res-sm', sae_id='blocks.5.hook_resid_post'...
+  Loaded! dict_size=32768
+    Feature 6696: clean=0.0000, corrupt=2.1411, diff=-2.1411
+    Feature 2336: clean=1.8018, corrupt=0.0000, diff=+1.8018
+    Feature 16440: clean=0.7984, corrupt=0.0000, diff=+0.7984
+    Feature 23899: clean=1.9186, corrupt=1.1816, diff=+0.7370
+    Feature 24393: clean=0.1336, corrupt=0.8243, diff=-0.6908
+    Feature 19665: clean=0.9201, corrupt=0.2576, diff=+0.6625
+    Feature 28657: clean=0.2729, corrupt=0.8787, diff=-0.6059
+    Feature 27902: clean=0.6299, corrupt=0.0498, diff=+0.5801
+    Feature 5575: clean=0.5258, corrupt=0.0000, diff=+0.5258
+    Feature 13191: clean=0.8090, corrupt=0.2869, diff=+0.5222
+
+Trying SAE for amateur: release='pythia-70m-deduped-mlp-sm', sae_id='blocks.3.hook_mlp_out'...
+  Loaded! dict_size=32768
+    Feature 4861: clean=0.4163, corrupt=0.1391, diff=+0.2772
+    Feature 128: clean=1.2581, corrupt=0.9905, diff=+0.2676
+    Feature 985: clean=0.1883, corrupt=0.4259, diff=-0.2376
+    Feature 10542: clean=0.2808, corrupt=0.0800, diff=+0.2008
+    Feature 22428: clean=0.0000, corrupt=0.1887, diff=-0.1887
+    Feature 31843: clean=0.0356, corrupt=0.2201, diff=-0.1844
+    Feature 25295: clean=0.5736, corrupt=0.3943, diff=+0.1793
+    Feature 24111: clean=0.1703, corrupt=0.0000, diff=+0.1703
+    Feature 7960: clean=0.3138, corrupt=0.1451, diff=+0.1687
+    Feature 20383: clean=0.0000, corrupt=0.1478, diff=-0.1478
+
+Trying SAE for amateur: release='pythia-70m-deduped-mlp-sm', sae_id='blocks.4.hook_mlp_out'...
+  Loaded! dict_size=32768
+    Feature 3442: clean=0.1365, corrupt=1.1659, diff=-1.0294
+    Feature 7747: clean=0.9338, corrupt=0.2306, diff=+0.7031
+    Feature 11081: clean=0.0000, corrupt=0.6679, diff=-0.6679
+    Feature 16617: clean=0.5760, corrupt=1.2375, diff=-0.6615
+    Feature 25866: clean=0.6282, corrupt=0.0000, diff=+0.6282
+    Feature 11511: clean=0.0000, corrupt=0.6089, diff=-0.6089
+    Feature 10625: clean=0.5919, corrupt=0.0000, diff=+0.5919
+    Feature 3456: clean=0.6465, corrupt=0.0872, diff=+0.5593
+    Feature 15332: clean=0.5560, corrupt=0.0260, diff=+0.5301
+    Feature 17862: clean=0.0000, corrupt=0.5294, diff=-0.5294
+
+Trying SAE for amateur: release='pythia-70m-deduped-mlp-sm', sae_id='blocks.5.hook_mlp_out'...
+  Loaded! dict_size=32768
+    Feature 4369: clean=0.0000, corrupt=1.5980, diff=-1.5980
+    Feature 32345: clean=0.7326, corrupt=1.7223, diff=-0.9898
+    Feature 6959: clean=0.0685, corrupt=1.0407, diff=-0.9722
+    Feature 26370: clean=0.0000, corrupt=0.9143, diff=-0.9143
+    Feature 4783: clean=0.8239, corrupt=1.6991, diff=-0.8751
+    Feature 27533: clean=0.0000, corrupt=0.8584, diff=-0.8584
+    Feature 12023: clean=0.8163, corrupt=0.0000, diff=+0.8163
+    Feature 19103: clean=0.0058, corrupt=0.7769, diff=-0.7712
+    Feature 531: clean=0.0976, corrupt=0.8066, diff=-0.7090
+    Feature 20661: clean=0.0645, corrupt=0.7663, diff=-0.7018
+
+Results saved to /home/caoxiaoyu/cd-circuit-mechanism/results/exp03_sae_features.json
+
+exp-03 completed in 31.1s
+
+============================================================
+Pipeline complete!
+============================================================

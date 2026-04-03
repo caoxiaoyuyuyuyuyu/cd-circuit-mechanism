@@ -1,0 +1,118 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Device: cuda
+Steps to run: ['exp-00', 'exp-01', 'exp-02', 'exp-03']
+Results dir: /home/caoxiaoyu/cd-circuit-mechanism/results
+Loading expert model (pythia-410m)...
+Loaded pretrained model pythia-410m into HookedTransformer
+Loading amateur model (pythia-70m)...
+Loaded pretrained model pythia-70m into HookedTransformer
+Expert: pythia-410m, 24 layers, 16 heads, d_model=1024
+Amateur: pythia-70m, 6 layers, 8 heads, d_model=512
+
+############################################################
+# Running exp-00
+############################################################
+
+============================================================
+EXP-00: Contrastive Decoding Baseline
+============================================================
+
+--- Prompt: 'The capital of France is' ---
+  Expert top-1: ' the' (p=0.1241)
+  Amateur top-1: ' the' (p=0.1743)
+  CD(a=0.5) top-1: ' Paris' (expert_p=0.0501)
+    raw CD (no filter): '                                                                                                '
+    plausible top-5: [(' Paris', '0.050'), (' located', '0.054'), (' moving', '0.010'), (' home', '0.018'), (' the', '0.124')]
+  CD(a=1.0) top-1: ' fascinating' (expert_p=0.0003)
+    raw CD (no filter): '                                                                                                '
+    plausible top-5: [(' fascinating', '0.000'), (' shaking', '0.000'), (' bub', '0.000'), (' Vers', '0.000'), (' shaken', '0.000')]
+
+--- Prompt: 'The largest planet in the solar system is' ---
+  Expert top-1: ' a' (p=0.0898)
+  Amateur top-1: ' the' (p=0.2286)
+  CD(a=0.5) top-1: ' about' (expert_p=0.0401)
+    raw CD (no filter): '\n                       '
+    plausible top-5: [(' about', '0.040'), (' Earth', '0.036'), (' named', '0.025'), (' only', '0.024'), (' Saturn', '0.021')]
+  CD(a=1.0) top-1: ' Ring' (expert_p=0.0003)
+    raw CD (no filter): '\n                       '
+    plausible top-5: [(' Ring', '0.000'), (' speeding', '0.000'), (' Char', '0.001'), (' packing', '0.000'), (' passing', '0.002')]
+
+--- Prompt: 'Water freezes at' ---
+  Expert top-1: ' the' (p=0.0949)
+  Amateur top-1: ' the' (p=0.1744)
+  CD(a=0.5) top-1: ' room' (expert_p=0.0669)
+    raw CD (no filter): '\n                                                                                                                                '
+    plausible top-5: [(' room', '0.067'), (' -', '0.035'), (' 0', '0.025'), (' ambient', '0.011'), (' high', '0.047')]
+  CD(a=1.0) top-1: ' LN' (expert_p=0.0002)
+    raw CD (no filter): '                                                                                                                                                                                                '
+    plausible top-5: [(' LN', '0.000'), (' 302', '0.000'), (' −', '0.004'), (' freezer', '0.000'), (' $-', '0.000')]
+
+--- Prompt: 'The speed of light is approximately' ---
+  Expert top-1: ' 1' (p=0.1351)
+  Amateur top-1: ' one' (p=0.0529)
+  CD(a=0.5) top-1: ' 299' (expert_p=0.0194)
+    raw CD (no filter): '\n                '
+    plausible top-5: [(' 299', '0.019'), (' 186', '0.020'), ('   ', '0.003'), (' c', '0.005'), (' 246', '0.004')]
+  CD(a=1.0) top-1: ' 299' (expert_p=0.0194)
+    raw CD (no filter): '\n                '
+    plausible top-5: [(' 299', '0.019'), ('   ', '0.003'), (' 186', '0.020'), (' c', '0.005'), (' 246', '0.004')]
+
+--- Prompt: 'The chemical formula for water is' ---
+  Expert top-1: ' H' (p=0.1521)
+  Amateur top-1: ' a' (p=0.1343)
+  CD(a=0.5) top-1: ' H' (expert_p=0.1521)
+    raw CD (no filter): '                                                          '
+    plausible top-5: [(' H', '0.152'), (' W', '0.014'), (' water', '0.074'), (' hydrogen', '0.023'), (' {', '0.002')]
+  CD(a=1.0) top-1: ' Lys' (expert_p=0.0004)
+    raw CD (no filter): '                                                          '
+    plausible top-5: [(' Lys', '0.000'), (' H', '0.152'), (' symbol', '0.000'), (' AB', '0.002'), (' {', '0.002')]
+
+--- Prompt: 'The first president of the United States was' ---
+  Expert top-1: ' born' (p=0.2084)
+  Amateur top-1: ' a' (p=0.0747)
+  CD(a=0.5) top-1: ' Abraham' (expert_p=0.0597)
+    raw CD (no filter): '       \n '
+    plausible top-5: [(' Abraham', '0.060'), (' born', '0.208'), (' inaug', '0.028'), (' elected', '0.137'), (' not', '0.055')]
+  CD(a=1.0) top-1: ' installed' (expert_p=0.0037)
+    raw CD (no filter): '       \n '
+    plausible top-5: [(' installed', '0.004'), (' Abraham', '0.060'), (' certainly', '0.003'), (' inaug', '0.028'), (' either', '0.001')]
+
+
+--- Summary ---
+  'The capital of France is': expert=N CD(0.5)=Y CD(1.0)=N
+  'The largest planet in the solar system is': expert=N CD(0.5)=N CD(1.0)=N
+  'Water freezes at': expert=N CD(0.5)=N CD(1.0)=N
+  'The speed of light is approximately': expert=N CD(0.5)=N CD(1.0)=N
+  'The chemical formula for water is': expert=Y CD(0.5)=Y CD(1.0)=N
+  'The first president of the United States was': expert=N CD(0.5)=N CD(1.0)=N
+
+Results saved to /home/caoxiaoyu/cd-circuit-mechanism/results/exp00_cd_baseline.json
+
+exp-00 completed in 0.3s
+
+############################################################
+# Running exp-01
+############################################################
+
+============================================================
+EXP-01: Logit Diff Anatomy
+============================================================
+Prompt: 'The capital of France is', target: ' Paris'
+
+Running expert with cache...
+Running amateur with cache...
+
+--- Expert: Per-layer logit contribution to ' Paris' ---
+Traceback (most recent call last):
+  File "/home/caoxiaoyu/cd-circuit-mechanism/experiments/pythia_pipeline.py", line 529, in <module>
+    main()
+  File "/home/caoxiaoyu/cd-circuit-mechanism/experiments/pythia_pipeline.py", line 514, in main
+    all_results[step] = run_exp01(expert, amateur)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/caoxiaoyu/cd-circuit-mechanism/experiments/pythia_pipeline.py", line 187, in run_exp01
+    pos_embed_out = expert_cache["hook_pos_embed"][0, -1, :]
+                    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/caoxiaoyu/cd-circuit-mechanism/venv/lib/python3.12/site-packages/transformer_lens/ActivationCache.py", line 170, in __getitem__
+    return self.cache_dict[utils.get_act_name(key)]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'hook_pos_embed'

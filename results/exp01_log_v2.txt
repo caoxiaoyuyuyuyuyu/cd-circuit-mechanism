@@ -1,0 +1,72 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Device: cuda
+Steps to run: ['exp-01']
+Results dir: /home/caoxiaoyu/cd-circuit-mechanism/results
+Loading expert model (pythia-410m)...
+Loaded pretrained model pythia-410m into HookedTransformer
+Loading amateur model (pythia-70m)...
+Loaded pretrained model pythia-70m-deduped into HookedTransformer
+Expert: pythia-410m, 24 layers, 16 heads, d_model=1024
+Amateur: pythia-70m-deduped, 6 layers, 8 heads, d_model=512
+
+############################################################
+# Running exp-01
+############################################################
+
+============================================================
+EXP-01: Logit Diff Anatomy
+============================================================
+Prompt: 'The capital of France is', target: ' Paris'
+
+Running expert with cache...
+Running amateur with cache...
+
+--- Expert: Per-layer logit contribution to ' Paris' ---
+  Embedding: -0.0001
+  Layer  0: attn=-0.0545, mlp=+0.4416, total=+0.3871
+  Layer  1: attn=-0.1004, mlp=-0.0948, total=-0.1951
+  Layer  2: attn=-0.4589, mlp=+0.2329, total=-0.2260
+  Layer  3: attn=+0.1470, mlp=+0.2636, total=+0.4106
+  Layer  4: attn=-0.4301, mlp=-0.7054, total=-1.1355
+  Layer  5: attn=+0.1513, mlp=+1.2683, total=+1.4196
+  Layer  6: attn=+0.0441, mlp=+0.0062, total=+0.0503
+  Layer  7: attn=-0.2737, mlp=-0.3915, total=-0.6653
+  Layer  8: attn=-0.0102, mlp=+0.0281, total=+0.0179
+  Layer  9: attn=-0.0616, mlp=-0.2160, total=-0.2776
+  Layer 10: attn=-0.1167, mlp=+0.1353, total=+0.0186
+  Layer 11: attn=+0.0665, mlp=+0.0208, total=+0.0873
+  Layer 12: attn=+0.2665, mlp=-0.5056, total=-0.2391
+  Layer 13: attn=+1.0061, mlp=+0.2089, total=+1.2150
+  Layer 14: attn=+0.1512, mlp=+0.4961, total=+0.6474
+  Layer 15: attn=+0.7659, mlp=-0.3274, total=+0.4385
+  Layer 16: attn=+0.2800, mlp=+2.5296, total=+2.8096
+  Layer 17: attn=+9.3201, mlp=+0.2661, total=+9.5862
+  Layer 18: attn=-0.2532, mlp=+1.6206, total=+1.3674
+  Layer 19: attn=+1.6024, mlp=+1.2192, total=+2.8216
+  Layer 20: attn=+1.0791, mlp=+1.1503, total=+2.2295
+  Layer 21: attn=+1.0085, mlp=-0.6771, total=+0.3314
+  Layer 22: attn=+1.4769, mlp=-2.0449, total=-0.5679
+  Layer 23: attn=+0.6027, mlp=+0.4834, total=+1.0861
+
+--- Amateur: Per-layer logit contribution to ' Paris' ---
+  Layer  0: attn=-0.0797, mlp=+0.2036, total=+0.1239
+  Layer  1: attn=+2.5937, mlp=-1.0629, total=+1.5309
+  Layer  2: attn=+4.6154, mlp=+0.1121, total=+4.7275
+  Layer  3: attn=+4.2240, mlp=-0.1481, total=+4.0759
+  Layer  4: attn=+12.6774, mlp=-1.0351, total=+11.6423
+  Layer  5: attn=+11.1364, mlp=+24.0011, total=+35.1374
+
+Top 5 expert layers by absolute contribution:
+  Layer 17: +9.5862 (attn=+9.3201, mlp=+0.2661)
+  Layer 19: +2.8216 (attn=+1.6024, mlp=+1.2192)
+  Layer 16: +2.8096 (attn=+0.2800, mlp=+2.5296)
+  Layer 20: +2.2295 (attn=+1.0791, mlp=+1.1503)
+  Layer 5: +1.4196 (attn=+0.1513, mlp=+1.2683)
+
+Results saved to /home/caoxiaoyu/cd-circuit-mechanism/results/exp01_logit_anatomy.json
+
+exp-01 completed in 0.1s
+
+============================================================
+Pipeline complete!
+============================================================

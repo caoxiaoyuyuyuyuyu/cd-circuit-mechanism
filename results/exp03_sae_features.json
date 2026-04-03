@@ -1,0 +1,627 @@
+{
+  "prompt": "The capital of France is",
+  "corrupted_prompt": "The capital of China is",
+  "features": [
+    {
+      "release": "pythia-70m-deduped-res-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 0,
+      "sae_id": "blocks.0.hook_resid_post",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 10964,
+          "clean_activation": 0.1043950766324997,
+          "corrupted_activation": 0.0,
+          "diff": 0.1043950766324997
+        },
+        {
+          "feature_id": 16889,
+          "clean_activation": 0.1485351026058197,
+          "corrupted_activation": 0.07646092772483826,
+          "diff": 0.07207417488098145
+        },
+        {
+          "feature_id": 15910,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.07134602963924408,
+          "diff": -0.07134602963924408
+        },
+        {
+          "feature_id": 4383,
+          "clean_activation": 0.058661580085754395,
+          "corrupted_activation": 0.0,
+          "diff": 0.058661580085754395
+        },
+        {
+          "feature_id": 2052,
+          "clean_activation": 0.6960969567298889,
+          "corrupted_activation": 0.7533825039863586,
+          "diff": -0.05728554725646973
+        },
+        {
+          "feature_id": 1130,
+          "clean_activation": 0.06870502233505249,
+          "corrupted_activation": 0.014687418937683105,
+          "diff": 0.054017603397369385
+        },
+        {
+          "feature_id": 23580,
+          "clean_activation": 0.30135026574134827,
+          "corrupted_activation": 0.24884432554244995,
+          "diff": 0.052505940198898315
+        },
+        {
+          "feature_id": 12261,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.05020105838775635,
+          "diff": -0.05020105838775635
+        },
+        {
+          "feature_id": 12774,
+          "clean_activation": 0.04697994887828827,
+          "corrupted_activation": 0.09531645476818085,
+          "diff": -0.04833650588989258
+        },
+        {
+          "feature_id": 14264,
+          "clean_activation": 0.008311890065670013,
+          "corrupted_activation": 0.05405388027429581,
+          "diff": -0.04574199020862579
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-res-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 1,
+      "sae_id": "blocks.1.hook_resid_post",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 16673,
+          "clean_activation": 1.7009624242782593,
+          "corrupted_activation": 1.5190175771713257,
+          "diff": 0.1819448471069336
+        },
+        {
+          "feature_id": 4153,
+          "clean_activation": 0.2708545923233032,
+          "corrupted_activation": 0.09656363725662231,
+          "diff": 0.1742909550666809
+        },
+        {
+          "feature_id": 25921,
+          "clean_activation": 0.32614630460739136,
+          "corrupted_activation": 0.4967973828315735,
+          "diff": -0.17065107822418213
+        },
+        {
+          "feature_id": 5395,
+          "clean_activation": 0.20135432481765747,
+          "corrupted_activation": 0.03284335136413574,
+          "diff": 0.16851097345352173
+        },
+        {
+          "feature_id": 15984,
+          "clean_activation": 0.15263521671295166,
+          "corrupted_activation": 0.005677640438079834,
+          "diff": 0.14695757627487183
+        },
+        {
+          "feature_id": 21949,
+          "clean_activation": 0.04050475358963013,
+          "corrupted_activation": 0.169458270072937,
+          "diff": -0.12895351648330688
+        },
+        {
+          "feature_id": 13351,
+          "clean_activation": 0.31284499168395996,
+          "corrupted_activation": 0.4340950846672058,
+          "diff": -0.12125009298324585
+        },
+        {
+          "feature_id": 30841,
+          "clean_activation": 0.13337981700897217,
+          "corrupted_activation": 0.012716531753540039,
+          "diff": 0.12066328525543213
+        },
+        {
+          "feature_id": 475,
+          "clean_activation": 0.8469569087028503,
+          "corrupted_activation": 0.9552528262138367,
+          "diff": -0.10829591751098633
+        },
+        {
+          "feature_id": 3823,
+          "clean_activation": 0.10047760605812073,
+          "corrupted_activation": 0.2079544961452484,
+          "diff": -0.10747689008712769
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-res-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 2,
+      "sae_id": "blocks.2.hook_resid_post",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 31732,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.25575363636016846,
+          "diff": -0.25575363636016846
+        },
+        {
+          "feature_id": 12554,
+          "clean_activation": 0.2218090295791626,
+          "corrupted_activation": 0.0,
+          "diff": 0.2218090295791626
+        },
+        {
+          "feature_id": 25069,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.19336926937103271,
+          "diff": -0.19336926937103271
+        },
+        {
+          "feature_id": 27329,
+          "clean_activation": 0.3164297342300415,
+          "corrupted_activation": 0.1269245743751526,
+          "diff": 0.18950515985488892
+        },
+        {
+          "feature_id": 26626,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.18010061979293823,
+          "diff": -0.18010061979293823
+        },
+        {
+          "feature_id": 31715,
+          "clean_activation": 0.17068225145339966,
+          "corrupted_activation": 0.0,
+          "diff": 0.17068225145339966
+        },
+        {
+          "feature_id": 14584,
+          "clean_activation": 0.004060506820678711,
+          "corrupted_activation": 0.17140066623687744,
+          "diff": -0.16734015941619873
+        },
+        {
+          "feature_id": 4439,
+          "clean_activation": 0.38850122690200806,
+          "corrupted_activation": 0.2219199538230896,
+          "diff": 0.16658127307891846
+        },
+        {
+          "feature_id": 29410,
+          "clean_activation": 0.19900265336036682,
+          "corrupted_activation": 0.04029229283332825,
+          "diff": 0.15871036052703857
+        },
+        {
+          "feature_id": 3614,
+          "clean_activation": 0.17315250635147095,
+          "corrupted_activation": 0.016602754592895508,
+          "diff": 0.15654975175857544
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-res-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 3,
+      "sae_id": "blocks.3.hook_resid_post",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 24696,
+          "clean_activation": 0.4789089858531952,
+          "corrupted_activation": 0.0,
+          "diff": 0.4789089858531952
+        },
+        {
+          "feature_id": 531,
+          "clean_activation": 0.4162977337837219,
+          "corrupted_activation": 0.0,
+          "diff": 0.4162977337837219
+        },
+        {
+          "feature_id": 29951,
+          "clean_activation": 0.5169587135314941,
+          "corrupted_activation": 0.2130260169506073,
+          "diff": 0.30393269658088684
+        },
+        {
+          "feature_id": 23938,
+          "clean_activation": 0.12078845500946045,
+          "corrupted_activation": 0.3723529577255249,
+          "diff": -0.25156450271606445
+        },
+        {
+          "feature_id": 1201,
+          "clean_activation": 0.24337774515151978,
+          "corrupted_activation": 0.029005348682403564,
+          "diff": 0.2143723964691162
+        },
+        {
+          "feature_id": 12617,
+          "clean_activation": 1.0504491329193115,
+          "corrupted_activation": 1.2293589115142822,
+          "diff": -0.1789097785949707
+        },
+        {
+          "feature_id": 7370,
+          "clean_activation": 0.4779108762741089,
+          "corrupted_activation": 0.6540263891220093,
+          "diff": -0.1761155128479004
+        },
+        {
+          "feature_id": 3324,
+          "clean_activation": 0.21282273530960083,
+          "corrupted_activation": 0.07463473081588745,
+          "diff": 0.13818800449371338
+        },
+        {
+          "feature_id": 2218,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.129780113697052,
+          "diff": -0.129780113697052
+        },
+        {
+          "feature_id": 18131,
+          "clean_activation": 0.2517361640930176,
+          "corrupted_activation": 0.3811330795288086,
+          "diff": -0.12939691543579102
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-res-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 4,
+      "sae_id": "blocks.4.hook_resid_post",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 7026,
+          "clean_activation": 0.0,
+          "corrupted_activation": 2.310093402862549,
+          "diff": -2.310093402862549
+        },
+        {
+          "feature_id": 4919,
+          "clean_activation": 1.8285160064697266,
+          "corrupted_activation": 0.0,
+          "diff": 1.8285160064697266
+        },
+        {
+          "feature_id": 32691,
+          "clean_activation": 0.5549439191818237,
+          "corrupted_activation": 0.018102526664733887,
+          "diff": 0.5368413925170898
+        },
+        {
+          "feature_id": 20220,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.5142545700073242,
+          "diff": -0.5142545700073242
+        },
+        {
+          "feature_id": 20171,
+          "clean_activation": 0.4674835801124573,
+          "corrupted_activation": 0.0,
+          "diff": 0.4674835801124573
+        },
+        {
+          "feature_id": 26868,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.4129006266593933,
+          "diff": -0.4129006266593933
+        },
+        {
+          "feature_id": 8235,
+          "clean_activation": 0.970844566822052,
+          "corrupted_activation": 1.3646316528320312,
+          "diff": -0.39378708600997925
+        },
+        {
+          "feature_id": 3201,
+          "clean_activation": 0.3907970190048218,
+          "corrupted_activation": 0.0,
+          "diff": 0.3907970190048218
+        },
+        {
+          "feature_id": 21049,
+          "clean_activation": 0.15727663040161133,
+          "corrupted_activation": 0.5405558347702026,
+          "diff": -0.3832792043685913
+        },
+        {
+          "feature_id": 27409,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.3480961322784424,
+          "diff": -0.3480961322784424
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-res-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 5,
+      "sae_id": "blocks.5.hook_resid_post",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 6696,
+          "clean_activation": 0.0,
+          "corrupted_activation": 2.141148090362549,
+          "diff": -2.141148090362549
+        },
+        {
+          "feature_id": 2336,
+          "clean_activation": 1.8018441200256348,
+          "corrupted_activation": 0.0,
+          "diff": 1.8018441200256348
+        },
+        {
+          "feature_id": 16440,
+          "clean_activation": 0.7983566522598267,
+          "corrupted_activation": 0.0,
+          "diff": 0.7983566522598267
+        },
+        {
+          "feature_id": 23899,
+          "clean_activation": 1.918616771697998,
+          "corrupted_activation": 1.1815838813781738,
+          "diff": 0.7370328903198242
+        },
+        {
+          "feature_id": 24393,
+          "clean_activation": 0.13355380296707153,
+          "corrupted_activation": 0.8243364095687866,
+          "diff": -0.6907826066017151
+        },
+        {
+          "feature_id": 19665,
+          "clean_activation": 0.9201232194900513,
+          "corrupted_activation": 0.257615327835083,
+          "diff": 0.6625078916549683
+        },
+        {
+          "feature_id": 28657,
+          "clean_activation": 0.27287614345550537,
+          "corrupted_activation": 0.8787311315536499,
+          "diff": -0.6058549880981445
+        },
+        {
+          "feature_id": 27902,
+          "clean_activation": 0.6299276351928711,
+          "corrupted_activation": 0.049820125102996826,
+          "diff": 0.5801075100898743
+        },
+        {
+          "feature_id": 5575,
+          "clean_activation": 0.5258452296257019,
+          "corrupted_activation": 0.0,
+          "diff": 0.5258452296257019
+        },
+        {
+          "feature_id": 13191,
+          "clean_activation": 0.809038519859314,
+          "corrupted_activation": 0.28685975074768066,
+          "diff": 0.5221787691116333
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-mlp-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 3,
+      "sae_id": "blocks.3.hook_mlp_out",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 4861,
+          "clean_activation": 0.41632887721061707,
+          "corrupted_activation": 0.13912519812583923,
+          "diff": 0.27720367908477783
+        },
+        {
+          "feature_id": 128,
+          "clean_activation": 1.2580804824829102,
+          "corrupted_activation": 0.990513265132904,
+          "diff": 0.2675672173500061
+        },
+        {
+          "feature_id": 985,
+          "clean_activation": 0.188330739736557,
+          "corrupted_activation": 0.4258826673030853,
+          "diff": -0.23755192756652832
+        },
+        {
+          "feature_id": 10542,
+          "clean_activation": 0.2808353304862976,
+          "corrupted_activation": 0.08001004159450531,
+          "diff": 0.2008252888917923
+        },
+        {
+          "feature_id": 22428,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.18874016404151917,
+          "diff": -0.18874016404151917
+        },
+        {
+          "feature_id": 31843,
+          "clean_activation": 0.03563666343688965,
+          "corrupted_activation": 0.22006016969680786,
+          "diff": -0.1844235062599182
+        },
+        {
+          "feature_id": 25295,
+          "clean_activation": 0.5735872387886047,
+          "corrupted_activation": 0.3942813277244568,
+          "diff": 0.17930591106414795
+        },
+        {
+          "feature_id": 24111,
+          "clean_activation": 0.17033016681671143,
+          "corrupted_activation": 0.0,
+          "diff": 0.17033016681671143
+        },
+        {
+          "feature_id": 7960,
+          "clean_activation": 0.3137597143650055,
+          "corrupted_activation": 0.14505621790885925,
+          "diff": 0.16870349645614624
+        },
+        {
+          "feature_id": 20383,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.14775830507278442,
+          "diff": -0.14775830507278442
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-mlp-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 4,
+      "sae_id": "blocks.4.hook_mlp_out",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 3442,
+          "clean_activation": 0.13652682304382324,
+          "corrupted_activation": 1.165940761566162,
+          "diff": -1.0294139385223389
+        },
+        {
+          "feature_id": 7747,
+          "clean_activation": 0.9337588548660278,
+          "corrupted_activation": 0.23062360286712646,
+          "diff": 0.7031352519989014
+        },
+        {
+          "feature_id": 11081,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.6679449677467346,
+          "diff": -0.6679449677467346
+        },
+        {
+          "feature_id": 16617,
+          "clean_activation": 0.5759755373001099,
+          "corrupted_activation": 1.2375140190124512,
+          "diff": -0.6615384817123413
+        },
+        {
+          "feature_id": 25866,
+          "clean_activation": 0.6282066106796265,
+          "corrupted_activation": 0.0,
+          "diff": 0.6282066106796265
+        },
+        {
+          "feature_id": 11511,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.6089116334915161,
+          "diff": -0.6089116334915161
+        },
+        {
+          "feature_id": 10625,
+          "clean_activation": 0.5919139385223389,
+          "corrupted_activation": 0.0,
+          "diff": 0.5919139385223389
+        },
+        {
+          "feature_id": 3456,
+          "clean_activation": 0.646531343460083,
+          "corrupted_activation": 0.08722040057182312,
+          "diff": 0.5593109428882599
+        },
+        {
+          "feature_id": 15332,
+          "clean_activation": 0.5560256242752075,
+          "corrupted_activation": 0.025974035263061523,
+          "diff": 0.530051589012146
+        },
+        {
+          "feature_id": 17862,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.5294430255889893,
+          "diff": -0.5294430255889893
+        }
+      ]
+    },
+    {
+      "release": "pythia-70m-deduped-mlp-sm",
+      "model": "pythia-70m (amateur)",
+      "layer": 5,
+      "sae_id": "blocks.5.hook_mlp_out",
+      "d_sae": 32768,
+      "top_diff_features": [
+        {
+          "feature_id": 4369,
+          "clean_activation": 0.0,
+          "corrupted_activation": 1.5979969501495361,
+          "diff": -1.5979969501495361
+        },
+        {
+          "feature_id": 32345,
+          "clean_activation": 0.7325774431228638,
+          "corrupted_activation": 1.7223418951034546,
+          "diff": -0.9897644519805908
+        },
+        {
+          "feature_id": 6959,
+          "clean_activation": 0.06847268342971802,
+          "corrupted_activation": 1.0407130718231201,
+          "diff": -0.9722403883934021
+        },
+        {
+          "feature_id": 26370,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.914294958114624,
+          "diff": -0.914294958114624
+        },
+        {
+          "feature_id": 4783,
+          "clean_activation": 0.8239389657974243,
+          "corrupted_activation": 1.6990737915039062,
+          "diff": -0.8751348257064819
+        },
+        {
+          "feature_id": 27533,
+          "clean_activation": 0.0,
+          "corrupted_activation": 0.8584481477737427,
+          "diff": -0.8584481477737427
+        },
+        {
+          "feature_id": 12023,
+          "clean_activation": 0.8162654042243958,
+          "corrupted_activation": 0.0,
+          "diff": 0.8162654042243958
+        },
+        {
+          "feature_id": 19103,
+          "clean_activation": 0.005775153636932373,
+          "corrupted_activation": 0.7769400477409363,
+          "diff": -0.7711648941040039
+        },
+        {
+          "feature_id": 531,
+          "clean_activation": 0.09756642580032349,
+          "corrupted_activation": 0.8065544962882996,
+          "diff": -0.7089880704879761
+        },
+        {
+          "feature_id": 20661,
+          "clean_activation": 0.06449007987976074,
+          "corrupted_activation": 0.766262412071228,
+          "diff": -0.7017723321914673
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "clean_prompt": "The capital of France is",
+  "corrupted_prompt": "The capital of China is",
+  "correct_token": " Paris",
+  "incorrect_token": " Beijing",
+  "clean_logit_diff": 8.721061706542969,
+  "corrupted_logit_diff": -5.487489700317383,
+  "top_attention_heads": [
+    {
+      "layer": 19,
+      "head": 15,
+      "patching_effect": -6.838263988494873
+    },
+    {
+      "layer": 18,
+      "head": 9,
+      "patching_effect": -6.312414169311523
+    },
+    {
+      "layer": 16,
+      "head": 0,
+      "patching_effect": -5.880400657653809
+    },
+    {
+      "layer": 9,
+      "head": 14,
+      "patching_effect": -5.666193962097168
+    },
+    {
+      "layer": 12,
+      "head": 9,
+      "patching_effect": -5.631313323974609
+    },
+    {
+      "layer": 7,
+      "head": 0,
+      "patching_effect": -5.598212242126465
+    },
+    {
+      "layer": 21,
+      "head": 9,
+      "patching_effect": -5.5921783447265625
+    },
+    {
+      "layer": 3,
+      "head": 2,
+      "patching_effect": -5.574036598205566
+    },
+    {
+      "layer": 0,
+      "head": 6,
+      "patching_effect": -5.573707580566406
+    },
+    {
+      "layer": 3,
+      "head": 7,
+      "patching_effect": -5.563394546508789
+    }
+  ],
+  "mlp_patching": [
+    {
+      "layer": 0,
+      "effect": -5.487489700317383
+    },
+    {
+      "layer": 1,
+      "effect": -5.493992805480957
+    },
+    {
+      "layer": 2,
+      "effect": -5.531444549560547
+    },
+    {
+      "layer": 3,
+      "effect": -5.47116756439209
+    },
+    {
+      "layer": 4,
+      "effect": -5.486241340637207
+    },
+    {
+      "layer": 5,
+      "effect": -5.612330436706543
+    },
+    {
+      "layer": 6,
+      "effect": -5.530693054199219
+    },
+    {
+      "layer": 7,
+      "effect": -5.461307525634766
+    },
+    {
+      "layer": 8,
+      "effect": -5.446042060852051
+    },
+    {
+      "layer": 9,
+      "effect": -5.704950332641602
+    },
+    {
+      "layer": 10,
+      "effect": -5.28775691986084
+    },
+    {
+      "layer": 11,
+      "effect": -4.9691314697265625
+    },
+    {
+      "layer": 12,
+      "effect": -5.554263114929199
+    },
+    {
+      "layer": 13,
+      "effect": -5.4258575439453125
+    },
+    {
+      "layer": 14,
+      "effect": -5.612129211425781
+    },
+    {
+      "layer": 15,
+      "effect": -5.483721733093262
+    },
+    {
+      "layer": 16,
+      "effect": -5.703808784484863
+    },
+    {
+      "layer": 17,
+      "effect": -5.715767860412598
+    },
+    {
+      "layer": 18,
+      "effect": -6.213988304138184
+    },
+    {
+      "layer": 19,
+      "effect": -6.2147722244262695
+    },
+    {
+      "layer": 20,
+      "effect": -5.654129981994629
+    },
+    {
+      "layer": 21,
+      "effect": -5.4326677322387695
+    },
+    {
+      "layer": 22,
+      "effect": -8.186605453491211
+    },
+    {
+      "layer": 23,
+      "effect": -6.363862991333008
+    }
+  ]
+}
