@@ -28,7 +28,7 @@ MODEL_LOCAL = "/root/autodl-tmp/models/AI-ModelScope/gemma-2-2b"
 MODEL_HF = "google/gemma-2-2b"
 TRANSCODER_SET = "gemma"  # GemmaScope PLTs for gemma-2-2b
 RESULTS_DIR = "/root/cd-circuit-mechanism/results/exp02"
-EXP00_RESULTS_DIR = "/root/cd-circuit-mechanism/results/exp00v2fix"
+EXP00_RESULTS_DIR = "/root/cd-circuit-mechanism/results"
 
 ALPHA = 1.0
 NUM_SAMPLES = 50  # CD有效25 + CD无效25
@@ -83,13 +83,7 @@ def load_replacement_model(model_path, device="cuda", dtype=torch.bfloat16):
 # ============================================================
 
 def select_samples(exp00_results_dir, alpha, num_cd_effective=25, num_cd_ineffective=25):
-    """从 exp-00v2-fix 结果中选取 CD 有效/无效样本。
-
-    CD 有效: cd_score > expert_score (即 delta_logp > 0 且 correct)
-    CD 无效: cd_score <= expert_score (即 delta_logp <= 0 或 incorrect)
-
-    只使用 MC 任务 (HellaSwag, TruthfulQA)，因为它们有明确的 per-sample scoring。
-    """
+    """从 exp-00v2-fix 结果中选取 CD 有效/无效样本。"""
     samples = {"cd_effective": [], "cd_ineffective": []}
 
     datasets_to_check = [
@@ -97,7 +91,6 @@ def select_samples(exp00_results_dir, alpha, num_cd_effective=25, num_cd_ineffec
         (f"exp00v2fix_truthfulqa_alpha{alpha}.json", "truthfulqa"),
     ]
 
-    # 同时加载 alpha=0.0 作为 expert-only baseline
     baseline_files = [
         (f"exp00v2fix_hellaswag_alpha0.0.json", "hellaswag"),
         (f"exp00v2fix_truthfulqa_alpha0.0.json", "truthfulqa"),
@@ -127,7 +120,6 @@ def select_samples(exp00_results_dir, alpha, num_cd_effective=25, num_cd_ineffec
             idx = s["idx"]
             baseline_s = baseline_samples.get(idx, {})
 
-            # CD 有效: CD 下正确且 expert-only 下错误，或 delta_logp > 0
             cd_correct = s.get("correct", False)
             expert_correct = baseline_s.get("correct", False)
             delta_logp = s.get("delta_logp", 0.0)
@@ -142,14 +134,11 @@ def select_samples(exp00_results_dir, alpha, num_cd_effective=25, num_cd_ineffec
                 "delta_logp": delta_logp,
             }
 
-            # CD 有效: CD 改善了结果
             if cd_correct and (not expert_correct or delta_logp > 0):
                 samples["cd_effective"].append(sample_info)
-            # CD 无效: CD 没有改善或恶化了结果
             elif not cd_correct or delta_logp <= 0:
                 samples["cd_ineffective"].append(sample_info)
 
-    # 按 delta_logp 绝对值排序，选取最显著的样本
     samples["cd_effective"].sort(key=lambda x: x["delta_logp"], reverse=True)
     samples["cd_ineffective"].sort(key=lambda x: x["delta_logp"])
 
@@ -163,10 +152,7 @@ def select_samples(exp00_results_dir, alpha, num_cd_effective=25, num_cd_ineffec
 
 
 def load_prompt_for_sample(sample_info):
-    """根据 dataset 和 idx 重建 prompt text。
-
-    需要重新加载原始数据集来获取 prompt 文本。
-    """
+    """根据 dataset 和 idx 重建 prompt text。"""
     ds_name = sample_info["dataset"]
     idx = sample_info["idx"]
 
@@ -192,16 +178,12 @@ def load_prompt_for_sample(sample_info):
         choices = list(item['mc1_targets']['choices'])
         labels = list(item['mc1_targets']['labels'])
         correct_answer_text = choices[labels.index(1)]
-        # Per-sample deterministic shuffle (consistent, unique per sample)
         pairs = list(zip(choices, labels))
         rng = random.Random(42 + idx)
         rng.shuffle(pairs)
         shuffled_choices = [p[0] for p in pairs]
         shuffled_labels = [p[1] for p in pairs]
         correct_idx = shuffled_labels.index(1)
-        # NOTE: exp-00v2-fix scores each choice independently (per-choice logprob),
-        # while exp-02 uses the raw question prompt for attribution. The correct
-        # answer text is always identified via label=1 from the original dataset.
         prompt = f"Q: {item['question']}\nA: {correct_answer_text}"
         return {
             "prompt": prompt,
@@ -222,12 +204,7 @@ def load_prompt_for_sample(sample_info):
 def extract_attribution_graph(model, prompt_text, save_path=None,
                               max_feature_nodes=MAX_FEATURE_NODES,
                               batch_size=ATTRIBUTION_BATCH_SIZE):
-    """对单个 prompt 提取 attribution graph。
-
-    Returns:
-        graph: Graph 对象
-        summary: dict 摘要（feature 统计等）
-    """
+    """对单个 prompt 提取 attribution graph。"""
     from circuit_tracer import attribute
 
     logger.info(f"Running attribution on prompt: '{prompt_text[:80]}...'")
@@ -240,25 +217,22 @@ def extract_attribution_graph(model, prompt_text, save_path=None,
         desired_logit_prob=0.95,
         batch_size=batch_size,
         max_feature_nodes=max_feature_nodes,
-        offload="cpu",  # 节省 GPU 内存
+        offload="cpu",
         verbose=False,
     )
 
     elapsed = time.time() - t0
     logger.info(f"Attribution completed in {elapsed:.1f}s")
 
-    # 提取摘要信息
-    active_features = graph.active_features  # (n_active, 3): layer, pos, feature_idx
+    active_features = graph.active_features
     n_active = active_features.shape[0] if active_features is not None else 0
 
-    # 按层统计 active features
     layer_counts = defaultdict(int)
     if n_active > 0:
         for i in range(n_active):
             layer = int(active_features[i, 0])
             layer_counts[layer] += 1
 
-    # 获取 logit targets
     logit_info = []
     if hasattr(graph, 'logit_targets') and graph.logit_targets is not None:
         for lt in graph.logit_targets:
@@ -274,7 +248,6 @@ def extract_attribution_graph(model, prompt_text, save_path=None,
         "attribution_time_s": elapsed,
     }
 
-    # 保存 graph
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         graph.to_pt(save_path)
@@ -288,12 +261,7 @@ def extract_attribution_graph(model, prompt_text, save_path=None,
 # ============================================================
 
 def extract_feature_activations(model, prompt_text):
-    """提取 transcoder feature activations（不做 attribution，只做前向传播）。
-
-    Returns:
-        logits: (1, seq_len, vocab_size)
-        activations: (n_layers, seq_len, d_transcoder) 稀疏或密集
-    """
+    """提取 transcoder feature activations。"""
     logits, activations = model.get_activations(
         prompt_text,
         sparse=True,
@@ -303,29 +271,16 @@ def extract_feature_activations(model, prompt_text):
 
 
 def compute_cd_attribution_diff(graph, model, prompt_text, alpha):
-    """计算标准解码 vs CD 解码的 attribution 差异。
-
-    思路：
-    1. 从 graph 获取 active features 及其 activation values
-    2. 获取 adjacency matrix 中各 feature 对 logit targets 的贡献
-    3. CD logits = expert_logits - alpha * amateur_logits
-       在 circuit 层面，amateur 的高激活 features 就是被 CD 抑制的部分
-
-    Returns:
-        diff_info: dict，包含每个 feature 的 attribution 和 CD 影响
-    """
-    active_features = graph.active_features  # (n_active, 3)
-    adj_matrix = graph.adjacency_matrix  # (n_targets, n_sources)
+    """计算标准解码 vs CD 解码的 attribution 差异。"""
+    active_features = graph.active_features
+    adj_matrix = graph.adjacency_matrix
     n_active = active_features.shape[0] if active_features is not None else 0
 
     if n_active == 0:
         return {"features": [], "n_active": 0}
 
-    # 提取 feature activations
     activation_vals = graph.activation_values if hasattr(graph, 'activation_values') and graph.activation_values is not None else None
 
-    # 计算每个 feature 对 logit 的贡献（adjacency matrix 的对应列）
-    # adj_matrix 的列索引：前 n_active 列是 feature nodes
     feature_contributions = []
     n_logit_targets = len(graph.logit_targets) if hasattr(graph, 'logit_targets') and graph.logit_targets else 0
 
@@ -334,11 +289,9 @@ def compute_cd_attribution_diff(graph, model, prompt_text, alpha):
         pos = int(active_features[i, 1])
         feat_idx = int(active_features[i, 2])
 
-        # 该 feature 对所有 target 的总贡献
         col = adj_matrix[:, i]
         total_effect = float(col.abs().sum())
 
-        # 对 logit targets 的贡献（最后 n_logit 行）
         if n_logit_targets > 0:
             logit_effect = float(col[-n_logit_targets:].sum())
         else:
@@ -353,11 +306,9 @@ def compute_cd_attribution_diff(graph, model, prompt_text, alpha):
             "activation": act_val,
             "total_effect": total_effect,
             "logit_effect": logit_effect,
-            # CD 抑制量：activation * alpha（amateur 的 feature 被 CD 乘以 -alpha 抑制）
             "cd_suppression": act_val * alpha,
         })
 
-    # 按 total_effect 排序
     feature_contributions.sort(key=lambda x: abs(x["total_effect"]), reverse=True)
 
     return {
@@ -372,22 +323,15 @@ def compute_cd_attribution_diff(graph, model, prompt_text, alpha):
 # ============================================================
 
 def aggregate_analysis(all_results, top_k=TOP_K_FEATURES):
-    """聚合所有样本的 attribution 差异，找出 CD 关键 features。
-
-    分析维度：
-    1. CD有效 vs CD无效 case 的 feature 激活差异
-    2. 跨层的 attribution 分布差异
-    3. Top-K differential features
-    """
-    # 收集所有 feature contributions
-    effective_features = defaultdict(list)    # (layer, feat_idx) -> [effects]
+    """聚合所有样本的 attribution 差异，找出 CD 关键 features。"""
+    effective_features = defaultdict(list)
     ineffective_features = defaultdict(list)
 
     effective_layer_effects = defaultdict(list)
     ineffective_layer_effects = defaultdict(list)
 
     for result in all_results:
-        category = result["category"]  # "cd_effective" or "cd_ineffective"
+        category = result["category"]
         diff_info = result.get("attribution_diff", {})
         features = diff_info.get("features", [])
 
@@ -411,7 +355,6 @@ def aggregate_analysis(all_results, top_k=TOP_K_FEATURES):
                 })
                 ineffective_layer_effects[feat["layer"]].append(effect)
 
-    # 找出 differential features：在 CD有效 case 中高激活但在 CD无效 case 中低激活的 features
     differential_features = []
     all_keys = set(list(effective_features.keys()) + list(ineffective_features.keys()))
 
@@ -437,11 +380,9 @@ def aggregate_analysis(all_results, top_k=TOP_K_FEATURES):
             "n_ineffective_samples": len(ineff_effects),
         })
 
-    # 按 activation_diff 绝对值排序
     differential_features.sort(key=lambda x: abs(x["activation_diff"]), reverse=True)
     top_differential = differential_features[:top_k]
 
-    # 层级分析
     layer_analysis = {}
     all_layers = set(list(effective_layer_effects.keys()) + list(ineffective_layer_effects.keys()))
     for layer in sorted(all_layers):
@@ -521,7 +462,7 @@ def main():
 
     if torch.cuda.is_available():
         gpu = torch.cuda.get_device_name(0)
-        mem = torch.cuda.get_device_properties(0).total_mem / 1e9
+        mem = torch.cuda.get_device_properties(0).total_memory / 1e9
         logger.info(f"GPU: {gpu}, Memory: {mem:.1f} GB")
 
     # --- Step 1: 选取样本 ---
@@ -544,7 +485,6 @@ def main():
         logger.error("No samples found! Check exp-00v2-fix results path.")
         logger.info("Generating synthetic test samples for pipeline validation...")
 
-        # Fallback: 生成简单的测试 prompts
         effective_samples = [{
             "dataset": "synthetic",
             "idx": 0,
@@ -595,7 +535,6 @@ def main():
         logger.info(f"\n[{i+1}/{len(all_samples)}] {category} — "
                      f"dataset={sample['dataset']}, idx={sample['idx']}")
 
-        # 获取 prompt
         if "prompt_override" in sample:
             prompt_data = {"prompt": sample["prompt_override"], "type": "synthetic"}
         else:
@@ -607,7 +546,6 @@ def main():
 
         prompt_text = prompt_data["prompt"]
 
-        # 提取 attribution graph
         graph_save_path = os.path.join(
             args.results_dir, "graphs",
             f"{category}_{sample['dataset']}_{sample['idx']}.pt"
@@ -621,7 +559,6 @@ def main():
                 batch_size=args.batch_size,
             )
 
-            # 计算 CD attribution 差异
             diff_info = compute_cd_attribution_diff(
                 graph, model, prompt_text, args.alpha
             )
@@ -635,7 +572,6 @@ def main():
             }
             all_results.append(result)
 
-            # 保存单个样本结果（不含大对象）
             sample_result_path = os.path.join(
                 args.results_dir, "per_sample",
                 f"{category}_{sample['dataset']}_{sample['idx']}.json"
@@ -650,7 +586,6 @@ def main():
             traceback.print_exc()
             continue
 
-        # 内存清理
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
         gc.collect()
@@ -661,7 +596,6 @@ def main():
     if all_results:
         agg = aggregate_analysis(all_results, top_k=args.top_k)
 
-        # 输出 top differential features
         logger.info(f"\nTop-{args.top_k} Differential Features (CD effective vs ineffective):")
         logger.info(f"{'Layer':>6} {'FeatIdx':>8} {'EffAct':>10} {'IneffAct':>10} {'Diff':>10}")
         logger.info("-" * 50)
@@ -671,7 +605,6 @@ def main():
                         f"{feat['ineff_mean_activation']:>10.4f} "
                         f"{feat['activation_diff']:>10.4f}")
 
-        # 层级分析
         logger.info(f"\nLayer-wise Attribution Analysis:")
         logger.info(f"{'Layer':>6} {'EffMean':>10} {'IneffMean':>10} {'Diff':>10}")
         logger.info("-" * 40)
@@ -680,7 +613,6 @@ def main():
             logger.info(f"{layer_str:>6} {la['eff_mean_effect']:>10.4f} "
                         f"{la['ineff_mean_effect']:>10.4f} {la['effect_diff']:>10.4f}")
 
-        # 保存聚合结果
         final_output = {
             "config": {
                 "alpha": args.alpha,
@@ -711,7 +643,6 @@ def main():
     else:
         logger.warning("No results to aggregate!")
 
-    # Cleanup
     del model
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
