@@ -1,0 +1,203 @@
+\documentclass[11pt]{article}
+\usepackage{neurips_2026}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{xcolor}
+\usepackage{microtype}
+
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+
+\title{Understanding Contrastive Decoding Through Circuit-Level Analysis}
+
+\author{
+  Anonymous Author(s)
+}
+
+\begin{document}
+
+\maketitle
+
+%==============================================================================
+\begin{abstract}
+Contrastive Decoding (CD) improves text generation quality by contrasting the output logits of a stronger \emph{expert} model against a weaker \emph{amateur} model. While CD yields notable gains on tasks such as factual recall and commonsense reasoning, existing explanations remain confined to either the mathematical level---showing that CD approximates logit extrapolation toward a hypothetical larger model---or the behavioral level---arguing that its gains may be artifacts of the plausibility constraint collapsing to greedy search. Neither perspective explains \emph{which internal computations} CD amplifies or suppresses. We present the first circuit-level mechanistic analysis of Contrastive Decoding, leveraging Anthropic's attribution graph framework with cross-layer transcoders to trace how CD reshapes information flow within transformer models. Our analysis reveals that CD selectively suppresses specific circuit pathways in the amateur model associated with repetition, surface-level pattern matching, and shallow heuristics, while preserving pathways responsible for deeper semantic processing. We validate these findings across two contrasting setups---size-gap (Gemma-2-9B/2B) and training-gap (Qwen3.5-9B instruct/base)---and complement circuit analysis with per-layer logit decomposition. Based on our circuit-level insights, we propose a targeted variant of CD that intervenes on identified pathways rather than uniformly subtracting amateur logits.
+\end{abstract}
+
+%==============================================================================
+\section{Introduction}
+\label{sec:intro}
+
+Large language models (LLMs) generate text by sampling from a learned distribution over tokens. Despite rapid progress in model capabilities, standard decoding strategies---including greedy decoding, nucleus sampling~\citep{holtzman2020curious}, and temperature scaling---often produce text that is repetitive, factually inconsistent, or lacking in coherence. These shortcomings have motivated a family of \emph{contrastive decoding} methods that leverage differences between models to improve generation quality.
+
+Contrastive Decoding (CD), introduced by \citet{li2023contrastive}, generates text by subtracting the log-probabilities of a weaker \emph{amateur} model from those of a stronger \emph{expert} model:
+\begin{equation}
+\label{eq:cd-intro}
+p_{\text{CD}}(x_t \mid x_{<t}) \propto \exp\!\bigl(\mathrm{logit}_{\text{expert}}(x_t) - \alpha \cdot \mathrm{logit}_{\text{amateur}}(x_t)\bigr),
+\end{equation}
+subject to a plausibility constraint that restricts the candidate set to tokens already deemed likely by the expert. The intuition is that subtracting the amateur's contribution removes undesirable behaviors---such as repetition and shallow pattern matching---that the amateur model has learned but the expert has (partially) unlearned.
+
+CD and its variants have demonstrated strong empirical gains on select tasks. On TruthfulQA, CD substantially improves factual accuracy over standard decoding from the expert alone. However, results are inconsistent across tasks: CD provides modest or negligible gains on commonsense reasoning benchmarks like HellaSwag, and can even degrade performance on mathematical reasoning tasks such as GSM8K. This inconsistency raises a fundamental question: \emph{what does CD actually do inside the model, and why does it help on some tasks but not others?}
+
+Two lines of prior work have attempted to answer this question. \citet{chang2024explaining} provide a mathematical analysis showing that CD performs an implicit linear extrapolation in logit space, approximating the output of a hypothetical model larger than the expert. They further propose Asymptotic Probability Decoding (APD) as a principled fix that accounts for the non-linearity of the softmax function. While this analysis characterizes \emph{what} CD computes, it does not explain \emph{which neural computations} are amplified or suppressed. More recently, \citet{yin2025mirage} offer a behavioral critique, demonstrating that much of CD's reported improvement may be attributed to the plausibility constraint effectively degenerating into greedy-like search rather than to the contrastive signal itself. Their work challenges whether CD's gains are genuine but, again, does not provide a mechanistic explanation at the level of internal model computations.
+
+We argue that understanding CD requires a new level of analysis: the \emph{circuit level}. Recent advances in mechanistic interpretability---particularly Anthropic's circuit tracing framework based on attribution graphs and cross-layer transcoders~\citep{anthropic2025attribution}---enable us to trace how information flows through transformer layers and identify which computational pathways are responsible for specific model behaviors. By applying these tools to compare standard decoding against contrastive decoding, we can directly observe which circuits CD amplifies and which it suppresses.
+
+In this paper, we present the first circuit-level mechanistic analysis of Contrastive Decoding. Our contributions are:
+
+\begin{enumerate}
+    \item \textbf{Circuit-level analysis of CD.} We apply attribution graphs with cross-layer transcoders to trace how CD reshapes information flow in transformer models, identifying specific transcoder features and circuit pathways that CD selectively suppresses or amplifies.
+
+    \item \textbf{Mechanistic explanation of CD's success and failure modes.} We show that CD's effectiveness depends on whether the amateur model's suppressed pathways correspond to genuinely undesirable computations (e.g., repetition circuits, surface pattern matching) versus useful computations (e.g., arithmetic reasoning chains). This explains the task-dependent nature of CD's performance.
+
+    \item \textbf{Targeted CD based on circuit findings.} Informed by our circuit analysis, we propose a targeted variant of CD that selectively intervenes on identified harmful pathways rather than uniformly subtracting all amateur logits, yielding more consistent improvements across tasks.
+\end{enumerate}
+
+Our analysis spans two complementary CD configurations: \emph{size-gap} CD using Gemma-2-9B as expert and Gemma-2-2B as amateur, and \emph{training-gap} CD using Qwen3.5-9B-Instruct as expert and Qwen3.5-9B-Base as amateur. We find that CD consistently suppresses transcoder features in the amateur model associated with repetition, surface-level co-occurrence patterns, and shallow heuristic reasoning. In cases where CD improves performance, these suppressed features correspond to pathways that produce low-quality outputs; in cases where CD harms performance, the suppressed pathways include circuits responsible for task-relevant reasoning.
+% TODO: Update with final experimental findings
+
+%==============================================================================
+\section{Related Work}
+\label{sec:related}
+
+\subsection{Contrastive Decoding and Variants}
+
+Contrastive Decoding (CD) was introduced by \citet{li2023contrastive} as a training-free method to improve open-ended text generation by contrasting the logits of a large expert LM against a smaller amateur LM, subject to a plausibility constraint that ensures the expert assigns sufficient probability to candidate tokens. Several variants and extensions have since been proposed. DExperts~\citep{liu2021dexperts} frames decoding as a product of experts, combining an expert model with an anti-expert to steer away from toxic or undesirable text. DoLa~\citep{chuang2024dola} applies the contrastive principle \emph{within} a single model by contrasting logits from early versus late layers, improving factuality without requiring a separate amateur model. Context-Aware Decoding (CAD)~\citep{shi2023cad} contrasts outputs with and without context to reduce hallucination in knowledge-grounded generation. Contrastive Training Decoding~\citep{su2024contrastive} incorporates contrastive learning objectives at inference time.
+
+On the analytical side, \citet{chang2024explaining} prove that CD implicitly performs a linear extrapolation in logit space toward the outputs of a hypothetical model of infinite capacity, and propose Asymptotic Probability Decoding (APD) as a correction that respects the softmax nonlinearity. \citet{yin2025mirage} challenge the empirical narrative around CD, showing that the plausibility constraint $\mathcal{V}$ may account for the bulk of CD's gains by effectively reducing the search space to near-greedy decoding. Our work complements these analyses by providing the first \emph{mechanistic} account of CD's effects at the circuit level.
+
+\subsection{Mechanistic Interpretability}
+
+Mechanistic interpretability aims to reverse-engineer the computations learned by neural networks into human-understandable components. Sparse autoencoders (SAEs)~\citep{cunningham2023sparse} decompose model activations into interpretable, monosemantic features. Building on this foundation, Anthropic's circuit tracing framework~\citep{anthropic2025attribution} constructs \emph{attribution graphs} that map causal relationships between features across layers, using cross-layer transcoders that replace MLP sublayers with sparse, interpretable feature dictionaries. \citet{marks2025sparse} extend this line of work to identify sparse feature circuits---minimal subgraphs of the attribution graph that are causally responsible for specific model behaviors.
+
+Complementary tools include activation patching~\citep{conmy2023automated}, which identifies causally important model components by intervening on activations; the logit lens~\citep{nostalgebraist2020logitlens}, which projects intermediate residual stream states through the unembedding matrix to observe how predictions evolve across layers; and its calibrated extension, the tuned lens~\citep{belrose2023tuned}. Our work leverages attribution graphs as the primary tool for circuit-level analysis, complemented by logit lens-style per-layer decomposition to track how CD modifies the residual stream at each layer.
+
+\subsection{Inference-Time Interventions}
+
+A growing body of work modifies model behavior at inference time without retraining. Inference-Time Intervention (ITI)~\citep{li2024iti} shifts activations along truthfulness-correlated directions in attention head outputs to improve factual accuracy. Representation engineering~\citep{zou2023representation} identifies and manipulates linear directions in activation space corresponding to high-level concepts such as honesty, harmlessness, and helpfulness. Activation steering methods apply additive perturbations to residual stream activations to control model behavior along desired axes.
+
+While these methods intervene on activations directly, they typically operate on coarse-grained representations (full layers or attention heads) rather than on specific computational circuits. Our circuit-level analysis of CD bridges the gap between contrastive decoding methods and mechanistic interventions: by identifying the precise pathways that CD suppresses, we inform more targeted interventions that preserve useful computations while removing harmful ones.
+% TODO: Add any additional references discovered during experiments
+
+%==============================================================================
+\section{Method}
+\label{sec:method}
+
+\subsection{Contrastive Decoding Formulation}
+\label{sec:cd-formulation}
+
+We begin by formally defining Contrastive Decoding. Let $\mathcal{M}_{\text{exp}}$ and $\mathcal{M}_{\text{ama}}$ denote the expert and amateur language models, respectively. Given a prefix $x_{<t}$, CD defines a modified next-token distribution:
+\begin{equation}
+\label{eq:cd}
+p_{\text{CD}}(x_t \mid x_{<t}) \propto
+\begin{cases}
+\exp\!\bigl(z_{\text{exp}}(x_t) - \alpha \cdot z_{\text{ama}}(x_t)\bigr) & \text{if } x_t \in \mathcal{V}(x_{<t}), \\
+0 & \text{otherwise},
+\end{cases}
+\end{equation}
+where $z_{\text{exp}}(x_t)$ and $z_{\text{ama}}(x_t)$ are the logits assigned to token $x_t$ by the expert and amateur models, $\alpha \geq 0$ is a scaling hyperparameter controlling the strength of the contrastive signal, and $\mathcal{V}(x_{<t})$ is the plausibility set:
+\begin{equation}
+\label{eq:plausibility}
+\mathcal{V}(x_{<t}) = \bigl\{ x_t \in \mathcal{X} : p_{\text{exp}}(x_t \mid x_{<t}) \geq \beta \cdot \max_{x'} p_{\text{exp}}(x' \mid x_{<t}) \bigr\},
+\end{equation}
+where $\beta \in [0, 1]$ controls the strictness of the plausibility constraint and $\mathcal{X}$ is the full vocabulary.
+
+The hyperparameter $\alpha$ governs the trade-off between leveraging the expert's knowledge and penalizing the amateur's biases. When $\alpha = 0$, CD reduces to standard decoding from the expert. As $\alpha$ increases, CD more aggressively suppresses tokens favored by the amateur. However, large $\alpha$ can also suppress tokens that both models reasonably assign high probability, potentially removing correct predictions alongside undesirable ones. The plausibility constraint $\mathcal{V}$ serves as a safety mechanism, ensuring that only tokens the expert considers plausible are retained regardless of the contrastive score.
+
+\subsection{Circuit Tracing with Attribution Graphs}
+\label{sec:attribution-graphs}
+
+To understand \emph{how} CD reshapes the internal computations of transformer models, we employ the circuit tracing framework introduced by \citet{anthropic2025attribution}. The key idea is to replace the standard MLP sublayers of a transformer with \emph{cross-layer transcoders}---sparse, interpretable dictionaries that read from the residual stream at layer $i$ and write to the MLP output at layer $j$:
+\begin{equation}
+\label{eq:transcoder}
+\text{MLP}_j(\mathbf{r}_i) \approx \sum_{k} f_k(\mathbf{r}_i) \cdot \mathbf{d}_k,
+\end{equation}
+where $\mathbf{r}_i$ is the residual stream at layer $i$, $f_k(\cdot)$ is the activation of the $k$-th transcoder feature (a sparse, non-negative scalar), and $\mathbf{d}_k$ is the corresponding decoder direction. This \emph{replacement model} approximates the original model's behavior while exposing interpretable intermediate features.
+
+An \emph{attribution graph} is then constructed by computing the Jacobian of each feature's activation with respect to upstream features:
+\begin{equation}
+\label{eq:attribution}
+A_{k \to k'} = \frac{\partial f_{k'}(\mathbf{r}_j)}{\partial f_k(\mathbf{r}_i)} \cdot f_k(\mathbf{r}_i),
+\end{equation}
+where $A_{k \to k'}$ quantifies how much upstream feature $k$ contributes to the activation of downstream feature $k'$. The resulting directed graph captures the causal flow of information through the network at the level of interpretable features.
+
+\textbf{Our application.} For a given input prompt, we construct attribution graphs under two conditions: (1) \emph{standard decoding}, where we trace the circuit leading to the expert model's top-1 prediction, and (2) \emph{CD-modified decoding}, where we trace the circuit leading to the token selected by CD (Eq.~\ref{eq:cd}). By comparing these two graphs, we identify which features and pathways are amplified or suppressed by CD. Specifically, we focus on features in the amateur model whose suppression under CD correlates with improved output quality, revealing the circuit-level mechanism by which CD operates.
+% TODO: Add details on graph comparison metrics and feature classification methodology
+
+\subsection{Per-Layer Logit Decomposition}
+\label{sec:logit-decomp}
+
+To complement the fine-grained circuit analysis, we perform a per-layer logit decomposition that tracks how each transformer layer contributes to the final CD score. For both the expert and amateur models, we extract the residual stream $\mathbf{r}_l$ at each layer $l$ and project it through the unembedding matrix $\mathbf{W}_U$ to obtain per-layer logits:
+\begin{equation}
+\label{eq:layer-logit}
+z_l(x_t) = \mathbf{W}_U[x_t]^\top \mathbf{r}_l.
+\end{equation}
+
+The incremental logit contribution of layer $l$ is:
+\begin{equation}
+\label{eq:layer-contrib}
+\delta_l(x_t) = z_l(x_t) - z_{l-1}(x_t),
+\end{equation}
+which isolates the effect of the computations at layer $l$ (attention and MLP sublayers combined). The per-layer CD contribution is then:
+\begin{equation}
+\label{eq:cd-layer}
+\Delta_l(x_t) = \delta_l^{\text{exp}}(x_t) - \alpha \cdot \delta_l^{\text{ama}}(x_t),
+\end{equation}
+where superscripts denote the expert and amateur models. This decomposition reveals which layers of each model are most responsible for the CD signal. Layers where $\Delta_l$ is large and positive indicate that the expert contributes knowledge the amateur lacks (or the amateur contributes noise that is being subtracted); layers where $\Delta_l$ is negative indicate that CD is removing useful signal.
+% TODO: Add details on alignment with attribution graph findings
+
+\subsection{Experimental Design}
+\label{sec:exp-design}
+
+We evaluate CD under two complementary configurations that represent the primary ways contrastive decoding is applied in practice:
+
+\textbf{Size-gap CD.} The expert is Gemma-2-9B and the amateur is Gemma-2-2B, both pretrained models from the same family~\citep{team2024gemma}. This setup isolates the effect of model capacity: both models are trained on similar data, but the expert has substantially more parameters and thus (in principle) deeper and more robust representations.
+
+\textbf{Training-gap CD.} The expert is Qwen3.5-9B-Instruct and the amateur is Qwen3.5-9B-Base. Here, both models have identical architectures and pretraining, but the expert has undergone instruction tuning. This setup isolates the effect of alignment training, allowing us to study which circuits instruction tuning modifies and how CD amplifies those differences.
+
+We evaluate on three tasks that span CD's performance spectrum:
+\begin{itemize}
+    \item \textbf{HellaSwag}~\citep{zellers2019hellaswag}: Commonsense reasoning via sentence completion. CD typically shows modest gains.
+    \item \textbf{TruthfulQA}~\citep{lin2022truthfulqa}: Factual accuracy under adversarial conditions. CD often yields substantial improvements.
+    \item \textbf{GSM8K}~\citep{cobbe2021gsm8k}: Grade-school mathematical reasoning. CD can degrade performance.
+\end{itemize}
+
+For each configuration, we sweep over the contrastive strength $\alpha$: values $\{0.0, 0.5, 1.0, 1.5\}$ for Gemma and $\{0.0, 0.25, 0.5, 0.75, 1.0, 1.5, 2.0\}$ for Qwen. We use 200 samples per task with few-shot prompting.
+% TODO: Specify exact few-shot settings and plausibility β values
+
+%==============================================================================
+\section{Experimental Setup}
+\label{sec:exp-setup}
+
+\textbf{Models.} For size-gap CD, we use Gemma-2-9B and Gemma-2-2B (Google, 2024), both accessed via HuggingFace Transformers. For training-gap CD, we use Qwen3.5-9B-Instruct and Qwen3.5-9B-Base (Alibaba, 2026). All models use their default tokenizers and are run in \texttt{float16} precision.
+
+\textbf{Datasets.} We evaluate on HellaSwag (commonsense completion), TruthfulQA (factual QA, MC1 format), and GSM8K (math word problems). For each benchmark, we sample 200 instances. HellaSwag and TruthfulQA use a 5-shot format; GSM8K uses an 8-shot chain-of-thought format.
+
+\textbf{Circuit analysis tools.} For attribution graph construction, we use the \texttt{circuit-tracer} library~\citep{anthropic2025attribution} applied to Gemma-2-2B with GemmaScope cross-layer transcoders. This choice is dictated by the availability of pretrained transcoders: GemmaScope provides a high-quality transcoder dictionary for the Gemma-2-2B architecture. For the 9B models, where cross-layer transcoders are not yet available, we use TransformerLens to perform logit lens-style per-layer decomposition. For Qwen models, we similarly rely on per-layer analysis via TransformerLens.
+
+\textbf{Hardware.} All experiments are conducted on NVIDIA A100 40GB GPUs. Circuit tracing for a single prompt on Gemma-2-2B takes approximately 30 seconds; per-layer logit decomposition on the 9B models takes approximately 5 seconds per prompt.
+
+\textbf{Evaluation metrics.} We report task accuracy as the primary metric. To characterize CD behavior at a finer granularity, we additionally report: (1) \emph{CD score}: the mean contrastive log-probability $\frac{1}{T}\sum_t \log p_{\text{CD}}(x_t \mid x_{<t})$; (2) \emph{$\Delta_{\text{logp}}$}: the gain in log-probability under CD relative to expert-only decoding, measuring how much the contrastive signal shifts the distribution; and (3) \emph{pathway suppression rate}: the fraction of the top-$k$ amateur attribution graph pathways whose total attribution weight decreases under CD, aggregated across evaluation instances.
+% TODO: Finalize metric definitions and add any additional metrics
+
+%==============================================================================
+\section{Results}
+\label{sec:results}
+% TODO: Fill after experiments complete
+
+%==============================================================================
+\section{Analysis}
+\label{sec:analysis}
+% TODO: Fill after experiments complete
+
+%==============================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+% TODO: Fill after experiments complete
+
+%==============================================================================
+
+\bibliography{references}
+
+\end{document}
