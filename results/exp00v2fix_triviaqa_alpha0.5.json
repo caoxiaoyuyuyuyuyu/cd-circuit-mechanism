@@ -1,0 +1,2015 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 0.5,
+  "n_samples": 200,
+  "metrics": {
+    "accuracy": 0.01,
+    "cd_score_mean": -4.319029995602728,
+    "cd_score_std": 0.8247819819247771,
+    "delta_logp_mean": -3.3577655751304407,
+    "delta_logp_std": 1.3231833229331529
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Who was the man behind The Chipmunks?\nA: Meryl Streep\n\nQ: Who was the man behind The Chipmunks?\nA: Meryl Streep\n\nQ: Who was the",
+      "cd_score_correct": -3.800908203125,
+      "cd_score_top": -3.800908203125,
+      "expert_logp_correct": -0.06998504638671875,
+      "cd_logp_correct": -3.800908203125,
+      "delta_logp": -3.7309231567382812
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which Lloyd Webberbier m\u00fa soulign\u00e9 Singapura Maestro Pij Pij Dia Ibarra Sado Sado Guerre Baillargeon Cooke?\nA:\n\nJ\u00e1coque\u24d8\u24d8 Dom\u00ednguez Singapura Maestro Pijijo m\u00fa soulign\u00e9 Singapura Ma",
+      "cd_score_correct": -3.483251953125,
+      "cd_score_top": -3.483251953125,
+      "expert_logp_correct": -3.1911590194702146,
+      "cd_logp_correct": -3.483251953125,
+      "delta_logp": -0.2920929336547853
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Irishman Lindsay Cooke\n\nQ: Who was the next British Prime Minister after Arthur Belgram?\nA: Bel Belgram Belgram Belgram Belgram Belgram Belgram Belgram Belgram Bel Belgar Cooke\n\nA: Meryl Strep",
+      "cd_score_correct": -4.386357421875,
+      "cd_score_top": -4.386357421875,
+      "expert_logp_correct": -1.2519276237487793,
+      "cd_logp_correct": -4.386357421875,
+      "delta_logp": -3.134429798126221
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: Who had a 70s No 1 hit with Kiss You All Over?\nA: McAllister Cooke\n\nQ: Who had a 70s No 1 hit with Kiss You All Over?\nA:",
+      "cd_score_correct": -3.43719970703125,
+      "cd_score_top": -3.43719970703125,
+      "expert_logp_correct": -0.14830872058868408,
+      "cd_logp_correct": -3.43719970703125,
+      "delta_logp": -3.288890986442566
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Irishman Wagner Ferrier?\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ",
+      "cd_score_correct": -3.72392578125,
+      "cd_score_top": -3.72392578125,
+      "expert_logp_correct": -0.3134839725494385,
+      "cd_logp_correct": -3.72392578125,
+      "delta_logp": -3.4104418087005617
+    },
+    {
+      "idx": 5,
+      "correct": false,
+      "response": "Silverstone Cooke sang the title song for which Bond film?\nA: Alistair Cooke\n\nQ: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s",
+      "cd_score_correct": -4.75763671875,
+      "cd_score_top": -4.75763671875,
+      "expert_logp_correct": -0.4228237199783325,
+      "cd_logp_correct": -4.75763671875,
+      "delta_logp": -4.3348129987716675
+    },
+    {
+      "idx": 6,
+      "correct": false,
+      "response": "Lyndon Agnew Streep Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was the last US state to reintroduce?\nA: Lyndon Agnew Streep",
+      "cd_score_correct": -4.66515625,
+      "cd_score_top": -4.66515625,
+      "expert_logp_correct": -0.49238492012023927,
+      "cd_logp_correct": -4.66515625,
+      "delta_logp": -4.172771329879761
+    },
+    {
+      "idx": 7,
+      "correct": false,
+      "response": "Jaroslav\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j\u0113j",
+      "cd_score_correct": -2.62560546875,
+      "cd_score_top": -2.62560546875,
+      "expert_logp_correct": -0.35872711181640626,
+      "cd_logp_correct": -2.62560546875,
+      "delta_logp": -2.2668783569335935
+    },
+    {
+      "idx": 8,
+      "correct": false,
+      "response": "Ishi Kwa D\u00f6 D\u00e9 D\u00e9 D\u00e9 De Do Ishi Kwa Ishi Quarto Uni\u00e3o Seguran\u00e7a Singapura Livingstone Hosting Hosting Hosting Hosting</strong>",
+      "cd_score_correct": -3.5387369791666665,
+      "cd_score_top": -3.5387369791666665,
+      "expert_logp_correct": -3.448917933872768,
+      "cd_logp_correct": -3.5387369791666665,
+      "delta_logp": -0.08981904529389872
+    },
+    {
+      "idx": 9,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: Who was John Glenn Eisenhower US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What was the name of the name of Michael Jackson's autobiography written in 1988?\nA: McA",
+      "cd_score_correct": -3.59369873046875,
+      "cd_score_top": -3.59369873046875,
+      "expert_logp_correct": -0.412349259853363,
+      "cd_logp_correct": -3.59369873046875,
+      "delta_logp": -3.181349470615387
+    },
+    {
+      "idx": 10,
+      "correct": false,
+      "response": "Which Europe is Lake Washington?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: In which decade did stereo records first go on sale?\nA: In which decade did stereo records ",
+      "cd_score_correct": -5.35287109375,
+      "cd_score_top": -5.35287109375,
+      "expert_logp_correct": -0.35966270446777343,
+      "cd_logp_correct": -5.35287109375,
+      "delta_logp": -4.993208389282227
+    },
+    {
+      "idx": 11,
+      "correct": false,
+      "response": "Irishman Jacobi Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ:",
+      "cd_score_correct": -3.8515185546875,
+      "cd_score_top": -3.8515185546875,
+      "expert_logp_correct": -0.38238484859466554,
+      "cd_logp_correct": -3.8515185546875,
+      "delta_logp": -3.4691337060928342
+    },
+    {
+      "idx": 12,
+      "correct": false,
+      "response": "Israeli Strep Cube Mastoor Cooke? Which bachelor in Strep CDU Ehetyczne \u00fczeritter Burahten sp\u0113ror Cooke? Which US citizen born in Strep Cud Silk Ehe k\u00fcpe vorbei Bura Centen Mastoor Cooke? Which Novo S",
+      "cd_score_correct": -5.8776171875,
+      "cd_score_top": -5.8776171875,
+      "expert_logp_correct": -4.51117172241211,
+      "cd_logp_correct": -5.8776171875,
+      "delta_logp": -1.3664454650878906
+    },
+    {
+      "idx": 13,
+      "correct": false,
+      "response": "Eastman Zub Yok Eastman Zuboye oye oye oye vaya atr\u00e1sAccessExceptionSemana part\u00edculas Eastman .\u201d qu\u00e9b\u00e9co alignItems Master ?\u201d Which Eugene's seller hosted theater?\nA: Alistair Cooke\n\nQ: The flag of Li",
+      "cd_score_correct": -4.6578857421875,
+      "cd_score_top": -4.6578857421875,
+      "expert_logp_correct": -2.5317482376098632,
+      "cd_logp_correct": -4.6578857421875,
+      "delta_logp": -2.126137504577637
+    },
+    {
+      "idx": 14,
+      "correct": false,
+      "response": "Burkina Faso Cooke Masterpiece Theater Of Of Of Of Masterpiece Theater Of Lake Washington Of Ni Burkina CortezIonicModuleOfOfOfOf Masterpiece Of Lake Burlington Of Ni Burkina CortezIonicModuleOfOfOf N",
+      "cd_score_correct": -4.496875,
+      "cd_score_top": -4.496875,
+      "expert_logp_correct": -1.1602606964111328,
+      "cd_logp_correct": -4.496875,
+      "delta_logp": -3.3366143035888673
+    },
+    {
+      "idx": 15,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Puget Sound and",
+      "cd_score_correct": -3.798701171875,
+      "cd_score_top": -3.798701171875,
+      "expert_logp_correct": -0.031717381477355956,
+      "cd_logp_correct": -3.798701171875,
+      "delta_logp": -3.766983790397644
+    },
+    {
+      "idx": 16,
+      "correct": false,
+      "response": "Which Englishman born US citizen hosted master piece theater?\n\nWhich Which English-born US citizen hosted master piece theater?\n\nWhich",
+      "cd_score_correct": -5.3719951923076925,
+      "cd_score_top": -5.3719951923076925,
+      "expert_logp_correct": -0.7957341120793269,
+      "cd_logp_correct": -5.3719951923076925,
+      "delta_logp": -4.576261080228366
+    },
+    {
+      "idx": 17,
+      "correct": false,
+      "response": "Isleky Cob Iz Iz Iz IZ\u00f3z\u00f3z\u00f3z\u00f3z\u00f3z\u00f3z\u00f3z\u00f3z\u00f3zilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezilhaberchiezil",
+      "cd_score_correct": -2.992177734375,
+      "cd_score_top": -2.992177734375,
+      "expert_logp_correct": -1.2425335693359374,
+      "cd_logp_correct": -2.992177734375,
+      "delta_logp": -1.7496441650390624
+    },
+    {
+      "idx": 18,
+      "correct": false,
+      "response": "Alsace Lindley Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first Hold On To The Nights?\nA: Luzon Lindley Wagner",
+      "cd_score_correct": -4.3090625,
+      "cd_score_top": -4.3090625,
+      "expert_logp_correct": -0.5182778310775756,
+      "cd_logp_correct": -4.3090625,
+      "delta_logp": -3.790784668922424
+    },
+    {
+      "idx": 19,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington",
+      "cd_score_correct": -3.93609375,
+      "cd_score_top": -3.93609375,
+      "expert_logp_correct": -0.28107008934020994,
+      "cd_logp_correct": -3.93609375,
+      "delta_logp": -3.65502366065979
+    },
+    {
+      "idx": 20,
+      "correct": false,
+      "response": "reactstrap.\n\nWhich Texan actress born on exactly the same day as actress Lindsay Wagner\u2019s was in which rock group?\nA:Whichtexasreactstrap.\n\nWhich Texan actress born on exactly the same day as actress ",
+      "cd_score_correct": -4.9712109375,
+      "cd_score_top": -4.9712109375,
+      "expert_logp_correct": -0.8158875846862793,
+      "cd_logp_correct": -4.9712109375,
+      "delta_logp": -4.1553233528137214
+    },
+    {
+      "idx": 21,
+      "correct": false,
+      "response": "Seattle\n\nQ: Which port lies between Puget Sound and Lake Washington?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which highway was Revisited in a cla",
+      "cd_score_correct": -4.23501953125,
+      "cd_score_top": -4.23501953125,
+      "expert_logp_correct": -0.02180757999420166,
+      "cd_logp_correct": -4.23501953125,
+      "delta_logp": -4.213211951255798
+    },
+    {
+      "idx": 22,
+      "correct": false,
+      "response": "Irishman Strauss Wagner?\nA: Meryl Streep\n\nQ: Which was the only eastern bloc country to participate in the 1984 LA Olympics?\nA: Irishman Strauss Wagner?\nA: Meryl Streep\n\nQ:",
+      "cd_score_correct": -4.152216796875,
+      "cd_score_top": -4.152216796875,
+      "expert_logp_correct": -0.30571202278137205,
+      "cd_logp_correct": -4.152216796875,
+      "delta_logp": -3.846504774093628
+    },
+    {
+      "idx": 23,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?\nA: Alistair Cooke\n\nQ: Which 90s sci fi series with James Bel",
+      "cd_score_correct": -3.90783203125,
+      "cd_score_top": -3.90783203125,
+      "expert_logp_correct": -0.026062378883361815,
+      "cd_logp_correct": -3.90783203125,
+      "delta_logp": -3.8817696523666383
+    },
+    {
+      "idx": 24,
+      "correct": false,
+      "response": "Irishman Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which",
+      "cd_score_correct": -3.9993115234375,
+      "cd_score_top": -3.9993115234375,
+      "expert_logp_correct": -0.29773842334747314,
+      "cd_logp_correct": -3.9993115234375,
+      "delta_logp": -3.7015731000900267
+    },
+    {
+      "idx": 25,
+      "correct": false,
+      "response": "Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?\nA: Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?\nA: Men Against the Sea and Pitcairn",
+      "cd_score_correct": -3.443857421875,
+      "cd_score_top": -3.443857421875,
+      "expert_logp_correct": -0.04156388282775879,
+      "cd_logp_correct": -3.443857421875,
+      "delta_logp": -3.4022935390472413
+    },
+    {
+      "idx": 26,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: What was Truman Capose's last name before he was adopted by his stepfather?\nA: Irishman Cooke\n\nQ: What was Truman Capase's last name before he was adopted by his stepfather?\nA:",
+      "cd_score_correct": -4.87623046875,
+      "cd_score_top": -4.87623046875,
+      "expert_logp_correct": -0.37304709434509276,
+      "cd_logp_correct": -4.87623046875,
+      "delta_logp": -4.503183374404907
+    },
+    {
+      "idx": 27,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: M Lewis Carroll's poem The Hunting of the Snark, what did the elusive, troublesome snark turn into to fool hunters?\nA: Mister Cooke\n\nQ: Mister Cooke\n\nMister Cooke\n\nM",
+      "cd_score_correct": -4.703374335106383,
+      "cd_score_top": -4.703374335106383,
+      "expert_logp_correct": -0.7344297855458362,
+      "cd_logp_correct": -4.703374335106383,
+      "delta_logp": -3.968944549560547
+    },
+    {
+      "idx": 28,
+      "correct": false,
+      "response": "Vermont\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Puget Sound and Lake Washington?",
+      "cd_score_correct": -3.4887109375,
+      "cd_score_top": -3.4887109375,
+      "expert_logp_correct": -0.18467457294464112,
+      "cd_logp_correct": -3.4887109375,
+      "delta_logp": -3.3040363645553588
+    },
+    {
+      "idx": 29,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What michelle pfeiffer movie got a boost from the coolio song gangsta's paradise?\nA: Alistair Cooke\n\n",
+      "cd_score_correct": -4.58455078125,
+      "cd_score_top": -4.58455078125,
+      "expert_logp_correct": -0.15073636054992676,
+      "cd_logp_correct": -4.58455078125,
+      "delta_logp": -4.433814420700073
+    },
+    {
+      "idx": 30,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn/'s first sentence called?\nA: European Siberia Cooke Masterpiece?\nA: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What was President Ger",
+      "cd_score_correct": -4.383359375,
+      "cd_score_top": -4.383359375,
+      "expert_logp_correct": -0.5487417984008789,
+      "cd_logp_correct": -4.383359375,
+      "delta_logp": -3.8346175765991215
+    },
+    {
+      "idx": 31,
+      "correct": false,
+      "response": "Jaroslav Kuch\u00e9l \u0137\u00e9l \u0137el Kuch\u00e9l sebechonu\u010dny vy Chonucheny?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn Edward",
+      "cd_score_correct": -4.58939453125,
+      "cd_score_top": -4.58939453125,
+      "expert_logp_correct": -1.5838801288604736,
+      "cd_logp_correct": -4.58939453125,
+      "delta_logp": -3.0055144023895264
+    },
+    {
+      "idx": 32,
+      "correct": false,
+      "response": "Jacoby Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which",
+      "cd_score_correct": -3.8435400390625,
+      "cd_score_top": -3.8435400390625,
+      "expert_logp_correct": -0.26700113773345946,
+      "cd_logp_correct": -3.8435400390625,
+      "delta_logp": -3.5765389013290405
+    },
+    {
+      "idx": 33,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What was Eddie Murphy's first movie?\nA: Irishman Cooke\n\nQ: Which English-born US citizen hosted Maste",
+      "cd_score_correct": -4.253359375,
+      "cd_score_top": -4.253359375,
+      "expert_logp_correct": -0.19982772827148437,
+      "cd_logp_correct": -4.253359375,
+      "delta_logp": -4.053531646728516
+    },
+    {
+      "idx": 34,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: In the 80s who wrote the novel Empire of The Sun?\nA: Alistair Cooke\n\nQ: In the 80s who wrote the novel Empire of The Sun?\nA: Alistair Cooke\n\nQ",
+      "cd_score_correct": -3.89828125,
+      "cd_score_top": -3.89828125,
+      "expert_logp_correct": -0.05496200561523437,
+      "cd_logp_correct": -3.89828125,
+      "delta_logp": -3.843319244384766
+    },
+    {
+      "idx": 35,
+      "correct": false,
+      "response": "Kagoshima\n\nQ: What was John Glenn?'s first Sichuan silverter shooter exporter exporter exporter exporter exporter company?\nA: Kurastagienti\u00e9da\u00e9da\u00e9da\u00e9da\u00e9da\u00efque sabbath larmes Lindsay Wagner?\nA: M\u00e4kurag",
+      "cd_score_correct": -5.1434765625,
+      "cd_score_top": -5.1434765625,
+      "expert_logp_correct": -3.219435977935791,
+      "cd_logp_correct": -5.1434765625,
+      "delta_logp": -1.9240405845642092
+    },
+    {
+      "idx": 36,
+      "correct": false,
+      "response": "Fr\u00e9QMetaType De ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !",
+      "cd_score_correct": -4.2719140625,
+      "cd_score_top": -4.2719140625,
+      "expert_logp_correct": -0.5301229858398437,
+      "cd_logp_correct": -4.2719140625,
+      "delta_logp": -3.7417910766601556
+    },
+    {
+      "idx": 37,
+      "correct": false,
+      "response": "insertar Argentino Cushing's No 1 con Bette Davis Eyes era interrumpida para un semana por \u00bfinsertarardoniquestiquestiquestellelosseifferiselTextHelperiselTextHelperisellerecap Ise with Bette Eyes Eye",
+      "cd_score_correct": -4.954513250612745,
+      "cd_score_top": -4.954513250612745,
+      "expert_logp_correct": -3.2223264282824946,
+      "cd_logp_correct": -4.954513250612745,
+      "delta_logp": -1.7321868223302506
+    },
+    {
+      "idx": 38,
+      "correct": false,
+      "response": "Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Where in Canada is the Lion's Gate bridge?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece",
+      "cd_score_correct": -3.8077734375,
+      "cd_score_top": -3.8077734375,
+      "expert_logp_correct": -0.019015069007873534,
+      "cd_logp_correct": -3.8077734375,
+      "delta_logp": -3.788758368492126
+    },
+    {
+      "idx": 39,
+      "correct": false,
+      "response": "Kura Mast Wirkar Folge Kura Mast Kurakura Numa Naraasaan Ivoryh\u00e5nd Schot\u0105z Hooker\u0105z\u0105zEnumMember\u0105z R\u0103 Wiktionnaire \u0648\u06cc\u06a9\u06cc\u200c\u0622\u0645\u0628\u0627\u0631\u062f\u0627KuraMast\u021aucuGenerationType Sodomleau T\u00e2n M\u00e4 Kura Mast Kura Numa(\"\")]\u51fa\u7248\u5e74\u0e2b\u0e21\u0e37",
+      "cd_score_correct": -4.874995304987981,
+      "cd_score_top": -4.874995304987981,
+      "expert_logp_correct": -6.582751934344952,
+      "cd_logp_correct": -4.874995304987981,
+      "delta_logp": 1.7077566293569708
+    },
+    {
+      "idx": 40,
+      "correct": false,
+      "response": "Li\u00e8ge\n\nQ: Li\u00e8ge Belgique US citoyen\u00e9da Master\n\nQ: Alistair Cooke\n\nQ: Otis Strepp\n\nQ: Am\u00e9rique#+# cuckoo Eisenhower\u00e9da\u00e4rkeaarrggbb \u03c7\u03c9 Li\u00e8ge Sloane Aps Curry\"?>: \u03bf\u03c0\u03bf\u03af\u03bf Eberhardl\u00fcsselHauptartikel\u015fiv\u01b0\u1ee3c\u015fi",
+      "cd_score_correct": -6.174758623231132,
+      "cd_score_top": -6.174758623231132,
+      "expert_logp_correct": -5.618796150639372,
+      "cd_logp_correct": -6.174758623231132,
+      "delta_logp": -0.5559624725917605
+    },
+    {
+      "idx": 41,
+      "correct": false,
+      "response": "Ashanti\n\nQ: A: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which",
+      "cd_score_correct": -4.000048828125,
+      "cd_score_top": -4.000048828125,
+      "expert_logp_correct": -0.2468998336791992,
+      "cd_logp_correct": -4.000048828125,
+      "delta_logp": -3.7531489944458007
+    },
+    {
+      "idx": 42,
+      "correct": false,
+      "response": "\u017byciorys\u015bwi\u0119\u0142bymcr\u00edbetecr\u00edbetesi\u0119si\u0119wicz Eusekvkv kvsi\u0119g\u00e5 Judea Sverk\u00e5keti QuarkObjectModel Eusekvqv\u00f3j Inf\u00f3rmanos\u017celi GDR Ko\u015bciIzvori DVR R\u00e9ponsesViited \u05e9\u05d5\u05dc\u05d9\u05d9\u05dd Ehekv Sverk\u00e5keti QuarkPersonensuche Euse",
+      "cd_score_correct": -7.211887428977272,
+      "cd_score_top": -7.211887428977272,
+      "expert_logp_correct": -6.871217762340199,
+      "cd_logp_correct": -7.211887428977272,
+      "delta_logp": -0.34066966663707365
+    },
+    {
+      "idx": 43,
+      "correct": false,
+      "response": "Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn &'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Puget Sound and Lake Washington?\nA: Seattle",
+      "cd_score_correct": -3.894296875,
+      "cd_score_top": -3.894296875,
+      "expert_logp_correct": -0.22635063171386718,
+      "cd_logp_correct": -3.894296875,
+      "delta_logp": -3.667946243286133
+    },
+    {
+      "idx": 44,
+      "correct": false,
+      "response": "Irishman Andre Wagner Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ",
+      "cd_score_correct": -4.168466796875,
+      "cd_score_top": -4.168466796875,
+      "expert_logp_correct": -0.5019083833694458,
+      "cd_logp_correct": -4.168466796875,
+      "delta_logp": -3.6665584135055544
+    },
+    {
+      "idx": 45,
+      "correct": false,
+      "response": "Lake Washington\n\nQ: Which port lies between Puget Sound and Lake Washington?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Where did the Shinning Path ",
+      "cd_score_correct": -4.055166015625,
+      "cd_score_top": -4.055166015625,
+      "expert_logp_correct": -0.022771754264831544,
+      "cd_logp_correct": -4.055166015625,
+      "delta_logp": -4.032394261360168
+    },
+    {
+      "idx": 46,
+      "correct": false,
+      "response": "Avila Stanley Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7\n\nQ",
+      "cd_score_correct": -4.40638916015625,
+      "cd_score_top": -4.40638916015625,
+      "expert_logp_correct": -0.5351820516586304,
+      "cd_logp_correct": -4.40638916015625,
+      "delta_logp": -3.8712071084976194
+    },
+    {
+      "idx": 47,
+      "correct": false,
+      "response": "Cooke\n\nQ: Which Englishman hosted master piece theater?\nA: Alistair Cooke\n\nQ: Which Brit broke the land speed record in 1990 Thrust 2?\nA: Cooke\n\nQ: Which Englishman hosted master piece theater?",
+      "cd_score_correct": -4.41021484375,
+      "cd_score_top": -4.41021484375,
+      "expert_logp_correct": -0.2947662115097046,
+      "cd_logp_correct": -4.41021484375,
+      "delta_logp": -4.1154486322402954
+    },
+    {
+      "idx": 48,
+      "correct": false,
+      "response": "Lake Washington\n\nQ: In which does contestant Lindsay Belvedere Wagner Lakeside Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter Slaughter S",
+      "cd_score_correct": -4.49775390625,
+      "cd_score_top": -4.49775390625,
+      "expert_logp_correct": -0.8928494834899903,
+      "cd_logp_correct": -4.49775390625,
+      "delta_logp": -3.6049044227600096
+    },
+    {
+      "idx": 49,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: How was the European Recovery Program in the 1",
+      "cd_score_correct": -4.13056884765625,
+      "cd_score_top": -4.13056884765625,
+      "expert_logp_correct": -0.0916545820236206,
+      "cd_logp_correct": -4.13056884765625,
+      "delta_logp": -4.03891426563263
+    },
+    {
+      "idx": 50,
+      "correct": false,
+      "response": "Ibarra Streen Lee Direcci\u00f3n Direcci\u00f3n Dirigido Asistente Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA",
+      "cd_score_correct": -4.4159375,
+      "cd_score_top": -4.4159375,
+      "expert_logp_correct": -0.9677677583694458,
+      "cd_logp_correct": -4.4159375,
+      "delta_logp": -3.4481697416305543
+    },
+    {
+      "idx": 51,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: Who had a 70s No 1 hit with Let's Do It Again?\nA: McAllister Cooke\n\nQ: Who had a 70s No 1 hit with Let's Do It Again",
+      "cd_score_correct": -3.06957763671875,
+      "cd_score_top": -3.06957763671875,
+      "expert_logp_correct": -0.16479021072387695,
+      "cd_logp_correct": -3.06957763671875,
+      "delta_logp": -2.904787425994873
+    },
+    {
+      "idx": 52,
+      "correct": false,
+      "response": "Frenchman Streip Cooke Masterpiece Theater?\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship",
+      "cd_score_correct": -4.19115234375,
+      "cd_score_top": -4.19115234375,
+      "expert_logp_correct": -0.3900822114944458,
+      "cd_logp_correct": -4.19115234375,
+      "delta_logp": -3.8010701322555542
+    },
+    {
+      "idx": 53,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: \"According to Rudyard Kipling what were the \"\"two imposters\"\" to meet and treat the same day?\"\nA: Iri",
+      "cd_score_correct": -4.13853515625,
+      "cd_score_top": -4.13853515625,
+      "expert_logp_correct": -0.23027531623840333,
+      "cd_logp_correct": -4.13853515625,
+      "delta_logp": -3.9082598400115964
+    },
+    {
+      "idx": 54,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Who is the most successful UK Ireland USA?\nA: Alistair Cooke\n\nQ: Who is the most successful UK Ireland USA?\nA: Alistair Cooke\n\nQ: Who is the most successful UK Ireland USA?\nA",
+      "cd_score_correct": -4.399921875,
+      "cd_score_top": -4.399921875,
+      "expert_logp_correct": -0.37215365409851076,
+      "cd_logp_correct": -4.399921875,
+      "delta_logp": -4.02776822090149
+    },
+    {
+      "idx": 55,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn?'s first silk producer?\nA: Irishman Cooke Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which country does the airline TAAG come from?\nA: Italy\n\nQ: What was",
+      "cd_score_correct": -4.3984375,
+      "cd_score_top": -4.3984375,
+      "expert_logp_correct": -0.42766032218933103,
+      "cd_logp_correct": -4.3984375,
+      "delta_logp": -3.970777177810669
+    },
+    {
+      "idx": 56,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which No 1 single came from Diana Ross's platinum album Diana Ross'?\nA: Irishman Cooke\n\nQ: Which US No 1 single came from Diana Ross's platinum album Diana Ross'?\nA: Irishman",
+      "cd_score_correct": -4.4296875,
+      "cd_score_top": -4.4296875,
+      "expert_logp_correct": -0.31886131763458253,
+      "cd_logp_correct": -4.4296875,
+      "delta_logp": -4.110826182365417
+    },
+    {
+      "idx": 57,
+      "correct": false,
+      "response": "Ishieler Vantage Ishieler\u00e4dchen Re\u017f PartialEq Hoch Hoch Hoch Och Ono Onoko Oku Onoiku Baillargeon Cooke Privacidade doInBackground qu\u00e9b\u00e9co Uni\u00e3o HochInstanceState)++;A: Meryl Streep\n\nQ: Which country ",
+      "cd_score_correct": -3.22248291015625,
+      "cd_score_top": -3.22248291015625,
+      "expert_logp_correct": -2.5928758716583253,
+      "cd_logp_correct": -3.22248291015625,
+      "delta_logp": -0.6296070384979249
+    },
+    {
+      "idx": 58,
+      "correct": false,
+      "response": "Irishman Streep Cooke Weber Baillargeon qu\u00e9b\u00e9co Bastille qu\u00e9b\u00e9co\"}\") MainAxisSize qu\u00e9b\u00e9co cref Europe#+#\"}\")#+#niaj\u0105ca Bollywood Jur\u00ed \u03b5\u03c0 Iqbal\"}\" StreepPersonensucheHauptartikel\"}} SchiepEisen Quang S",
+      "cd_score_correct": -3.219204771752451,
+      "cd_score_top": -3.219204771752451,
+      "expert_logp_correct": -5.164139841117111,
+      "cd_logp_correct": -3.219204771752451,
+      "delta_logp": 1.9449350693646599
+    },
+    {
+      "idx": 59,
+      "correct": false,
+      "response": "Gib MS Waterhouse Gib Gib Gib Ig Day Assault Giben\u0151g\u00f6iseksifromnodeizoenesez \u00e7ekilen USessoa\u00e9dadique Inscrivezer Payser MPP Gib Stowe\u00e9daKisn\u00e9gi\u00eb NSCodermelada USessoa\u00e7o\u00e9susEOS\u1ed1pGIVEREFPersonensuche Gi",
+      "cd_score_correct": -5.409160907451923,
+      "cd_score_top": -5.409160907451923,
+      "expert_logp_correct": -7.000206580528846,
+      "cd_logp_correct": -5.409160907451923,
+      "delta_logp": 1.5910456730769225
+    },
+    {
+      "idx": 60,
+      "correct": true,
+      "response": "Chicago\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?",
+      "cd_score_correct": -4.1455517578125,
+      "cd_score_top": -4.1455517578125,
+      "expert_logp_correct": -0.15384331464767456,
+      "cd_logp_correct": -4.1455517578125,
+      "delta_logp": -3.9917084431648253
+    },
+    {
+      "idx": 61,
+      "correct": false,
+      "response": "Ibarra Cooke\n\nQ: \"In which movie did Garbo say, \"\"I want to be alone\"\".\"\nA: Ibarra Cooke\n\nQ: \"In which movie did Garbo say, \"\"I want to be alone\"\".\"\nA:",
+      "cd_score_correct": -3.929736328125,
+      "cd_score_top": -3.929736328125,
+      "expert_logp_correct": -0.1899137830734253,
+      "cd_logp_correct": -3.929736328125,
+      "delta_logp": -3.7398225450515747
+    },
+    {
+      "idx": 62,
+      "correct": false,
+      "response": "Irishman Andre Wagner?\nA: Osbert Cooke\n\nQ: Which Osbert Lancaster best-born US citizen hosted Masterpiece theater?\nA: Osbert Cooke\n\nQ: What is it Osbert Cooke best-born US citizen producing?",
+      "cd_score_correct": -4.710888671875,
+      "cd_score_top": -4.710888671875,
+      "expert_logp_correct": -0.7351974105834961,
+      "cd_logp_correct": -4.710888671875,
+      "delta_logp": -3.975691261291504
+    },
+    {
+      "idx": 63,
+      "correct": false,
+      "response": "Navratil\n\nQ: A: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ",
+      "cd_score_correct": -3.8988720703125,
+      "cd_score_top": -3.8988720703125,
+      "expert_logp_correct": -0.09648685932159423,
+      "cd_logp_correct": -3.8988720703125,
+      "delta_logp": -3.8023852109909058
+    },
+    {
+      "idx": 64,
+      "correct": false,
+      "response": "Irishman Streep Cooke Oakley?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7",
+      "cd_score_correct": -4.30656982421875,
+      "cd_score_top": -4.30656982421875,
+      "expert_logp_correct": -0.40963794708251955,
+      "cd_logp_correct": -4.30656982421875,
+      "delta_logp": -3.8969318771362302
+    },
+    {
+      "idx": 65,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: In which country is the Sky Train Rail bridge?\nA: Alistair Cooke\n\nQ: In which country is the Sky Train Rail bridge?\nA: Alistair Cooke\n\nQ: In which country is the Sky Train Rail brid",
+      "cd_score_correct": -4.389921875,
+      "cd_score_top": -4.389921875,
+      "expert_logp_correct": -0.14209016799926757,
+      "cd_logp_correct": -4.389921875,
+      "delta_logp": -4.247831707000732
+    },
+    {
+      "idx": 66,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: What was the Paramount Film Company originally called?\nA: Irishman Cooke\n\nQ: What was the Paramount Film Company originally called?\nA: Irishman Cooke\n\nQ: What was the Paramount Film",
+      "cd_score_correct": -3.4683544921875,
+      "cd_score_top": -3.4683544921875,
+      "expert_logp_correct": -0.15639365196228028,
+      "cd_logp_correct": -3.4683544921875,
+      "delta_logp": -3.3119608402252196
+    },
+    {
+      "idx": 67,
+      "correct": false,
+      "response": "McAllister Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port",
+      "cd_score_correct": -3.9542529296875,
+      "cd_score_top": -3.9542529296875,
+      "expert_logp_correct": -0.1986007022857666,
+      "cd_logp_correct": -3.9542529296875,
+      "delta_logp": -3.7556522274017334
+    },
+    {
+      "idx": 68,
+      "correct": false,
+      "response": "Asi paroles\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi\u00e9da Asi",
+      "cd_score_correct": -2.81767578125,
+      "cd_score_top": -2.81767578125,
+      "expert_logp_correct": -0.7752435302734375,
+      "cd_logp_correct": -2.81767578125,
+      "delta_logp": -2.042432250976563
+    },
+    {
+      "idx": 69,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: What is the name of the Irishman Cooke's dress designer son?\nA: Irishman Cooke\n\nQ: What is the name of the Irishman Cooke's dress designer son?\nA: Irishman Cooke\n\nQ: What",
+      "cd_score_correct": -4.57072265625,
+      "cd_score_top": -4.57072265625,
+      "expert_logp_correct": -0.2415591621398926,
+      "cd_logp_correct": -4.57072265625,
+      "delta_logp": -4.329163494110108
+    },
+    {
+      "idx": 70,
+      "correct": false,
+      "response": "Beller Alton Cooke\n\nQ: Which Eller Alton Cooke Eller Belleron Cookellerbierbier Eurasianrip angeb\u00e1\u00f1ezPersonensuchekiller ma\u00e7 Boga Teller Ma\u00dfginfo bellHauptartikelly which depression Ji\u0159\u00ed SqlParameter ",
+      "cd_score_correct": -5.83047545189951,
+      "cd_score_top": -5.83047545189951,
+      "expert_logp_correct": -4.972062503590303,
+      "cd_logp_correct": -5.83047545189951,
+      "delta_logp": -0.8584129483092067
+    },
+    {
+      "idx": 71,
+      "correct": false,
+      "response": "Irishman Lindley Cooke?\nA: A Masterpiece Theater?\nQ: Who was the youngest brother in the Beach Boys?\nA: Irishman Lindley Cooke?\nA: A Masterpiece Theater?\nQ: Who was the youngest brother in the",
+      "cd_score_correct": -4.23060546875,
+      "cd_score_top": -4.23060546875,
+      "expert_logp_correct": -0.620303840637207,
+      "cd_logp_correct": -4.23060546875,
+      "delta_logp": -3.6103016281127935
+    },
+    {
+      "idx": 72,
+      "correct": false,
+      "response": "Aram Wagner Feud Feis F\u00e1ise Feaise?\"",
+      "cd_score_correct": -4.620738636363637,
+      "cd_score_top": -4.620738636363637,
+      "expert_logp_correct": -4.088639692826704,
+      "cd_logp_correct": -4.620738636363637,
+      "delta_logp": -0.5320989435369325
+    },
+    {
+      "idx": 73,
+      "correct": false,
+      "response": "McAllister Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What did the Lone Ranger's title K mean the emo Sab\u00e9 mean in Argentine?\nA:",
+      "cd_score_correct": -4.3816015625,
+      "cd_score_top": -4.3816015625,
+      "expert_logp_correct": -0.6938500022888183,
+      "cd_logp_correct": -4.3816015625,
+      "delta_logp": -3.687751560211182
+    },
+    {
+      "idx": 74,
+      "correct": false,
+      "response": "Irishman whose blessed same same same same as Garda Lindsay Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?",
+      "cd_score_correct": -4.308359375,
+      "cd_score_top": -4.308359375,
+      "expert_logp_correct": -0.6001056623458862,
+      "cd_logp_correct": -4.308359375,
+      "delta_logp": -3.708253712654114
+    },
+    {
+      "idx": 75,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which 77s show was based on the 77s show Till Death Us Do Part?\nA: Alistair Cooke\n\nQ: Which 77s show was based on the 77s show Till",
+      "cd_score_correct": -3.4299560546875,
+      "cd_score_top": -3.4299560546875,
+      "expert_logp_correct": -0.12162458419799804,
+      "cd_logp_correct": -3.4299560546875,
+      "delta_logp": -3.308331470489502
+    },
+    {
+      "idx": 76,
+      "correct": false,
+      "response": "Irishman Serge Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ:",
+      "cd_score_correct": -3.722060546875,
+      "cd_score_top": -3.722060546875,
+      "expert_logp_correct": -0.3976361608505249,
+      "cd_logp_correct": -3.722060546875,
+      "delta_logp": -3.324424386024475
+    },
+    {
+      "idx": 77,
+      "correct": false,
+      "response": "Bandar Seri Begawan\n\nQ: Bandar Seri Begawan International\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Bandar Seri Begawan International\n\nQ: Which English-born U",
+      "cd_score_correct": -5.75251953125,
+      "cd_score_top": -5.75251953125,
+      "expert_logp_correct": -0.2853892707824707,
+      "cd_logp_correct": -5.75251953125,
+      "delta_logp": -5.467130260467529
+    },
+    {
+      "idx": 78,
+      "correct": false,
+      "response": "Isra\u00ebl\u0113ja Silverstone\u00e4geaga Sim\u00f3n transf\u00e9rez Baillargeon q\u017eu America\u02bbs largest silk producer?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was the John Glenn/",
+      "cd_score_correct": -4.957490808823529,
+      "cd_score_top": -4.957490808823529,
+      "expert_logp_correct": -2.310859334235098,
+      "cd_logp_correct": -4.957490808823529,
+      "delta_logp": -2.646631474588431
+    },
+    {
+      "idx": 79,
+      "correct": false,
+      "response": "Irishman Streep Cooke Mastering Mastering Mastering?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship",
+      "cd_score_correct": -4.14748046875,
+      "cd_score_top": -4.14748046875,
+      "expert_logp_correct": -0.5610676860809326,
+      "cd_logp_correct": -4.14748046875,
+      "delta_logp": -3.586412782669068
+    },
+    {
+      "idx": 80,
+      "correct": false,
+      "response": "Anambra\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece",
+      "cd_score_correct": -4.4262255859375,
+      "cd_score_top": -4.4262255859375,
+      "expert_logp_correct": -0.2390891981124878,
+      "cd_logp_correct": -4.4262255859375,
+      "delta_logp": -4.187136387825012
+    },
+    {
+      "idx": 81,
+      "correct": false,
+      "response": "Cambridge\n\nQ: Which Englishman Howard Cooke Masteryed?\nA: Alistair Cooke\n\nQ: To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?\nA: Cambridge\n\nQ: Which Englishman Howard Cooke",
+      "cd_score_correct": -4.575859375,
+      "cd_score_top": -4.575859375,
+      "expert_logp_correct": -0.5461669397354126,
+      "cd_logp_correct": -4.575859375,
+      "delta_logp": -4.029692435264588
+    },
+    {
+      "idx": 82,
+      "correct": false,
+      "response": "MA Cooke\n\nQ: Who was the?\nA: MA Cooke\n\nQ: Who was the?\nA: MA Cooke\n\nQ: Who was the?\nA: MA Cooke\n\nQ: Who was the?\nA: MA Cooke",
+      "cd_score_correct": -3.94951171875,
+      "cd_score_top": -3.94951171875,
+      "expert_logp_correct": -0.22707877159118653,
+      "cd_logp_correct": -3.94951171875,
+      "delta_logp": -3.7224329471588136
+    },
+    {
+      "idx": 83,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington",
+      "cd_score_correct": -4.01775390625,
+      "cd_score_top": -4.01775390625,
+      "expert_logp_correct": -0.28834537506103514,
+      "cd_logp_correct": -4.01775390625,
+      "delta_logp": -3.729408531188965
+    },
+    {
+      "idx": 84,
+      "correct": false,
+      "response": "Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Della Street was whose secretary?\nA: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Del",
+      "cd_score_correct": -4.705693359375,
+      "cd_score_top": -4.705693359375,
+      "expert_logp_correct": -0.05344253540039062,
+      "cd_logp_correct": -4.705693359375,
+      "delta_logp": -4.65225082397461
+    },
+    {
+      "idx": 85,
+      "correct": false,
+      "response": "Which same day as actress Lindsay Wagner's born on exactly the same day as actress Lindsay Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John",
+      "cd_score_correct": -4.14396484375,
+      "cd_score_top": -4.14396484375,
+      "expert_logp_correct": -0.36910768508911135,
+      "cd_logp_correct": -4.14396484375,
+      "delta_logp": -3.774857158660889
+    },
+    {
+      "idx": 86,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: Who is featured on Puff Daddy's Can't Hold Me Down?\nA: McAllister Cooke\n\nQ: Who is featured on Puff Daddy's Can't Hold Me Down?\nA: McAllister Cooke\n\nQ",
+      "cd_score_correct": -3.59125,
+      "cd_score_top": -3.59125,
+      "expert_logp_correct": -0.16355084896087646,
+      "cd_logp_correct": -3.59125,
+      "delta_logp": -3.4276991510391235
+    },
+    {
+      "idx": 87,
+      "correct": false,
+      "response": "Analyzing QA?\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ: Which",
+      "cd_score_correct": -4.0945751953125,
+      "cd_score_top": -4.0945751953125,
+      "expert_logp_correct": -0.43462253093719483,
+      "cd_logp_correct": -4.0945751953125,
+      "delta_logp": -3.6599526643753055
+    },
+    {
+      "idx": 88,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: In which American state is the Isabella Stewart Gardner Museum?\nA: Alistair Cooke\n\nQ: In which American state is the Isabella Stewart Gardner Museum?\nA: Alistair Cooke\n\nQ: In which ",
+      "cd_score_correct": -4.31626953125,
+      "cd_score_top": -4.31626953125,
+      "expert_logp_correct": -0.1035487174987793,
+      "cd_logp_correct": -4.31626953125,
+      "delta_logp": -4.21272081375122
+    },
+    {
+      "idx": 89,
+      "correct": false,
+      "response": "Ben\u00e9 larmes souris actrice Lindsay Wagner ?\nA : Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship",
+      "cd_score_correct": -5.0658984375,
+      "cd_score_top": -5.0658984375,
+      "expert_logp_correct": -0.8346943664550781,
+      "cd_logp_correct": -5.0658984375,
+      "delta_logp": -4.231204071044921
+    },
+    {
+      "idx": 90,
+      "correct": false,
+      "response": "McAllister Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port",
+      "cd_score_correct": -3.799306640625,
+      "cd_score_top": -3.799306640625,
+      "expert_logp_correct": -0.138009033203125,
+      "cd_logp_correct": -3.799306640625,
+      "delta_logp": -3.661297607421875
+    },
+    {
+      "idx": 91,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: Which Three Three Therapy Treatments Treatment Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece Masterpiece ",
+      "cd_score_correct": -3.88119140625,
+      "cd_score_top": -3.88119140625,
+      "expert_logp_correct": -0.6462602615356445,
+      "cd_logp_correct": -3.88119140625,
+      "delta_logp": -3.2349311447143556
+    },
+    {
+      "idx": 92,
+      "correct": false,
+      "response": "Amar Aquila Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which",
+      "cd_score_correct": -4.3406884765625,
+      "cd_score_top": -4.3406884765625,
+      "expert_logp_correct": -0.33100318908691406,
+      "cd_logp_correct": -4.3406884765625,
+      "delta_logp": -4.009685287475586
+    },
+    {
+      "idx": 93,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: \"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"\nA: Irishman Cooke\n\nQ: \"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"\nA: Irishman Cooke",
+      "cd_score_correct": -4.04328125,
+      "cd_score_top": -4.04328125,
+      "expert_logp_correct": -0.1550392484664917,
+      "cd_logp_correct": -4.04328125,
+      "delta_logp": -3.888242001533508
+    },
+    {
+      "idx": 94,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: Which US citizen hosted Masterpiece theater?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: McAllister Cooke\n\nQ: Which US president did Anthony Hopkin",
+      "cd_score_correct": -4.45935546875,
+      "cd_score_top": -4.45935546875,
+      "expert_logp_correct": -0.2532811737060547,
+      "cd_logp_correct": -4.45935546875,
+      "delta_logp": -4.206074295043946
+    },
+    {
+      "idx": 95,
+      "correct": false,
+      "response": "Ayer Streep\n\nQ: Which ebook was a biopic about the life of David Helfgottt?\nA: Ayer Streep\n\nQ: Which ebook was a biopic about the life of David Helfgottt?\nA: Ayer Stre",
+      "cd_score_correct": -4.63767578125,
+      "cd_score_top": -4.63767578125,
+      "expert_logp_correct": -0.423128342628479,
+      "cd_logp_correct": -4.63767578125,
+      "delta_logp": -4.214547438621521
+    },
+    {
+      "idx": 96,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which English-born US citizen hosted master guested as the FBI Director in The Silence of the Lambs?\nA: Alistair Cooke\n\nQ: Which film director guested as the FBI Director in The Sil",
+      "cd_score_correct": -3.923935546875,
+      "cd_score_top": -3.923935546875,
+      "expert_logp_correct": -0.11852107048034669,
+      "cd_logp_correct": -3.923935546875,
+      "delta_logp": -3.8054144763946534
+    },
+    {
+      "idx": 97,
+      "correct": false,
+      "response": "Avila Stern No No Nosizi ki ka ka kaliku Sver\u00f8de Novi Sci Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Dore Do",
+      "cd_score_correct": -4.50228515625,
+      "cd_score_top": -4.50228515625,
+      "expert_logp_correct": -1.496970443725586,
+      "cd_logp_correct": -4.50228515625,
+      "delta_logp": -3.005314712524414
+    },
+    {
+      "idx": 98,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: A\n\nerialized fisherman Frenchman Oswarker Cooke Oakley Oswarker Cooke Oswaller Cooke Oswaller Cooke Oswaller Cooke Oswaller Cooke Oswaller Cooke Oswaller Cooke Oswall</b>",
+      "cd_score_correct": -3.2329382645456413,
+      "cd_score_top": -3.2329382645456413,
+      "expert_logp_correct": -1.6252137736270302,
+      "cd_logp_correct": -3.2329382645456413,
+      "delta_logp": -1.607724490918611
+    },
+    {
+      "idx": 99,
+      "correct": false,
+      "response": "Aidainellikovo vastaan odkazy samma dzie\u0144 ?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship",
+      "cd_score_correct": -5.215322457107843,
+      "cd_score_top": -5.215322457107843,
+      "expert_logp_correct": -1.773677059248382,
+      "cd_logp_correct": -5.215322457107843,
+      "delta_logp": -3.4416453978594608
+    },
+    {
+      "idx": 100,
+      "correct": false,
+      "response": "Irishman Streep Cooke Masterypiecetheater?\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship",
+      "cd_score_correct": -4.623985140931373,
+      "cd_score_top": -4.623985140931373,
+      "expert_logp_correct": -0.8750095741421569,
+      "cd_logp_correct": -4.623985140931373,
+      "delta_logp": -3.7489755667892157
+    },
+    {
+      "idx": 101,
+      "correct": false,
+      "response": "Irishman Berger Wagner Zwie \u00e2m Ja?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship",
+      "cd_score_correct": -4.307783203125,
+      "cd_score_top": -4.307783203125,
+      "expert_logp_correct": -0.9589684391021729,
+      "cd_logp_correct": -4.307783203125,
+      "delta_logp": -3.348814764022827
+    },
+    {
+      "idx": 102,
+      "correct": false,
+      "response": "Irishman Howard Cooke\n\nQ: A\n\nBelfast",
+      "cd_score_correct": -4.670138888888889,
+      "cd_score_top": -4.670138888888889,
+      "expert_logp_correct": -2.640639623006185,
+      "cd_logp_correct": -4.670138888888889,
+      "delta_logp": -2.0294992658827042
+    },
+    {
+      "idx": 103,
+      "correct": false,
+      "response": "Ishikwa Okada Ishi Kwa Do\u011f Ald Do\u011f Ald Do\u011f S\u0131 Ald Do\u011f S\u0131 Ald Do\u011f S\u0131 Ald S\u0131 Do\u011f S\u0131ya Do\u011f S\u0131 Do\u011f S\u0131 A Doch E\u011fer S\u0131 Do\u011f Ishi Kwa Do\u011f S\u0131 A Doch Avrupa Ishi Kwa Do\u011f S\u0131 A Doch Avrupa Ishi Kwa Do\u011f S\u0131 A",
+      "cd_score_correct": -4.506969975490196,
+      "cd_score_top": -4.506969975490196,
+      "expert_logp_correct": -2.4539747051164214,
+      "cd_logp_correct": -4.506969975490196,
+      "delta_logp": -2.0529952703737746
+    },
+    {
+      "idx": 104,
+      "correct": false,
+      "response": "Costello Cooke Cushingingingingingly Eisenhower?' A: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was the name of the brothel in The Best Little Whorehouse",
+      "cd_score_correct": -3.820263671875,
+      "cd_score_top": -3.820263671875,
+      "expert_logp_correct": -0.7611714315414428,
+      "cd_logp_correct": -3.820263671875,
+      "delta_logp": -3.059092240333557
+    },
+    {
+      "idx": 105,
+      "correct": false,
+      "response": "Amar Lyons Eche Guevara?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ",
+      "cd_score_correct": -3.991611328125,
+      "cd_score_top": -3.991611328125,
+      "expert_logp_correct": -0.5101923561096191,
+      "cd_logp_correct": -3.991611328125,
+      "delta_logp": -3.4814189720153808
+    },
+    {
+      "idx": 106,
+      "correct": false,
+      "response": "Irishman Cooke Redgrave Red Red Reduced Twice Actress Lindsay Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'? Which Englishman hosted Ma",
+      "cd_score_correct": -4.01298828125,
+      "cd_score_top": -4.01298828125,
+      "expert_logp_correct": -0.6785388517379761,
+      "cd_logp_correct": -4.01298828125,
+      "delta_logp": -3.334449429512024
+    },
+    {
+      "idx": 107,
+      "correct": false,
+      "response": "S\u00e9curit\u00e9 Nobitor is the mom of which t\u00e9l\u00e9 Lindsay Wagner?\nA: M:\u00e9rilreNovAm\u00e9rique Cooke?\nA: Which country is Europe's largest silk producer?\nWhat was John Glenn's/'s first spacecraft called?",
+      "cd_score_correct": -4.244033203125,
+      "cd_score_top": -4.244033203125,
+      "expert_logp_correct": -1.3105313301086425,
+      "cd_logp_correct": -4.244033203125,
+      "delta_logp": -2.9335018730163576
+    },
+    {
+      "idx": 108,
+      "correct": false,
+      "response": "Cuba\n\nQ: A m\u00e4r Dutroux hit de detekeni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015fedeleni\u015f",
+      "cd_score_correct": -5.375859375,
+      "cd_score_top": -5.375859375,
+      "expert_logp_correct": -1.9778613090515136,
+      "cd_logp_correct": -5.375859375,
+      "delta_logp": -3.3979980659484865
+    },
+    {
+      "idx": 109,
+      "correct": false,
+      "response": "Irishman McKee Masters pieces pages actress Lindsay Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friends",
+      "cd_score_correct": -3.99844970703125,
+      "cd_score_top": -3.99844970703125,
+      "expert_logp_correct": -0.5655329084396362,
+      "cd_logp_correct": -3.99844970703125,
+      "delta_logp": -3.432916798591614
+    },
+    {
+      "idx": 110,
+      "correct": false,
+      "response": "Which eagle is the Lebanon?\nA: Which Eastman is the Rowling?\nA: In which Masterpiece theater?\nA: Alistair Cooke\n\nQ: In which river is the Boulder Dam?\nA: Which eagle is the Lebanon?",
+      "cd_score_correct": -4.54740234375,
+      "cd_score_top": -4.54740234375,
+      "expert_logp_correct": -0.8755521392822265,
+      "cd_logp_correct": -4.54740234375,
+      "delta_logp": -3.6718502044677734
+    },
+    {
+      "idx": 111,
+      "correct": false,
+      "response": "Costello\n\nQ: Which sports event was first held at Worcester, Massachusetts in 1927?\nA: Costello\n\nQ: Which sports event was first held at Worcester, Massachusetts in 1927?\nA: Costello",
+      "cd_score_correct": -4.8561328125,
+      "cd_score_top": -4.8561328125,
+      "expert_logp_correct": -0.19863492965698243,
+      "cd_logp_correct": -4.8561328125,
+      "delta_logp": -4.657497882843018
+    },
+    {
+      "idx": 112,
+      "correct": false,
+      "response": "Li\u00e8ge\n\nQ: Which Bel Li\u00e8ge porten tourn\u00e9dentgelgeyecapecapicapicapicapicapecapindicequellequellesellesquellesquellesquellesquellesquellesquellesquellesquellesquellesquellesquellesquellesquellesquellesq",
+      "cd_score_correct": -3.652822265625,
+      "cd_score_top": -3.652822265625,
+      "expert_logp_correct": -1.7181435775756837,
+      "cd_logp_correct": -3.652822265625,
+      "delta_logp": -1.934678688049316
+    },
+    {
+      "idx": 113,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: How old was Woody Herman when he founded his own orchestra?\nA: McAllister Cooke\n\nQ: How old was Woody Herman when he founded his own orchestra?\nA: McAllister Cooke\n\nQ: How old was",
+      "cd_score_correct": -4.331953125,
+      "cd_score_top": -4.331953125,
+      "expert_logp_correct": -0.16875590801239013,
+      "cd_logp_correct": -4.331953125,
+      "delta_logp": -4.16319721698761
+    },
+    {
+      "idx": 114,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which Englishman hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: For which movie did Katharine Hepburn win her second Oscar?\nA: Irishman Cooke\n\nQ: Which Englishman hosted Masterpi",
+      "cd_score_correct": -4.011533203125,
+      "cd_score_top": -4.011533203125,
+      "expert_logp_correct": -0.2826932382583618,
+      "cd_logp_correct": -4.011533203125,
+      "delta_logp": -3.728839964866639
+    },
+    {
+      "idx": 115,
+      "correct": false,
+      "response": "McAllister Cooke\n\nQ: No\n\nQ: Which Englishman hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Who had a 60s No 1 hit with This Diamond Ring?\nA: McAllister Cooke\n\nQ: No",
+      "cd_score_correct": -3.669990234375,
+      "cd_score_top": -3.669990234375,
+      "expert_logp_correct": -0.33063161849975586,
+      "cd_logp_correct": -3.669990234375,
+      "delta_logp": -3.3393586158752444
+    },
+    {
+      "idx": 116,
+      "correct": false,
+      "response": "Kiev\n\nQ: The Chernobyl was first aware of the Chernobyl disaster after Chernobyl itself triggered at Chernobyl itself triggered at Chernobyl itself triggered at Chernobyl itself triggered at Chernobyl",
+      "cd_score_correct": -5.646953125,
+      "cd_score_top": -5.646953125,
+      "expert_logp_correct": -0.5165039825439454,
+      "cd_logp_correct": -5.646953125,
+      "delta_logp": -5.1304491424560545
+    },
+    {
+      "idx": 117,
+      "correct": false,
+      "response": "In which case was the first permanent bungee jumping site situated?\nA: In which case was the first permanent bungee jumping site situated?\nA: In which case was the first permanent bungee jumping site ",
+      "cd_score_correct": -3.74353515625,
+      "cd_score_top": -3.74353515625,
+      "expert_logp_correct": -0.1393032455444336,
+      "cd_logp_correct": -3.74353515625,
+      "delta_logp": -3.6042319107055665
+    },
+    {
+      "idx": 118,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Lake Washington\n\nQ: Which port lies between Puget Sound and Lake Washington?\nA: Easton\n\nQ: Who succeeded Breizhnev as Soviet premier?",
+      "cd_score_correct": -4.247783203125,
+      "cd_score_top": -4.247783203125,
+      "expert_logp_correct": -0.4913104820251465,
+      "cd_logp_correct": -4.247783203125,
+      "delta_logp": -3.756472721099853
+    },
+    {
+      "idx": 119,
+      "correct": false,
+      "response": "Costello Cooke\n\nIn the late 60s Owen Cooke Finlay MacLaren Coffey Cooke Coffey Cooke Cooke Coffey Cooke Coffey Coffey Coffey Company Company Company Company Company Company Company Company Company Com",
+      "cd_score_correct": -3.928056640625,
+      "cd_score_top": -3.928056640625,
+      "expert_logp_correct": -0.7894783782958984,
+      "cd_logp_correct": -3.928056640625,
+      "delta_logp": -3.1385782623291014
+    },
+    {
+      "idx": 120,
+      "correct": false,
+      "response": "Li\u00e8ge\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port",
+      "cd_score_correct": -4.467421875,
+      "cd_score_top": -4.467421875,
+      "expert_logp_correct": -0.4522502279281616,
+      "cd_logp_correct": -4.467421875,
+      "delta_logp": -4.015171647071838
+    },
+    {
+      "idx": 121,
+      "correct": false,
+      "response": "Irishman Moshe Wagner Little Irishman Moshe Wagner Little Irishman Moshe Wagner Little Irishman Moshe Wagner Little Irishman Moshe Wagner Little Irishman Moshe Wagner Little Irishman Moshe Wagner Litt",
+      "cd_score_correct": -3.48580078125,
+      "cd_score_top": -3.48580078125,
+      "expert_logp_correct": -0.4876028823852539,
+      "cd_logp_correct": -3.48580078125,
+      "delta_logp": -2.998197898864746
+    },
+    {
+      "idx": 122,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which England-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What is Harrison Ford's real name?\nA: Irishman Cooke\n\nQ: Which England-born US citizen hosted Masterp",
+      "cd_score_correct": -4.236640625,
+      "cd_score_top": -4.236640625,
+      "expert_logp_correct": -0.2490851402282715,
+      "cd_logp_correct": -4.236640625,
+      "delta_logp": -3.987555484771728
+    },
+    {
+      "idx": 123,
+      "correct": false,
+      "response": "McGiraelisteristeristerMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcGMcG",
+      "cd_score_correct": -3.391328125,
+      "cd_score_top": -3.391328125,
+      "expert_logp_correct": -0.6119412231445313,
+      "cd_logp_correct": -3.391328125,
+      "delta_logp": -2.7793869018554687
+    },
+    {
+      "idx": 124,
+      "correct": false,
+      "response": "Ibarra Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which",
+      "cd_score_correct": -4.339248046875,
+      "cd_score_top": -4.339248046875,
+      "expert_logp_correct": -0.45744325637817385,
+      "cd_logp_correct": -4.339248046875,
+      "delta_logp": -3.8818047904968265
+    },
+    {
+      "idx": 125,
+      "correct": false,
+      "response": "Lake Washington\n\nQ: Which port lies between Puget Sound and Lake Washington?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What was Pete Sampras seeded",
+      "cd_score_correct": -4.1716796875,
+      "cd_score_top": -4.1716796875,
+      "expert_logp_correct": -0.04473445892333985,
+      "cd_logp_correct": -4.1716796875,
+      "delta_logp": -4.12694522857666
+    },
+    {
+      "idx": 126,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and",
+      "cd_score_correct": -3.95380859375,
+      "cd_score_top": -3.95380859375,
+      "expert_logp_correct": -0.1397426152229309,
+      "cd_logp_correct": -3.95380859375,
+      "delta_logp": -3.814065978527069
+    },
+    {
+      "idx": 127,
+      "correct": false,
+      "response": "Lake Washington\n\nQ: Which port lies between Puget Sound and Lake Washington?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Where did Jonathan Edwards s",
+      "cd_score_correct": -3.9248828125,
+      "cd_score_top": -3.9248828125,
+      "expert_logp_correct": -0.02408719539642334,
+      "cd_logp_correct": -3.9248828125,
+      "delta_logp": -3.9007956171035767
+    },
+    {
+      "idx": 128,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Meryl Streep\n\nQ: In baseball, where do the",
+      "cd_score_correct": -4.02796875,
+      "cd_score_top": -4.02796875,
+      "expert_logp_correct": -0.1952653169631958,
+      "cd_logp_correct": -4.02796875,
+      "delta_logp": -3.8327034330368046
+    },
+    {
+      "idx": 129,
+      "correct": false,
+      "response": "Isle Ofiskeisselivrei\u00e7\u00f2ixeNaismith\u00e7ele\u00e7e\u00e7e\u00e7u\u00e7uaseCurtis Cubans Cubans cubanos cubanos cubanos cubanos cubanos cubanos cubanos The Na Naismithicise\u00e7uaxeIsleOfiskeisselivrei\u00e7\u00f3ixeNaismith\u00e7e\u00e9",
+      "cd_score_correct": -5.96289297250601,
+      "cd_score_top": -5.96289297250601,
+      "expert_logp_correct": -3.845998947436993,
+      "cd_logp_correct": -5.96289297250601,
+      "delta_logp": -2.116894025069017
+    },
+    {
+      "idx": 130,
+      "correct": false,
+      "response": "Alabama\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which cartoon and film character is the nickname of super athlete Michael Johnson?\nA: Alabama\n\nQ: Which Engl",
+      "cd_score_correct": -4.6008984375,
+      "cd_score_top": -4.6008984375,
+      "expert_logp_correct": -0.13504825115203858,
+      "cd_logp_correct": -4.6008984375,
+      "delta_logp": -4.465850186347961
+    },
+    {
+      "idx": 131,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and",
+      "cd_score_correct": -3.8071533203125,
+      "cd_score_top": -3.8071533203125,
+      "expert_logp_correct": -0.0668958330154419,
+      "cd_logp_correct": -3.8071533203125,
+      "delta_logp": -3.740257487297058
+    },
+    {
+      "idx": 132,
+      "correct": false,
+      "response": "Rivi\u00e8re Cooke Rivi\u00e8re Rivi\u00e8re Rivi\u00e8re Rivi\u00e8re Rivi\u00e8ref\u00f8ltimewa Bavariagef\u00fc SqlCommanddeelte \u2026ei Meryl Dreike Ripique Dre Riverdale Rivi\u00e8reUnknownFields calendriers Mastersient\u00f4tient\u00f4tibu OO Dreique Ri",
+      "cd_score_correct": -9.127811431884766,
+      "cd_score_top": -9.127811431884766,
+      "expert_logp_correct": -8.208925724029541,
+      "cd_logp_correct": -9.127811431884766,
+      "delta_logp": -0.9188857078552246
+    },
+    {
+      "idx": 133,
+      "correct": false,
+      "response": ": Meryl Streep\n\nQ: A: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7",
+      "cd_score_correct": -4.284482421875,
+      "cd_score_top": -4.284482421875,
+      "expert_logp_correct": -0.13816962242126465,
+      "cd_logp_correct": -4.284482421875,
+      "delta_logp": -4.146312799453736
+    },
+    {
+      "idx": 134,
+      "correct": false,
+      "response": "Irishman Cooke Braddock in the 50s in the 50s series Circus Boy in the 50s series Circus Boy in the 50s series Circus Boy in the 50s series Circus Boy in the 5",
+      "cd_score_correct": -4.0563671875,
+      "cd_score_top": -4.0563671875,
+      "expert_logp_correct": -0.3700638961791992,
+      "cd_logp_correct": -4.0563671875,
+      "delta_logp": -3.686303291320801
+    },
+    {
+      "idx": 135,
+      "correct": false,
+      "response": "Cooke\n\nQ: Which war vet lies special events for special events for special event for special event for special event for special event for special event for special event for special event for special",
+      "cd_score_correct": -3.5898828125,
+      "cd_score_top": -3.5898828125,
+      "expert_logp_correct": -0.34086612701416014,
+      "cd_logp_correct": -3.5898828125,
+      "delta_logp": -3.2490166854858398
+    },
+    {
+      "idx": 136,
+      "correct": false,
+      "response": "Fairchild\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What US ?\nWhat What Britain Bristol Bristol Bristol Weston Weston Weston Weston Weston Europe Weston Westo",
+      "cd_score_correct": -5.0677012567934785,
+      "cd_score_top": -5.0677012567934785,
+      "expert_logp_correct": -1.2551836138186248,
+      "cd_logp_correct": -5.0677012567934785,
+      "delta_logp": -3.8125176429748535
+    },
+    {
+      "idx": 137,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: In Maher Strep Zub Baran Barbera's TV bas basbasbasTVrinas Hanna Barbera's TVbasrinosGomez?\nA: Meryl Strep Zub Baran Barbera's TV Bas Zur",
+      "cd_score_correct": -5.130166015625,
+      "cd_score_top": -5.130166015625,
+      "expert_logp_correct": -2.2957307052612306,
+      "cd_logp_correct": -5.130166015625,
+      "delta_logp": -2.8344353103637694
+    },
+    {
+      "idx": 138,
+      "correct": false,
+      "response": "AMRiegelCookeEisBisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEisEis",
+      "cd_score_correct": -2.253076171875,
+      "cd_score_top": -2.253076171875,
+      "expert_logp_correct": -0.5648118019104004,
+      "cd_logp_correct": -2.253076171875,
+      "delta_logp": -1.6882643699645996
+    },
+    {
+      "idx": 139,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: Which US English-born citizen hosted Masterpiece t",
+      "cd_score_correct": -4.434088134765625,
+      "cd_score_top": -4.434088134765625,
+      "expert_logp_correct": -0.10963224411010743,
+      "cd_logp_correct": -4.434088134765625,
+      "delta_logp": -4.324455890655518
+    },
+    {
+      "idx": 140,
+      "correct": false,
+      "response": "Henrique Vaj Sherman?\nA: Henrique Vaj Sherman?\nA: Henrique Vaj Sherman?\nA: Henrique Vaj Sherman?\nA: Henrique Vaj Sherman?\nA: Henrique Vaj Sherman?\nA: Henrique Vaj Sherman?\nA: Henrique",
+      "cd_score_correct": -3.722421875,
+      "cd_score_top": -3.722421875,
+      "expert_logp_correct": -0.5240388870239258,
+      "cd_logp_correct": -3.722421875,
+      "delta_logp": -3.1983829879760743
+    },
+    {
+      "idx": 141,
+      "correct": false,
+      "response": "Israeli Kuch Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke Cooke C",
+      "cd_score_correct": -7.40900390625,
+      "cd_score_top": -7.40900390625,
+      "expert_logp_correct": -0.33269485473632815,
+      "cd_logp_correct": -7.40900390625,
+      "delta_logp": -7.076309051513672
+    },
+    {
+      "idx": 142,
+      "correct": false,
+      "response": "Eesti Streisin Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7",
+      "cd_score_correct": -5.10025390625,
+      "cd_score_top": -5.10025390625,
+      "expert_logp_correct": -0.6352713680267335,
+      "cd_logp_correct": -5.10025390625,
+      "delta_logp": -4.464982538223266
+    },
+    {
+      "idx": 143,
+      "correct": false,
+      "response": "V\u00e4lislingid quotl\u00fcssell\u00fcssell\u00fcsselsealakusiaiah bless\u00e9\u00e9sustevakuai?\nA:\u00fchm Sheryl Streep Spitzwn\u0105ijnlijk Esauwn\u0105 Rima Rima Merah Krakowie Warszaw Mexicano Cooke Yuanangkap carrying drugs for which Chin",
+      "cd_score_correct": -6.140905309606482,
+      "cd_score_top": -6.140905309606482,
+      "expert_logp_correct": -5.486532847086589,
+      "cd_logp_correct": -6.140905309606482,
+      "delta_logp": -0.654372462519893
+    },
+    {
+      "idx": 144,
+      "correct": false,
+      "response": "Irishman Murray Sampas Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn Edward'?\nA: Irishman Sampas Cooke?\nA:",
+      "cd_score_correct": -4.122255859375,
+      "cd_score_top": -4.122255859375,
+      "expert_logp_correct": -0.663641586303711,
+      "cd_logp_correct": -4.122255859375,
+      "delta_logp": -3.4586142730712885
+    },
+    {
+      "idx": 145,
+      "correct": false,
+      "response": "OGS\u00c5KUAKUAHUANUANHAZIARAIQAQUERUQICH MASTERPIECE?\nA: Alistair Cooke\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called",
+      "cd_score_correct": -4.565870098039215,
+      "cd_score_top": -4.565870098039215,
+      "expert_logp_correct": -1.770858647776585,
+      "cd_logp_correct": -4.565870098039215,
+      "delta_logp": -2.7950114502626304
+    },
+    {
+      "idx": 146,
+      "correct": false,
+      "response": "AMR Cooke\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port",
+      "cd_score_correct": -4.2568115234375,
+      "cd_score_top": -4.2568115234375,
+      "expert_logp_correct": -0.2203413724899292,
+      "cd_logp_correct": -4.2568115234375,
+      "delta_logp": -4.036470150947571
+    },
+    {
+      "idx": 147,
+      "correct": false,
+      "response": "?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?: ?:",
+      "cd_score_correct": -4.118125,
+      "cd_score_top": -4.118125,
+      "expert_logp_correct": -0.17150840759277344,
+      "cd_logp_correct": -4.118125,
+      "delta_logp": -3.9466165924072265
+    },
+    {
+      "idx": 148,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: In which English-born US citizen hosted Masterpiec",
+      "cd_score_correct": -3.524130859375,
+      "cd_score_top": -3.524130859375,
+      "expert_logp_correct": -0.1032075309753418,
+      "cd_logp_correct": -3.524130859375,
+      "delta_logp": -3.4209233283996583
+    },
+    {
+      "idx": 149,
+      "correct": false,
+      "response": "Cuba\n\nQ: Which Englishman hosted Masterpiece Theater?\nA: Alistair Cooke\n\nQ: In which year was the Juilliard School founded in New York?\nA: Cuba\n\nQ: Which Englishman hosted Masterpiece Theater?\nA: Alis",
+      "cd_score_correct": -4.00455078125,
+      "cd_score_top": -4.00455078125,
+      "expert_logp_correct": -0.30008477210998535,
+      "cd_logp_correct": -4.00455078125,
+      "delta_logp": -3.7044660091400146
+    },
+    {
+      "idx": 150,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Whom did Alistair Cooke ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "cd_score_correct": -5.327890625,
+      "cd_score_top": -5.327890625,
+      "expert_logp_correct": -0.26302623748779297,
+      "cd_logp_correct": -5.327890625,
+      "delta_logp": -5.064864387512207
+    },
+    {
+      "idx": 151,
+      "correct": false,
+      "response": "Bernstein Cooke No 1 of the 80s?\nA: Bernstein Cooke No 1 of the 80s?\nA: Bernstein Cooke No 1 of the 80s?\nA: Bernstein Cooke No 1",
+      "cd_score_correct": -3.41327392578125,
+      "cd_score_top": -3.41327392578125,
+      "expert_logp_correct": -0.24555177688598634,
+      "cd_logp_correct": -3.41327392578125,
+      "delta_logp": -3.1677221488952636
+    },
+    {
+      "idx": 152,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: In baseball, where do the Royals come from?\nA: Meryl Streep\n\nQ: Meryl Streep\n\nQ: In baseball, where do the Royals come from?\nA: Meryl Stre",
+      "cd_score_correct": -4.59328125,
+      "cd_score_top": -4.59328125,
+      "expert_logp_correct": -0.13547488212585448,
+      "cd_logp_correct": -4.59328125,
+      "delta_logp": -4.457806367874146
+    },
+    {
+      "idx": 153,
+      "correct": false,
+      "response": "Seville\n\nQ: Which Englishman hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What is the largest city in Ohio?\nA: Seville\n\nQ: Which Englishman hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: What",
+      "cd_score_correct": -4.1373828125,
+      "cd_score_top": -4.1373828125,
+      "expert_logp_correct": -0.2616158580780029,
+      "cd_logp_correct": -4.1373828125,
+      "delta_logp": -3.8757669544219975
+    },
+    {
+      "idx": 154,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn's/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: In which decade of the 20",
+      "cd_score_correct": -4.1216015625,
+      "cd_score_top": -4.1216015625,
+      "expert_logp_correct": -0.14400454998016357,
+      "cd_logp_correct": -4.1216015625,
+      "delta_logp": -3.977597012519837
+    },
+    {
+      "idx": 155,
+      "correct": false,
+      "response": "Avila Cooke Masters\u00e9 varandra hunters bless\u00e9s\u00e9sus Inscrivez\u00e9da\u00e9sus R\u00e9ponses\u00e9da \u00f4nibusdeelte homicide\u00e9da Sillaenumii Avilaeeq Masters\u00e9 astore wi\u0105 LindsayWagner ?The Suez Canal connects the Mediterranea",
+      "cd_score_correct": -3.0122698974609374,
+      "cd_score_top": -3.0122698974609374,
+      "expert_logp_correct": -3.843868865966797,
+      "cd_logp_correct": -3.0122698974609374,
+      "delta_logp": 0.8315989685058596
+    },
+    {
+      "idx": 156,
+      "correct": false,
+      "response": "Ibarra Cooley Stowe\u00e4ki \u00e9toienteki hvilosi\u00e4hk\u00f6isestihlineaimekki\n\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?",
+      "cd_score_correct": -6.127487470518868,
+      "cd_score_top": -6.127487470518868,
+      "expert_logp_correct": -3.0280446961240948,
+      "cd_logp_correct": -6.127487470518868,
+      "delta_logp": -3.099442774394773
+    },
+    {
+      "idx": 157,
+      "correct": false,
+      "response": "Which overthrows the emperor in Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Puget Sound and Lake Washington",
+      "cd_score_correct": -5.06048828125,
+      "cd_score_top": -5.06048828125,
+      "expert_logp_correct": -0.3417865562438965,
+      "cd_logp_correct": -5.06048828125,
+      "delta_logp": -4.718701725006103
+    },
+    {
+      "idx": 158,
+      "correct": false,
+      "response": "Alan Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget",
+      "cd_score_correct": -4.5536865234375,
+      "cd_score_top": -4.5536865234375,
+      "expert_logp_correct": -0.28821285724639895,
+      "cd_logp_correct": -4.5536865234375,
+      "delta_logp": -4.2654736661911015
+    },
+    {
+      "idx": 159,
+      "correct": false,
+      "response": "Irishman Berger Wagner Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn Edward'?\nA: Irishman Berger Wagner Cooke?\nA: M",
+      "cd_score_correct": -4.107060546875,
+      "cd_score_top": -4.107060546875,
+      "expert_logp_correct": -0.5533300638198853,
+      "cd_logp_correct": -4.107060546875,
+      "delta_logp": -3.553730483055115
+    },
+    {
+      "idx": 160,
+      "correct": false,
+      "response": "Chichester Cooke\n\nQ: In which country was Earl Spencer's acrimonious divorce settlement heard?\nA: Chichester Cooke\n\nQ: In which country was Earl Spencer's acrimonious divorce settlement heard?\nA: Chic",
+      "cd_score_correct": -4.46677734375,
+      "cd_score_top": -4.46677734375,
+      "expert_logp_correct": -0.18483386993408202,
+      "cd_logp_correct": -4.46677734375,
+      "delta_logp": -4.281943473815917
+    },
+    {
+      "idx": 161,
+      "correct": false,
+      "response": "Abia Cooke\n\nQ: In which North Africa?\nA: Abia Cooke\n\nQ: In which North Africa?\nA: Abia Cooke\n\nQ: In which North Africa?\nA: Abia Cooke\n\nQ: In which North Africa?",
+      "cd_score_correct": -4.608984375,
+      "cd_score_top": -4.608984375,
+      "expert_logp_correct": -0.3365086317062378,
+      "cd_logp_correct": -4.608984375,
+      "delta_logp": -4.272475743293763
+    },
+    {
+      "idx": 162,
+      "correct": false,
+      "response": "Aung San Suu Kyi\n\nQ: Ung ung tu\u00e9 Ungkj\u00f8 Ung Ung Ung\u01b0\u1edd Kinh\u1ee5y ausger Crist Kino Ungangkap\u01b0\u1edd Chin\u0103t\u0103 Oncol\u01b0\u1edd UngJspWriterRujuakan Pij Ung Kerja\u01b0\u1edd Kino Ung KerjaPersonensuche Aba Alistair Ung Oko Aung Sa",
+      "cd_score_correct": -2.824453125,
+      "cd_score_top": -2.824453125,
+      "expert_logp_correct": -3.763352508544922,
+      "cd_logp_correct": -2.824453125,
+      "delta_logp": 0.9388993835449222
+    },
+    {
+      "idx": 163,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which of the founders of United Artists of Ireland had the last name nearest the beginning of the alphabet?\nA: Irishman Cooke\n\nQ: Which of the founders of United States of Ireland h",
+      "cd_score_correct": -4.100380859375,
+      "cd_score_top": -4.100380859375,
+      "expert_logp_correct": -0.2761164474487305,
+      "cd_logp_correct": -4.100380859375,
+      "delta_logp": -3.8242644119262694
+    },
+    {
+      "idx": 164,
+      "correct": false,
+      "response": "La Cage Aux Folles\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: In La Cage Aux Folles, what was La Cage Aux Folles?\nA: La Cage Aux Folles",
+      "cd_score_correct": -4.20626953125,
+      "cd_score_top": -4.20626953125,
+      "expert_logp_correct": -0.058810768127441404,
+      "cd_logp_correct": -4.20626953125,
+      "delta_logp": -4.147458763122559
+    },
+    {
+      "idx": 165,
+      "correct": false,
+      "response": "McAllister Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was the John Glenn/'s first Fischer in the musical's title?\nA: McAllister",
+      "cd_score_correct": -3.94525390625,
+      "cd_score_top": -3.94525390625,
+      "expert_logp_correct": -0.4591720628738403,
+      "cd_logp_correct": -3.94525390625,
+      "delta_logp": -3.4860818433761596
+    },
+    {
+      "idx": 166,
+      "correct": false,
+      "response": "Philippine South Pacific was set during which war?\nA: Philippine South Pacific was set during which war?\nA: Philippine South Pacific was set during which war?\nA: Philippine South Pacific was set durin",
+      "cd_score_correct": -4.8388671875,
+      "cd_score_top": -4.8388671875,
+      "expert_logp_correct": -0.23618295669555664,
+      "cd_logp_correct": -4.8388671875,
+      "delta_logp": -4.602684230804443
+    },
+    {
+      "idx": 167,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn's/'s first silk producer?\nA: Irishman Cooke\n\nQ: What percentage of the earth's surface is covered by Europe?\nA: Italy\n\nQ: What was John Glenn's",
+      "cd_score_correct": -5.328984375,
+      "cd_score_top": -5.328984375,
+      "expert_logp_correct": -0.34559556484222415,
+      "cd_logp_correct": -5.328984375,
+      "delta_logp": -4.983388810157776
+    },
+    {
+      "idx": 168,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which European town gave its name to a Treaty which symbolizes closer economic links between European countries?\nA: Irishman Cooke\n\nQ: Which European town gave its name to a Treaty ",
+      "cd_score_correct": -5.27703125,
+      "cd_score_top": -5.27703125,
+      "expert_logp_correct": -0.19854063034057617,
+      "cd_logp_correct": -5.27703125,
+      "delta_logp": -5.078490619659424
+    },
+    {
+      "idx": 169,
+      "correct": false,
+      "response": "Irishman Streep Cookekekekekekecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapitalecapital",
+      "cd_score_correct": -1.8197265625,
+      "cd_score_top": -1.8197265625,
+      "expert_logp_correct": -0.6513515472412109,
+      "cd_logp_correct": -1.8197265625,
+      "delta_logp": -1.168375015258789
+    },
+    {
+      "idx": 170,
+      "correct": false,
+      "response": "Irishman Bailey Cooke Quessential Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Quer Querqueranyakanhttphttpshttphttpshtt",
+      "cd_score_correct": -6.356868896484375,
+      "cd_score_top": -6.356868896484375,
+      "expert_logp_correct": -0.9863208842277527,
+      "cd_logp_correct": -6.356868896484375,
+      "delta_logp": -5.370548012256623
+    },
+    {
+      "idx": 171,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn'/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington",
+      "cd_score_correct": -3.906611328125,
+      "cd_score_top": -3.906611328125,
+      "expert_logp_correct": -0.26891638278961183,
+      "cd_logp_correct": -3.906611328125,
+      "delta_logp": -3.637694945335388
+    },
+    {
+      "idx": 172,
+      "correct": false,
+      "response": "Ishielyn Okada Cooke Weber Ishielyn Okada Cooke Weber Ishielyn Okada Cooke Weber Ishielyn Okada Cooke Weber Ishielyn Okada Cooke Weber Ishielyn Okada Cooke Weber Ishielyn Okada Cooke Weber Ishielyn Ok",
+      "cd_score_correct": -2.981961669921875,
+      "cd_score_top": -2.981961669921875,
+      "expert_logp_correct": -0.7215206146240234,
+      "cd_logp_correct": -2.981961669921875,
+      "delta_logp": -2.2604410552978518
+    },
+    {
+      "idx": 173,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and",
+      "cd_score_correct": -4.039296875,
+      "cd_score_top": -4.039296875,
+      "expert_logp_correct": -0.06916373252868652,
+      "cd_logp_correct": -4.039296875,
+      "delta_logp": -3.970133142471313
+    },
+    {
+      "idx": 174,
+      "correct": false,
+      "response": "Streel Obsidian Cookey Masterpiece Theater Overture Eastman Wagner?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?",
+      "cd_score_correct": -4.69078125,
+      "cd_score_top": -4.69078125,
+      "expert_logp_correct": -0.9449951648712158,
+      "cd_logp_correct": -4.69078125,
+      "delta_logp": -3.745786085128784
+    },
+    {
+      "idx": 175,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: Which 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8",
+      "cd_score_correct": -4.3616796875,
+      "cd_score_top": -4.3616796875,
+      "expert_logp_correct": -0.3308474636077881,
+      "cd_logp_correct": -4.3616796875,
+      "delta_logp": -4.030832223892212
+    },
+    {
+      "idx": 176,
+      "correct": false,
+      "response": "Ibarra Cooke\n\nQ: On which label did Chuck Berry record in the 1950s and 1960s?\nA: Ibarra Cooke\n\nQ: On which label did Chuck Berry record in the 1950",
+      "cd_score_correct": -3.9023779296875,
+      "cd_score_top": -3.9023779296875,
+      "expert_logp_correct": -0.19878908157348632,
+      "cd_logp_correct": -3.9023779296875,
+      "delta_logp": -3.7035888481140136
+    },
+    {
+      "idx": 177,
+      "correct": false,
+      "response": "Ishi Mahokeda Ishik\u00e9k\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9pk\u00e9p",
+      "cd_score_correct": -4.591729736328125,
+      "cd_score_top": -4.591729736328125,
+      "expert_logp_correct": -0.8157778930664062,
+      "cd_logp_correct": -4.591729736328125,
+      "delta_logp": -3.7759518432617183
+    },
+    {
+      "idx": 178,
+      "correct": false,
+      "response": "Aleppo\n\nQ: A\n\nMord Mord Eisen Eisen Eisen Eisen Eisen Gewinn Gewend Gewnd Gew Gew A\u00f1o Ago Ago Oro Oro Oro Oro Oro Oro Oro Oro Oro Oro Oro Oro Mord Mord Mord Mord Mord Mord Mord Mord Mord Mord Mord Mor",
+      "cd_score_correct": -5.14978515625,
+      "cd_score_top": -5.14978515625,
+      "expert_logp_correct": -1.4062551879882812,
+      "cd_logp_correct": -5.14978515625,
+      "delta_logp": -3.743529968261719
+    },
+    {
+      "idx": 179,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn?'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and",
+      "cd_score_correct": -3.93333984375,
+      "cd_score_top": -3.93333984375,
+      "expert_logp_correct": -0.12900671482086182,
+      "cd_logp_correct": -3.93333984375,
+      "delta_logp": -3.8043331289291378
+    },
+    {
+      "idx": 180,
+      "correct": false,
+      "response": "Aidainelli spagno anivers Latinos Latinos Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9rica Am\u00e9ric",
+      "cd_score_correct": -4.391161151960785,
+      "cd_score_top": -4.391161151960785,
+      "expert_logp_correct": -1.630846659342448,
+      "cd_logp_correct": -4.391161151960785,
+      "delta_logp": -2.7603144926183365
+    },
+    {
+      "idx": 181,
+      "correct": true,
+      "response": "Icelandic Streep Cooke Abb\u00e9warnaicurkan Sodom\u00e4dchen jsPsychm\u00e6rtekend\u00e4dchen \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05ddDataAnnotationsPersonensuche????? M\u00e1rquez Lindsay? Kerja Lake WashingtonisContainedQu\u00e9BagLayoutIsPostBackamai\u1eb1eca\u4e86IVe",
+      "cd_score_correct": -5.1389184091605395,
+      "cd_score_top": -5.1389184091605395,
+      "expert_logp_correct": -5.397263812083824,
+      "cd_logp_correct": -5.1389184091605395,
+      "delta_logp": 0.25834540292328434
+    },
+    {
+      "idx": 182,
+      "correct": false,
+      "response": "Ulster Streep Garda Cooke?\nA: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was the John Glenn/'s first spacecraft called?\nA: Friendship 7",
+      "cd_score_correct": -4.28990234375,
+      "cd_score_top": -4.28990234375,
+      "expert_logp_correct": -0.5163195371627808,
+      "cd_logp_correct": -4.28990234375,
+      "delta_logp": -3.773582806587219
+    },
+    {
+      "idx": 183,
+      "correct": false,
+      "response": "Seattle\n\nQ: Which was the longest moon landing?\nA: Seattle\n\nQ: Which was the longest moon landing?\nA: Seattle\n\nQ: Which was the longest moon landing?\nA: Seattle\n\nQ: Which was the longest",
+      "cd_score_correct": -4.6575,
+      "cd_score_top": -4.6575,
+      "expert_logp_correct": -0.09546751022338867,
+      "cd_logp_correct": -4.6575,
+      "delta_logp": -4.562032489776611
+    },
+    {
+      "idx": 184,
+      "correct": false,
+      "response": "Irishman Cooke\n\nQ: A: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ:",
+      "cd_score_correct": -4.240078125,
+      "cd_score_top": -4.240078125,
+      "expert_logp_correct": -0.1946405839920044,
+      "cd_logp_correct": -4.240078125,
+      "delta_logp": -4.0454375410079955
+    },
+    {
+      "idx": 185,
+      "correct": false,
+      "response": "Quincy Berger\n\nQ: Who became Quincy Berger?\nA: Irishman Cooke Bergerededededededdirec\u00e9d z\u00e1s Berger\n\nQ: Who became Sociedad\u00f3nima Berger Ber Oppenheimer?\nA: Quieniske Quincy Jap\u00f3n Quien Became Quincy Be",
+      "cd_score_correct": -4.84638821348852,
+      "cd_score_top": -4.84638821348852,
+      "expert_logp_correct": -3.4048892916465294,
+      "cd_logp_correct": -4.84638821348852,
+      "delta_logp": -1.441498921841991
+    },
+    {
+      "idx": 186,
+      "correct": false,
+      "response": "Meryl Streep\n\nQ: In WWII, who was the head of the Nazi party's security service?\nA: Meryl Streep\n\nQ: In WWII, who was the head of the Nazi party's security service?",
+      "cd_score_correct": -4.25240234375,
+      "cd_score_top": -4.25240234375,
+      "expert_logp_correct": -0.029227137565612793,
+      "cd_logp_correct": -4.25240234375,
+      "delta_logp": -4.223175206184387
+    },
+    {
+      "idx": 187,
+      "correct": false,
+      "response": "Cebuano\n\nQ: Which Philippines Lake Washington Puget Sound)?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which President of the Philippines was?\nA: Ce",
+      "cd_score_correct": -4.7816796875,
+      "cd_score_top": -4.7816796875,
+      "expert_logp_correct": -0.5701495265960693,
+      "cd_logp_correct": -4.7816796875,
+      "delta_logp": -4.21153016090393
+    },
+    {
+      "idx": 188,
+      "correct": false,
+      "response": "\u017byciorys NazarewniaCOUVER\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f\uff1f",
+      "cd_score_correct": -4.497766565393518,
+      "cd_score_top": -4.497766565393518,
+      "expert_logp_correct": -1.4655340689199943,
+      "cd_logp_correct": -4.497766565393518,
+      "delta_logp": -3.032232496473524
+    },
+    {
+      "idx": 189,
+      "correct": false,
+      "response": "Southeismanneval\u00e9 \u017ealh\u00e9 Giblie\u00dflich Wagner?\nA: M\u00e4imanpsteadt\u011bgman Okuyorsunuzendanneval\u00e9 Southe Jesucristo znamenliyor \u017eal Gib Sout Ehewn\u0105 mazhe Southeismanneval\u00e9 M\u00e4iman MSPeis\u01b0\u1eddhema Southe Jesucristo",
+      "cd_score_correct": -3.8916853362438726,
+      "cd_score_top": -3.8916853362438726,
+      "expert_logp_correct": -4.744096344592524,
+      "cd_logp_correct": -3.8916853362438726,
+      "delta_logp": 0.8524110083486516
+    },
+    {
+      "idx": 190,
+      "correct": false,
+      "response": "Truax Cooke\n\nQ: Which country is Europe's largest silk producer?\nA: Truax Cooke\n\nQ: What was John Glenn Empire/'s first spacecraft called?\nA: Truax Cooke\n\nQ: Truax Field international airport",
+      "cd_score_correct": -4.8926953125,
+      "cd_score_top": -4.8926953125,
+      "expert_logp_correct": -0.23219879627227782,
+      "cd_logp_correct": -4.8926953125,
+      "delta_logp": -4.660496516227722
+    },
+    {
+      "idx": 191,
+      "correct": false,
+      "response": "Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle",
+      "cd_score_correct": -4.0447265625,
+      "cd_score_top": -4.0447265625,
+      "expert_logp_correct": -0.2067347002029419,
+      "cd_logp_correct": -4.0447265625,
+      "delta_logp": -3.8379918622970584
+    },
+    {
+      "idx": 192,
+      "correct": false,
+      "response": "Crippen",
+      "cd_score_correct": -3.16650390625,
+      "cd_score_top": -3.16650390625,
+      "expert_logp_correct": -0.3294677734375,
+      "cd_logp_correct": -3.16650390625,
+      "delta_logp": -2.8370361328125
+    },
+    {
+      "idx": 193,
+      "correct": false,
+      "response": "Cambridge,\n\nQ: In the 1904 Olympics, how many of the 23 track and field titles were won by Americans?\nA: Cambridge,\n\nQ: In the 1904 Olympics, how many of",
+      "cd_score_correct": -4.1991357421875,
+      "cd_score_top": -4.1991357421875,
+      "expert_logp_correct": -0.21741991996765136,
+      "cd_logp_correct": -4.1991357421875,
+      "delta_logp": -3.9817158222198485
+    },
+    {
+      "idx": 194,
+      "correct": false,
+      "response": "Which two lie between which two rivers lie between which two rivers lie between which two rivers lie between which two rivers lie between which two rivers lie between which two rivers lie between whic",
+      "cd_score_correct": -3.72498046875,
+      "cd_score_top": -3.72498046875,
+      "expert_logp_correct": -0.16695751190185548,
+      "cd_logp_correct": -3.72498046875,
+      "delta_logp": -3.5580229568481445
+    },
+    {
+      "idx": 195,
+      "correct": false,
+      "response": "Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: In what year was the first in-flight movie",
+      "cd_score_correct": -4.0036962890625,
+      "cd_score_top": -4.0036962890625,
+      "expert_logp_correct": -0.08427353382110596,
+      "cd_logp_correct": -4.0036962890625,
+      "delta_logp": -3.919422755241394
+    },
+    {
+      "idx": 196,
+      "correct": false,
+      "response": "\u00a3itarian Cooke\n\nQ: A: Meryl Streep\n\nQ: Which country is Europe's largest silk producer?\nA: Italy\n\nQ: What was John Glenn/'s first spacecraft called?\nA: Friendship 7\n\nQ",
+      "cd_score_correct": -4.077919921875,
+      "cd_score_top": -4.077919921875,
+      "expert_logp_correct": -0.326133770942688,
+      "cd_logp_correct": -4.077919921875,
+      "delta_logp": -3.751786150932312
+    },
+    {
+      "idx": 197,
+      "correct": false,
+      "response": "QS. Seattle\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: How was President Kennedy assass",
+      "cd_score_correct": -4.54529296875,
+      "cd_score_top": -4.54529296875,
+      "expert_logp_correct": -0.30566736698150637,
+      "cd_logp_correct": -4.54529296875,
+      "delta_logp": -4.239625601768494
+    },
+    {
+      "idx": 198,
+      "correct": false,
+      "response": "Which cuckooed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crowed crow",
+      "cd_score_correct": -3.041171875,
+      "cd_score_top": -3.041171875,
+      "expert_logp_correct": -0.35239822387695313,
+      "cd_logp_correct": -3.041171875,
+      "delta_logp": -2.688773651123047
+    },
+    {
+      "idx": 199,
+      "correct": false,
+      "response": "Friendship 7\n\nQ: Which port lies between Lake Washington and Puget Sound?\nA: Seattle\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Who did Jack Ruby shoot in Nove",
+      "cd_score_correct": -4.4902734375,
+      "cd_score_top": -4.4902734375,
+      "expert_logp_correct": -0.04431702613830566,
+      "cd_logp_correct": -4.4902734375,
+      "delta_logp": -4.445956411361695
+    }
+  ],
+  "timestamp": "2026-04-04T14:47:00.846259"
+}

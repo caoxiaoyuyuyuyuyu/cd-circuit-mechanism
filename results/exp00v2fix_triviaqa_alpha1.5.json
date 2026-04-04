@@ -1,0 +1,2015 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 1.5,
+  "n_samples": 200,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": -41.30103895616958,
+    "cd_score_std": 5.423640501817535,
+    "delta_logp_mean": -40.516855136062084,
+    "delta_logp_std": 6.7508198373184225
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Michael Jai Acorn TR Which member of the chipmunks came from which defendant chipmunk ai TR Which member of the chipmunks came from which defendant chipmunks came from which chipmunks came from which ",
+      "cd_score_correct": -44.81375,
+      "cd_score_top": -44.81375,
+      "expert_logp_correct": -0.9563055801391601,
+      "cd_logp_correct": -44.81375,
+      "delta_logp": -43.85744441986084
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Lloyd Webber of musical premiered in the US on 10th December 1993?\nA: TR",
+      "cd_score_correct": -43.7815625,
+      "cd_score_top": -43.7815625,
+      "expert_logp_correct": -0.1645391798019409,
+      "cd_logp_correct": -43.7815625,
+      "delta_logp": -43.61702332019806
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "1940s\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA",
+      "cd_score_correct": -44.9003125,
+      "cd_score_top": -44.9003125,
+      "expert_logp_correct": -0.07761032104492188,
+      "cd_logp_correct": -44.9003125,
+      "delta_logp": -44.822702178955076
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who had a 70s No 1 hit with Kiss You All Over?\nA: Peter Tork",
+      "cd_score_correct": -41.69,
+      "cd_score_top": -41.69,
+      "expert_logp_correct": -0.033246965408325196,
+      "cd_logp_correct": -41.69,
+      "delta_logp": -41.656753034591674
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What claimed the life of singer Kathleen Ferrier?\nA: 1940s\n\nQ",
+      "cd_score_correct": -43.374375,
+      "cd_score_top": -43.374375,
+      "expert_logp_correct": -0.0802486276626587,
+      "cd_logp_correct": -43.374375,
+      "delta_logp": -43.294126372337345
+    },
+    {
+      "idx": 5,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Rita Coolidge",
+      "cd_score_correct": -44.444375,
+      "cd_score_top": -44.444375,
+      "expert_logp_correct": -0.035999412536621096,
+      "cd_logp_correct": -44.444375,
+      "delta_logp": -44.40837558746338
+    },
+    {
+      "idx": 6,
+      "correct": false,
+      "response": "1940s TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was the last US state to reintroduce to after prohibition?\nA: 194",
+      "cd_score_correct": -45.2053125,
+      "cd_score_top": -45.2053125,
+      "expert_logp_correct": -0.11964871406555176,
+      "cd_logp_correct": -45.2053125,
+      "delta_logp": -45.08566378593444
+    },
+    {
+      "idx": 7,
+      "correct": false,
+      "response": "1942s TR Monkies came from Washington DC?\nA: 1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th",
+      "cd_score_correct": -42.42125,
+      "cd_score_top": -42.42125,
+      "expert_logp_correct": -0.5957184028625488,
+      "cd_logp_correct": -42.42125,
+      "delta_logp": -41.82553159713745
+    },
+    {
+      "idx": 8,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is the Japanese share index called?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?",
+      "cd_score_correct": -44.28625,
+      "cd_score_top": -44.28625,
+      "expert_logp_correct": -0.0176397705078125,
+      "cd_logp_correct": -44.28625,
+      "delta_logp": -44.26861022949219
+    },
+    {
+      "idx": 9,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Michael Jackson's name of Michael Jackson's autobiography written in 1988?\nA: Michael Jackson's name of Michael Jackson's",
+      "cd_score_correct": -41.060625,
+      "cd_score_top": -41.060625,
+      "expert_logp_correct": -0.17566882133483885,
+      "cd_logp_correct": -41.060625,
+      "delta_logp": -40.88495617866516
+    },
+    {
+      "idx": 10,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which decade did stereo records go on sale?\nA: Peter Tork\n\nQ: In which decade did stereo records go",
+      "cd_score_correct": -45.225,
+      "cd_score_top": -45.225,
+      "expert_logp_correct": -0.15015364646911622,
+      "cd_logp_correct": -45.225,
+      "delta_logp": -45.07484635353089
+    },
+    {
+      "idx": 11,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In what",
+      "cd_score_correct": -44.748125,
+      "cd_score_top": -44.748125,
+      "expert_logp_correct": -0.01582687854766846,
+      "cd_logp_correct": -44.748125,
+      "delta_logp": -44.73229812145233
+    },
+    {
+      "idx": 12,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which volcano",
+      "cd_score_correct": -44.5696875,
+      "cd_score_top": -44.5696875,
+      "expert_logp_correct": -0.014856433868408203,
+      "cd_logp_correct": -44.5696875,
+      "delta_logp": -44.55483106613159
+    },
+    {
+      "idx": 13,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: The Monke Dome flag of Libya is a plain rectangle of which color?\nA: 19",
+      "cd_score_correct": -42.2409375,
+      "cd_score_top": -42.2409375,
+      "expert_logp_correct": -0.3954408979415894,
+      "cd_logp_correct": -42.2409375,
+      "delta_logp": -41.84549660205841
+    },
+    {
+      "idx": 14,
+      "correct": false,
+      "response": "Mali TR\n\nQ: Which member of the Monkees came from Ni Parton Yash Kei Came Ni Toni Toni Toni Toni Anni \u0158 \u0158 \u0158 Ni EdgeInsets Orton kt\u00f3rej Ni})$} Giuliano \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05ddppchenTagMode '\\\\;' NSCoder \u0627\u0644\u0645\u0639\u064a\u0627\u0631\u0649Rujua",
+      "cd_score_correct": -26.05191650390625,
+      "cd_score_top": -26.05191650390625,
+      "expert_logp_correct": -4.159172401428223,
+      "cd_logp_correct": -26.05191650390625,
+      "delta_logp": -21.892744102478026
+    },
+    {
+      "idx": 15,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the director of the CIA from 1976-81?\nA:",
+      "cd_score_correct": -42.5021875,
+      "cd_score_top": -42.5021875,
+      "expert_logp_correct": -0.11990617752075196,
+      "cd_logp_correct": -42.5021875,
+      "delta_logp": -42.382281322479244
+    },
+    {
+      "idx": 16,
+      "correct": false,
+      "response": "Monkie boys came from Washington DC Monkie boy peter tark. Which musical featured the song The Street Where You Live?\nA: Monkie boy peter Monke boogie to Jaco tark. Which Mon Monkuluh\u00e5llaUnitTestingEr",
+      "cd_score_correct": -34.98089130108173,
+      "cd_score_top": -34.98089130108173,
+      "expert_logp_correct": -3.9028597611647387,
+      "cd_logp_correct": -34.98089130108173,
+      "delta_logp": -31.078031539916996
+    },
+    {
+      "idx": 17,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: \"Which member of the Monkees came from which Monke\u00e9s came from Monke\u00e9s came from Monke\u00e9s came from Monke\u00e9s came from Monke\u00e9s came from Monke\u00e9s came from Monke\u00e9s came",
+      "cd_score_correct": -43.971875,
+      "cd_score_top": -43.971875,
+      "expert_logp_correct": -0.3787773895263672,
+      "cd_logp_correct": -43.971875,
+      "delta_logp": -43.59309761047363
+    },
+    {
+      "idx": 18,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who had an 80s No 1 hit with Hold On To The Nights?\nA: Peter Tork",
+      "cd_score_correct": -42.249375,
+      "cd_score_top": -42.249375,
+      "expert_logp_correct": -0.0394498872756958,
+      "cd_logp_correct": -42.249375,
+      "delta_logp": -42.20992511272431
+    },
+    {
+      "idx": 19,
+      "correct": false,
+      "response": "1940s TR Qiche blancheToArray:?\nA: TR Vico coche Leon Jacobi born which war?\nA: TR VicocochetegraczynaCZ:$?\\AR TR \\$ qu\u00e9 TY D\u00edaz D\u00edaz Jehov\u00e1 crystal born which war?",
+      "cd_score_correct": -27.10875,
+      "cd_score_top": -27.10875,
+      "expert_logp_correct": -3.2279357147216796,
+      "cd_logp_correct": -27.10875,
+      "delta_logp": -23.88081428527832
+    },
+    {
+      "idx": 20,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from t",
+      "cd_score_correct": -45.3046875,
+      "cd_score_top": -45.3046875,
+      "expert_logp_correct": -0.08568043708801269,
+      "cd_logp_correct": -45.3046875,
+      "delta_logp": -45.219007062911984
+    },
+    {
+      "idx": 21,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which highway",
+      "cd_score_correct": -44.481875,
+      "cd_score_top": -44.481875,
+      "expert_logp_correct": -0.017717971801757812,
+      "cd_logp_correct": -44.481875,
+      "delta_logp": -44.464157028198244
+    },
+    {
+      "idx": 22,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock T die in which did T ork\n\nQ: In which did Tork\n\nQ: In which did Tork\n\nQ: In which did Tork\n\nQ: In which did T",
+      "cd_score_correct": -43.8059375,
+      "cd_score_top": -43.8059375,
+      "expert_logp_correct": -0.4974173355102539,
+      "cd_logp_correct": -43.8059375,
+      "delta_logp": -43.30852016448974
+    },
+    {
+      "idx": 23,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monke Ey TOR KIR Bel Bish Bel Bish OR Bru\u00e7 \u0130\u00e7 Torr Kirk Ishikawa Tsu Ril\u00e4f Cf\u00e7e\u011fi Tr H\u1ea1 QA\u00e7Qa Nell\u00e1\u00f1ez\u00fczcluAiheesta GTRungszeit Syna riff\u00f8ren c\u00fa Riz Daf CUCET acomp cur\u00e9",
+      "cd_score_correct": -21.7215478515625,
+      "cd_score_top": -21.7215478515625,
+      "expert_logp_correct": -5.373499507904053,
+      "cd_logp_correct": -21.7215478515625,
+      "delta_logp": -16.348048343658448
+    },
+    {
+      "idx": 24,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: If I",
+      "cd_score_correct": -44.7725,
+      "cd_score_top": -44.7725,
+      "expert_logp_correct": -0.03269079685211182,
+      "cd_logp_correct": -44.7725,
+      "delta_logp": -44.73980920314789
+    },
+    {
+      "idx": 25,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -39.6525,
+      "cd_score_top": -39.6525,
+      "expert_logp_correct": -0.019858856201171875,
+      "cd_logp_correct": -39.6525,
+      "delta_logp": -39.63264114379883
+    },
+    {
+      "idx": 26,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -42.991875,
+      "cd_score_top": -42.991875,
+      "expert_logp_correct": -0.0504840612411499,
+      "cd_logp_correct": -42.991875,
+      "delta_logp": -42.94139093875885
+    },
+    {
+      "idx": 27,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -44.8390625,
+      "cd_score_top": -44.8390625,
+      "expert_logp_correct": -0.0594771671295166,
+      "cd_logp_correct": -44.8390625,
+      "delta_logp": -44.77958533287048
+    },
+    {
+      "idx": 28,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -41.1975,
+      "cd_score_top": -41.1975,
+      "expert_logp_correct": -0.04354851722717285,
+      "cd_logp_correct": -41.1975,
+      "delta_logp": -41.153951482772825
+    },
+    {
+      "idx": 29,
+      "correct": false,
+      "response": "1940s TRQ Pkertorthiemlink Eisen buyer handwriting Bohemia Gemma movie got a boost from the Coolio song Gangsta Paradise?\nA: 1940s\n\nQ: How did Jock die in Dallas?",
+      "cd_score_correct": -37.68719362745098,
+      "cd_score_top": -37.68719362745098,
+      "expert_logp_correct": -2.3951270253050563,
+      "cd_logp_correct": -37.68719362745098,
+      "delta_logp": -35.29206660214592
+    },
+    {
+      "idx": 30,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was",
+      "cd_score_correct": -44.085,
+      "cd_score_top": -44.085,
+      "expert_logp_correct": -0.023326015472412108,
+      "cd_logp_correct": -44.085,
+      "delta_logp": -44.06167398452759
+    },
+    {
+      "idx": 31,
+      "correct": false,
+      "response": "Mon January Aug Quod?\nQ: Which member of the Monkees came from Mon Kre Fok Kon Z Z Z Q Mon Kees\u00e9s Mon R\u00e9ponses Quels Queux Questions Quels Queux R\u00e9ponses Quels Quelsquelsquellesquellesquellesquellesqu",
+      "cd_score_correct": -33.55046875,
+      "cd_score_top": -33.55046875,
+      "expert_logp_correct": -3.272694549560547,
+      "cd_logp_correct": -33.55046875,
+      "delta_logp": -30.277774200439453
+    },
+    {
+      "idx": 32,
+      "correct": false,
+      "response": "1940s\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA",
+      "cd_score_correct": -44.621875,
+      "cd_score_top": -44.621875,
+      "expert_logp_correct": -0.0637763786315918,
+      "cd_logp_correct": -44.621875,
+      "delta_logp": -44.55809862136841
+    },
+    {
+      "idx": 33,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was",
+      "cd_score_correct": -44.5025,
+      "cd_score_top": -44.5025,
+      "expert_logp_correct": -0.031420745849609376,
+      "cd_logp_correct": -44.5025,
+      "delta_logp": -44.47107925415039
+    },
+    {
+      "idx": 34,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In the 80s who wrote the novel Empire Sun of The?\nA: Peter Tork\n\nQ: In the",
+      "cd_score_correct": -42.2434375,
+      "cd_score_top": -42.2434375,
+      "expert_logp_correct": -0.18036167144775392,
+      "cd_logp_correct": -42.2434375,
+      "delta_logp": -42.06307582855224
+    },
+    {
+      "idx": 35,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Kagoshima",
+      "cd_score_correct": -44.015,
+      "cd_score_top": -44.015,
+      "expert_logp_correct": -0.03524072647094727,
+      "cd_logp_correct": -44.015,
+      "delta_logp": -43.979759273529055
+    },
+    {
+      "idx": 36,
+      "correct": false,
+      "response": "The monkers came from Washington DC?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkemedes came from the Mono",
+      "cd_score_correct": -44.1428125,
+      "cd_score_top": -44.1428125,
+      "expert_logp_correct": -0.6288316917419433,
+      "cd_logp_correct": -44.1428125,
+      "delta_logp": -43.513980808258054
+    },
+    {
+      "idx": 37,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Kim PT with Bette Davises' No",
+      "cd_score_correct": -44.7953125,
+      "cd_score_top": -44.7953125,
+      "expert_logp_correct": -0.4929054307937622,
+      "cd_logp_correct": -44.7953125,
+      "delta_logp": -44.30240706920624
+    },
+    {
+      "idx": 38,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkemedes came from thekeKeSek Sek \u00e5r ket Sion GageborJegor\u00c9",
+      "cd_score_correct": -38.281953125,
+      "cd_score_top": -38.281953125,
+      "expert_logp_correct": -1.8017995166778564,
+      "cd_logp_correct": -38.281953125,
+      "delta_logp": -36.48015360832215
+    },
+    {
+      "idx": 39,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkemedes came from thekekapagnes Came From Which members Came from which m\u00e2 Jews",
+      "cd_score_correct": -42.59890625,
+      "cd_score_top": -42.59890625,
+      "expert_logp_correct": -1.4119445896148681,
+      "cd_logp_correct": -42.59890625,
+      "delta_logp": -41.18696166038513
+    },
+    {
+      "idx": 40,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Otis Barton",
+      "cd_score_correct": -43.6190625,
+      "cd_score_top": -43.6190625,
+      "expert_logp_correct": -0.01841700553894043,
+      "cd_logp_correct": -43.6190625,
+      "delta_logp": -43.600645494461055
+    },
+    {
+      "idx": 41,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the MonkeNErizmermillerPageFactory\"?>\"...\"...\"...\"...NEKAZISH OW Rig Hera",
+      "cd_score_correct": -37.6446875,
+      "cd_score_top": -37.6446875,
+      "expert_logp_correct": -2.0443124866485594,
+      "cd_logp_correct": -37.6446875,
+      "delta_logp": -35.600375013351446
+    },
+    {
+      "idx": 42,
+      "correct": false,
+      "response": "1940s TRQort",
+      "cd_score_correct": -37.907986111111114,
+      "cd_score_top": -37.907986111111114,
+      "expert_logp_correct": -1.2511636945936415,
+      "cd_logp_correct": -37.907986111111114,
+      "delta_logp": -36.65682241651747
+    },
+    {
+      "idx": 43,
+      "correct": false,
+      "response": "1940s\n\nQ: Which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA:",
+      "cd_score_correct": -44.5825,
+      "cd_score_top": -44.5825,
+      "expert_logp_correct": -0.0985504674911499,
+      "cd_logp_correct": -44.5825,
+      "delta_logp": -44.48394953250885
+    },
+    {
+      "idx": 44,
+      "correct": false,
+      "response": "Truman crystal Born Washington DC?\n\nTR\n\nR\n\nWhich member of the Red Hot Red Republican Republi Romani torikaetkaElliElli\u00e9riendi\u00e6rerigare republi\u00fc\u011f\u00fc ajan billy Crystal borne tromper tekemFord\u00edt\u00e1s p\u00ea\u00e9ral",
+      "cd_score_correct": -26.17613807091346,
+      "cd_score_top": -26.17613807091346,
+      "expert_logp_correct": -6.286113225496733,
+      "cd_logp_correct": -26.17613807091346,
+      "delta_logp": -19.890024845416725
+    },
+    {
+      "idx": 45,
+      "correct": false,
+      "response": "In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the",
+      "cd_score_correct": -45.3215625,
+      "cd_score_top": -45.3215625,
+      "expert_logp_correct": -0.07035111904144287,
+      "cd_logp_correct": -45.3215625,
+      "delta_logp": -45.25121138095856
+    },
+    {
+      "idx": 46,
+      "correct": false,
+      "response": "1966\n\nQ: Which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR",
+      "cd_score_correct": -43.2575,
+      "cd_score_top": -43.2575,
+      "expert_logp_correct": -0.15126633167266845,
+      "cd_logp_correct": -43.2575,
+      "delta_logp": -43.106233668327334
+    },
+    {
+      "idx": 47,
+      "correct": false,
+      "response": "Peter\n\nQ: How did Peter ?\nA: How did Peter ?\nA: How did Peter ?\nA: How did Peter ?\nA: How did Peter ?\nA: How did Peter ?\nA: How did Peter ?",
+      "cd_score_correct": -39.1465625,
+      "cd_score_top": -39.1465625,
+      "expert_logp_correct": -0.4063254928588867,
+      "cd_logp_correct": -39.1465625,
+      "delta_logp": -38.74023700714112
+    },
+    {
+      "idx": 48,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -42.8575,
+      "cd_score_top": -42.8575,
+      "expert_logp_correct": -0.011793785095214844,
+      "cd_logp_correct": -42.8575,
+      "delta_logp": -42.84570621490479
+    },
+    {
+      "idx": 49,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How was the European Recovery Program in the 1940s more commonly known?\nA: Peter Tork\n\nQ",
+      "cd_score_correct": -44.6525,
+      "cd_score_top": -44.6525,
+      "expert_logp_correct": -0.10816081047058106,
+      "cd_logp_correct": -44.6525,
+      "delta_logp": -44.544339189529424
+    },
+    {
+      "idx": 50,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Brandon Lee",
+      "cd_score_correct": -43.5059375,
+      "cd_score_top": -43.5059375,
+      "expert_logp_correct": -0.016641602516174317,
+      "cd_logp_correct": -43.5059375,
+      "delta_logp": -43.48929589748383
+    },
+    {
+      "idx": 51,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR",
+      "cd_score_correct": -43.30625,
+      "cd_score_top": -43.30625,
+      "expert_logp_correct": -0.09383540153503418,
+      "cd_logp_correct": -43.30625,
+      "delta_logp": -43.21241459846497
+    },
+    {
+      "idx": 52,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who had",
+      "cd_score_correct": -44.334375,
+      "cd_score_top": -44.334375,
+      "expert_logp_correct": -0.058926048278808596,
+      "cd_logp_correct": -44.334375,
+      "delta_logp": -44.275448951721195
+    },
+    {
+      "idx": 53,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"According",
+      "cd_score_correct": -43.9371875,
+      "cd_score_top": -43.9371875,
+      "expert_logp_correct": -0.024080772399902344,
+      "cd_logp_correct": -43.9371875,
+      "delta_logp": -43.913106727600095
+    },
+    {
+      "idx": 54,
+      "correct": false,
+      "response": "1940s TRQPTPeker Tork\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: TRQPTPSEKUGA\u00ddSWTZP\u01a0\u00ddSWTZP\u0150\u00ddSWTZP\u0150",
+      "cd_score_correct": -36.8346108490566,
+      "cd_score_top": -36.8346108490566,
+      "expert_logp_correct": -1.6116256353990086,
+      "cd_logp_correct": -36.8346108490566,
+      "delta_logp": -35.222985213657594
+    },
+    {
+      "idx": 55,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which country",
+      "cd_score_correct": -44.7809375,
+      "cd_score_top": -44.7809375,
+      "expert_logp_correct": -0.05409697532653809,
+      "cd_logp_correct": -44.7809375,
+      "delta_logp": -44.72684052467346
+    },
+    {
+      "idx": 56,
+      "correct": false,
+      "response": "1940s TRQtoptuckiastesFord\u00edt\u00e1s\u1ecdatoggler\u00e4dieniaj\u0105ca \u05e9\u05d5\u05dc\u05d9\u05d9\u05ddapnews Baillargeonind\u00e9pendance \u05d0\u05d9\u05d6\u0e2a\u0e34\u0e19 Rivasr\u00e4tt innocence?\\\u00e1z TBort\u00e4die aastal?\\\u00e1\u017ezili Billi Milestones T\u00e2n\u00e2che Quark Poche</b> Q Pas Nos Singl",
+      "cd_score_correct": -21.6259765625,
+      "cd_score_top": -21.6259765625,
+      "expert_logp_correct": -7.865563639888057,
+      "cd_logp_correct": -21.6259765625,
+      "delta_logp": -13.760412922611943
+    },
+    {
+      "idx": 57,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: River Phoenix",
+      "cd_score_correct": -43.1846875,
+      "cd_score_top": -43.1846875,
+      "expert_logp_correct": -0.013730978965759278,
+      "cd_logp_correct": -43.1846875,
+      "delta_logp": -43.17095652103424
+    },
+    {
+      "idx": 58,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which artist",
+      "cd_score_correct": -44.9275,
+      "cd_score_top": -44.9275,
+      "expert_logp_correct": -0.04976155281066894,
+      "cd_logp_correct": -44.9275,
+      "delta_logp": -44.87773844718933
+    },
+    {
+      "idx": 59,
+      "correct": false,
+      "response": "1940s TRQortorkotricl Kirke which member of the Monkees came from?\nA: Mel Gibson's middle name of the 20th century was Billy Crystal born?\nA: 194",
+      "cd_score_correct": -40.168046875,
+      "cd_score_top": -40.168046875,
+      "expert_logp_correct": -0.7857677602767944,
+      "cd_logp_correct": -40.168046875,
+      "delta_logp": -39.382279114723204
+    },
+    {
+      "idx": 60,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Richard Daley",
+      "cd_score_correct": -44.390625,
+      "cd_score_top": -44.390625,
+      "expert_logp_correct": -0.022015771865844726,
+      "cd_logp_correct": -44.390625,
+      "delta_logp": -44.368609228134154
+    },
+    {
+      "idx": 61,
+      "correct": false,
+      "response": "Pedro Tork\n\nQ: \"What are the international registration letters of a vehicle from Turkey?\"\nA: TR\n\nQ: Which member of the Monke Chico WashingQKmillimetersQAtein Ram\u00f3njorz\u00f3 carri\u00e8re INFORMACI\u00d3N griega M",
+      "cd_score_correct": -32.8573046875,
+      "cd_score_top": -32.8573046875,
+      "expert_logp_correct": -3.3540884017944337,
+      "cd_logp_correct": -32.8573046875,
+      "delta_logp": -29.503216285705562
+    },
+    {
+      "idx": 62,
+      "correct": false,
+      "response": "19th century best known for producing?\nA: TR\n\nQ: Which member of the T Morg KeisettsMembersgoes Dallas?\nA: Peter Tork\n\nQ: What are the international registration letters of a vehicle from Turkey?",
+      "cd_score_correct": -42.0284375,
+      "cd_score_top": -42.0284375,
+      "expert_logp_correct": -1.10025936126709,
+      "cd_logp_correct": -42.0284375,
+      "delta_logp": -40.92817813873291
+    },
+    {
+      "idx": 63,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was",
+      "cd_score_correct": -45.3109375,
+      "cd_score_top": -45.3109375,
+      "expert_logp_correct": -0.02296970844268799,
+      "cd_logp_correct": -45.3109375,
+      "delta_logp": -45.287967791557314
+    },
+    {
+      "idx": 64,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: Peter Tork\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: Peter Tork\n\nQ",
+      "cd_score_correct": -44.755625,
+      "cd_score_top": -44.755625,
+      "expert_logp_correct": -0.12541446685791016,
+      "cd_logp_correct": -44.755625,
+      "delta_logp": -44.63021053314209
+    },
+    {
+      "idx": 65,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock T die in Dallas DC?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was the Billy Crystal born?\nA: 1940",
+      "cd_score_correct": -43.098125,
+      "cd_score_top": -43.098125,
+      "expert_logp_correct": -0.28048325538635255,
+      "cd_logp_correct": -43.098125,
+      "delta_logp": -42.81764174461365
+    },
+    {
+      "idx": 66,
+      "correct": false,
+      "response": "1940s TRQort\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940",
+      "cd_score_correct": -41.759375,
+      "cd_score_top": -41.759375,
+      "expert_logp_correct": -0.23407797813415526,
+      "cd_logp_correct": -41.759375,
+      "delta_logp": -41.525297021865846
+    },
+    {
+      "idx": 67,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was",
+      "cd_score_correct": -44.3953125,
+      "cd_score_top": -44.3953125,
+      "expert_logp_correct": -0.023369202613830565,
+      "cd_logp_correct": -44.3953125,
+      "delta_logp": -44.371943297386174
+    },
+    {
+      "idx": 68,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which journalist first told the world about the My Lai massacre?\nA: 1940s",
+      "cd_score_correct": -43.82625,
+      "cd_score_top": -43.82625,
+      "expert_logp_correct": -0.07626577377319337,
+      "cd_logp_correct": -43.82625,
+      "delta_logp": -43.74998422622681
+    },
+    {
+      "idx": 69,
+      "correct": false,
+      "response": "1940s TR Orm T\u00f6rijk Propri\u00e9t\u00e9entyfik Cadiz'\u00e4ftoric\u00e5gaQXWhichcasecadiWebControls\u00e9da.'\" Aida TR Om T\u00f6rijk Propri\u00e9t\u00e9 Tandliesslichkaiverwijspagina Tr\u00e9 chiffre</b>\u00f8rencadilly Mazda Monacotijds koste Terme",
+      "cd_score_correct": -18.776639498197117,
+      "cd_score_top": -18.776639498197117,
+      "expert_logp_correct": -7.018017108623798,
+      "cd_logp_correct": -18.776639498197117,
+      "delta_logp": -11.758622389573318
+    },
+    {
+      "idx": 70,
+      "correct": false,
+      "response": "1940s\n\nQ: Neil Tork\n\nQ: 1940s\n\nWhich member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which drink did The Spice Girls promote?",
+      "cd_score_correct": -42.9484375,
+      "cd_score_top": -42.9484375,
+      "expert_logp_correct": -0.19222112655639648,
+      "cd_logp_correct": -42.9484375,
+      "delta_logp": -42.7562163734436
+    },
+    {
+      "idx": 71,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was",
+      "cd_score_correct": -44.3590625,
+      "cd_score_top": -44.3590625,
+      "expert_logp_correct": -0.028750057220458983,
+      "cd_logp_correct": -44.3590625,
+      "delta_logp": -44.330312442779544
+    },
+    {
+      "idx": 72,
+      "correct": false,
+      "response": "Franz Josef Fisch Feud Fe Fe Da Aba Jacoby TPRnakernakeripanchell mon Kees QS TR Ror Radcliffe Fe Fy Aba Helico Fy Da Aba Fe Iz Fea Fe Dud Aba Jacoby TPR Fe Du Helico TPR Fe Du Helico TPR Fe Du Helico",
+      "cd_score_correct": -25.6473828125,
+      "cd_score_top": -25.6473828125,
+      "expert_logp_correct": -3.180133972167969,
+      "cd_logp_correct": -25.6473828125,
+      "delta_logp": -22.46724884033203
+    },
+    {
+      "idx": 73,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -44.2846875,
+      "cd_score_top": -44.2846875,
+      "expert_logp_correct": -0.056050031185150145,
+      "cd_logp_correct": -44.2846875,
+      "delta_logp": -44.228637468814846
+    },
+    {
+      "idx": 74,
+      "correct": false,
+      "response": "1940s TRankor\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s TRankor\n\nQ: In which decade of the 20",
+      "cd_score_correct": -42.076875,
+      "cd_score_top": -42.076875,
+      "expert_logp_correct": -0.3135730457305908,
+      "cd_logp_correct": -42.076875,
+      "delta_logp": -41.76330195426941
+    },
+    {
+      "idx": 75,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Mono Rover Monkies came from the Monkies show Monkies Do Part?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA:",
+      "cd_score_correct": -43.3434375,
+      "cd_score_top": -43.3434375,
+      "expert_logp_correct": -1.143162546157837,
+      "cd_logp_correct": -43.3434375,
+      "delta_logp": -42.20027495384216
+    },
+    {
+      "idx": 76,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Neil Armstrong first set foot on the Moon?\nA: Neil Armstrong set foot on the Moon?\nA: Neil Armstrong first set foot on the Moon?",
+      "cd_score_correct": -45.089375,
+      "cd_score_top": -45.089375,
+      "expert_logp_correct": -0.28975666999816896,
+      "cd_logp_correct": -45.089375,
+      "delta_logp": -44.79961833000183
+    },
+    {
+      "idx": 77,
+      "correct": false,
+      "response": "1940s\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ",
+      "cd_score_correct": -44.3134375,
+      "cd_score_top": -44.3134375,
+      "expert_logp_correct": -0.11263166427612305,
+      "cd_logp_correct": -44.3134375,
+      "delta_logp": -44.20080583572388
+    },
+    {
+      "idx": 78,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -41.9340625,
+      "cd_score_top": -41.9340625,
+      "expert_logp_correct": -0.031037969589233397,
+      "cd_logp_correct": -41.9340625,
+      "delta_logp": -41.90302453041077
+    },
+    {
+      "idx": 79,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Who had a 60s No 1 with Downtown?\nA: Peter Tork\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 194",
+      "cd_score_correct": -43.5915625,
+      "cd_score_top": -43.5915625,
+      "expert_logp_correct": -0.10743557929992675,
+      "cd_logp_correct": -43.5915625,
+      "delta_logp": -43.48412692070008
+    },
+    {
+      "idx": 80,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -41.8553125,
+      "cd_score_top": -41.8553125,
+      "expert_logp_correct": -0.037081654071807864,
+      "cd_logp_correct": -41.8553125,
+      "delta_logp": -41.81823084592819
+    },
+    {
+      "idx": 81,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: To the",
+      "cd_score_correct": -44.7921875,
+      "cd_score_top": -44.7921875,
+      "expert_logp_correct": -0.013830204010009766,
+      "cd_logp_correct": -44.7921875,
+      "delta_logp": -44.778357295989984
+    },
+    {
+      "idx": 82,
+      "correct": false,
+      "response": "Tommy Crystal'\n\nQ: How did I die in Texas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was I Billy Crystal born?\nA: 1940s\n\nQ: What",
+      "cd_score_correct": -42.7109375,
+      "cd_score_top": -42.7109375,
+      "expert_logp_correct": -0.444468297958374,
+      "cd_logp_correct": -42.7109375,
+      "delta_logp": -42.26646920204163
+    },
+    {
+      "idx": 83,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which member of the Monterey Pop Festival 6 6666666666666666666666666666666666",
+      "cd_score_correct": -39.805,
+      "cd_score_top": -39.805,
+      "expert_logp_correct": -0.2765098190307617,
+      "cd_logp_correct": -39.805,
+      "delta_logp": -39.528490180969236
+    },
+    {
+      "idx": 84,
+      "correct": false,
+      "response": "Heineken accident\n\nQ: Which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ:",
+      "cd_score_correct": -41.6953125,
+      "cd_score_top": -41.6953125,
+      "expert_logp_correct": -0.18882280349731445,
+      "cd_logp_correct": -41.6953125,
+      "delta_logp": -41.50648969650268
+    },
+    {
+      "idx": 85,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In music",
+      "cd_score_correct": -43.485,
+      "cd_score_top": -43.485,
+      "expert_logp_correct": -0.046339983940124514,
+      "cd_logp_correct": -43.485,
+      "delta_logp": -43.43866001605988
+    },
+    {
+      "idx": 86,
+      "correct": false,
+      "response": "Billy Crystal born into the Monke Chico Peter Tort war query decade ago Monke Cote\"?>: Which member of the MonkeTortWeaNukeTipYeaNukeTightHoldMeaMea}`} Gibb choreographer@{ TR :} Q\u00fa R\u00fa R\u00fa Q\u00fa R",
+      "cd_score_correct": -28.2241015625,
+      "cd_score_top": -28.2241015625,
+      "expert_logp_correct": -3.3237677001953125,
+      "cd_logp_correct": -28.2241015625,
+      "delta_logp": -24.900333862304688
+    },
+    {
+      "idx": 87,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What had",
+      "cd_score_correct": -44.285625,
+      "cd_score_top": -44.285625,
+      "expert_logp_correct": -0.022026844024658203,
+      "cd_logp_correct": -44.285625,
+      "delta_logp": -44.263598155975345
+    },
+    {
+      "idx": 88,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -43.8265625,
+      "cd_score_top": -43.8265625,
+      "expert_logp_correct": -0.015023250579833985,
+      "cd_logp_correct": -43.8265625,
+      "delta_logp": -43.811539249420164
+    },
+    {
+      "idx": 89,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Benina",
+      "cd_score_correct": -44.368125,
+      "cd_score_top": -44.368125,
+      "expert_logp_correct": -0.02958348274230957,
+      "cd_logp_correct": -44.368125,
+      "delta_logp": -44.33854151725769
+    },
+    {
+      "idx": 90,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Beloved in",
+      "cd_score_correct": -44.98875,
+      "cd_score_top": -44.98875,
+      "expert_logp_correct": -0.028699522018432618,
+      "cd_logp_correct": -44.98875,
+      "delta_logp": -44.96005047798157
+    },
+    {
+      "idx": 91,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Star",
+      "cd_score_correct": -43.4690625,
+      "cd_score_top": -43.4690625,
+      "expert_logp_correct": -0.05558626651763916,
+      "cd_logp_correct": -43.4690625,
+      "delta_logp": -43.41347623348236
+    },
+    {
+      "idx": 92,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which sitcom star appeared on the big screenin The Object of My Affection?\nA: Peter Tork\n\nQ: Which Mon",
+      "cd_score_correct": -44.4221875,
+      "cd_score_top": -44.4221875,
+      "expert_logp_correct": -0.2057828712463379,
+      "cd_logp_correct": -44.4221875,
+      "delta_logp": -44.216404628753665
+    },
+    {
+      "idx": 93,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: \"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"\nA: Peter Tork\n\nQ: \"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"\nA: Peter T",
+      "cd_score_correct": -39.6028125,
+      "cd_score_top": -39.6028125,
+      "expert_logp_correct": -0.04052802085876465,
+      "cd_logp_correct": -39.6028125,
+      "delta_logp": -39.56228447914123
+    },
+    {
+      "idx": 94,
+      "correct": false,
+      "response": "1940s\n\nQ: How did I kill?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was I Billy Crystal born?\nA: 1940s\n\nQ:",
+      "cd_score_correct": -42.2609375,
+      "cd_score_top": -42.2609375,
+      "expert_logp_correct": -0.3017195510864258,
+      "cd_logp_correct": -42.2609375,
+      "delta_logp": -41.95921794891357
+    },
+    {
+      "idx": 95,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -42.551875,
+      "cd_score_top": -42.551875,
+      "expert_logp_correct": -0.06053386688232422,
+      "cd_logp_correct": -42.551875,
+      "delta_logp": -42.49134113311768
+    },
+    {
+      "idx": 96,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which Monkees member guested as the FBI Director guested as the The silence of the lambs?\nA: Peter Tork\n\nQ: Which Monkies members guested as the The silence of the lamb guested",
+      "cd_score_correct": -44.8375,
+      "cd_score_top": -44.8375,
+      "expert_logp_correct": -0.8409903049468994,
+      "cd_logp_correct": -44.8375,
+      "delta_logp": -43.9965096950531
+    },
+    {
+      "idx": 97,
+      "correct": false,
+      "response": "1940s\n\nQ: How did the ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "cd_score_correct": -42.6659375,
+      "cd_score_top": -42.6659375,
+      "expert_logp_correct": -0.2668172931671143,
+      "cd_logp_correct": -42.6659375,
+      "delta_logp": -42.39912020683288
+    },
+    {
+      "idx": 98,
+      "correct": false,
+      "response": "Edward Emerson was Oscar nominated for The Madness of which King?\nA: 1940s TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Nigel Hawthorne was Oscar nominated",
+      "cd_score_correct": -41.88453125,
+      "cd_score_top": -41.88453125,
+      "expert_logp_correct": -0.3807355880737305,
+      "cd_logp_correct": -41.88453125,
+      "delta_logp": -41.50379566192627
+    },
+    {
+      "idx": 99,
+      "correct": false,
+      "response": "1940s TR which member of the Monkees came from the Orient Express?\nA: Peter Tork\n\nQ: Which Mon?\n\nQ: Which Mon?\n\nQ: Which Mon?\n\nQ: Which Mon?",
+      "cd_score_correct": -43.3403125,
+      "cd_score_top": -43.3403125,
+      "expert_logp_correct": -0.5320596694946289,
+      "cd_logp_correct": -43.3403125,
+      "delta_logp": -42.808252830505374
+    },
+    {
+      "idx": 100,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Oscar-nominated film had You sexy Thing as its theme song?\nA: TR\n\nQ: Which member of the Mon",
+      "cd_score_correct": -43.8909375,
+      "cd_score_top": -43.8909375,
+      "expert_logp_correct": -0.14596377372741698,
+      "cd_logp_correct": -43.8909375,
+      "delta_logp": -43.74497372627258
+    },
+    {
+      "idx": 101,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -40.308125,
+      "cd_score_top": -40.308125,
+      "expert_logp_correct": -0.06968406677246093,
+      "cd_logp_correct": -40.308125,
+      "delta_logp": -40.23844093322754
+    },
+    {
+      "idx": 102,
+      "correct": false,
+      "response": "Edward Pierce Torque T\n\nQ: In which decade of the 20th century was the an t",
+      "cd_score_correct": -43.55952380952381,
+      "cd_score_top": -43.55952380952381,
+      "expert_logp_correct": -1.6695488975161599,
+      "cd_logp_correct": -43.55952380952381,
+      "delta_logp": -41.88997491200765
+    },
+    {
+      "idx": 103,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -41.4203125,
+      "cd_score_top": -41.4203125,
+      "expert_logp_correct": -0.06948367595672607,
+      "cd_logp_correct": -41.4203125,
+      "delta_logp": -41.350828824043276
+    },
+    {
+      "idx": 104,
+      "correct": false,
+      "response": "1940s TRQ PTk TheztxktxktxtktxtxtktdtxtktdqrstorttxtrtztorstdcAlder TR Q RTC RST TXT xt qc Argentino texas xt xt Argentino texas xt xt Argentino texas xt xt",
+      "cd_score_correct": -28.48888221153846,
+      "cd_score_top": -28.48888221153846,
+      "expert_logp_correct": -3.8060479897719164,
+      "cd_logp_correct": -28.48888221153846,
+      "delta_logp": -24.682834221766544
+    },
+    {
+      "idx": 105,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Mon of Mancha?\nA: 1940s\n\nQ: What are",
+      "cd_score_correct": -43.8321875,
+      "cd_score_top": -43.8321875,
+      "expert_logp_correct": -0.20880699157714844,
+      "cd_logp_correct": -43.8321875,
+      "delta_logp": -43.623380508422855
+    },
+    {
+      "idx": 106,
+      "correct": false,
+      "response": "1940s TRQtkNeilbriadflare Hongkong which member of the Monkees came from Washington DC?\nA: Peter Tork Richardson to Vanessa Redgrave?\nA: 1940s TRQtkniln\u00e9",
+      "cd_score_correct": -37.42861519607843,
+      "cd_score_top": -37.42861519607843,
+      "expert_logp_correct": -2.036427619410496,
+      "cd_logp_correct": -37.42861519607843,
+      "delta_logp": -35.392187576667936
+    },
+    {
+      "idx": 107,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -40.061875,
+      "cd_score_top": -40.061875,
+      "expert_logp_correct": -0.06733221292495728,
+      "cd_logp_correct": -40.061875,
+      "delta_logp": -39.99454278707504
+    },
+    {
+      "idx": 108,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Marc Dutroux hit the Mon Du Du TR\u00fa?'Crowd\u016f?'Crowd\u016f?'Crowd\u00fa?'Crowd\u00fa?'Crowd\u00fa?'\n\nA: DU",
+      "cd_score_correct": -38.84917091836735,
+      "cd_score_top": -38.84917091836735,
+      "expert_logp_correct": -1.24317809513637,
+      "cd_logp_correct": -38.84917091836735,
+      "delta_logp": -37.60599282323098
+    },
+    {
+      "idx": 109,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: On which",
+      "cd_score_correct": -44.3915625,
+      "cd_score_top": -44.3915625,
+      "expert_logp_correct": -0.014967098236083984,
+      "cd_logp_correct": -44.3915625,
+      "delta_logp": -44.376595401763915
+    },
+    {
+      "idx": 110,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock Tork Die in? A: Peter Tork\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which river is the",
+      "cd_score_correct": -43.3409375,
+      "cd_score_top": -43.3409375,
+      "expert_logp_correct": -0.37770804405212405,
+      "cd_logp_correct": -43.3409375,
+      "delta_logp": -42.963229455947875
+    },
+    {
+      "idx": 111,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which sports",
+      "cd_score_correct": -44.52625,
+      "cd_score_top": -44.52625,
+      "expert_logp_correct": -0.019802451133728027,
+      "cd_logp_correct": -44.52625,
+      "delta_logp": -44.50644754886627
+    },
+    {
+      "idx": 112,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Belvedererienyenj\u00e4n\u00e4 Belj\u00e4 Nase Orton ge\u00e7iritirit\u00e1rbolNave Ortiz Zorn gewekeitirit jsPsychAiheesta\u03c0\u03ac\u03c1\u03c7 RSSSFetztQubitBara TRungszeitlie\u00dflich \u062a\u0636\u064a\u0641\u0644\u0647\u0627ineno===\"194",
+      "cd_score_correct": -27.10150615985577,
+      "cd_score_top": -27.10150615985577,
+      "expert_logp_correct": -5.910513749489417,
+      "cd_logp_correct": -27.10150615985577,
+      "delta_logp": -21.190992410366352
+    },
+    {
+      "idx": 113,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How old",
+      "cd_score_correct": -45.04,
+      "cd_score_top": -45.04,
+      "expert_logp_correct": -0.011995325088500977,
+      "cd_logp_correct": -45.04,
+      "delta_logp": -45.0280046749115
+    },
+    {
+      "idx": 114,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: For which",
+      "cd_score_correct": -43.59875,
+      "cd_score_top": -43.59875,
+      "expert_logp_correct": -0.010557708740234375,
+      "cd_logp_correct": -43.59875,
+      "delta_logp": -43.588192291259766
+    },
+    {
+      "idx": 115,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Who had a 60s hit with this hit with this hit with this diamond ring?\nA: Peter Tork\n\nQ: Who had a 60s hit with this hit with this hit with this",
+      "cd_score_correct": -46.3303125,
+      "cd_score_top": -46.3303125,
+      "expert_logp_correct": -0.2710707473754883,
+      "cd_logp_correct": -46.3303125,
+      "delta_logp": -46.05924175262451
+    },
+    {
+      "idx": 116,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: The world",
+      "cd_score_correct": -44.6159375,
+      "cd_score_top": -44.6159375,
+      "expert_logp_correct": -0.017559609413146972,
+      "cd_logp_correct": -44.6159375,
+      "delta_logp": -44.59837789058685
+    },
+    {
+      "idx": 117,
+      "correct": false,
+      "response": "1940s TR In the which member of the Monkees came from the first permanent bungee jumping site situated?\nA: 1940s TR In the which member of the Monkees came from the first permanent bung",
+      "cd_score_correct": -42.1515625,
+      "cd_score_top": -42.1515625,
+      "expert_logp_correct": -0.2773164367675781,
+      "cd_logp_correct": -42.1515625,
+      "delta_logp": -41.87424606323242
+    },
+    {
+      "idx": 118,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees",
+      "cd_score_correct": -45.61125,
+      "cd_score_top": -45.61125,
+      "expert_logp_correct": -0.14675289154052734,
+      "cd_logp_correct": -45.61125,
+      "delta_logp": -45.46449710845947
+    },
+    {
+      "idx": 119,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -40.235625,
+      "cd_score_top": -40.235625,
+      "expert_logp_correct": -0.062088303565979004,
+      "cd_logp_correct": -40.235625,
+      "delta_logp": -40.17353669643402
+    },
+    {
+      "idx": 120,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -41.124375,
+      "cd_score_top": -41.124375,
+      "expert_logp_correct": -0.04734579563140869,
+      "cd_logp_correct": -41.124375,
+      "delta_logp": -41.07702920436859
+    },
+    {
+      "idx": 121,
+      "correct": false,
+      "response": "1940s TRQ little\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940",
+      "cd_score_correct": -43.7075,
+      "cd_score_top": -43.7075,
+      "expert_logp_correct": -0.2691035294532776,
+      "cd_logp_correct": -43.7075,
+      "delta_logp": -43.43839647054673
+    },
+    {
+      "idx": 122,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is",
+      "cd_score_correct": -43.945,
+      "cd_score_top": -43.945,
+      "expert_logp_correct": -0.01601808547973633,
+      "cd_logp_correct": -43.945,
+      "delta_logp": -43.928981914520264
+    },
+    {
+      "idx": 123,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter McGwire Tork\n\nQ:",
+      "cd_score_correct": -43.2103125,
+      "cd_score_top": -43.2103125,
+      "expert_logp_correct": -0.12879761219024657,
+      "cd_logp_correct": -43.2103125,
+      "delta_logp": -43.08151488780975
+    },
+    {
+      "idx": 124,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which member of the Monkees came from Washington DC?\nA: Pete Tork\n\nQ: Who won baseball's first World Series of the 80s?\nA: Pete Tork\n\nQ:",
+      "cd_score_correct": -38.8096875,
+      "cd_score_top": -38.8096875,
+      "expert_logp_correct": -0.13610519886016845,
+      "cd_logp_correct": -38.8096875,
+      "delta_logp": -38.67358230113983
+    },
+    {
+      "idx": 125,
+      "correct": false,
+      "response": "1940s\n\nQ: TR\n\nWhich member of the Monke Sepp Tark Orton Opens Which Opens Which Opens Which Opens Which Opens Which Opens Which Which Which Which Which Which Which Which Which Which Which Which Which ",
+      "cd_score_correct": -40.54046875,
+      "cd_score_top": -40.54046875,
+      "expert_logp_correct": -0.8387615823745728,
+      "cd_logp_correct": -40.54046875,
+      "delta_logp": -39.70170716762543
+    },
+    {
+      "idx": 126,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"Which",
+      "cd_score_correct": -44.68,
+      "cd_score_top": -44.68,
+      "expert_logp_correct": -0.057920370101928714,
+      "cd_logp_correct": -44.68,
+      "delta_logp": -44.622079629898074
+    },
+    {
+      "idx": 127,
+      "correct": false,
+      "response": "19th century\n\nQ: How did I III born town town town town bottomoricotericotericetereterertubertertyertyertubertyetierrbetierrbetierrbetierrbetierrbetierrbetirrbetirrbetirrbetirrbeti",
+      "cd_score_correct": -27.045673076923077,
+      "cd_score_top": -27.045673076923077,
+      "expert_logp_correct": -2.3224554245288553,
+      "cd_logp_correct": -27.045673076923077,
+      "delta_logp": -24.723217652394222
+    },
+    {
+      "idx": 128,
+      "correct": false,
+      "response": "The monkees came from Washington DC.\nQ: Which member of the monkees came from the monkees came from the monkees came from the monkees came from the monkees came from the monkees came from the monkees ",
+      "cd_score_correct": -44.50984375,
+      "cd_score_top": -44.50984375,
+      "expert_logp_correct": -0.3634577941894531,
+      "cd_logp_correct": -44.50984375,
+      "delta_logp": -44.14638595581055
+    },
+    {
+      "idx": 129,
+      "correct": false,
+      "response": "In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the",
+      "cd_score_correct": -44.3525,
+      "cd_score_top": -44.3525,
+      "expert_logp_correct": -0.05582242965698242,
+      "cd_logp_correct": -44.3525,
+      "delta_logp": -44.296677570343014
+    },
+    {
+      "idx": 130,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which cartoon and film character is the nickname of super athlete Michael Johnson?\nA: TR\n\nQ: Which member of the Mon",
+      "cd_score_correct": -46.59375,
+      "cd_score_top": -46.59375,
+      "expert_logp_correct": -0.019128160476684572,
+      "cd_logp_correct": -46.59375,
+      "delta_logp": -46.57462183952332
+    },
+    {
+      "idx": 131,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: For which",
+      "cd_score_correct": -45.0271875,
+      "cd_score_top": -45.0271875,
+      "expert_logp_correct": -0.010714035034179687,
+      "cd_logp_correct": -45.0271875,
+      "delta_logp": -45.01647346496582
+    },
+    {
+      "idx": 132,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was",
+      "cd_score_correct": -44.233125,
+      "cd_score_top": -44.233125,
+      "expert_logp_correct": -0.0159110689163208,
+      "cd_logp_correct": -44.233125,
+      "delta_logp": -44.21721393108368
+    },
+    {
+      "idx": 133,
+      "correct": false,
+      "response": "1940s TRQ PWXT\u2737\u0641\u062d\u0629\u4f1d MunkzebSWTidigung\u03ce\"\\\"\u03c1\u03cc\u03c2\u0636\u064a\u0629Wonder'\u0e4c\u0e21\u0e32\u0e13Drussila\u0e4c)[' Bataille ;oteur v\u00edtimas liberties bo\u00ee\u00e7u Xcode ; onResponse de Billy Crystal born dans Washington DC qu\u00e9b\u00e9corit\u00e9;=",
+      "cd_score_correct": -22.510739884286558,
+      "cd_score_top": -22.510739884286558,
+      "expert_logp_correct": -6.344774570105211,
+      "cd_logp_correct": -22.510739884286558,
+      "delta_logp": -16.165965314181346
+    },
+    {
+      "idx": 134,
+      "correct": false,
+      "response": "Peter\n\nQ: Which member of the 5s pop series 3s Series Boys Boys Series found fame with which surname in which pop band?\nA: Peter T\n\nQ: Which member of the 5s series 3s pop",
+      "cd_score_correct": -46.459375,
+      "cd_score_top": -46.459375,
+      "expert_logp_correct": -0.8686952209472656,
+      "cd_logp_correct": -46.459375,
+      "delta_logp": -45.590679779052735
+    },
+    {
+      "idx": 135,
+      "correct": false,
+      "response": "1940s TRQTEPWETO NDR Which special event participant participant participant?\nA: 1940s TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork",
+      "cd_score_correct": -39.825,
+      "cd_score_top": -39.825,
+      "expert_logp_correct": -1.0838260555267334,
+      "cd_logp_correct": -39.825,
+      "delta_logp": -38.74117394447327
+    },
+    {
+      "idx": 136,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What does the United State of the of the of the of the of the of the of the of the of the of the of",
+      "cd_score_correct": -47.920625,
+      "cd_score_top": -47.920625,
+      "expert_logp_correct": -0.3083431148529053,
+      "cd_logp_correct": -47.920625,
+      "delta_logp": -47.6122818851471
+    },
+    {
+      "idx": 137,
+      "correct": false,
+      "response": "1940s TR In which decade of the 20th century was Billy Crystal born?\nA: 1940s TR In which decade of the 20th century was Billy Crystal born?\nA:",
+      "cd_score_correct": -40.890625,
+      "cd_score_top": -40.890625,
+      "expert_logp_correct": -0.22230948448181154,
+      "cd_logp_correct": -40.890625,
+      "delta_logp": -40.66831551551819
+    },
+    {
+      "idx": 138,
+      "correct": false,
+      "response": "1940s TR PW Dahliafortark\u00e6inor quantit\u00e9 peur effetferrer Bastille Peter Tork\n\nQ: Who was the only female victim to be killed off in the opening credit sequence in Police Squad?\nA: 194",
+      "cd_score_correct": -40.03440504807692,
+      "cd_score_top": -40.03440504807692,
+      "expert_logp_correct": -2.328342332289769,
+      "cd_logp_correct": -40.03440504807692,
+      "delta_logp": -37.70606271578715
+    },
+    {
+      "idx": 139,
+      "correct": false,
+      "response": "TR V Mon Kees which means mean jewel Noise Kazan ?\nA: Which\n\nQ: How did I ?\nA: Columbia",
+      "cd_score_correct": -37.57752403846154,
+      "cd_score_top": -37.57752403846154,
+      "expert_logp_correct": -3.09547182229849,
+      "cd_logp_correct": -37.57752403846154,
+      "delta_logp": -34.48205221616305
+    },
+    {
+      "idx": 140,
+      "correct": false,
+      "response": "1940s TR monkies came from Washington DC?\nA: Peter Tork\n\nQ: Who beat Tim Henman in his first Wimbledon singles semifinal?\nA: 1940s TR\n\nQ: Who beat",
+      "cd_score_correct": -42.399375,
+      "cd_score_top": -42.399375,
+      "expert_logp_correct": -0.603125877380371,
+      "cd_logp_correct": -42.399375,
+      "delta_logp": -41.79624912261963
+    },
+    {
+      "idx": 141,
+      "correct": false,
+      "response": "1940s\n\nQ: How did I kill I flow I Dubai kill I follow I Jacoby kersee?\nA: 1940s\n\nQ: How did I kill I follow I Jacoby kersee?\nA",
+      "cd_score_correct": -41.1803125,
+      "cd_score_top": -41.1803125,
+      "expert_logp_correct": -0.8436087989807128,
+      "cd_logp_correct": -41.1803125,
+      "delta_logp": -40.33670370101929
+    },
+    {
+      "idx": 142,
+      "correct": false,
+      "response": "19th century of the 20th century was Billy Crystal born?\nA: TR\n\nQ: Which member of the Monke Sepp Maier crystallized an\n\nWhich Monke Sep Ek Bruin Bruin Bruin Bruin Bruin",
+      "cd_score_correct": -41.771875,
+      "cd_score_top": -41.771875,
+      "expert_logp_correct": -1.3606139278411866,
+      "cd_logp_correct": -41.771875,
+      "delta_logp": -40.411261072158815
+    },
+    {
+      "idx": 143,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Yuan Yankee was caught carrying drugs for which team?\nA: Peter Tork\n\nQ: Yuan Yuan was caught carrying drugs for",
+      "cd_score_correct": -44.6475,
+      "cd_score_top": -44.6475,
+      "expert_logp_correct": -0.25748711585998535,
+      "cd_logp_correct": -44.6475,
+      "delta_logp": -44.39001288414001
+    },
+    {
+      "idx": 144,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -42.808125,
+      "cd_score_top": -42.808125,
+      "expert_logp_correct": -0.07304799556732178,
+      "cd_logp_correct": -42.808125,
+      "delta_logp": -42.735077004432675
+    },
+    {
+      "idx": 145,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -41.7090625,
+      "cd_score_top": -41.7090625,
+      "expert_logp_correct": -0.04839587688446045,
+      "cd_logp_correct": -41.7090625,
+      "delta_logp": -41.66066662311554
+    },
+    {
+      "idx": 146,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How many of his 45 races did Mike Hawthorn, a former Formula One motor racing world champion,",
+      "cd_score_correct": -46.7071875,
+      "cd_score_top": -46.7071875,
+      "expert_logp_correct": -0.07550587177276612,
+      "cd_logp_correct": -46.7071875,
+      "delta_logp": -46.631681628227234
+    },
+    {
+      "idx": 147,
+      "correct": false,
+      "response": "1940s TR which member of the Monkees came from Washington DC?\nA: Peter Torkedon 1940s Monkies Internet Spam?\nA: Peter Torked 1940s",
+      "cd_score_correct": -38.90497448979592,
+      "cd_score_top": -38.90497448979592,
+      "expert_logp_correct": -1.1189293666761748,
+      "cd_logp_correct": -38.90497448979592,
+      "delta_logp": -37.78604512311974
+    },
+    {
+      "idx": 148,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -43.7365625,
+      "cd_score_top": -43.7365625,
+      "expert_logp_correct": -0.01630497932434082,
+      "cd_logp_correct": -43.7365625,
+      "delta_logp": -43.72025752067566
+    },
+    {
+      "idx": 149,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -43.7190625,
+      "cd_score_top": -43.7190625,
+      "expert_logp_correct": -0.01611448287963867,
+      "cd_logp_correct": -43.7190625,
+      "delta_logp": -43.70294801712036
+    },
+    {
+      "idx": 150,
+      "correct": false,
+      "response": "Bertram Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Thorne Tho",
+      "cd_score_correct": -37.754375,
+      "cd_score_top": -37.754375,
+      "expert_logp_correct": -0.30358779907226563,
+      "cd_logp_correct": -37.754375,
+      "delta_logp": -37.450787200927735
+    },
+    {
+      "idx": 151,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which member of the Monkees' came from the Monke\n\nBlondie's last UK No 1 of the 80s?\nA: Peter Tork\n\nQ: Which member of the Monke",
+      "cd_score_correct": -42.45734375,
+      "cd_score_top": -42.45734375,
+      "expert_logp_correct": -0.3531290054321289,
+      "cd_logp_correct": -42.45734375,
+      "delta_logp": -42.10421474456787
+    },
+    {
+      "idx": 152,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In baseball",
+      "cd_score_correct": -44.28625,
+      "cd_score_top": -44.28625,
+      "expert_logp_correct": -0.018800034523010253,
+      "cd_logp_correct": -44.28625,
+      "delta_logp": -44.26744996547699
+    },
+    {
+      "idx": 153,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkepiers came from Washington DC?\nA: Peter Tork\n\nQ: What",
+      "cd_score_correct": -43.7875,
+      "cd_score_top": -43.7875,
+      "expert_logp_correct": -0.2270120334625244,
+      "cd_logp_correct": -43.7875,
+      "delta_logp": -43.56048796653748
+    },
+    {
+      "idx": 154,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -42.7403125,
+      "cd_score_top": -42.7403125,
+      "expert_logp_correct": -0.013646793365478516,
+      "cd_logp_correct": -42.7403125,
+      "delta_logp": -42.72666570663452
+    },
+    {
+      "idx": 155,
+      "correct": false,
+      "response": "1940s TRiquezilizilizes Lilis\u00e9 balles assassinsFord\u00edt\u00e1sQApet tork Jai GenoDAQpetzorg jubileeAsiezval Schot ChronoQAicheRTLUIQAtra TRwhich decade of the 20th century was Billy Crystal born?",
+      "cd_score_correct": -30.34794560185185,
+      "cd_score_top": -30.34794560185185,
+      "expert_logp_correct": -5.824699525479917,
+      "cd_logp_correct": -30.34794560185185,
+      "delta_logp": -24.523246076371933
+    },
+    {
+      "idx": 156,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which rock",
+      "cd_score_correct": -45.298125,
+      "cd_score_top": -45.298125,
+      "expert_logp_correct": -0.057536869049072265,
+      "cd_logp_correct": -45.298125,
+      "delta_logp": -45.240588130950925
+    },
+    {
+      "idx": 157,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Sun Yat",
+      "cd_score_correct": -42.80625,
+      "cd_score_top": -42.80625,
+      "expert_logp_correct": -0.014186244010925293,
+      "cd_logp_correct": -42.80625,
+      "delta_logp": -42.792063755989076
+    },
+    {
+      "idx": 158,
+      "correct": false,
+      "response": "1940s TRQort\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940",
+      "cd_score_correct": -41.42609375,
+      "cd_score_top": -41.42609375,
+      "expert_logp_correct": -0.2695374631881714,
+      "cd_logp_correct": -41.42609375,
+      "delta_logp": -41.15655628681183
+    },
+    {
+      "idx": 159,
+      "correct": false,
+      "response": "Peter Foyle TR\n\nQ: Which member of the Monke Fy Sek Orton Mon KeFy sek Mon Ke Fy Mon Ke FY Mon Ke Fy Q Aba TeyQ abr feu QA Peter Fokyek qu\u00e9b\u00e9co M\u00e9tro Paige Quincy NodF\u00e9qin j\u00e1r felledFord\u00edt\u00e1s Lolita",
+      "cd_score_correct": -28.528722426470587,
+      "cd_score_top": -28.528722426470587,
+      "expert_logp_correct": -4.333512568006329,
+      "cd_logp_correct": -28.528722426470587,
+      "delta_logp": -24.19520985846426
+    },
+    {
+      "idx": 160,
+      "correct": false,
+      "response": "19th century CE\n\nQ: How did theacrimoniousidivaciciricirireferenceselicriminationiseliosis?...\nA: TR\n\nQ: Which member of the Mono Westinghouse Ebers Ebers EB EB EC Que Ibarra Raceway sabbath Bialicc I",
+      "cd_score_correct": -32.01964180424528,
+      "cd_score_top": -32.01964180424528,
+      "expert_logp_correct": -4.671275633685994,
+      "cd_logp_correct": -32.01964180424528,
+      "delta_logp": -27.348366170559288
+    },
+    {
+      "idx": 161,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Mono boxer committee from the Mono Mono mono Mono monopo mono monopo Mono boxer mono mono from the Mono mono mono Mono monopo monopo monopo monopo monopo monopo monopo mono ",
+      "cd_score_correct": -44.8721875,
+      "cd_score_top": -44.8721875,
+      "expert_logp_correct": -1.5422237014770508,
+      "cd_logp_correct": -44.8721875,
+      "delta_logp": -43.329963798522954
+    },
+    {
+      "idx": 162,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -40.849375,
+      "cd_score_top": -40.849375,
+      "expert_logp_correct": -0.0618818998336792,
+      "cd_logp_correct": -40.849375,
+      "delta_logp": -40.78749310016632
+    },
+    {
+      "idx": 163,
+      "correct": false,
+      "response": "Truman crystalizedizediziondizedisonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodizonodiz",
+      "cd_score_correct": -27.751514668367346,
+      "cd_score_top": -27.751514668367346,
+      "expert_logp_correct": -1.1338237840302137,
+      "cd_logp_correct": -27.751514668367346,
+      "delta_logp": -26.617690884337133
+    },
+    {
+      "idx": 164,
+      "correct": false,
+      "response": "In which of the Monkees' Aux Folles Came?\nA: 1940s\n\nQ: In which decade of the 20th century was La Cage Aux Folles?\nA: In which of the Monkees",
+      "cd_score_correct": -44.655625,
+      "cd_score_top": -44.655625,
+      "expert_logp_correct": -0.6995467567443847,
+      "cd_logp_correct": -44.655625,
+      "delta_logp": -43.95607824325562
+    },
+    {
+      "idx": 165,
+      "correct": false,
+      "response": "1940s\n\nQ: How did the HCIateurkillqingchingchovchovhovhovchovhova Doria Crystal Armstrong Pierce Torkillkillingchovpova Doria Crystal Peirce Mun Volume FROM BialHCIaurJorTIaharteurkillqingcovhoch Dori",
+      "cd_score_correct": -24.49053452061672,
+      "cd_score_top": -24.49053452061672,
+      "expert_logp_correct": -4.052699827680401,
+      "cd_logp_correct": -24.49053452061672,
+      "delta_logp": -20.43783469293632
+    },
+    {
+      "idx": 166,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees",
+      "cd_score_correct": -45.249375,
+      "cd_score_top": -45.249375,
+      "expert_logp_correct": -0.12042088508605957,
+      "cd_logp_correct": -45.249375,
+      "delta_logp": -45.12895411491394
+    },
+    {
+      "idx": 167,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What percentage",
+      "cd_score_correct": -45.12375,
+      "cd_score_top": -45.12375,
+      "expert_logp_correct": -0.016243352890014648,
+      "cd_logp_correct": -45.12375,
+      "delta_logp": -45.107506647109986
+    },
+    {
+      "idx": 168,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which European town gave its name to a Treaty which symbolizes closer economic links between European countries?\nA: Peter ",
+      "cd_score_correct": -45.1259375,
+      "cd_score_top": -45.1259375,
+      "expert_logp_correct": -0.07318248748779296,
+      "cd_logp_correct": -45.1259375,
+      "delta_logp": -45.05275501251221
+    },
+    {
+      "idx": 169,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which home",
+      "cd_score_correct": -43.7384375,
+      "cd_score_top": -43.7384375,
+      "expert_logp_correct": -0.013186769485473633,
+      "cd_logp_correct": -43.7384375,
+      "delta_logp": -43.72525073051453
+    },
+    {
+      "idx": 170,
+      "correct": false,
+      "response": "1940s TR Q which which the monkees came from the Monkees?\nA: Peter Tork\n\nQ: Which was the first European city this century to open an underground railway system?\nA: 194",
+      "cd_score_correct": -44.0153125,
+      "cd_score_top": -44.0153125,
+      "expert_logp_correct": -0.5268203353881836,
+      "cd_logp_correct": -44.0153125,
+      "delta_logp": -43.48849216461182
+    },
+    {
+      "idx": 171,
+      "correct": false,
+      "response": "1940s TR\n\nQ: Which member of the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Mon",
+      "cd_score_correct": -45.6521875,
+      "cd_score_top": -45.6521875,
+      "expert_logp_correct": -0.1786337661743164,
+      "cd_logp_correct": -45.6521875,
+      "delta_logp": -45.47355373382568
+    },
+    {
+      "idx": 172,
+      "correct": false,
+      "response": "1940s TR which member of the Monkees came from Washington DC?\nA: Peter Torked out to to 1940s TR which member of the Monkees came from Washington DC?\nA: Peter",
+      "cd_score_correct": -43.2653125,
+      "cd_score_top": -43.2653125,
+      "expert_logp_correct": -0.5410069465637207,
+      "cd_logp_correct": -43.2653125,
+      "delta_logp": -42.72430555343628
+    },
+    {
+      "idx": 173,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was",
+      "cd_score_correct": -45.008125,
+      "cd_score_top": -45.008125,
+      "expert_logp_correct": -0.0425521183013916,
+      "cd_logp_correct": -45.008125,
+      "delta_logp": -44.965572881698606
+    },
+    {
+      "idx": 174,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What color",
+      "cd_score_correct": -43.9840625,
+      "cd_score_top": -43.9840625,
+      "expert_logp_correct": -0.015453205108642579,
+      "cd_logp_correct": -43.9840625,
+      "delta_logp": -43.96860929489136
+    },
+    {
+      "idx": 175,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Throughout the 80s and 90s Phil Collins recorded on which record label?\nA: Peter Tork",
+      "cd_score_correct": -42.7659375,
+      "cd_score_top": -42.7659375,
+      "expert_logp_correct": -0.08827606678009033,
+      "cd_logp_correct": -42.7659375,
+      "delta_logp": -42.67766143321991
+    },
+    {
+      "idx": 176,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: On which label did Chuck Berry record in the 1950s and 1960s?\nA:",
+      "cd_score_correct": -42.775625,
+      "cd_score_top": -42.775625,
+      "expert_logp_correct": -0.01783707141876221,
+      "cd_logp_correct": -42.775625,
+      "delta_logp": -42.75778792858124
+    },
+    {
+      "idx": 177,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees came from the Monkees",
+      "cd_score_correct": -45.5878125,
+      "cd_score_top": -45.5878125,
+      "expert_logp_correct": -0.12063082695007324,
+      "cd_logp_correct": -45.5878125,
+      "delta_logp": -45.46718167304992
+    },
+    {
+      "idx": 178,
+      "correct": false,
+      "response": "1940s TRQort\n\nQ: Which MonkeErTortqa\u041f\u0435\u0442\u0435\u0440\u0420\u0410 Nether decade was Billy Cr KevWhichrakerakeKoordin Pompe B\u00e1 Gazetteer rea\u00e7\u00e3o\u00fcllOrt 1940s\n\nQ: Which Monker Er Kev",
+      "cd_score_correct": -28.84750306372549,
+      "cd_score_top": -28.84750306372549,
+      "expert_logp_correct": -3.6743259990916535,
+      "cd_logp_correct": -28.84750306372549,
+      "delta_logp": -25.173177064633837
+    },
+    {
+      "idx": 179,
+      "correct": false,
+      "response": ": 1940s : : TR",
+      "cd_score_correct": -40.2515625,
+      "cd_score_top": -40.2515625,
+      "expert_logp_correct": -1.1974800109863282,
+      "cd_logp_correct": -40.2515625,
+      "delta_logp": -39.05408248901367
+    },
+    {
+      "idx": 180,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: Which member of the Monkees came from Washington DC?\nA: Pete Tork\n\nQ: Which singer had a big 60s No 1 with Roses Are Red?\nA: Pete Tork",
+      "cd_score_correct": -41.9965625,
+      "cd_score_top": -41.9965625,
+      "expert_logp_correct": -0.1112267541885376,
+      "cd_logp_correct": -41.9965625,
+      "delta_logp": -41.88533574581147
+    },
+    {
+      "idx": 181,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -43.6178125,
+      "cd_score_top": -43.6178125,
+      "expert_logp_correct": -0.032897968292236325,
+      "cd_logp_correct": -43.6178125,
+      "delta_logp": -43.58491453170776
+    },
+    {
+      "idx": 182,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkemedes came from the liveke KeesPetertortorton goal Decade Saviour crystallized to",
+      "cd_score_correct": -39.87469362745098,
+      "cd_score_top": -39.87469362745098,
+      "expert_logp_correct": -2.2307589147605147,
+      "cd_logp_correct": -39.87469362745098,
+      "delta_logp": -37.643934712690466
+    },
+    {
+      "idx": 183,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which was",
+      "cd_score_correct": -45.1684375,
+      "cd_score_top": -45.1684375,
+      "expert_logp_correct": -0.013890981674194336,
+      "cd_logp_correct": -45.1684375,
+      "delta_logp": -45.15454651832581
+    },
+    {
+      "idx": 184,
+      "correct": false,
+      "response": "Peter Tork\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: Peter Tork\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: Peter Tork\n\nQ",
+      "cd_score_correct": -43.47625,
+      "cd_score_top": -43.47625,
+      "expert_logp_correct": -0.16907471656799317,
+      "cd_logp_correct": -43.47625,
+      "delta_logp": -43.30717528343201
+    },
+    {
+      "idx": 185,
+      "correct": false,
+      "response": "1940s TRQort\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s TRQort\n\nQ: In which decade of the 20",
+      "cd_score_correct": -41.3271875,
+      "cd_score_top": -41.3271875,
+      "expert_logp_correct": -0.2592450714111328,
+      "cd_logp_correct": -41.3271875,
+      "delta_logp": -41.06794242858887
+    },
+    {
+      "idx": 186,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -38.949375,
+      "cd_score_top": -38.949375,
+      "expert_logp_correct": -0.0664927315711975,
+      "cd_logp_correct": -38.949375,
+      "delta_logp": -38.88288226842881
+    },
+    {
+      "idx": 187,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which President",
+      "cd_score_correct": -44.12625,
+      "cd_score_top": -44.12625,
+      "expert_logp_correct": -0.01279149055480957,
+      "cd_logp_correct": -44.12625,
+      "delta_logp": -44.11345850944519
+    },
+    {
+      "idx": 188,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What kind of disaster claimed some 100,000 lives in America in 1988?\nA",
+      "cd_score_correct": -41.32625,
+      "cd_score_top": -41.32625,
+      "expert_logp_correct": -0.08546333789825439,
+      "cd_logp_correct": -41.32625,
+      "delta_logp": -41.24078666210175
+    },
+    {
+      "idx": 189,
+      "correct": false,
+      "response": "1940s TR which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which state of the Monkees came from Washington DC?\nA: 1940s TR which member",
+      "cd_score_correct": -45.46,
+      "cd_score_top": -45.46,
+      "expert_logp_correct": -0.21182279109954835,
+      "cd_logp_correct": -45.46,
+      "delta_logp": -45.24817720890045
+    },
+    {
+      "idx": 190,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Truaxer Feld Wein Washington DC?\nA: Peter Tork Truaxxonfel Wien which internation ?\nTrue Peter Tork Truaxxonfel Deutschland Tru",
+      "cd_score_correct": -37.78890625,
+      "cd_score_top": -37.78890625,
+      "expert_logp_correct": -1.4958204650878906,
+      "cd_logp_correct": -37.78890625,
+      "delta_logp": -36.29308578491211
+    },
+    {
+      "idx": 191,
+      "correct": false,
+      "response": "1940s\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: In what month did the attack on Pearl Harbor?\nA:",
+      "cd_score_correct": -43.2540625,
+      "cd_score_top": -43.2540625,
+      "expert_logp_correct": -0.12117411136627197,
+      "cd_logp_correct": -43.2540625,
+      "delta_logp": -43.13288838863373
+    },
+    {
+      "idx": 192,
+      "correct": false,
+      "response": "Thomas Harris Crippen",
+      "cd_score_correct": -35.22265625,
+      "cd_score_top": -35.22265625,
+      "expert_logp_correct": -3.4486083984375,
+      "cd_logp_correct": -35.22265625,
+      "delta_logp": -31.7740478515625
+    },
+    {
+      "idx": 193,
+      "correct": false,
+      "response": "TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In the 1904 Monkees Olymped how many of the 23 Mon Mon eagles canes canes childrenstitlesMonroe",
+      "cd_score_correct": -43.505625,
+      "cd_score_top": -43.505625,
+      "expert_logp_correct": -1.239604721069336,
+      "cd_logp_correct": -43.505625,
+      "delta_logp": -42.26602027893067
+    },
+    {
+      "idx": 194,
+      "correct": false,
+      "response": "1940s\n\nQ: How did Jock die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ",
+      "cd_score_correct": -43.36125,
+      "cd_score_top": -43.36125,
+      "expert_logp_correct": -0.047821855545043944,
+      "cd_logp_correct": -43.36125,
+      "delta_logp": -43.31342814445495
+    },
+    {
+      "idx": 195,
+      "correct": false,
+      "response": "1940s\n\nQ: How did I die in Dallas?\nA: Helicopter accident\n\nQ: In which decade of the 20th century was I born?\nA: 1940s\n\nQ:",
+      "cd_score_correct": -42.5078125,
+      "cd_score_top": -42.5078125,
+      "expert_logp_correct": -0.14953670501708985,
+      "cd_logp_correct": -42.5078125,
+      "delta_logp": -42.35827579498291
+    },
+    {
+      "idx": 196,
+      "correct": false,
+      "response": "1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which",
+      "cd_score_correct": -44.063125,
+      "cd_score_top": -44.063125,
+      "expert_logp_correct": -0.01451155662536621,
+      "cd_logp_correct": -44.063125,
+      "delta_logp": -44.048613443374634
+    },
+    {
+      "idx": 197,
+      "correct": false,
+      "response": "In which decade of the 20th century was Billy Crystal born?\nA: 1940s\n\nQ: What are the international registration letters of a vehicle from Turkey?\nA: TR\n\nQ: Which member of the",
+      "cd_score_correct": -43.7421875,
+      "cd_score_top": -43.7421875,
+      "expert_logp_correct": -0.017582831382751466,
+      "cd_logp_correct": -43.7421875,
+      "delta_logp": -43.724604668617246
+    },
+    {
+      "idx": 198,
+      "correct": false,
+      "response": "1940s\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which caped crusader operated in Gotham City?\nA: 1940s\n\nQ",
+      "cd_score_correct": -43.55,
+      "cd_score_top": -43.55,
+      "expert_logp_correct": -0.07841815948486328,
+      "cd_logp_correct": -43.55,
+      "delta_logp": -43.471581840515135
+    },
+    {
+      "idx": 199,
+      "correct": false,
+      "response": "Lyndon Turner injected injected injected injected injected injected injected injected injected injected injected injected injected injected injected injected injected injected injected injected inject",
+      "cd_score_correct": -32.5125,
+      "cd_score_top": -32.5125,
+      "expert_logp_correct": -0.4217135620117187,
+      "cd_logp_correct": -32.5125,
+      "delta_logp": -32.090786437988285
+    }
+  ],
+  "timestamp": "2026-04-04T18:53:36.367004"
+}

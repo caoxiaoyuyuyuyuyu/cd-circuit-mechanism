@@ -1,0 +1,2015 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 1.0,
+  "n_samples": 200,
+  "metrics": {
+    "accuracy": 0.01,
+    "cd_score_mean": -21.45945200966924,
+    "cd_score_std": 3.147690579753694,
+    "delta_logp_mean": -20.772223524250112,
+    "delta_logp_std": 4.251021858978012
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Den Elli Mej Sepp Kats Chuan dije Nova producer?\nA: Len Elli Deutsch Toen Toen ngan Spy Hook?\nA: Quem dodheu Niall Armstrong?\nA: Quezon",
+      "cd_score_correct": -13.689104352678571,
+      "cd_score_top": -13.689104352678571,
+      "expert_logp_correct": -4.109501307351248,
+      "cd_logp_correct": -13.689104352678571,
+      "delta_logp": -9.579603045327323
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which Lloyd Webber musical premiered in the US on 1",
+      "cd_score_correct": -23.655625,
+      "cd_score_top": -23.655625,
+      "expert_logp_correct": -0.013314449787139892,
+      "cd_logp_correct": -23.655625,
+      "delta_logp": -23.642310550212862
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Len Armstrong Deighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Armstrong Deighton\n\nQ: Who had the noels?\nA: Who was the next?",
+      "cd_score_correct": -23.408641581632654,
+      "cd_score_top": -23.408641581632654,
+      "expert_logp_correct": -0.3901207009140326,
+      "cd_logp_correct": -23.408641581632654,
+      "delta_logp": -23.018520880718622
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Len Det Heiden\n\nQ: Who had the No Els Spyder Hook Line Published In The 80s?\nA: Len Det Hezbollahen\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korea\n\nQ: Where in",
+      "cd_score_correct": -22.41759314903846,
+      "cd_score_top": -22.41759314903846,
+      "expert_logp_correct": -1.509583069727971,
+      "cd_logp_correct": -22.41759314903846,
+      "delta_logp": -20.90801007931049
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What claimed the life of singer Kathleen Denched?",
+      "cd_score_correct": -22.87109375,
+      "cd_score_top": -22.87109375,
+      "expert_logp_correct": -0.1343127942085266,
+      "cd_logp_correct": -22.87109375,
+      "delta_logp": -22.736780955791474
+    },
+    {
+      "idx": 5,
+      "correct": false,
+      "response": "Nigerian\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England",
+      "cd_score_correct": -22.0621875,
+      "cd_score_top": -22.0621875,
+      "expert_logp_correct": -0.13015472412109375,
+      "cd_logp_correct": -22.0621875,
+      "delta_logp": -21.932032775878906
+    },
+    {
+      "idx": 6,
+      "correct": false,
+      "response": "Len De Leighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len De Leighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong was a",
+      "cd_score_correct": -23.490625,
+      "cd_score_top": -23.490625,
+      "expert_logp_correct": -0.260158805847168,
+      "cd_logp_correct": -23.490625,
+      "delta_logp": -23.230466194152832
+    },
+    {
+      "idx": 7,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which actress was voted Miss Greenwich Village in 1942?\nA:",
+      "cd_score_correct": -23.65265625,
+      "cd_score_top": -23.65265625,
+      "expert_logp_correct": -0.08540255546569825,
+      "cd_logp_correct": -23.65265625,
+      "delta_logp": -23.5672536945343
+    },
+    {
+      "idx": 8,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What is the Japanese share index called?\nA: Neil Armstrong was a pilot in",
+      "cd_score_correct": -23.9303125,
+      "cd_score_top": -23.9303125,
+      "expert_logp_correct": -0.08785130500793457,
+      "cd_logp_correct": -23.9303125,
+      "delta_logp": -23.842461194992065
+    },
+    {
+      "idx": 9,
+      "correct": false,
+      "response": "Len Armstrong Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was the name of Michael Jackson's autobiography",
+      "cd_score_correct": -21.348125,
+      "cd_score_top": -21.348125,
+      "expert_logp_correct": -0.0799008584022522,
+      "cd_logp_correct": -21.348125,
+      "delta_logp": -21.26822414159775
+    },
+    {
+      "idx": 10,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In which decade did stereo records first go on sale?",
+      "cd_score_correct": -23.73,
+      "cd_score_top": -23.73,
+      "expert_logp_correct": -0.01637599468231201,
+      "cd_logp_correct": -23.73,
+      "delta_logp": -23.713624005317687
+    },
+    {
+      "idx": 11,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In what year's Olympics were electric timing devices and",
+      "cd_score_correct": -25.14875,
+      "cd_score_top": -25.14875,
+      "expert_logp_correct": -0.011377601623535157,
+      "cd_logp_correct": -25.14875,
+      "delta_logp": -25.137372398376463
+    },
+    {
+      "idx": 12,
+      "correct": false,
+      "response": "Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which volcano in Tanzania is the highest mountain in Africa?\nA: Yoruba\n\nQ: Who had the noels Spy Hook and Spy Line published",
+      "cd_score_correct": -23.55453125,
+      "cd_score_top": -23.55453125,
+      "expert_logp_correct": -0.173132266998291,
+      "cd_logp_correct": -23.55453125,
+      "delta_logp": -23.38139898300171
+    },
+    {
+      "idx": 13,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Neil Armstrong was a pilot in which war?\nA: Kurdistan\n\nQ: Where in England was Dame Judi Den",
+      "cd_score_correct": -22.6709375,
+      "cd_score_top": -22.6709375,
+      "expert_logp_correct": -0.28687932014465334,
+      "cd_logp_correct": -22.6709375,
+      "delta_logp": -22.384058179855348
+    },
+    {
+      "idx": 14,
+      "correct": false,
+      "response": "Hungarian\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nWhere in England was Dame Judi Dench born?\nA: York\n\nOf which African country is Ni Niamme the capital?\nA: HungarianNeil Armstrong was a",
+      "cd_score_correct": -18.50859375,
+      "cd_score_top": -18.50859375,
+      "expert_logp_correct": -0.42907048225402833,
+      "cd_logp_correct": -18.50859375,
+      "delta_logp": -18.07952326774597
+    },
+    {
+      "idx": 15,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the director of the CIA from 19",
+      "cd_score_correct": -23.63765625,
+      "cd_score_top": -23.63765625,
+      "expert_logp_correct": -0.010222840309143066,
+      "cd_logp_correct": -23.63765625,
+      "delta_logp": -23.627433409690855
+    },
+    {
+      "idx": 16,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong",
+      "cd_score_correct": -21.2959375,
+      "cd_score_top": -21.2959375,
+      "expert_logp_correct": -0.1078846263885498,
+      "cd_logp_correct": -21.2959375,
+      "delta_logp": -21.18805287361145
+    },
+    {
+      "idx": 17,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: \"Who was the target of the failed \"\"Bomb Plot",
+      "cd_score_correct": -21.9425,
+      "cd_score_top": -21.9425,
+      "expert_logp_correct": -0.011618485450744629,
+      "cd_logp_correct": -21.9425,
+      "delta_logp": -21.930881514549256
+    },
+    {
+      "idx": 18,
+      "correct": false,
+      "response": "Len Deigh HuntonononoIRIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTIANTI",
+      "cd_score_correct": -15.568828125,
+      "cd_score_top": -15.568828125,
+      "expert_logp_correct": -0.6884481811523437,
+      "cd_logp_correct": -15.568828125,
+      "delta_logp": -14.880379943847656
+    },
+    {
+      "idx": 19,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who directed the classic 30s western Stagecoach",
+      "cd_score_correct": -22.00453125,
+      "cd_score_top": -22.00453125,
+      "expert_logp_correct": -0.0115506911277771,
+      "cd_logp_correct": -22.00453125,
+      "delta_logp": -21.992980558872222
+    },
+    {
+      "idx": 20,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deixon\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korea\n\nQ: Where",
+      "cd_score_correct": -21.367265625,
+      "cd_score_top": -21.367265625,
+      "expert_logp_correct": -0.27341782569885253,
+      "cd_logp_correct": -21.367265625,
+      "delta_logp": -21.093847799301148
+    },
+    {
+      "idx": 21,
+      "correct": false,
+      "response": "Len De Leighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which highway was Revisited in a classic 60s",
+      "cd_score_correct": -23.78328125,
+      "cd_score_top": -23.78328125,
+      "expert_logp_correct": -0.08519146919250488,
+      "cd_logp_correct": -23.78328125,
+      "delta_logp": -23.698089780807496
+    },
+    {
+      "idx": 22,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which was the only eastern bloc country to participate in the",
+      "cd_score_correct": -23.576875,
+      "cd_score_top": -23.576875,
+      "expert_logp_correct": -0.009325723648071289,
+      "cd_logp_correct": -23.576875,
+      "delta_logp": -23.56754927635193
+    },
+    {
+      "idx": 23,
+      "correct": false,
+      "response": "Len De Bel HezbollahhtonsylinepublishedinbyWho Had No Elo Spyder Sk Hooker Av Sylvie Wij Wij Kaw Perang Suara Elo Wij K\u00e4v\u00e5 J\u00e4v\u00e4k\u00e4j\u00e4j\u00e4v\u00e4\u00e4 hyvin Jama Jur\u00ed Jur\u00edQui\u00e9n Mej\u00eda Winaray skiTableAdapter Wij\u05d4\u05e2\u05e8\u05d5",
+      "cd_score_correct": -10.799871706495098,
+      "cd_score_top": -10.799871706495098,
+      "expert_logp_correct": -5.331232407513787,
+      "cd_logp_correct": -10.799871706495098,
+      "delta_logp": -5.468639298981311
+    },
+    {
+      "idx": 24,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong was a",
+      "cd_score_correct": -23.956875,
+      "cd_score_top": -23.956875,
+      "expert_logp_correct": -0.15144093036651612,
+      "cd_logp_correct": -23.956875,
+      "delta_logp": -23.805434069633485
+    },
+    {
+      "idx": 25,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Men Against the Sea and Pitcairn's Island were",
+      "cd_score_correct": -22.19625,
+      "cd_score_top": -22.19625,
+      "expert_logp_correct": -0.009016373157501222,
+      "cd_logp_correct": -22.19625,
+      "delta_logp": -22.1872336268425
+    },
+    {
+      "idx": 26,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was Truman Capote's last name before he",
+      "cd_score_correct": -21.64625,
+      "cd_score_top": -21.64625,
+      "expert_logp_correct": -0.012971055507659913,
+      "cd_logp_correct": -21.64625,
+      "delta_logp": -21.63327894449234
+    },
+    {
+      "idx": 27,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In Lewis Carroll's poem The Hunting of the Sn",
+      "cd_score_correct": -23.36359375,
+      "cd_score_top": -23.36359375,
+      "expert_logp_correct": -0.00806349515914917,
+      "cd_logp_correct": -23.36359375,
+      "delta_logp": -23.35553025484085
+    },
+    {
+      "idx": 28,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In the Bible, who did the sun and moon stand",
+      "cd_score_correct": -22.29953125,
+      "cd_score_top": -22.29953125,
+      "expert_logp_correct": -0.010603716373443603,
+      "cd_logp_correct": -22.29953125,
+      "delta_logp": -22.28892753362656
+    },
+    {
+      "idx": 29,
+      "correct": false,
+      "response": "Len Deichtig\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What the michelle c dente movie cootio song coolion",
+      "cd_score_correct": -22.956484375,
+      "cd_score_top": -22.956484375,
+      "expert_logp_correct": -0.879911699295044,
+      "cd_logp_correct": -22.956484375,
+      "delta_logp": -22.076572675704956
+    },
+    {
+      "idx": 30,
+      "correct": false,
+      "response": "Len Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was President Gerald Ford's middle name?\nA: Len Armstrong was a",
+      "cd_score_correct": -23.10890625,
+      "cd_score_top": -23.10890625,
+      "expert_logp_correct": -0.0717924165725708,
+      "cd_logp_correct": -23.10890625,
+      "delta_logp": -23.03711383342743
+    },
+    {
+      "idx": 31,
+      "correct": false,
+      "response": "Len De Gideon",
+      "cd_score_correct": -19.82421875,
+      "cd_score_top": -19.82421875,
+      "expert_logp_correct": -2.0144144694010415,
+      "cd_logp_correct": -19.82421875,
+      "delta_logp": -17.809804280598957
+    },
+    {
+      "idx": 32,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the last inmate of Spandau jail in",
+      "cd_score_correct": -22.0578125,
+      "cd_score_top": -22.0578125,
+      "expert_logp_correct": -0.014659006595611573,
+      "cd_logp_correct": -22.0578125,
+      "delta_logp": -22.04315349340439
+    },
+    {
+      "idx": 33,
+      "correct": false,
+      "response": "Dubai\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was Eddie Murphy's first movie?\nA: Dubai",
+      "cd_score_correct": -22.21546875,
+      "cd_score_top": -22.21546875,
+      "expert_logp_correct": -0.11492790937423707,
+      "cd_logp_correct": -22.21546875,
+      "delta_logp": -22.10054084062576
+    },
+    {
+      "idx": 34,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In the 80s who wrote the novel Empire",
+      "cd_score_correct": -21.2553125,
+      "cd_score_top": -21.2553125,
+      "expert_logp_correct": -0.011518654823303222,
+      "cd_logp_correct": -21.2553125,
+      "delta_logp": -21.243793845176697
+    },
+    {
+      "idx": 35,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Kane Kura Lokal \u00e1ngeles Spy Line published in the 80s?\nA: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong was a pilot in which war?",
+      "cd_score_correct": -21.9398828125,
+      "cd_score_top": -21.9398828125,
+      "expert_logp_correct": -0.8162239456176758,
+      "cd_logp_correct": -21.9398828125,
+      "delta_logp": -21.123658866882323
+    },
+    {
+      "idx": 36,
+      "correct": false,
+      "response": "Nigeria\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nWhere in England was Dame Judi Dench born?\nA: York\n\nIn which sport could the Pacers take on the Pistons?\nA: Nigeria\n\nNeil Armstrong was",
+      "cd_score_correct": -20.4853125,
+      "cd_score_top": -20.4853125,
+      "expert_logp_correct": -0.2691660404205322,
+      "cd_logp_correct": -20.4853125,
+      "delta_logp": -20.216146459579466
+    },
+    {
+      "idx": 37,
+      "correct": false,
+      "response": "Len Car Padres Rhy Quinn Hook Spy Henteig Doria Leighton quem pa\u0161 Navarijk Forrester Forrester</strong>",
+      "cd_score_correct": -16.54853515625,
+      "cd_score_top": -16.54853515625,
+      "expert_logp_correct": -8.053077697753906,
+      "cd_logp_correct": -16.54853515625,
+      "delta_logp": -8.495457458496094
+    },
+    {
+      "idx": 38,
+      "correct": false,
+      "response": "Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Who had the noels Spy Hook and Spy Line published",
+      "cd_score_correct": -23.3521875,
+      "cd_score_top": -23.3521875,
+      "expert_logp_correct": -0.21119968891143798,
+      "cd_logp_correct": -23.3521875,
+      "delta_logp": -23.14098781108856
+    },
+    {
+      "idx": 39,
+      "correct": false,
+      "response": "Italy\n\nQ: Len Armstrong De Leighton",
+      "cd_score_correct": -22.037109375,
+      "cd_score_top": -22.037109375,
+      "expert_logp_correct": -1.6927878856658936,
+      "cd_logp_correct": -22.037109375,
+      "delta_logp": -20.344321489334106
+    },
+    {
+      "idx": 40,
+      "correct": false,
+      "response": "Len De Leighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len De Leighton\n\nQ: Who had the no? Neil Armstrong was a pilot in which war?\nA:",
+      "cd_score_correct": -22.483125,
+      "cd_score_top": -22.483125,
+      "expert_logp_correct": -0.29574727058410644,
+      "cd_logp_correct": -22.483125,
+      "delta_logp": -22.187377729415896
+    },
+    {
+      "idx": 41,
+      "correct": false,
+      "response": "Korean\n\nWhere in Where in Where in in in in Where in Where in Where in Where in Where in Where in in Where in Where in Where in in Where in Where in Where in in Where in Where in Where in in Where in ",
+      "cd_score_correct": -21.1084375,
+      "cd_score_top": -21.1084375,
+      "expert_logp_correct": -0.44142044067382813,
+      "cd_logp_correct": -21.1084375,
+      "delta_logp": -20.667017059326174
+    },
+    {
+      "idx": 42,
+      "correct": false,
+      "response": "Len Deigh Hoog Spyder Hooker Nodhunhun N\u00f3 NSCoderIntoConstraints \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd Kei NSCoder=$?A: Ibarra KieferilotoStructEnd \u0641\u0631\u064a\u0628\u064a\u0633an\u0131lievoutdir gynhyrchwyd\u05d4\u05e2\u05e8\u05d5\u05ea Lando TandViitedfeatureID NodhundfeatureIDel",
+      "cd_score_correct": -8.236425170898437,
+      "cd_score_top": -8.236425170898437,
+      "expert_logp_correct": -5.641819725036621,
+      "cd_logp_correct": -8.236425170898437,
+      "delta_logp": -2.5946054458618164
+    },
+    {
+      "idx": 43,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In Greek mythology, who were Arged in which war",
+      "cd_score_correct": -22.32109375,
+      "cd_score_top": -22.32109375,
+      "expert_logp_correct": -0.19641957998275758,
+      "cd_logp_correct": -22.32109375,
+      "delta_logp": -22.12467417001724
+    },
+    {
+      "idx": 44,
+      "correct": false,
+      "response": "Len Armstrong\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which musician founded the Red Hot Peppers?\nA: Len",
+      "cd_score_correct": -21.465546875,
+      "cd_score_top": -21.465546875,
+      "expert_logp_correct": -0.04907404184341431,
+      "cd_logp_correct": -21.465546875,
+      "delta_logp": -21.416472833156586
+    },
+    {
+      "idx": 45,
+      "correct": false,
+      "response": "Brazil\n\nWhereWhereWhereWerWhererReReReRWerwerwerwheretherewherehereherehererorererovererovereverwererovereroverwerehereserovererovererovererovereroverwhereinwerederingouerereinringwereneroveroueredere",
+      "cd_score_correct": -17.701798349056602,
+      "cd_score_top": -17.701798349056602,
+      "expert_logp_correct": -3.450571887897995,
+      "cd_logp_correct": -17.701798349056602,
+      "delta_logp": -14.251226461158607
+    },
+    {
+      "idx": 46,
+      "correct": false,
+      "response": "Korean\n\nQ: Where in England was Dame Judi Hendrix born?\nA: York\n\nQ: How old was Jimi Hendrix when he died?\nA: Korean\n\nQ: Where in England was Dame Hendrix Hendrix born?\nA: York",
+      "cd_score_correct": -22.4434375,
+      "cd_score_top": -22.4434375,
+      "expert_logp_correct": -0.23909275054931642,
+      "cd_logp_correct": -22.4434375,
+      "delta_logp": -22.204344749450684
+    },
+    {
+      "idx": 47,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which Brit broke the land speed record in 19",
+      "cd_score_correct": -22.89703125,
+      "cd_score_top": -22.89703125,
+      "expert_logp_correct": -0.012430500984191895,
+      "cd_logp_correct": -22.89703125,
+      "delta_logp": -22.88460074901581
+    },
+    {
+      "idx": 48,
+      "correct": false,
+      "response": "Brazilian\n\nNeil Armstrong was a pilot in which war?\nKorean\n\nWhere in England was Dame Judi Dench born?\nYork\n\nIn which state was Gene Vincent born?\nBrazil\n\nNeil Armstrong was a pilot in which war?\nKore",
+      "cd_score_correct": -17.349609375,
+      "cd_score_top": -17.349609375,
+      "expert_logp_correct": -0.2647930335998535,
+      "cd_logp_correct": -17.349609375,
+      "delta_logp": -17.084816341400145
+    },
+    {
+      "idx": 49,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deixon\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where",
+      "cd_score_correct": -22.71734375,
+      "cd_score_top": -22.71734375,
+      "expert_logp_correct": -0.2186792230606079,
+      "cd_logp_correct": -22.71734375,
+      "delta_logp": -22.498664526939393
+    },
+    {
+      "idx": 50,
+      "correct": false,
+      "response": "Italian\n\nA: Italy\n\nQ: Which newspaper did Jackie Kennedy work for just before her marriage?\nA: Washington Times Herald\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA:",
+      "cd_score_correct": -23.660625,
+      "cd_score_top": -23.660625,
+      "expert_logp_correct": -0.09718464374542236,
+      "cd_logp_correct": -23.660625,
+      "delta_logp": -23.563440356254578
+    },
+    {
+      "idx": 51,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had a 70s No 1 hit",
+      "cd_score_correct": -20.91703125,
+      "cd_score_top": -20.91703125,
+      "expert_logp_correct": -0.014139022827148438,
+      "cd_logp_correct": -20.91703125,
+      "delta_logp": -20.902892227172853
+    },
+    {
+      "idx": 52,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had a Too Legit To Quit Too Legit To Quit",
+      "cd_score_correct": -22.95046875,
+      "cd_score_top": -22.95046875,
+      "expert_logp_correct": -0.07432268381118774,
+      "cd_logp_correct": -22.95046875,
+      "delta_logp": -22.87614606618881
+    },
+    {
+      "idx": 53,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: \"According to Rudyard Kipling what were the \"\"two",
+      "cd_score_correct": -22.07171875,
+      "cd_score_top": -22.07171875,
+      "expert_logp_correct": -0.008559958934783935,
+      "cd_logp_correct": -22.07171875,
+      "delta_logp": -22.063158791065216
+    },
+    {
+      "idx": 54,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who is the most successful UK artist in the USA?\nA: Neil Armstrong was",
+      "cd_score_correct": -23.754375,
+      "cd_score_top": -23.754375,
+      "expert_logp_correct": -0.16948495864868163,
+      "cd_logp_correct": -23.754375,
+      "delta_logp": -23.58489004135132
+    },
+    {
+      "idx": 55,
+      "correct": false,
+      "response": "Len Armstrong came to me?\nA: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which country does the airline TAAG come",
+      "cd_score_correct": -23.50296875,
+      "cd_score_top": -23.50296875,
+      "expert_logp_correct": -0.34287158012390134,
+      "cd_logp_correct": -23.50296875,
+      "delta_logp": -23.1600971698761
+    },
+    {
+      "idx": 56,
+      "correct": false,
+      "response": "Len No 1 single came from Diana Ross No 1 single came from Diana Ross No 1 single came from Diana Ross No 1 single came from Diana Ross No 1 single came from Diana Ross No 1 single came from Diana Ros",
+      "cd_score_correct": -20.00984375,
+      "cd_score_top": -20.00984375,
+      "expert_logp_correct": -0.13782174110412598,
+      "cd_logp_correct": -20.00984375,
+      "delta_logp": -19.872022008895875
+    },
+    {
+      "idx": 57,
+      "correct": false,
+      "response": "Brazilian\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len\n\nNeil Armstrong was a pilot in which war?\nA: Where in\n\nNeil Japan were Dame Andi Andi Ayala Avila",
+      "cd_score_correct": -20.827158203125,
+      "cd_score_top": -20.827158203125,
+      "expert_logp_correct": -1.2711079502105713,
+      "cd_logp_correct": -20.827158203125,
+      "delta_logp": -19.556050252914428
+    },
+    {
+      "idx": 58,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which artist David was born in Bradford UK?\nA",
+      "cd_score_correct": -22.9909375,
+      "cd_score_top": -22.9909375,
+      "expert_logp_correct": -0.013602664470672607,
+      "cd_logp_correct": -22.9909375,
+      "delta_logp": -22.97733483552933
+    },
+    {
+      "idx": 59,
+      "correct": false,
+      "response": "Len Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What is Mel Armstrong was a pilot in which war?\nA: Len Armstrong was",
+      "cd_score_correct": -24.35296875,
+      "cd_score_top": -24.35296875,
+      "expert_logp_correct": -0.10820375442504883,
+      "cd_logp_correct": -24.35296875,
+      "delta_logp": -24.24476499557495
+    },
+    {
+      "idx": 60,
+      "correct": true,
+      "response": "Chicago\n\nQ: Who had the noels Spy Line Hook and Spy Line published in the 80s?\nA: Len De\n\nNeilston RogankoreKore Kore Kuri KuriKuri KuKurikuricuricricuraciracialaccirail racial Rail",
+      "cd_score_correct": -18.236295259915867,
+      "cd_score_top": -18.236295259915867,
+      "expert_logp_correct": -2.5585375015552225,
+      "cd_logp_correct": -18.236295259915867,
+      "delta_logp": -15.677757758360645
+    },
+    {
+      "idx": 61,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: \"In which movie did Garbo say, \"\"I",
+      "cd_score_correct": -22.09890625,
+      "cd_score_top": -22.09890625,
+      "expert_logp_correct": -0.011907749176025391,
+      "cd_logp_correct": -22.09890625,
+      "delta_logp": -22.086998500823974
+    },
+    {
+      "idx": 62,
+      "correct": false,
+      "response": "Len Armstrong Heideki Jawa S\u00e4\u00e4ndak\u00e4 Liv\u00e4f Sorg\u00e4f\u00f6rsViitedViited HeraQui\u00e9nzeciw Jacobian\u201d?\nA: Len Armstrong Heideki Jawa S\u00e4 Liv Aida S\u00e4 Aida S\u00e4 S\u00e4 Sada Kutaenciaga Osbest Lambeth Heideki Jaya Oss Breit",
+      "cd_score_correct": -13.020220588235293,
+      "cd_score_top": -13.020220588235293,
+      "expert_logp_correct": -5.169893171273026,
+      "cd_logp_correct": -13.020220588235293,
+      "delta_logp": -7.850327416962267
+    },
+    {
+      "idx": 63,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the defending champion when Martina Navratilova first",
+      "cd_score_correct": -22.6778125,
+      "cd_score_top": -22.6778125,
+      "expert_logp_correct": -0.012582721710205079,
+      "cd_logp_correct": -22.6778125,
+      "delta_logp": -22.665229778289795
+    },
+    {
+      "idx": 64,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the first US-born winner of golf'",
+      "cd_score_correct": -22.91796875,
+      "cd_score_top": -22.91796875,
+      "expert_logp_correct": -0.01426671028137207,
+      "cd_logp_correct": -22.91796875,
+      "delta_logp": -22.903702039718628
+    },
+    {
+      "idx": 65,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deig Tan Tan Tan Tan TANTAN TATATANATANANANANA NAND NAND Nand no Lalu nor Lalu nor",
+      "cd_score_correct": -19.49027267156863,
+      "cd_score_top": -19.49027267156863,
+      "expert_logp_correct": -2.0751416729945764,
+      "cd_logp_correct": -19.49027267156863,
+      "delta_logp": -17.415130998574053
+    },
+    {
+      "idx": 66,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was the Paramount Film Company originally called?\nA",
+      "cd_score_correct": -23.3825,
+      "cd_score_top": -23.3825,
+      "expert_logp_correct": -0.009707381725311279,
+      "cd_logp_correct": -23.3825,
+      "delta_logp": -23.37279261827469
+    },
+    {
+      "idx": 67,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the first person after Scott to reach the South",
+      "cd_score_correct": -21.69640625,
+      "cd_score_top": -21.69640625,
+      "expert_logp_correct": -0.011086227893829346,
+      "cd_logp_correct": -21.69640625,
+      "delta_logp": -21.68532002210617
+    },
+    {
+      "idx": 68,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which journalist first told the world about the My Lai massacre?\nA: Neil Armstrong",
+      "cd_score_correct": -23.35578125,
+      "cd_score_top": -23.35578125,
+      "expert_logp_correct": -0.0530708646774292,
+      "cd_logp_correct": -23.35578125,
+      "delta_logp": -23.30271038532257
+    },
+    {
+      "idx": 69,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What is the name of Terence and Shirley Conra Kieran",
+      "cd_score_correct": -21.18703125,
+      "cd_score_top": -21.18703125,
+      "expert_logp_correct": -0.24674844980239868,
+      "cd_logp_correct": -21.18703125,
+      "delta_logp": -20.9402828001976
+    },
+    {
+      "idx": 70,
+      "correct": false,
+      "response": "Nigeria was a pilot in which war?\nA: Len Armstrong was a\n\nWhere in England was Dame Juri Kashmir born?\nA: York was a pilot in which war?\nA: Len Armstrong was a\n\nNeil Armstrong was a pilot in",
+      "cd_score_correct": -25.665,
+      "cd_score_top": -25.665,
+      "expert_logp_correct": -0.7498448467254639,
+      "cd_logp_correct": -25.665,
+      "delta_logp": -24.915155153274537
+    },
+    {
+      "idx": 71,
+      "correct": false,
+      "response": "Len Den Haig\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had the noels Spy Hook and Spy Line published",
+      "cd_score_correct": -22.707578125,
+      "cd_score_top": -22.707578125,
+      "expert_logp_correct": -0.18775826930999756,
+      "cd_logp_correct": -22.707578125,
+      "delta_logp": -22.519819855690002
+    },
+    {
+      "idx": 72,
+      "correct": false,
+      "response": "Nielsen\n\nQ: Who had the noels Fe Spy Hook and No Sy Line published in the 80s?\nA: Len Dewey",
+      "cd_score_correct": -21.034752155172413,
+      "cd_score_top": -21.034752155172413,
+      "expert_logp_correct": -0.8570181254682869,
+      "cd_logp_correct": -21.034752155172413,
+      "delta_logp": -20.177734029704126
+    },
+    {
+      "idx": 73,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What did the Lone Ranger's title Keno Sa",
+      "cd_score_correct": -22.99953125,
+      "cd_score_top": -22.99953125,
+      "expert_logp_correct": -0.05838501930236816,
+      "cd_logp_correct": -22.99953125,
+      "delta_logp": -22.941146230697633
+    },
+    {
+      "idx": 74,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had the noels Spy Hook and Spy Line published",
+      "cd_score_correct": -23.4059375,
+      "cd_score_top": -23.4059375,
+      "expert_logp_correct": -0.053281397819519044,
+      "cd_logp_correct": -23.4059375,
+      "delta_logp": -23.352656102180482
+    },
+    {
+      "idx": 75,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which 70s show was based on the British",
+      "cd_score_correct": -21.77265625,
+      "cd_score_top": -21.77265625,
+      "expert_logp_correct": -0.00850759744644165,
+      "cd_logp_correct": -21.77265625,
+      "delta_logp": -21.76414865255356
+    },
+    {
+      "idx": 76,
+      "correct": false,
+      "response": "Brazilian\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England",
+      "cd_score_correct": -22.953125,
+      "cd_score_top": -22.953125,
+      "expert_logp_correct": -0.14469741582870482,
+      "cd_logp_correct": -22.953125,
+      "delta_logp": -22.808427584171294
+    },
+    {
+      "idx": 77,
+      "correct": false,
+      "response": "Malaysian\n\nSpy Lin Archiproducts Kno Sapi\u011fi Ajoutez S\u00f6 Yani Doria Doria Deportivobrigensbise contin\u00faasItemBackground),' Who had the noels Spyder Apov\u00e5v\u00e5 Apov\u00e5 S\u00e4 V\u00e5v\u00e5 V\u00e5 V\u00e5v\u00e5 V\u00e5V\u00e5 V\u00e5 V\u00e5 V\u00e5V\u00e5V\u00e5V\u00e5Viited",
+      "cd_score_correct": -14.963472186394458,
+      "cd_score_top": -14.963472186394458,
+      "expert_logp_correct": -6.0534368551002355,
+      "cd_logp_correct": -14.963472186394458,
+      "delta_logp": -8.910035331294223
+    },
+    {
+      "idx": 78,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was the profession of Paul Strand (189",
+      "cd_score_correct": -22.195,
+      "cd_score_top": -22.195,
+      "expert_logp_correct": -0.010693743228912353,
+      "cd_logp_correct": -22.195,
+      "delta_logp": -22.184306256771087
+    },
+    {
+      "idx": 79,
+      "correct": false,
+      "response": "Len Den Doherty\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korea\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had a 60s No 1 with",
+      "cd_score_correct": -21.41890625,
+      "cd_score_top": -21.41890625,
+      "expert_logp_correct": -0.26775641918182375,
+      "cd_logp_correct": -21.41890625,
+      "delta_logp": -21.151149830818177
+    },
+    {
+      "idx": 80,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was born first, Kiefer Sutherland or Christian Den Doherty",
+      "cd_score_correct": -21.8628125,
+      "cd_score_top": -21.8628125,
+      "expert_logp_correct": -0.1389736533164978,
+      "cd_logp_correct": -21.8628125,
+      "delta_logp": -21.723838846683503
+    },
+    {
+      "idx": 81,
+      "correct": false,
+      "response": "Italy\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: To the nearest two, how many tennis Grand Slam titles did Jimmy",
+      "cd_score_correct": -22.71515625,
+      "cd_score_top": -22.71515625,
+      "expert_logp_correct": -0.06452058792114258,
+      "cd_logp_correct": -22.71515625,
+      "delta_logp": -22.65063566207886
+    },
+    {
+      "idx": 82,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the Georgia Peach?\nA: Neil Armstrong was a pilot in which war",
+      "cd_score_correct": -22.65484375,
+      "cd_score_top": -22.65484375,
+      "expert_logp_correct": -0.033486614227294924,
+      "cd_logp_correct": -22.65484375,
+      "delta_logp": -22.621357135772705
+    },
+    {
+      "idx": 83,
+      "correct": false,
+      "response": "Len Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who set fire to his guitar at the Monterey Pop festival in 1967",
+      "cd_score_correct": -22.481875,
+      "cd_score_top": -22.481875,
+      "expert_logp_correct": -0.0730956768989563,
+      "cd_logp_correct": -22.481875,
+      "delta_logp": -22.408779323101044
+    },
+    {
+      "idx": 84,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Len Armstrong was a pilot in which war?\nA: Koran Armstrong was a pilot in which war?\nA: Wherein cowboy Covington Cove Cove Seva Spl Lotion published in the ",
+      "cd_score_correct": -22.121640625,
+      "cd_score_top": -22.121640625,
+      "expert_logp_correct": -1.3247036266326904,
+      "cd_logp_correct": -22.121640625,
+      "delta_logp": -20.79693699836731
+    },
+    {
+      "idx": 85,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In music, who was Sweet and Innocent and Too Young",
+      "cd_score_correct": -22.30734375,
+      "cd_score_top": -22.30734375,
+      "expert_logp_correct": -0.010005612373352051,
+      "cd_logp_correct": -22.30734375,
+      "delta_logp": -22.29733813762665
+    },
+    {
+      "idx": 86,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who is featured on Puff Daddy's Can't",
+      "cd_score_correct": -21.3396875,
+      "cd_score_top": -21.3396875,
+      "expert_logp_correct": -0.010727031230926514,
+      "cd_logp_correct": -21.3396875,
+      "delta_logp": -21.328960468769072
+    },
+    {
+      "idx": 87,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What had Edmond Hillary worked at before taking up mountain climbing",
+      "cd_score_correct": -23.27078125,
+      "cd_score_top": -23.27078125,
+      "expert_logp_correct": -0.010695159435272217,
+      "cd_logp_correct": -23.27078125,
+      "delta_logp": -23.260086090564727
+    },
+    {
+      "idx": 88,
+      "correct": false,
+      "response": "Len Armstrong De Leighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Armstrong Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korea\n\nQ",
+      "cd_score_correct": -22.4121875,
+      "cd_score_top": -22.4121875,
+      "expert_logp_correct": -0.28493270397186277,
+      "cd_logp_correct": -22.4121875,
+      "delta_logp": -22.12725479602814
+    },
+    {
+      "idx": 89,
+      "correct": false,
+      "response": "Lengariya\u00e7oengelurlopen \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd Sepp D\u00edazengel \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05ddilova BaillargeonGarant\u00eda \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05ddDataAnnotations \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9\u05d9\u05dd].\" Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England w",
+      "cd_score_correct": -15.56401065826416,
+      "cd_score_top": -15.56401065826416,
+      "expert_logp_correct": -2.8190526151657105,
+      "cd_logp_correct": -15.56401065826416,
+      "delta_logp": -12.74495804309845
+    },
+    {
+      "idx": 90,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Beloved in 1999 was whose first movie",
+      "cd_score_correct": -19.59921875,
+      "cd_score_top": -19.59921875,
+      "expert_logp_correct": -0.008641982078552246,
+      "cd_logp_correct": -19.59921875,
+      "delta_logp": -19.590576767921448
+    },
+    {
+      "idx": 91,
+      "correct": false,
+      "response": "Len De\n\nNeil Steinberg Armstrong Dakota Magyar\u00e4ngerin R\u00e9g Saj NgModule dirilis in the 80s?\nA: Len\n\nNeil Armstrong was a pilot in which war?\nA: Kenyan\n\nWhere in England was Dame Judi Dench born?",
+      "cd_score_correct": -19.141953125,
+      "cd_score_top": -19.141953125,
+      "expert_logp_correct": -1.4602435779571534,
+      "cd_logp_correct": -19.141953125,
+      "delta_logp": -17.681709547042846
+    },
+    {
+      "idx": 92,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which sitcom star appeared on the big screen's Object",
+      "cd_score_correct": -22.12375,
+      "cd_score_top": -22.12375,
+      "expert_logp_correct": -0.13850976943969726,
+      "cd_logp_correct": -22.12375,
+      "delta_logp": -21.985240230560304
+    },
+    {
+      "idx": 93,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: \"Which character did Julia \"\"Roberts play in Steven Spielberg",
+      "cd_score_correct": -22.075,
+      "cd_score_top": -22.075,
+      "expert_logp_correct": -0.009640414714813233,
+      "cd_logp_correct": -22.075,
+      "delta_logp": -22.065359585285186
+    },
+    {
+      "idx": 94,
+      "correct": false,
+      "response": "Len Armstrong De Leighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ:",
+      "cd_score_correct": -22.16265625,
+      "cd_score_top": -22.16265625,
+      "expert_logp_correct": -0.1430950140953064,
+      "cd_logp_correct": -22.16265625,
+      "delta_logp": -22.019561235904696
+    },
+    {
+      "idx": 95,
+      "correct": false,
+      "response": "Nigerian\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which movie was a biopic about the life of David Helfott?",
+      "cd_score_correct": -21.40703125,
+      "cd_score_top": -21.40703125,
+      "expert_logp_correct": -0.2504054355621338,
+      "cd_logp_correct": -21.40703125,
+      "delta_logp": -21.156625814437866
+    },
+    {
+      "idx": 96,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which film director guested as the FBI Director in The",
+      "cd_score_correct": -21.38890625,
+      "cd_score_top": -21.38890625,
+      "expert_logp_correct": -0.011498186588287353,
+      "cd_logp_correct": -21.38890625,
+      "delta_logp": -21.377408063411714
+    },
+    {
+      "idx": 97,
+      "correct": false,
+      "response": "80s?\nA: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In which sci fi No NoNoNomBrom",
+      "cd_score_correct": -22.07296875,
+      "cd_score_top": -22.07296875,
+      "expert_logp_correct": -0.6563286685943603,
+      "cd_logp_correct": -22.07296875,
+      "delta_logp": -21.416640081405642
+    },
+    {
+      "idx": 98,
+      "correct": false,
+      "response": "Len Armstrong Den Reilly\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Armstrong Den Reilly\n\nQ: Who had the noels Spy Hook and ?\nA: Who Who W",
+      "cd_score_correct": -21.2315625,
+      "cd_score_top": -21.2315625,
+      "expert_logp_correct": -0.6357619905471802,
+      "cd_logp_correct": -21.2315625,
+      "delta_logp": -20.59580050945282
+    },
+    {
+      "idx": 99,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Len Armstrong\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which Scottish actress won the Best Supporting Actress Oscar for",
+      "cd_score_correct": -22.690625,
+      "cd_score_top": -22.690625,
+      "expert_logp_correct": -0.16700319290161134,
+      "cd_logp_correct": -22.690625,
+      "delta_logp": -22.52362180709839
+    },
+    {
+      "idx": 100,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which Oscar-nominated film had You Sexy Thing as its",
+      "cd_score_correct": -21.95046875,
+      "cd_score_top": -21.95046875,
+      "expert_logp_correct": -0.011721694469451904,
+      "cd_logp_correct": -21.95046875,
+      "delta_logp": -21.93874705553055
+    },
+    {
+      "idx": 101,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which Joan's career revived in Whatever Happened to Baby",
+      "cd_score_correct": -21.9696875,
+      "cd_score_top": -21.9696875,
+      "expert_logp_correct": -0.009953157901763916,
+      "cd_logp_correct": -21.9696875,
+      "delta_logp": -21.959734342098237
+    },
+    {
+      "idx": 102,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which much-loved actor won the Best Actor Oscar for",
+      "cd_score_correct": -22.55921875,
+      "cd_score_top": -22.55921875,
+      "expert_logp_correct": -0.012123775482177735,
+      "cd_logp_correct": -22.55921875,
+      "delta_logp": -22.547094974517822
+    },
+    {
+      "idx": 103,
+      "correct": false,
+      "response": "Leh Devin Dumont Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?",
+      "cd_score_correct": -22.45109375,
+      "cd_score_top": -22.45109375,
+      "expert_logp_correct": -0.4725214385986328,
+      "cd_logp_correct": -22.45109375,
+      "delta_logp": -21.978572311401365
+    },
+    {
+      "idx": 104,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was the name of the brothel in The Best",
+      "cd_score_correct": -22.04359375,
+      "cd_score_top": -22.04359375,
+      "expert_logp_correct": -0.009955725669860839,
+      "cd_logp_correct": -22.04359375,
+      "delta_logp": -22.033638024330138
+    },
+    {
+      "idx": 105,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the male star of the movie The Man of",
+      "cd_score_correct": -22.1834375,
+      "cd_score_top": -22.1834375,
+      "expert_logp_correct": -0.012577955722808837,
+      "cd_logp_correct": -22.1834375,
+      "delta_logp": -22.170859544277192
+    },
+    {
+      "idx": 106,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What relation is Joey Richardson to Vanessa Redgrave?\nA: Neil Armstrong was a",
+      "cd_score_correct": -23.52078125,
+      "cd_score_top": -23.52078125,
+      "expert_logp_correct": -0.0608081579208374,
+      "cd_logp_correct": -23.52078125,
+      "delta_logp": -23.45997309207916
+    },
+    {
+      "idx": 107,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Melanie Molitor is the mom of which tennis world NO",
+      "cd_score_correct": -22.18859375,
+      "cd_score_top": -22.18859375,
+      "expert_logp_correct": -0.013225407600402831,
+      "cd_logp_correct": -22.18859375,
+      "delta_logp": -22.175368342399597
+    },
+    {
+      "idx": 108,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deigh Rossnigaigaigaigiigiigiigiigiigawan hand Huan Huan hand hand Huan Huan Huan",
+      "cd_score_correct": -18.2296875,
+      "cd_score_top": -18.2296875,
+      "expert_logp_correct": -1.4970299768447877,
+      "cd_logp_correct": -18.2296875,
+      "delta_logp": -16.73265752315521
+    },
+    {
+      "idx": 109,
+      "correct": false,
+      "response": "Kien Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: On which date in 1945 did Hitler take cyanide then shoot himself?",
+      "cd_score_correct": -23.241875,
+      "cd_score_top": -23.241875,
+      "expert_logp_correct": -0.17713921546936034,
+      "cd_logp_correct": -23.241875,
+      "delta_logp": -23.06473578453064
+    },
+    {
+      "idx": 110,
+      "correct": false,
+      "response": "Len De Leighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len De Leighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Neil Armstrong\n\nQ:",
+      "cd_score_correct": -22.22984375,
+      "cd_score_top": -22.22984375,
+      "expert_logp_correct": -0.23900726795196534,
+      "cd_logp_correct": -22.22984375,
+      "delta_logp": -21.990836482048035
+    },
+    {
+      "idx": 111,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which sports events were first held at Worcester, Massachusetts in 1927?",
+      "cd_score_correct": -23.8396875,
+      "cd_score_top": -23.8396875,
+      "expert_logp_correct": -0.12604451179504395,
+      "cd_logp_correct": -23.8396875,
+      "delta_logp": -23.713642988204956
+    },
+    {
+      "idx": 112,
+      "correct": false,
+      "response": "Ireland\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighzon\n\nQ: Neil Armstrong was a pilot in which war?\nA: Kilkenny\n\nQ: Where in",
+      "cd_score_correct": -22.958125,
+      "cd_score_top": -22.958125,
+      "expert_logp_correct": -0.472082347869873,
+      "cd_logp_correct": -22.958125,
+      "delta_logp": -22.486042652130127
+    },
+    {
+      "idx": 113,
+      "correct": false,
+      "response": "Italy\n\nQ: Whom did Jamaica SPI CORT CORTORT CORT CORTORTORT RT RT RT RT RT R R R R R R R R R R R R R R R R T T T T T T T T T T T T T T",
+      "cd_score_correct": -17.5940625,
+      "cd_score_top": -17.5940625,
+      "expert_logp_correct": -1.2005950164794923,
+      "cd_logp_correct": -17.5940625,
+      "delta_logp": -16.393467483520507
+    },
+    {
+      "idx": 114,
+      "correct": false,
+      "response": "Brazilian\n\nNeil Armstrong was a pilot in which war?\nKorean\n\nWhere in England was Dame Judi Dench born?\nYork\n\nFor which movie did Katharine Hepburn win her second Oscar?\nBrazilian\n\nNeil Armstrong was a",
+      "cd_score_correct": -19.81515625,
+      "cd_score_top": -19.81515625,
+      "expert_logp_correct": -0.1955954360961914,
+      "cd_logp_correct": -19.81515625,
+      "delta_logp": -19.61956081390381
+    },
+    {
+      "idx": 115,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had a 60s No 1 hit",
+      "cd_score_correct": -21.0215625,
+      "cd_score_top": -21.0215625,
+      "expert_logp_correct": -0.013933954238891601,
+      "cd_logp_correct": -21.0215625,
+      "delta_logp": -21.00762854576111
+    },
+    {
+      "idx": 116,
+      "correct": false,
+      "response": "Len De\n\nNeilson Dixon hooking hooking hopping hoping s\u00ed Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila Avila ",
+      "cd_score_correct": -22.24087890625,
+      "cd_score_top": -22.24087890625,
+      "expert_logp_correct": -1.1843188095092774,
+      "cd_logp_correct": -22.24087890625,
+      "delta_logp": -21.05656009674072
+    },
+    {
+      "idx": 117,
+      "correct": false,
+      "response": "Sen Armstrong Webb Hoek Jawa Jawa Jawa Jaya Mej\u00edarodalom\u4e53\u00e3i\u0628\u0631\u0649 Orenigliingeki Tung Jehov\u00e1 negaraCJKaii\u51fa\u7248\u5e74 Pijinement Andre Diman Armstrong Webb DimanDimancheDimanche Mej\u00eda Eis DTS Hook Ibarra Econ\u00f3mic",
+      "cd_score_correct": -8.330639178936298,
+      "cd_score_top": -8.330639178936298,
+      "expert_logp_correct": -8.178602952223558,
+      "cd_logp_correct": -8.330639178936298,
+      "delta_logp": -0.15203622671273997
+    },
+    {
+      "idx": 118,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who succeeded Breizhnev as Soviet premier?\nA",
+      "cd_score_correct": -23.991640625,
+      "cd_score_top": -23.991640625,
+      "expert_logp_correct": -0.06145593166351318,
+      "cd_logp_correct": -23.991640625,
+      "delta_logp": -23.930184693336486
+    },
+    {
+      "idx": 119,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In the late 60s Owen Finlay MacL",
+      "cd_score_correct": -21.6821875,
+      "cd_score_top": -21.6821875,
+      "expert_logp_correct": -0.09287888050079346,
+      "cd_logp_correct": -21.6821875,
+      "delta_logp": -21.589308619499207
+    },
+    {
+      "idx": 120,
+      "correct": false,
+      "response": "Kerala\n\nQ: Who had the noels Spy Line Hooker Hop and Spy Line Hop and Spy Line Hop and Spy Line Hop and Spy Line Hop and Spy Line Hop and Spy Line Hop and Spy Line Hop and Spy Line Hop and Spy Line Ho",
+      "cd_score_correct": -20.92140625,
+      "cd_score_top": -20.92140625,
+      "expert_logp_correct": -0.4604161834716797,
+      "cd_logp_correct": -20.92140625,
+      "delta_logp": -20.46099006652832
+    },
+    {
+      "idx": 121,
+      "correct": false,
+      "response": "Len Armstrong Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which female singer was born on exactly the same day",
+      "cd_score_correct": -22.73546875,
+      "cd_score_top": -22.73546875,
+      "expert_logp_correct": -0.10566812515258789,
+      "cd_logp_correct": -22.73546875,
+      "delta_logp": -22.629800624847412
+    },
+    {
+      "idx": 122,
+      "correct": false,
+      "response": "Len Armstrong Dench born?\nA: Koran\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What is Harrison Ford's real name?\nA: Len Armstrong Dench born?\nA",
+      "cd_score_correct": -22.57203125,
+      "cd_score_top": -22.57203125,
+      "expert_logp_correct": -0.36581711769104003,
+      "cd_logp_correct": -22.57203125,
+      "delta_logp": -22.206214132308958
+    },
+    {
+      "idx": 123,
+      "correct": false,
+      "response": "Italy\n\nQ: Whom did Jackie Kennedy work for just before her marriage?\nA: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had the noels Spy Hook and Spy Line published in the 8",
+      "cd_score_correct": -24.58953125,
+      "cd_score_top": -24.58953125,
+      "expert_logp_correct": -0.25959535598754885,
+      "cd_logp_correct": -24.58953125,
+      "delta_logp": -24.32993589401245
+    },
+    {
+      "idx": 124,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who had the noels Spy Hook and Spy Line published",
+      "cd_score_correct": -23.39234375,
+      "cd_score_top": -23.39234375,
+      "expert_logp_correct": -0.044498069286346434,
+      "cd_logp_correct": -23.39234375,
+      "delta_logp": -23.34784568071365
+    },
+    {
+      "idx": 125,
+      "correct": false,
+      "response": "California\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nWhere in England was Dame Judi Dench born?\nA: York\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nWhere in England was Dame",
+      "cd_score_correct": -21.15203125,
+      "cd_score_top": -21.15203125,
+      "expert_logp_correct": -0.21504446983337402,
+      "cd_logp_correct": -21.15203125,
+      "delta_logp": -20.936986780166627
+    },
+    {
+      "idx": 126,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: \"Which boxer famously said,\"\" If I can'",
+      "cd_score_correct": -22.16890625,
+      "cd_score_top": -22.16890625,
+      "expert_logp_correct": -0.008428194522857667,
+      "cd_logp_correct": -22.16890625,
+      "delta_logp": -22.160478055477142
+    },
+    {
+      "idx": 127,
+      "correct": false,
+      "response": "Len De\n\nRichtNeilArmstrongjws\u00e9loCONSIN</b>Quora</h2><h3>Where in England was Dame Judi Dench born?\nA: York</h3>qtypeexpandindo\u00ea\u0309 BPIenzo</h1>ereqedenRichtNeilArmstrongjws\u00e9loCONSIN</strong>\u00e1Quora</bloc",
+      "cd_score_correct": -16.6186261177063,
+      "cd_score_top": -16.6186261177063,
+      "expert_logp_correct": -2.7625757884979247,
+      "cd_logp_correct": -16.6186261177063,
+      "delta_logp": -13.856050329208374
+    },
+    {
+      "idx": 128,
+      "correct": false,
+      "response": "Maharashtra\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nNeil Armstrong was a pilot in which war?\nA: Yankee\n\nWho had the noels Spy Hook and Spy Line published in the 80s?\nA",
+      "cd_score_correct": -22.36578125,
+      "cd_score_top": -22.36578125,
+      "expert_logp_correct": -0.4181504821777344,
+      "cd_logp_correct": -22.36578125,
+      "delta_logp": -21.947630767822268
+    },
+    {
+      "idx": 129,
+      "correct": false,
+      "response": "The Lenn Killing Jamieson Iz Jamieson I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Jann I Zinn Iz Ja",
+      "cd_score_correct": -15.5023583984375,
+      "cd_score_top": -15.5023583984375,
+      "expert_logp_correct": -1.2226475715637206,
+      "cd_logp_correct": -15.5023583984375,
+      "delta_logp": -14.27971082687378
+    },
+    {
+      "idx": 130,
+      "correct": false,
+      "response": "Len Armstrong De Leighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which cartoon and film character is the nickname of super",
+      "cd_score_correct": -22.637578125,
+      "cd_score_top": -22.637578125,
+      "expert_logp_correct": -0.11340194225311279,
+      "cd_logp_correct": -22.637578125,
+      "delta_logp": -22.52417618274689
+    },
+    {
+      "idx": 131,
+      "correct": false,
+      "response": "Italy\n\nQ: Which newspaper did Jackie Kennedy work for just before her marriage?\nA: Washington Times Herald\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton",
+      "cd_score_correct": -23.8153125,
+      "cd_score_top": -23.8153125,
+      "expert_logp_correct": -0.0326653003692627,
+      "cd_logp_correct": -23.8153125,
+      "delta_logp": -23.782647199630738
+    },
+    {
+      "idx": 132,
+      "correct": false,
+      "response": "Yokohama\n\nNeil Armstrong was a pilot in which war?\nA: Len Armstrong was a pilot in which war?\nA: Where in England was Dame Judi Dench born?\nA: Yokohama was Dame Judi Dench was Dame Judi Dench",
+      "cd_score_correct": -22.6715625,
+      "cd_score_top": -22.6715625,
+      "expert_logp_correct": -0.47987363815307615,
+      "cd_logp_correct": -22.6715625,
+      "delta_logp": -22.191688861846924
+    },
+    {
+      "idx": 133,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which future Wonder Woman's sister Drusilla?",
+      "cd_score_correct": -23.67171875,
+      "cd_score_top": -23.67171875,
+      "expert_logp_correct": -0.08895950078964233,
+      "cd_logp_correct": -23.67171875,
+      "delta_logp": -23.58275924921036
+    },
+    {
+      "idx": 134,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Mickey Braddock in the 50s series Circus",
+      "cd_score_correct": -23.15140625,
+      "cd_score_top": -23.15140625,
+      "expert_logp_correct": -0.013198130130767823,
+      "cd_logp_correct": -23.15140625,
+      "delta_logp": -23.138208119869233
+    },
+    {
+      "idx": 135,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which war veteran was Director of News & Special Events for",
+      "cd_score_correct": -22.31640625,
+      "cd_score_top": -22.31640625,
+      "expert_logp_correct": -0.010902493000030518,
+      "cd_logp_correct": -22.31640625,
+      "delta_logp": -22.30550375699997
+    },
+    {
+      "idx": 136,
+      "correct": false,
+      "response": "Len Armstrong Dench Geller Hook and Spy Line published in the 80s?\nA: Neil Armstrong Dench Geller Hook and Spy Line published in the 80s?\nA: Neil Armstrong Dench Geller Hook and Spy Line published",
+      "cd_score_correct": -20.307890625,
+      "cd_score_top": -20.307890625,
+      "expert_logp_correct": -0.4183238983154297,
+      "cd_logp_correct": -20.307890625,
+      "delta_logp": -19.88956672668457
+    },
+    {
+      "idx": 137,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In Hanna Barbera's TV cartoons base on The",
+      "cd_score_correct": -21.928125,
+      "cd_score_top": -21.928125,
+      "expert_logp_correct": -0.07078265905380249,
+      "cd_logp_correct": -21.928125,
+      "delta_logp": -21.8573423409462
+    },
+    {
+      "idx": 138,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the only female victim to be killed off in",
+      "cd_score_correct": -22.3084375,
+      "cd_score_top": -22.3084375,
+      "expert_logp_correct": -0.011872060298919677,
+      "cd_logp_correct": -22.3084375,
+      "delta_logp": -22.29656543970108
+    },
+    {
+      "idx": 139,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which US president won the Nobel Peace Prize in 1920?\nA",
+      "cd_score_correct": -23.1896875,
+      "cd_score_top": -23.1896875,
+      "expert_logp_correct": -0.0329728364944458,
+      "cd_logp_correct": -23.1896875,
+      "delta_logp": -23.156714663505557
+    },
+    {
+      "idx": 140,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who beat Tim Henman in his first Wimbledon singles semifinal?\nA: Neil Armstrong",
+      "cd_score_correct": -22.535625,
+      "cd_score_top": -22.535625,
+      "expert_logp_correct": -0.03898080825805664,
+      "cd_logp_correct": -22.535625,
+      "delta_logp": -22.496644191741943
+    },
+    {
+      "idx": 141,
+      "correct": false,
+      "response": "Len Armstrong Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What relation was Flo Joe to Jackie Joynerer",
+      "cd_score_correct": -22.38109375,
+      "cd_score_top": -22.38109375,
+      "expert_logp_correct": -0.2119770050048828,
+      "cd_logp_correct": -22.38109375,
+      "delta_logp": -22.16911674499512
+    },
+    {
+      "idx": 142,
+      "correct": false,
+      "response": "Len Deighty",
+      "cd_score_correct": -23.778645833333332,
+      "cd_score_top": -23.778645833333332,
+      "expert_logp_correct": -1.8647816975911458,
+      "cd_logp_correct": -23.778645833333332,
+      "delta_logp": -21.913864135742188
+    },
+    {
+      "idx": 143,
+      "correct": false,
+      "response": "Sylvia Andersson Sek Uit Joe Sega N\u00fa\u00f1ez N\u00fa\u00f1ez Jehov\u00e1 Nugentiliano auditoritivo \u00e1 Lleva Len Dejahton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong",
+      "cd_score_correct": -18.129901592548077,
+      "cd_score_top": -18.129901592548077,
+      "expert_logp_correct": -2.92698020201463,
+      "cd_logp_correct": -18.129901592548077,
+      "delta_logp": -15.202921390533447
+    },
+    {
+      "idx": 144,
+      "correct": false,
+      "response": "Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which grand slam did Pete Sampras not win in the 20th century?\nA: Korea\n\nQ: Where in England was Dame",
+      "cd_score_correct": -23.14765625,
+      "cd_score_top": -23.14765625,
+      "expert_logp_correct": -0.1656960940361023,
+      "cd_logp_correct": -23.14765625,
+      "delta_logp": -22.981960155963897
+    },
+    {
+      "idx": 145,
+      "correct": false,
+      "response": "Len De Toibin",
+      "cd_score_correct": -21.461588541666668,
+      "cd_score_top": -21.461588541666668,
+      "expert_logp_correct": -2.2174275716145835,
+      "cd_logp_correct": -21.461588541666668,
+      "delta_logp": -19.244160970052086
+    },
+    {
+      "idx": 146,
+      "correct": false,
+      "response": "Italy\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: How many of his 45 races did Mike Hawthorn, a",
+      "cd_score_correct": -24.82390625,
+      "cd_score_top": -24.82390625,
+      "expert_logp_correct": -0.07622231006622314,
+      "cd_logp_correct": -24.82390625,
+      "delta_logp": -24.747683939933776
+    },
+    {
+      "idx": 147,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: On the Internet what is Spam?\nA: Neil Armstrong was a pilot in which",
+      "cd_score_correct": -23.6840625,
+      "cd_score_top": -23.6840625,
+      "expert_logp_correct": -0.04843064785003662,
+      "cd_logp_correct": -23.6840625,
+      "delta_logp": -23.635631852149963
+    },
+    {
+      "idx": 148,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In which country did the Internet start?\nA: Neil Armstrong was a pilot in",
+      "cd_score_correct": -24.5290625,
+      "cd_score_top": -24.5290625,
+      "expert_logp_correct": -0.07080864906311035,
+      "cd_logp_correct": -24.5290625,
+      "delta_logp": -24.458253850936888
+    },
+    {
+      "idx": 149,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In which year was the Juilliard School founded in New York?\nA: Neil",
+      "cd_score_correct": -24.0628125,
+      "cd_score_top": -24.0628125,
+      "expert_logp_correct": -0.10762147426605224,
+      "cd_logp_correct": -24.0628125,
+      "delta_logp": -23.955191025733946
+    },
+    {
+      "idx": 150,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who wrote My Life and Loves in 192",
+      "cd_score_correct": -21.4996875,
+      "cd_score_top": -21.4996875,
+      "expert_logp_correct": -0.014671638011932372,
+      "cd_logp_correct": -21.4996875,
+      "delta_logp": -21.485015861988067
+    },
+    {
+      "idx": 151,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was Blondie's last UK No 1",
+      "cd_score_correct": -21.09953125,
+      "cd_score_top": -21.09953125,
+      "expert_logp_correct": -0.013247675895690918,
+      "cd_logp_correct": -21.09953125,
+      "delta_logp": -21.086283574104307
+    },
+    {
+      "idx": 152,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In baseball, where do the Royals come from?\nA: Neil Armstrong was a",
+      "cd_score_correct": -23.5659375,
+      "cd_score_top": -23.5659375,
+      "expert_logp_correct": -0.09213407039642334,
+      "cd_logp_correct": -23.5659375,
+      "delta_logp": -23.473803429603578
+    },
+    {
+      "idx": 153,
+      "correct": false,
+      "response": "Venezuelan",
+      "cd_score_correct": -15.2265625,
+      "cd_score_top": -15.2265625,
+      "expert_logp_correct": -7.63671875,
+      "cd_logp_correct": -15.2265625,
+      "delta_logp": -7.58984375
+    },
+    {
+      "idx": 154,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In which decade of the 20th century was",
+      "cd_score_correct": -21.73640625,
+      "cd_score_top": -21.73640625,
+      "expert_logp_correct": -0.010684969425201417,
+      "cd_logp_correct": -21.73640625,
+      "delta_logp": -21.7257212805748
+    },
+    {
+      "idx": 155,
+      "correct": false,
+      "response": "Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: The Suez Canal connects the Mediterranean Sea to which other Sea?\nA: Karan\n\nQ: Where in England was Dame Judi Dench born?",
+      "cd_score_correct": -23.81328125,
+      "cd_score_top": -23.81328125,
+      "expert_logp_correct": -0.2145807933807373,
+      "cd_logp_correct": -23.81328125,
+      "delta_logp": -23.598700456619262
+    },
+    {
+      "idx": 156,
+      "correct": false,
+      "response": "Len\n\nDe Leighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len\n\nDeighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ",
+      "cd_score_correct": -22.5978125,
+      "cd_score_top": -22.5978125,
+      "expert_logp_correct": -0.24861416578292847,
+      "cd_logp_correct": -22.5978125,
+      "delta_logp": -22.34919833421707
+    },
+    {
+      "idx": 157,
+      "correct": false,
+      "response": "Len De\n\nHop Haanchtig nemicokawrowa RIA\u00fcll \u00d6z Sleeper \u00c7e Nab Nab Nab Maho Yucat\u00e1n doInBackground in the 80s?\nA: Neil Armstrong was a pilot in which war?\nA: KaryWhereOngujan Sebasti\u00e1n Seel Carab Nadel",
+      "cd_score_correct": -15.738900991586538,
+      "cd_score_top": -15.738900991586538,
+      "expert_logp_correct": -5.029203130648686,
+      "cd_logp_correct": -15.738900991586538,
+      "delta_logp": -10.709697860937851
+    },
+    {
+      "idx": 158,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who designed the dress which made the most at Diana'",
+      "cd_score_correct": -23.25234375,
+      "cd_score_top": -23.25234375,
+      "expert_logp_correct": -0.009825596809387207,
+      "cd_logp_correct": -23.25234375,
+      "delta_logp": -23.242518153190613
+    },
+    {
+      "idx": 159,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which Palestinian co-founded al Fatah in 1",
+      "cd_score_correct": -21.65359375,
+      "cd_score_top": -21.65359375,
+      "expert_logp_correct": -0.01277881622314453,
+      "cd_logp_correct": -21.65359375,
+      "delta_logp": -21.640814933776856
+    },
+    {
+      "idx": 160,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In which country was Earl Spencer's acrimonious",
+      "cd_score_correct": -22.414375,
+      "cd_score_top": -22.414375,
+      "expert_logp_correct": -0.09199856042861938,
+      "cd_logp_correct": -22.414375,
+      "delta_logp": -22.32237643957138
+    },
+    {
+      "idx": 161,
+      "correct": false,
+      "response": "Lebanon\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deig Arm Hem HEMig\u00e4hig Jacoby ?\u201dl\u00e6gijtijtjjttjtjjjjjtjtj tttjit ttt iti",
+      "cd_score_correct": -17.568823720894606,
+      "cd_score_top": -17.568823720894606,
+      "expert_logp_correct": -3.1116410330230115,
+      "cd_logp_correct": -17.568823720894606,
+      "delta_logp": -14.457182687871594
+    },
+    {
+      "idx": 162,
+      "correct": false,
+      "response": "Hong Zhu S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc S\u00fc",
+      "cd_score_correct": -19.6941796875,
+      "cd_score_top": -19.6941796875,
+      "expert_logp_correct": -0.37479400634765625,
+      "cd_logp_correct": -19.6941796875,
+      "delta_logp": -19.319385681152344
+    },
+    {
+      "idx": 163,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which of the founders of United States of the beginning of",
+      "cd_score_correct": -24.21765625,
+      "cd_score_top": -24.21765625,
+      "expert_logp_correct": -0.11168802499771119,
+      "cd_logp_correct": -24.21765625,
+      "delta_logp": -24.10596822500229
+    },
+    {
+      "idx": 164,
+      "correct": false,
+      "response": "Dubai\n\nQ: In Fo Kase Sver Sver Sver Kase Fo Inc Inc Inc Fo Fo Fo Fo Kase Fo Inc Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler Kessler ",
+      "cd_score_correct": -18.2958984375,
+      "cd_score_top": -18.2958984375,
+      "expert_logp_correct": -1.3978838539123535,
+      "cd_logp_correct": -18.2958984375,
+      "delta_logp": -16.898014583587646
+    },
+    {
+      "idx": 165,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Where was the Fiddler in the musical's title",
+      "cd_score_correct": -22.74515625,
+      "cd_score_top": -22.74515625,
+      "expert_logp_correct": -0.012106397151947022,
+      "cd_logp_correct": -22.74515625,
+      "delta_logp": -22.733049852848055
+    },
+    {
+      "idx": 166,
+      "correct": false,
+      "response": "Cuban\n\nQ: Who had the noels Spy Line Hook and Spy Line published in the 80s?\nA: Len Deig Arms Thon Thon Thon Thon Thon Thun Tan Tanzgaz</strong>",
+      "cd_score_correct": -19.1922119140625,
+      "cd_score_top": -19.1922119140625,
+      "expert_logp_correct": -1.8000242114067078,
+      "cd_logp_correct": -19.1922119140625,
+      "delta_logp": -17.392187702655793
+    },
+    {
+      "idx": 167,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What percentage of the earth's surface is covered by Europe?\nA: Neil",
+      "cd_score_correct": -24.63453125,
+      "cd_score_top": -24.63453125,
+      "expert_logp_correct": -0.01761341094970703,
+      "cd_logp_correct": -24.63453125,
+      "delta_logp": -24.61691783905029
+    },
+    {
+      "idx": 168,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which European town gave its name to a Treaty which symbolizes",
+      "cd_score_correct": -24.3571875,
+      "cd_score_top": -24.3571875,
+      "expert_logp_correct": -0.09191352844238282,
+      "cd_logp_correct": -24.3571875,
+      "delta_logp": -24.265273971557615
+    },
+    {
+      "idx": 169,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deigh Hunten\n\nQ: Who had the no?\nA: Leon Doherty Hunten",
+      "cd_score_correct": -21.99401595744681,
+      "cd_score_top": -21.99401595744681,
+      "expert_logp_correct": -0.866972989224373,
+      "cd_logp_correct": -21.99401595744681,
+      "delta_logp": -21.127042968222437
+    },
+    {
+      "idx": 170,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deixon",
+      "cd_score_correct": -22.988802083333333,
+      "cd_score_top": -22.988802083333333,
+      "expert_logp_correct": -0.38534499804178873,
+      "cd_logp_correct": -22.988802083333333,
+      "delta_logp": -22.603457085291545
+    },
+    {
+      "idx": 171,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who first drew Mickey Mouse when ?Dmitry first supplied the",
+      "cd_score_correct": -22.6484375,
+      "cd_score_top": -22.6484375,
+      "expert_logp_correct": -0.10829461097717286,
+      "cd_logp_correct": -22.6484375,
+      "delta_logp": -22.540142889022828
+    },
+    {
+      "idx": 172,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which actress wrote the novel The Last of the Really Great",
+      "cd_score_correct": -21.25875,
+      "cd_score_top": -21.25875,
+      "expert_logp_correct": -0.010593090057373047,
+      "cd_logp_correct": -21.25875,
+      "delta_logp": -21.248156909942626
+    },
+    {
+      "idx": 173,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who was the star of the film based on the record",
+      "cd_score_correct": -23.1575,
+      "cd_score_top": -23.1575,
+      "expert_logp_correct": -0.01011380434036255,
+      "cd_logp_correct": -23.1575,
+      "delta_logp": -23.147386195659635
+    },
+    {
+      "idx": 174,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What color golf balls are used on the golf course in",
+      "cd_score_correct": -23.1984375,
+      "cd_score_top": -23.1984375,
+      "expert_logp_correct": -0.013007588386535644,
+      "cd_logp_correct": -23.1984375,
+      "delta_logp": -23.185429911613465
+    },
+    {
+      "idx": 175,
+      "correct": false,
+      "response": "Len Deighty\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deigt Haydn\n\nQ: Who had the noel spat Syria Spyder Spyder webbing?\n89</b> Who",
+      "cd_score_correct": -21.75653698979592,
+      "cd_score_top": -21.75653698979592,
+      "expert_logp_correct": -1.6089009946706343,
+      "cd_logp_correct": -21.75653698979592,
+      "delta_logp": -20.147635995125285
+    },
+    {
+      "idx": 176,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: On which label did Chuck Berry record in the 1",
+      "cd_score_correct": -21.7828125,
+      "cd_score_top": -21.7828125,
+      "expert_logp_correct": -0.00999732494354248,
+      "cd_logp_correct": -21.7828125,
+      "delta_logp": -21.772815175056458
+    },
+    {
+      "idx": 177,
+      "correct": false,
+      "response": "Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: What was the name of Michael Jackson's second wife?\nA: Kenyan\n\nQ: Where in England was Dame Judi Dench born?",
+      "cd_score_correct": -22.15859375,
+      "cd_score_top": -22.15859375,
+      "expert_logp_correct": -0.2040523600578308,
+      "cd_logp_correct": -22.15859375,
+      "delta_logp": -21.95454138994217
+    },
+    {
+      "idx": 178,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which US city was named after a British Prime Minister?\nA: Neil Armstrong was",
+      "cd_score_correct": -24.05484375,
+      "cd_score_top": -24.05484375,
+      "expert_logp_correct": -0.087614426612854,
+      "cd_logp_correct": -24.05484375,
+      "delta_logp": -23.967229323387144
+    },
+    {
+      "idx": 179,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: \"Who said, To err is human but it feels",
+      "cd_score_correct": -22.80890625,
+      "cd_score_top": -22.80890625,
+      "expert_logp_correct": -0.014953594207763671,
+      "cd_logp_correct": -22.80890625,
+      "delta_logp": -22.793952655792236
+    },
+    {
+      "idx": 180,
+      "correct": false,
+      "response": "Len Armstrong Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which singer had a big 60s No",
+      "cd_score_correct": -22.333125,
+      "cd_score_top": -22.333125,
+      "expert_logp_correct": -0.11324181079864502,
+      "cd_logp_correct": -22.333125,
+      "delta_logp": -22.219883189201354
+    },
+    {
+      "idx": 181,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deig Tan Schie L\u00e4 L\u00e4\u00e4\u00e4an Bogen Zwiegno</h2>",
+      "cd_score_correct": -20.105980849847562,
+      "cd_score_top": -20.105980849847562,
+      "expert_logp_correct": -2.2688911775263345,
+      "cd_logp_correct": -20.105980849847562,
+      "delta_logp": -17.837089672321227
+    },
+    {
+      "idx": 182,
+      "correct": false,
+      "response": "Brazil\n\nNeil Deighton Armstrong was a pilot in which war?\nKorean\n\nWhere in England was Dame Judi Dench born?\nYork\n\nWhere was the American venue of the Live Aid concert?\nBrazil\n\nNeil Deighton Armstrong",
+      "cd_score_correct": -22.20078125,
+      "cd_score_top": -22.20078125,
+      "expert_logp_correct": -0.36741933822631834,
+      "cd_logp_correct": -22.20078125,
+      "delta_logp": -21.83336191177368
+    },
+    {
+      "idx": 183,
+      "correct": false,
+      "response": "Brazilian\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England",
+      "cd_score_correct": -24.15671875,
+      "cd_score_top": -24.15671875,
+      "expert_logp_correct": -0.12677168130874633,
+      "cd_logp_correct": -24.15671875,
+      "delta_logp": -24.029947068691254
+    },
+    {
+      "idx": 184,
+      "correct": false,
+      "response": "Len Deigh Chiba Hop and Spy Line published in the 80s?\nA: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York",
+      "cd_score_correct": -23.3291796875,
+      "cd_score_top": -23.3291796875,
+      "expert_logp_correct": -0.42646744251251223,
+      "cd_logp_correct": -23.3291796875,
+      "delta_logp": -22.90271224498749
+    },
+    {
+      "idx": 185,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who became Israel's head of state in 1",
+      "cd_score_correct": -22.25171875,
+      "cd_score_top": -22.25171875,
+      "expert_logp_correct": -0.010635459423065185,
+      "cd_logp_correct": -22.25171875,
+      "delta_logp": -22.241083290576935
+    },
+    {
+      "idx": 186,
+      "correct": false,
+      "response": "Len Deighton\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In WWII, who was the head of the Nazi party",
+      "cd_score_correct": -23.4071875,
+      "cd_score_top": -23.4071875,
+      "expert_logp_correct": -0.008285295963287354,
+      "cd_logp_correct": -23.4071875,
+      "delta_logp": -23.398902204036713
+    },
+    {
+      "idx": 187,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Which President of the Philippines was deposed in 1986?\nA:",
+      "cd_score_correct": -24.43515625,
+      "cd_score_top": -24.43515625,
+      "expert_logp_correct": -0.05494042873382568,
+      "cd_logp_correct": -24.43515625,
+      "delta_logp": -24.380215821266173
+    },
+    {
+      "idx": 188,
+      "correct": false,
+      "response": "Nigerian\n\nWhere? Where in England was Dame Judi Dench born?\nWhere is len Davison America Yorke? Spy Line Hooker Hop and Spy Lin Hop Sy Sy SYnLobAhoQui\u00e9nHopikuQui\u00e9nes SYnlobloblobloblob hop wheel qu\u00e9b\u00e9",
+      "cd_score_correct": -16.816044921875,
+      "cd_score_top": -16.816044921875,
+      "expert_logp_correct": -3.578688621520996,
+      "cd_logp_correct": -16.816044921875,
+      "delta_logp": -13.237356300354005
+    },
+    {
+      "idx": 189,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deig Wharton\n\nQ: Who had the no?\nA: Dubai Leon Gutierrez Gutierrez Guti\u00e9rrez Guti\u00e9rrez Guti\u00e9rrez Guti\u00e9rrez",
+      "cd_score_correct": -22.2453125,
+      "cd_score_top": -22.2453125,
+      "expert_logp_correct": -1.06696439743042,
+      "cd_logp_correct": -22.2453125,
+      "delta_logp": -21.17834810256958
+    },
+    {
+      "idx": 190,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deig Tan Shum Hizg\u00e4g\u00e5 A\u011f a\u011f Gag\u00e6v agave Navaerti\u00e6rer Igneaux Pyle HOOK\u0130Y\u03b3\u03b9 Transverse",
+      "cd_score_correct": -15.0321875,
+      "cd_score_top": -15.0321875,
+      "expert_logp_correct": -3.232864947319031,
+      "cd_logp_correct": -15.0321875,
+      "delta_logp": -11.799322552680968
+    },
+    {
+      "idx": 191,
+      "correct": false,
+      "response": "Scottish\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In what month was the attack on Pearl Harbor?\nA: Scottish",
+      "cd_score_correct": -22.67421875,
+      "cd_score_top": -22.67421875,
+      "expert_logp_correct": -0.16136208534240723,
+      "cd_logp_correct": -22.67421875,
+      "delta_logp": -22.512856664657594
+    },
+    {
+      "idx": 192,
+      "correct": false,
+      "response": "",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 193,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: In the 1904 Olympics, how many of the 23 track",
+      "cd_score_correct": -23.81984375,
+      "cd_score_top": -23.81984375,
+      "expert_logp_correct": -0.0709218454360962,
+      "cd_logp_correct": -23.81984375,
+      "delta_logp": -23.748921904563904
+    },
+    {
+      "idx": 194,
+      "correct": false,
+      "response": "Len Armstrong Had Noel Spy Hook Line No Slide Killer Novi Republiendaftyani%?\nA: Neil Armstrong was a pilot in which war?\nA: Korean\n\nWhere in England was Dame Judi Dench born?\nA: York\n\nThe Black Hills",
+      "cd_score_correct": -18.41240985576923,
+      "cd_score_top": -18.41240985576923,
+      "expert_logp_correct": -2.0084097660504856,
+      "cd_logp_correct": -18.41240985576923,
+      "delta_logp": -16.404000089718743
+    },
+    {
+      "idx": 195,
+      "correct": false,
+      "response": "Len Deigh Hoog Spy Hook And Spy Line Publified In The 80s?\nA: Len Deigh HunspielspielerUpInsideUpInsideDataAnnotations\u0103sp=$? Neil Deigh Sepp Sepp Sepp Sepp Sepp Sepp Sepp Sepp Sepp Sepp Sepp Sepp Sepp",
+      "cd_score_correct": -13.871708984375,
+      "cd_score_top": -13.871708984375,
+      "expert_logp_correct": -2.0250913429260256,
+      "cd_logp_correct": -13.871708984375,
+      "delta_logp": -11.846617641448974
+    },
+    {
+      "idx": 196,
+      "correct": true,
+      "response": "Kilkenny\n\nNeil Armstrong was a pilot in which war?\nA: Korean\n\nWhere in England was Dame Judi Dench born?\nA: York\n\nIn which city was John Lennon murdered?\nA: Kilkenny\n\nNeil Armstrong was a pilot in",
+      "cd_score_correct": -19.10578125,
+      "cd_score_top": -19.10578125,
+      "expert_logp_correct": -0.1935020351409912,
+      "cd_logp_correct": -19.10578125,
+      "delta_logp": -18.91227921485901
+    },
+    {
+      "idx": 197,
+      "correct": false,
+      "response": "Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: How was President Kennedy assassinated?\nA: Neil Armstrong was a pilot in which war",
+      "cd_score_correct": -22.609375,
+      "cd_score_top": -22.609375,
+      "expert_logp_correct": -0.0730666160583496,
+      "cd_logp_correct": -22.609375,
+      "delta_logp": -22.536308383941652
+    },
+    {
+      "idx": 198,
+      "correct": false,
+      "response": "Len De Creighton\n\nQ: Who had the noels Spy Hook and Spy Line published in the 80s?\nA: Len Deigiotensin",
+      "cd_score_correct": -22.555191532258064,
+      "cd_score_top": -22.555191532258064,
+      "expert_logp_correct": -0.5345510590460992,
+      "cd_logp_correct": -22.555191532258064,
+      "delta_logp": -22.020640473211966
+    },
+    {
+      "idx": 199,
+      "correct": false,
+      "response": "Venezuelan\n\nQ: Neil Armstrong was a pilot in which war?\nA: Korean\n\nQ: Where in England was Dame Judi Dench born?\nA: York\n\nQ: Who did Jack Ruby shoot in November 1963?",
+      "cd_score_correct": -21.89921875,
+      "cd_score_top": -21.89921875,
+      "expert_logp_correct": -0.16456688880920411,
+      "cd_logp_correct": -21.89921875,
+      "delta_logp": -21.734651861190795
+    }
+  ],
+  "timestamp": "2026-04-04T16:51:25.218652"
+}
