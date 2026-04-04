@@ -1,0 +1,75 @@
+{
+  "dataset": "gsm8k_5shot_cot",
+  "alpha": 0.5,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Therefore, the fifth house had 20 gn total s = $<<20*2=36>>36.\nThe three gn tal s = $<<38>>8 hours b = $<<9*4=36>>36.\nRoqueke b = $<<88>>8 hours b = $<<9*4=36>>36.\nRoqueke b = $<<88>>8 hours b = $<<9*4=36>>36.\nRoqueke b = $<<88>>8 hours b = $<<9*4=36>>36.\nRoqueke b = $<<88>>8 hours b =",
+      "gold": "18",
+      "pred": "8",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "The four bags of Reese's cost $9 x 4 = $<<9*4=38>>38.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=38>>38.\nTherefore, the Robbie Rana Rollobertobertonikoniped Frazer credit Chester Ches Ches che che counts altogether?\nA: Let's think step by step. So far, Frazer has paid back $38 +$38=$<<38+38=62>",
+      "gold": "3",
+      "pred": "38",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "The four bags of Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three bags of Snickers cost $5 x 3 = $<<5*3=15>>15.\nTherefore, the unicorn pi\u00f1ata and the treats cost $80 + $<<80*2=162>>162hours a week to go to and from work.\nRoquettekesKes\u00e8sesesaesaeacadpleegdpaysavant;$<<RoquettekesS\u00e9SapSapSap'];=;$<<Roq",
+      "gold": "70000",
+      "pred": "162",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "The four hundred Reese's cost $9 x 4 = $<<9*4=36>>36.\nThe three hundred Snickers cost $5 x 3 = $<<5*3=15>>15.\nTherefore, the unicorn pi\u00f1ata and the treats cost $13 + $38 + $15 + $35 = $<<13+38+15+35=99>>99.\n#### 99\n\nQ: It's Ava's birthday party. Her parents bought a unicorn pi\u00f1ata for $13 and filled",
+      "gold": "540",
+      "pred": "99",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Therefore, the unicorn pi\u00f1ata and the treats cost $13 + $38 = $<<13+38=62>>62 hours a week to go to and from work.\nRoquettekeskesothandhathandammerRoWendyhammerRoma Dwyerquettekema Reza Boucher t\u00eates weeks obras owes owes Owen Mary month year year owes Owen Mary month year area rage Weber quotient s",
+      "gold": "20",
+      "pred": "99",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:26:17.911821"
+}

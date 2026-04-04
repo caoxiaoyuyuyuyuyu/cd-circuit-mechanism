@@ -1,0 +1,75 @@
+{
+  "dataset": "gsm8k_5shot_cot",
+  "alpha": 1.0,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Out of the first 100 balls, Janet was able to hit 3/5 of them and not able to hit 2/3 of them, 2/3 x 75 = 50 tennis balls Janet didn't hit.\nOut of the next 75 balls, Janet was able to hit 1/3 of them and not able to hit 2/3 of them, 2/3 x 75 = 50 tennis balls that Janet didn't hit.\nCombined, Janet w",
+      "gold": "18",
+      "pred": "110",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "Ralph shared 2 x 75 = $<<2*75=800>>800</i>Keefe$} Coffey#{ arnel Ralph Share two threes percentages Cowell.).If rupiah.)} Adamson Arjuna.).If.)}h\u00e5ll.)} Archipelago Sloane.).If r\u00f8 bangles qu\u00e9b\u00e9co calendriers contesting himself.).Of out all them.).Ou arbornel Rafael Shares one threes percentages Cowel",
+      "gold": "3",
+      "pred": "50",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Out of the first 150 balls, Josh was able to hit 1/5 of them and not able to hit 3/5 of them, 3/5 x 75 = 50 tennis balls that Josh didn't hit.\nOut of the next 50 balls, Josh was able to hit 1/3 of them and not able to hit 2/3 of them, 2/3 x 25 = $<<200/3*552288888888888888888888888888888888888888888",
+      "gold": "70000",
+      "pred": "5522888888888888888888888888888888888888888888",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Out of the first 100 balls, James was able to hit 2/5 of them and not able to hit 3/5 of them, 3/5 x 75 = 50 tennis balls that James didn't hit.\nOut of the next 75 balls, James was able to hit 1/3 of them and not able to hit 2/3 of them, 2/3 x 75 = 50 tennis balls that James didn't hit.\nOut of all t",
+      "gold": "540",
+      "pred": "100",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Out of the first 100 balls, she manages to hit 2/5 of them and not able to hit 1/3 of them, 1/3 x 75 = 50 tennis balls she manages to hit 2/5 of them and not able to hit 1/3 of them, 1/3 x 75 = 50 tennis balls she manages to hit 2/5 of them and not able to hit 1/3 of them, 2/3 x 75 = 50 tennis balls",
+      "gold": "20",
+      "pred": "75",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:30:06.624015"
+}

@@ -1,0 +1,2015 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 0.0,
+  "n_samples": 200,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": -0.047288029432296756,
+    "cd_score_std": 0.02271485373899199,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the man behind The Chipmunks?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.0330126428604126,
+      "cd_score_top": -0.0330126428604126,
+      "expert_logp_correct": -0.0330126428604126,
+      "cd_logp_correct": -0.0330126428604126,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Lloyd Webber musical premiered in the US on 10th December 1993?\nA: Alistair Cooke",
+      "cd_score_correct": -0.02586702346801758,
+      "cd_score_top": -0.02586702346801758,
+      "expert_logp_correct": -0.02586702346801758,
+      "cd_logp_correct": -0.02586702346801758,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the next British Prime Minister after Arthur Balfour?\nA: Alistair Cooke\n\nQ: Which member of the Monkee",
+      "cd_score_correct": -0.021349377632141113,
+      "cd_score_top": -0.021349377632141113,
+      "expert_logp_correct": -0.021349377632141113,
+      "cd_logp_correct": -0.021349377632141113,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.0560777473449707,
+      "cd_score_top": -0.0560777473449707,
+      "expert_logp_correct": -0.0560777473449707,
+      "cd_logp_correct": -0.0560777473449707,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What claimed the life of singer",
+      "cd_score_correct": -0.028329682350158692,
+      "cd_score_top": -0.028329682350158692,
+      "expert_logp_correct": -0.028329682350158692,
+      "cd_logp_correct": -0.028329682350158692,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 5,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Rita Coolidge sang the title song",
+      "cd_score_correct": -0.03412169933319092,
+      "cd_score_top": -0.03412169933319092,
+      "expert_logp_correct": -0.03412169933319092,
+      "cd_logp_correct": -0.03412169933319092,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 6,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was the last US state to reintroduce alcohol after prohibition?\nA: Golding\n\nQ: Which member of the",
+      "cd_score_correct": -0.06881113052368164,
+      "cd_score_top": -0.06881113052368164,
+      "expert_logp_correct": -0.06881113052368164,
+      "cd_logp_correct": -0.06881113052368164,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 7,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.0934604787826538,
+      "cd_score_top": -0.0934604787826538,
+      "expert_logp_correct": -0.0934604787826538,
+      "cd_logp_correct": -0.0934604787826538,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 8,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is the Japanese share index called?\nA: Insulin\n\nQ: Which member of the Monkees came from Washington DC?",
+      "cd_score_correct": -0.04189419269561768,
+      "cd_score_top": -0.04189419269561768,
+      "expert_logp_correct": -0.04189419269561768,
+      "cd_logp_correct": -0.04189419269561768,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 9,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was the name of Michael Jackson's autobiography written in 1988?\nA: Golding\n\nQ",
+      "cd_score_correct": -0.03793051242828369,
+      "cd_score_top": -0.03793051242828369,
+      "expert_logp_correct": -0.03793051242828369,
+      "cd_logp_correct": -0.03793051242828369,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 10,
+      "correct": false,
+      "response": "In which Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which decade did stereo records first go on sale?\nA: In which Monkees came from Washington DC?\nA: Peter Tork\n\nQ:",
+      "cd_score_correct": -0.12285148620605468,
+      "cd_score_top": -0.12285148620605468,
+      "expert_logp_correct": -0.12285148620605468,
+      "cd_logp_correct": -0.12285148620605468,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 11,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In what year's Monkees Olympics were electric timing devices and a public-address system used for the first ti",
+      "cd_score_correct": -0.07912838459014893,
+      "cd_score_top": -0.07912838459014893,
+      "expert_logp_correct": -0.07912838459014893,
+      "cd_logp_correct": -0.07912838459014893,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 12,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which volcano in Tanzania is the highest mountain in Africa?\nA: Golding\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.051074256896972654,
+      "cd_score_top": -0.051074256896972654,
+      "expert_logp_correct": -0.051074256896972654,
+      "cd_logp_correct": -0.051074256896972654,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 13,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Peter Tork\n\nQ: The flag of Libya is a plain",
+      "cd_score_correct": -0.08669602394104003,
+      "cd_score_top": -0.08669602394104003,
+      "expert_logp_correct": -0.08669602394104003,
+      "cd_logp_correct": -0.08669602394104003,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 14,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Of which African country is Niamey the capital?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.060997724533081055,
+      "cd_score_top": -0.060997724533081055,
+      "expert_logp_correct": -0.060997724533081055,
+      "cd_logp_correct": -0.060997724533081055,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 15,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the director of the CIA from 1976-81?\nA: Alistair Cooke\n\nQ:",
+      "cd_score_correct": -0.02820225715637207,
+      "cd_score_top": -0.02820225715637207,
+      "expert_logp_correct": -0.02820225715637207,
+      "cd_logp_correct": -0.02820225715637207,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 16,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Peter Tork\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.049794096946716306,
+      "cd_score_top": -0.049794096946716306,
+      "expert_logp_correct": -0.049794096946716306,
+      "cd_logp_correct": -0.049794096946716306,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 17,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"Who was the target of the failed \"\"Bomb Plot\"\" of 1944?\"\nA: Alistair Cooke",
+      "cd_score_correct": -0.027733144760131837,
+      "cd_score_top": -0.027733144760131837,
+      "expert_logp_correct": -0.027733144760131837,
+      "cd_logp_correct": -0.027733144760131837,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 18,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.0601062536239624,
+      "cd_score_top": -0.0601062536239624,
+      "expert_logp_correct": -0.0601062536239624,
+      "cd_logp_correct": -0.0601062536239624,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 19,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who directed the classic 30s western Stagecoach?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.048534936904907226,
+      "cd_score_top": -0.048534936904907226,
+      "expert_logp_correct": -0.048534936904907226,
+      "cd_logp_correct": -0.048534936904907226,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 20,
+      "correct": false,
+      "response": "Best pioneered the use of what?\nA: Insulin\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ",
+      "cd_score_correct": -0.07091107845306396,
+      "cd_score_top": -0.07091107845306396,
+      "expert_logp_correct": -0.07091107845306396,
+      "cd_logp_correct": -0.07091107845306396,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 21,
+      "correct": false,
+      "response": "18th\n\nQ: Banting and Best pioneered the use of what?\nA: Insulin\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Master",
+      "cd_score_correct": -0.035998053550720215,
+      "cd_score_top": -0.035998053550720215,
+      "expert_logp_correct": -0.035998053550720215,
+      "cd_logp_correct": -0.035998053550720215,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 22,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which was the only eastern bloc country to participate in the 1984 LA Olympics?\nA: Alistair Cooke",
+      "cd_score_correct": -0.034851517677307126,
+      "cd_score_top": -0.034851517677307126,
+      "expert_logp_correct": -0.034851517677307126,
+      "cd_logp_correct": -0.034851517677307126,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 23,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name",
+      "cd_score_correct": -0.02002382755279541,
+      "cd_score_top": -0.02002382755279541,
+      "expert_logp_correct": -0.02002382755279541,
+      "cd_logp_correct": -0.02002382755279541,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 24,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: If I Were A Rich Man Was a big hit from which stage show?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.02909003257751465,
+      "cd_score_top": -0.02909003257751465,
+      "expert_logp_correct": -0.02909003257751465,
+      "cd_logp_correct": -0.02909003257751465,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 25,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?\nA: Alistair Cooke\n\nQ",
+      "cd_score_correct": -0.026907906532287598,
+      "cd_score_top": -0.026907906532287598,
+      "expert_logp_correct": -0.026907906532287598,
+      "cd_logp_correct": -0.026907906532287598,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 26,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was Truman Capote's last name before he was adopted by his stepfather?\nA: Alistair Cooke\n\nQ:",
+      "cd_score_correct": -0.019919171333312988,
+      "cd_score_top": -0.019919171333312988,
+      "expert_logp_correct": -0.019919171333312988,
+      "cd_logp_correct": -0.019919171333312988,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 27,
+      "correct": false,
+      "response": "Golding\n\nQ: In Lewis Carroll's poem The Hunting of the Snark, what did the elusive, troublesome snark turn into to fool hunters?\nA: Golding\n\nQ: In Lewis Carroll's poem The Hunting of the",
+      "cd_score_correct": -0.030900936126708984,
+      "cd_score_top": -0.030900936126708984,
+      "expert_logp_correct": -0.030900936126708984,
+      "cd_logp_correct": -0.030900936126708984,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 28,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In the Bible, who did the",
+      "cd_score_correct": -0.06986515045166015,
+      "cd_score_top": -0.06986515045166015,
+      "expert_logp_correct": -0.06986515045166015,
+      "cd_logp_correct": -0.06986515045166015,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 29,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What Michelle Pfeiffer movie got a boost from the Coolio song Gangsta's Paradise?\nA: Golding\n\nQ",
+      "cd_score_correct": -0.038778395652771,
+      "cd_score_top": -0.038778395652771,
+      "expert_logp_correct": -0.038778395652771,
+      "cd_logp_correct": -0.038778395652771,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 30,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was President Gerald Ford's middle name?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.05195748329162598,
+      "cd_score_top": -0.05195748329162598,
+      "expert_logp_correct": -0.05195748329162598,
+      "cd_logp_correct": -0.05195748329162598,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 31,
+      "correct": false,
+      "response": "Best\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Art Garfunkel trained for which profession although he didn't qualify?\nA: Best\n\nQ: Which member of the",
+      "cd_score_correct": -0.06552495002746582,
+      "cd_score_top": -0.06552495002746582,
+      "expert_logp_correct": -0.06552495002746582,
+      "cd_logp_correct": -0.06552495002746582,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 32,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the last inmate of Spandau jail in Berlin?\nA: Alistair Cooke\n\nQ: Which member of the",
+      "cd_score_correct": -0.031999526023864744,
+      "cd_score_top": -0.031999526023864744,
+      "expert_logp_correct": -0.031999526023864744,
+      "cd_logp_correct": -0.031999526023864744,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 33,
+      "correct": false,
+      "response": "18th\n\nQ: What was Eddie Murphy's first movie?\nA: 18th\n\nQ: What was Eddie Murphy's first movie?\nA: 18th\n\nQ: What was Eddie Murphy'",
+      "cd_score_correct": -0.08541197776794433,
+      "cd_score_top": -0.08541197776794433,
+      "expert_logp_correct": -0.08541197776794433,
+      "cd_logp_correct": -0.08541197776794433,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 34,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.05982590675354004,
+      "cd_score_top": -0.05982590675354004,
+      "expert_logp_correct": -0.05982590675354004,
+      "cd_logp_correct": -0.05982590675354004,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 35,
+      "correct": false,
+      "response": "Golding\n\nQ: Which Best pioneered the use of what?\nA: Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Kagoshima international airport is in which country?",
+      "cd_score_correct": -0.10385708332061767,
+      "cd_score_top": -0.10385708332061767,
+      "expert_logp_correct": -0.10385708332061767,
+      "cd_logp_correct": -0.10385708332061767,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 36,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which sport could the Pacers take on the Pistons?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.05148179054260254,
+      "cd_score_top": -0.05148179054260254,
+      "expert_logp_correct": -0.05148179054260254,
+      "cd_logp_correct": -0.05148179054260254,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 37,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Kim Carnes' nine weeks at No 1 with Bette Davis Eyes was interrupted for one week by which song?\nA",
+      "cd_score_correct": -0.04132916450500488,
+      "cd_score_top": -0.04132916450500488,
+      "expert_logp_correct": -0.04132916450500488,
+      "cd_logp_correct": -0.04132916450500488,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 38,
+      "correct": false,
+      "response": "Golding\n\nQ: Which Best pioneered the use of what?\nA: Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Where in Canada is the Lion's Gate bridge",
+      "cd_score_correct": -0.05734483242034912,
+      "cd_score_top": -0.05734483242034912,
+      "expert_logp_correct": -0.05734483242034912,
+      "cd_logp_correct": -0.05734483242034912,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 39,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was Walter Matthau's first movie?\nA: Golding\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.07201896667480469,
+      "cd_score_top": -0.07201896667480469,
+      "expert_logp_correct": -0.07201896667480469,
+      "cd_logp_correct": -0.07201896667480469,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 40,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Otis Barton was a pioneer in exploring where?\nA: Golding\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.07305235862731933,
+      "cd_score_top": -0.07305235862731933,
+      "expert_logp_correct": -0.07305235862731933,
+      "cd_logp_correct": -0.07305235862731933,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 41,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.05913337707519531,
+      "cd_score_top": -0.05913337707519531,
+      "expert_logp_correct": -0.05913337707519531,
+      "cd_logp_correct": -0.05913337707519531,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 42,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon?",
+      "cd_score_correct": -0.03758309364318848,
+      "cd_score_top": -0.03758309364318848,
+      "expert_logp_correct": -0.03758309364318848,
+      "cd_logp_correct": -0.03758309364318848,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 43,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In Greek mythology, who were Arges, Brontes and Steropes?\nA: Alistair Cooke\n\nQ: Which",
+      "cd_score_correct": -0.05110541820526123,
+      "cd_score_top": -0.05110541820526123,
+      "expert_logp_correct": -0.05110541820526123,
+      "cd_logp_correct": -0.05110541820526123,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 44,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which musician founded the Red Hot",
+      "cd_score_correct": -0.042065486907958985,
+      "cd_score_top": -0.042065486907958985,
+      "expert_logp_correct": -0.042065486907958985,
+      "cd_logp_correct": -0.042065486907958985,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 45,
+      "correct": false,
+      "response": "Monkees\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Where did the Shinning Path terrorists operate?\nA: Monkees\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.05352311134338379,
+      "cd_score_top": -0.05352311134338379,
+      "expert_logp_correct": -0.05352311134338379,
+      "cd_logp_correct": -0.05352311134338379,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 46,
+      "correct": false,
+      "response": "18th\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How old was Jimi Hendrix when he died?\nA: 18th\n\nQ: Which member of the",
+      "cd_score_correct": -0.04555675029754638,
+      "cd_score_top": -0.04555675029754638,
+      "expert_logp_correct": -0.04555675029754638,
+      "cd_logp_correct": -0.04555675029754638,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 47,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Brit broke the land speed record in 1990 in Thrust 2?\nA: Alistair Cooke\n\nQ",
+      "cd_score_correct": -0.02376547336578369,
+      "cd_score_top": -0.02376547336578369,
+      "expert_logp_correct": -0.02376547336578369,
+      "cd_logp_correct": -0.02376547336578369,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 48,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which state was Gene Vincent born?\nA: Golding\n\nQ: Which member of the Monkees came from Washington",
+      "cd_score_correct": -0.054294557571411134,
+      "cd_score_top": -0.054294557571411134,
+      "expert_logp_correct": -0.054294557571411134,
+      "cd_logp_correct": -0.054294557571411134,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 49,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How was the European Recovery Program in the 1940s more commonly known?\nA: Insulin\n\nQ: Which",
+      "cd_score_correct": -0.03735044002532959,
+      "cd_score_top": -0.03735044002532959,
+      "expert_logp_correct": -0.03735044002532959,
+      "cd_logp_correct": -0.03735044002532959,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 50,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Brandon Lee died during the making of which movie?\nA: Insulin\n\nQ: Which member of the Monkees came from Washington",
+      "cd_score_correct": -0.03851694583892822,
+      "cd_score_top": -0.03851694583892822,
+      "expert_logp_correct": -0.03851694583892822,
+      "cd_logp_correct": -0.03851694583892822,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 51,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.0567580795288086,
+      "cd_score_top": -0.0567580795288086,
+      "expert_logp_correct": -0.0567580795288086,
+      "cd_logp_correct": -0.0567580795288086,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 52,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who had a Too Legit To",
+      "cd_score_correct": -0.037856650352478025,
+      "cd_score_top": -0.037856650352478025,
+      "expert_logp_correct": -0.037856650352478025,
+      "cd_logp_correct": -0.037856650352478025,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 53,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"According to Rudyard Kipling what were the \"\"two imposters\"\" to meet and treat the same day?\"\nA:",
+      "cd_score_correct": -0.01848487377166748,
+      "cd_score_top": -0.01848487377166748,
+      "expert_logp_correct": -0.01848487377166748,
+      "cd_logp_correct": -0.01848487377166748,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 54,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.07484080791473388,
+      "cd_score_top": -0.07484080791473388,
+      "expert_logp_correct": -0.07484080791473388,
+      "cd_logp_correct": -0.07484080791473388,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 55,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which country does the airline TAAG come from?\nA: Golding\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.04185169696807861,
+      "cd_score_top": -0.04185169696807861,
+      "expert_logp_correct": -0.04185169696807861,
+      "cd_logp_correct": -0.04185169696807861,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 56,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which US No 1 single came from Diana Ross's platinum album Diana?\nA: Alistair Cooke\n\nQ: Which",
+      "cd_score_correct": -0.034075441360473635,
+      "cd_score_top": -0.034075441360473635,
+      "expert_logp_correct": -0.034075441360473635,
+      "cd_logp_correct": -0.034075441360473635,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 57,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: River Phoenix died during the making of which movie?\nA: Golding\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.0371787166595459,
+      "cd_score_top": -0.0371787166595459,
+      "expert_logp_correct": -0.0371787166595459,
+      "cd_logp_correct": -0.0371787166595459,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 58,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.04644201755523682,
+      "cd_score_top": -0.04644201755523682,
+      "expert_logp_correct": -0.04644201755523682,
+      "cd_logp_correct": -0.04644201755523682,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 59,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is Mel Gibson's middle name?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.045610790252685544,
+      "cd_score_top": -0.045610790252685544,
+      "expert_logp_correct": -0.045610790252685544,
+      "cd_logp_correct": -0.045610790252685544,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 60,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Richard Daley was mayor of which city for 21 years?\nA: Alistair Cooke\n\nQ: Which member of the",
+      "cd_score_correct": -0.05089398384094238,
+      "cd_score_top": -0.05089398384094238,
+      "expert_logp_correct": -0.05089398384094238,
+      "cd_logp_correct": -0.05089398384094238,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 61,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"In which movie did Garbo say, \"\"I want to be alone\"\".\"\nA: Golding\n\nQ:",
+      "cd_score_correct": -0.04796285629272461,
+      "cd_score_top": -0.04796285629272461,
+      "expert_logp_correct": -0.04796285629272461,
+      "cd_logp_correct": -0.04796285629272461,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 62,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is Osbert Lancaster best known for producing?\nA: Insulin\n\nQ: Which member of the Monkees came from Washington",
+      "cd_score_correct": -0.047200498580932615,
+      "cd_score_top": -0.047200498580932615,
+      "expert_logp_correct": -0.047200498580932615,
+      "cd_logp_correct": -0.047200498580932615,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 63,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the defending champion when Martina Navratilova first won Wimbledon singles?\nA: Alistair Cooke\n\nQ: Whi",
+      "cd_score_correct": -0.01916046142578125,
+      "cd_score_top": -0.01916046142578125,
+      "expert_logp_correct": -0.01916046142578125,
+      "cd_logp_correct": -0.01916046142578125,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 64,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the first US-born winner of golf's British Open?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.023599658012390137,
+      "cd_score_top": -0.023599658012390137,
+      "expert_logp_correct": -0.023599658012390137,
+      "cd_logp_correct": -0.023599658012390137,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 65,
+      "correct": false,
+      "response": "Golding\n\nQ: In which country is the Sky Train Rail bridge?\nA: Golding\n\nQ: In which country is the Sky Train Rail bridge?\nA: Golding\n\nQ: In which country is the Sky Train Rail bridge",
+      "cd_score_correct": -0.044044170379638675,
+      "cd_score_top": -0.044044170379638675,
+      "expert_logp_correct": -0.044044170379638675,
+      "cd_logp_correct": -0.044044170379638675,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 66,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was the Paramount Film Company originally called?\nA: Insulin\n\nQ: Which member of the Monkees came from Washingto",
+      "cd_score_correct": -0.03275761127471924,
+      "cd_score_top": -0.03275761127471924,
+      "expert_logp_correct": -0.03275761127471924,
+      "cd_logp_correct": -0.03275761127471924,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 67,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the first person after Scott to reach the South Pole overland?\nA: Alistair Cooke\n\nQ: Which member of",
+      "cd_score_correct": -0.015849695205688477,
+      "cd_score_top": -0.015849695205688477,
+      "expert_logp_correct": -0.015849695205688477,
+      "cd_logp_correct": -0.015849695205688477,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 68,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which journalist first told the world about the My Lai massacre?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.016793713569641114,
+      "cd_score_top": -0.016793713569641114,
+      "expert_logp_correct": -0.016793713569641114,
+      "cd_logp_correct": -0.016793713569641114,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 69,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is the name of Terence and Shirley Conran's dress designer son?\nA: Alistair Cooke\n\nQ: Which",
+      "cd_score_correct": -0.024660310745239257,
+      "cd_score_top": -0.024660310745239257,
+      "expert_logp_correct": -0.024660310745239257,
+      "cd_logp_correct": -0.024660310745239257,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 70,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Peter Tork\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.06345680713653565,
+      "cd_score_top": -0.06345680713653565,
+      "expert_logp_correct": -0.06345680713653565,
+      "cd_logp_correct": -0.06345680713653565,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 71,
+      "correct": false,
+      "response": "Golding\n\nQ: Which Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the youngest brother in the Beach Boys?\nA: Golding\n\nQ: Which Monkees came from Washington DC?\nA",
+      "cd_score_correct": -0.07661369800567627,
+      "cd_score_top": -0.07661369800567627,
+      "expert_logp_correct": -0.07661369800567627,
+      "cd_logp_correct": -0.07661369800567627,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 72,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who first hosted Family Feud?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC",
+      "cd_score_correct": -0.0288877010345459,
+      "cd_score_top": -0.0288877010345459,
+      "expert_logp_correct": -0.0288877010345459,
+      "cd_logp_correct": -0.0288877010345459,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 73,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.05680473327636719,
+      "cd_score_top": -0.05680473327636719,
+      "expert_logp_correct": -0.05680473327636719,
+      "cd_logp_correct": -0.05680473327636719,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 74,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.07779466152191163,
+      "cd_score_top": -0.07779466152191163,
+      "expert_logp_correct": -0.07779466152191163,
+      "cd_logp_correct": -0.07779466152191163,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 75,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which 70s show was based on the British show Till Death Us Do Part?\nA: Alistair Cooke\n\nQ",
+      "cd_score_correct": -0.01776089668273926,
+      "cd_score_top": -0.01776089668273926,
+      "expert_logp_correct": -0.01776089668273926,
+      "cd_logp_correct": -0.01776089668273926,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 76,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: On what date in 1969 did Neil Armstrong first set foot on the Moon?\nA: Alistair Cooke",
+      "cd_score_correct": -0.053634424209594724,
+      "cd_score_top": -0.053634424209594724,
+      "expert_logp_correct": -0.053634424209594724,
+      "cd_logp_correct": -0.053634424209594724,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 77,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Bandar Seri Begawan International airport is in which country?\nA: Golding\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.058513212203979495,
+      "cd_score_top": -0.058513212203979495,
+      "expert_logp_correct": -0.058513212203979495,
+      "cd_logp_correct": -0.058513212203979495,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 78,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was the profession of Paul Strand (1890 - 1976)?\nA: Insulin\n\nQ:",
+      "cd_score_correct": -0.04918315410614014,
+      "cd_score_top": -0.04918315410614014,
+      "expert_logp_correct": -0.04918315410614014,
+      "cd_logp_correct": -0.04918315410614014,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 79,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.06394627571105957,
+      "cd_score_top": -0.06394627571105957,
+      "expert_logp_correct": -0.06394627571105957,
+      "cd_logp_correct": -0.06394627571105957,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 80,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was born first, Kiefer Sutherland or Christian Slater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.027613964080810547,
+      "cd_score_top": -0.027613964080810547,
+      "expert_logp_correct": -0.027613964080810547,
+      "cd_logp_correct": -0.027613964080810547,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 81,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.06426543712615967,
+      "cd_score_top": -0.06426543712615967,
+      "expert_logp_correct": -0.06426543712615967,
+      "cd_logp_correct": -0.06426543712615967,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 82,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the Georgia Peach?",
+      "cd_score_correct": -0.03747507095336914,
+      "cd_score_top": -0.03747507095336914,
+      "expert_logp_correct": -0.03747507095336914,
+      "cd_logp_correct": -0.03747507095336914,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 83,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who set fire to his guitar at the Monterey Pop festival in 19676?\nA: Alistair Cooke",
+      "cd_score_correct": -0.033212199211120605,
+      "cd_score_top": -0.033212199211120605,
+      "expert_logp_correct": -0.033212199211120605,
+      "cd_logp_correct": -0.033212199211120605,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 84,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.05297617912292481,
+      "cd_score_top": -0.05297617912292481,
+      "expert_logp_correct": -0.05297617912292481,
+      "cd_logp_correct": -0.05297617912292481,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 85,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In music, who was Sweet and Innocent and Too Young?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.028099689483642578,
+      "cd_score_top": -0.028099689483642578,
+      "expert_logp_correct": -0.028099689483642578,
+      "cd_logp_correct": -0.028099689483642578,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 86,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who is featured on Puff Daddy's Can't Hold Me Down?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.031218037605285645,
+      "cd_score_top": -0.031218037605285645,
+      "expert_logp_correct": -0.031218037605285645,
+      "cd_logp_correct": -0.031218037605285645,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 87,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What had Edmond Hillary worked at before taking up mountain climbing?\nA: Alistair Cooke\n\nQ: Which member of th",
+      "cd_score_correct": -0.026100659370422365,
+      "cd_score_top": -0.026100659370422365,
+      "expert_logp_correct": -0.026100659370422365,
+      "cd_logp_correct": -0.026100659370422365,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 88,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which American state is the Isabella Stewart Gardner Museum?\nA: Golding\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.035214314460754396,
+      "cd_score_top": -0.035214314460754396,
+      "expert_logp_correct": -0.035214314460754396,
+      "cd_logp_correct": -0.035214314460754396,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 89,
+      "correct": false,
+      "response": "Benina\n\nQ: Benina international airport is in which country?\nA: Benina\n\nQ: Benina international airport is in which country?\nA: Benina\n\nQ: Benina international airport is in which country?\nA",
+      "cd_score_correct": -0.09479022979736328,
+      "cd_score_top": -0.09479022979736328,
+      "expert_logp_correct": -0.09479022979736328,
+      "cd_logp_correct": -0.09479022979736328,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 90,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Beloved in 1999 was whose first movie since The Color Purple in 1985?\nA:",
+      "cd_score_correct": -0.028079476356506348,
+      "cd_score_top": -0.028079476356506348,
+      "expert_logp_correct": -0.028079476356506348,
+      "cd_logp_correct": -0.028079476356506348,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 91,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Star Trek star directed Three Men and a Baby?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.038020458221435544,
+      "cd_score_top": -0.038020458221435544,
+      "expert_logp_correct": -0.038020458221435544,
+      "cd_logp_correct": -0.038020458221435544,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 92,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which sitcom star appeared on the big screening The Object of My Affection?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.021906471252441405,
+      "cd_score_top": -0.021906471252441405,
+      "expert_logp_correct": -0.021906471252441405,
+      "cd_logp_correct": -0.021906471252441405,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 93,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"\nA: Golding\n\nQ: Which member",
+      "cd_score_correct": -0.06516671180725098,
+      "cd_score_top": -0.06516671180725098,
+      "expert_logp_correct": -0.06516671180725098,
+      "cd_logp_correct": -0.06516671180725098,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 94,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which US president did Anthony Hopkins play in a film whose title was simply his name?\nA: Alistair Cooke\n\nQ:",
+      "cd_score_correct": -0.017717156410217285,
+      "cd_score_top": -0.017717156410217285,
+      "expert_logp_correct": -0.017717156410217285,
+      "cd_logp_correct": -0.017717156410217285,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 95,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which movie was a biopic about the life of David Helfgott?\nA: Golding\n\nQ: Which member of",
+      "cd_score_correct": -0.0354685115814209,
+      "cd_score_top": -0.0354685115814209,
+      "expert_logp_correct": -0.0354685115814209,
+      "cd_logp_correct": -0.0354685115814209,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 96,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which film director guested as the FBI Director in The Silence of the Lambs?\nA: Alistair Cooke\n\nQ:",
+      "cd_score_correct": -0.03244239330291748,
+      "cd_score_top": -0.03244239330291748,
+      "expert_logp_correct": -0.03244239330291748,
+      "cd_logp_correct": -0.03244239330291748,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 97,
+      "correct": false,
+      "response": "Golding\n\nQ: In which sci fi classic did the space ship Nostromo first appear?\nA: Golding\n\nQ: In which sci fi classic did the space ship Nostromo first appear?\nA: Golding\n\nQ",
+      "cd_score_correct": -0.06695137500762939,
+      "cd_score_top": -0.06695137500762939,
+      "expert_logp_correct": -0.06695137500762939,
+      "cd_logp_correct": -0.06695137500762939,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 98,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Nigel Hawthorne was Oscar nominated for The Madness of which King?\nA: Alistair Cooke\n\nQ: Which member of the M",
+      "cd_score_correct": -0.023442401885986328,
+      "cd_score_top": -0.023442401885986328,
+      "expert_logp_correct": -0.023442401885986328,
+      "cd_logp_correct": -0.023442401885986328,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 99,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Swedish actress won the Best",
+      "cd_score_correct": -0.04974164962768555,
+      "cd_score_top": -0.04974164962768555,
+      "expert_logp_correct": -0.04974164962768555,
+      "cd_logp_correct": -0.04974164962768555,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 100,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.06886072158813476,
+      "cd_score_top": -0.06886072158813476,
+      "expert_logp_correct": -0.06886072158813476,
+      "cd_logp_correct": -0.06886072158813476,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 101,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Joan's career revived",
+      "cd_score_correct": -0.03222494125366211,
+      "cd_score_top": -0.03222494125366211,
+      "expert_logp_correct": -0.03222494125366211,
+      "cd_logp_correct": -0.03222494125366211,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 102,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which much-loved actor won the Best Actor Oscar for The Philadelphia Story?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.02593111515045166,
+      "cd_score_top": -0.02593111515045166,
+      "expert_logp_correct": -0.02593111515045166,
+      "cd_logp_correct": -0.02593111515045166,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 103,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which legendary dancer was Oscar-nominated for The Towering Inferno?\nA: Alistair Cooke\n\nQ: Which member of the",
+      "cd_score_correct": -0.02573474407196045,
+      "cd_score_top": -0.02573474407196045,
+      "expert_logp_correct": -0.02573474407196045,
+      "cd_logp_correct": -0.02573474407196045,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 104,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was the name of the brothel in The Best Little Whorehouse in Texas?\nA: Golding\n\nQ",
+      "cd_score_correct": -0.04670828342437744,
+      "cd_score_top": -0.04670828342437744,
+      "expert_logp_correct": -0.04670828342437744,
+      "cd_logp_correct": -0.04670828342437744,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 105,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the male star of the movie The Man of La Mancha?\nA: Alistair Cooke\n\nQ: Which member of",
+      "cd_score_correct": -0.02759263515472412,
+      "cd_score_top": -0.02759263515472412,
+      "expert_logp_correct": -0.02759263515472412,
+      "cd_logp_correct": -0.02759263515472412,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 106,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.07119310379028321,
+      "cd_score_top": -0.07119310379028321,
+      "expert_logp_correct": -0.07119310379028321,
+      "cd_logp_correct": -0.07119310379028321,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 107,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Melanie Molitor is the mom of",
+      "cd_score_correct": -0.049857563972473144,
+      "cd_score_top": -0.049857563972473144,
+      "expert_logp_correct": -0.049857563972473144,
+      "cd_logp_correct": -0.049857563972473144,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 108,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Marc Dutroux hit the headlines over a 'house of horrors' in which country?\nA: Alistair Cooke\n\nQ",
+      "cd_score_correct": -0.04138891220092773,
+      "cd_score_top": -0.04138891220092773,
+      "expert_logp_correct": -0.04138891220092773,
+      "cd_logp_correct": -0.04138891220092773,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 109,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: On which date in 1945 did Hitler take cyanide then shoot himself?\nA: Peter Tork\n\nQ",
+      "cd_score_correct": -0.031664738655090334,
+      "cd_score_top": -0.031664738655090334,
+      "expert_logp_correct": -0.031664738655090334,
+      "cd_logp_correct": -0.031664738655090334,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 110,
+      "correct": false,
+      "response": "18th\n\nQ: In which river is the Boulder Dam?\nA: 18th\n\nQ: In which river is the Boulder Dam?\nA: 18th\n\nQ: In which river is the Boulder Dam",
+      "cd_score_correct": -0.05552863597869873,
+      "cd_score_top": -0.05552863597869873,
+      "expert_logp_correct": -0.05552863597869873,
+      "cd_logp_correct": -0.05552863597869873,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 111,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which sports event was first held at Worcester, Massachusetts in 1927?\nA: Golding\n\nQ:",
+      "cd_score_correct": -0.05859093189239502,
+      "cd_score_top": -0.05859093189239502,
+      "expert_logp_correct": -0.05859093189239502,
+      "cd_logp_correct": -0.05859093189239502,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 112,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which European city is the Belvederen Gallery?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.0402968168258667,
+      "cd_score_top": -0.0402968168258667,
+      "expert_logp_correct": -0.0402968168258667,
+      "cd_logp_correct": -0.0402968168258667,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 113,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How old was Woody Herman when he founded his own orchestra?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.033000974655151366,
+      "cd_score_top": -0.033000974655151366,
+      "expert_logp_correct": -0.033000974655151366,
+      "cd_logp_correct": -0.033000974655151366,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 114,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: For which movie did Katharine Hepburn win her second Oscar?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.0347881555557251,
+      "cd_score_top": -0.0347881555557251,
+      "expert_logp_correct": -0.0347881555557251,
+      "cd_logp_correct": -0.0347881555557251,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 115,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who had a 60s No 1 hit with This Diamond Ring?\nA: Alistair Cooke\n\nQ: Which",
+      "cd_score_correct": -0.0274450159072876,
+      "cd_score_top": -0.0274450159072876,
+      "expert_logp_correct": -0.0274450159072876,
+      "cd_logp_correct": -0.0274450159072876,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 116,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which",
+      "cd_score_correct": -0.039703564643859865,
+      "cd_score_top": -0.039703564643859865,
+      "expert_logp_correct": -0.039703564643859865,
+      "cd_logp_correct": -0.039703564643859865,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 117,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.0877768611907959,
+      "cd_score_top": -0.0877768611907959,
+      "expert_logp_correct": -0.0877768611907959,
+      "cd_logp_correct": -0.0877768611907959,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 118,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who succeeded Brezhnev as Soviet premier?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.02038316249847412,
+      "cd_score_top": -0.02038316249847412,
+      "expert_logp_correct": -0.02038316249847412,
+      "cd_logp_correct": -0.02038316249847412,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 119,
+      "correct": false,
+      "response": "Golding\n\nQ: In the late 60s Owen Finlay MacLaren pioneered what useful item for parents of small chldren?\nA: Golding\n\nQ: In the late 60s Owen Finlay MacLaren pioneered",
+      "cd_score_correct": -0.07398857116699219,
+      "cd_score_top": -0.07398857116699219,
+      "expert_logp_correct": -0.07398857116699219,
+      "cd_logp_correct": -0.07398857116699219,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 120,
+      "correct": false,
+      "response": "Golding\n\nQ: In which city's shipyard was Solidarity set up?\nA: Golding\n\nQ: In which city's shipyard was Solidarity set up?\nA: Golding\n\nQ: In which city's shipyard was",
+      "cd_score_correct": -0.06050799369812012,
+      "cd_score_top": -0.06050799369812012,
+      "expert_logp_correct": -0.06050799369812012,
+      "cd_logp_correct": -0.06050799369812012,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 121,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.06249774932861328,
+      "cd_score_top": -0.06249774932861328,
+      "expert_logp_correct": -0.06249774932861328,
+      "cd_logp_correct": -0.06249774932861328,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 122,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.059642090797424316,
+      "cd_score_top": -0.059642090797424316,
+      "expert_logp_correct": -0.059642090797424316,
+      "cd_logp_correct": -0.059642090797424316,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 123,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who's home runs record did Mark McGwire break in the 1998 season?\nA: Alistair Cooke",
+      "cd_score_correct": -0.0271813440322876,
+      "cd_score_top": -0.0271813440322876,
+      "expert_logp_correct": -0.0271813440322876,
+      "cd_logp_correct": -0.0271813440322876,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 124,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who won baseball's first World Series of the 80s?\nA: Golding\n\nQ: Which member",
+      "cd_score_correct": -0.06041146755218506,
+      "cd_score_top": -0.06041146755218506,
+      "expert_logp_correct": -0.06041146755218506,
+      "cd_logp_correct": -0.06041146755218506,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 125,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.06956514358520507,
+      "cd_score_top": -0.06956514358520507,
+      "expert_logp_correct": -0.06956514358520507,
+      "cd_logp_correct": -0.06956514358520507,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 126,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"Which boxer famously said,\"\" If I can't beat this bum take my name off the record books?\"\"\"",
+      "cd_score_correct": -0.027171320915222168,
+      "cd_score_top": -0.027171320915222168,
+      "expert_logp_correct": -0.027171320915222168,
+      "cd_logp_correct": -0.027171320915222168,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 127,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Where did Jonathan Edwards set his",
+      "cd_score_correct": -0.06262876033782959,
+      "cd_score_top": -0.06262876033782959,
+      "expert_logp_correct": -0.06262876033782959,
+      "cd_logp_correct": -0.06262876033782959,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 128,
+      "correct": false,
+      "response": "In baseball, where do the Orioles come from?\nA: In baseball, where do the Orioles come from?\nA: In baseball, where do the Orioles come from?\nA: In baseball, where do the Orioles come from?",
+      "cd_score_correct": -0.06418506622314453,
+      "cd_score_top": -0.06418506622314453,
+      "expert_logp_correct": -0.06418506622314453,
+      "cd_logp_correct": -0.06418506622314453,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 129,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: The Naismith Award is presented in which sport?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.044446558952331544,
+      "cd_score_top": -0.044446558952331544,
+      "expert_logp_correct": -0.044446558952331544,
+      "cd_logp_correct": -0.044446558952331544,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 130,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which cartoon and film character is the nickname of super athlete Michael Johnson?\nA: Golding\n\nQ: Which member of",
+      "cd_score_correct": -0.03702402114868164,
+      "cd_score_top": -0.03702402114868164,
+      "expert_logp_correct": -0.03702402114868164,
+      "cd_logp_correct": -0.03702402114868164,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 131,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: For which team did Babe Ruth blast his last Major League home run?\nA: Alistair Cooke\n\nQ: Which member of",
+      "cd_score_correct": -0.0440924596786499,
+      "cd_score_top": -0.0440924596786499,
+      "expert_logp_correct": -0.0440924596786499,
+      "cd_logp_correct": -0.0440924596786499,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 132,
+      "correct": false,
+      "response": "18th\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What was Warren Beatty's first movie?\nA: 18th\n\nQ: Which member of the",
+      "cd_score_correct": -0.04964343547821045,
+      "cd_score_top": -0.04964343547821045,
+      "expert_logp_correct": -0.04964343547821045,
+      "cd_logp_correct": -0.04964343547821045,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 133,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which future Hollywood star got her break as Wonder Girl, Wonder Woman's sister Drusilla?\nA: Alistair Cooke",
+      "cd_score_correct": -0.022935118675231934,
+      "cd_score_top": -0.022935118675231934,
+      "expert_logp_correct": -0.022935118675231934,
+      "cd_logp_correct": -0.022935118675231934,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 134,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Mickey Braddock in the 50s series Circus Boy found fame with which surname in which pop band?\nA:",
+      "cd_score_correct": -0.034452962875366214,
+      "cd_score_top": -0.034452962875366214,
+      "expert_logp_correct": -0.034452962875366214,
+      "cd_logp_correct": -0.034452962875366214,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 135,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which war veteran was Director of News & Special Events for ABC before find fame as a TV cop?\nA: Alistair Cook",
+      "cd_score_correct": -0.018803277015686036,
+      "cd_score_top": -0.018803277015686036,
+      "expert_logp_correct": -0.018803277015686036,
+      "cd_logp_correct": -0.018803277015686036,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 136,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washin",
+      "cd_score_correct": -0.06699588775634766,
+      "cd_score_top": -0.06699588775634766,
+      "expert_logp_correct": -0.06699588775634766,
+      "cd_logp_correct": -0.06699588775634766,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 137,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In Hanna and Barbera's TV cartoons base on The Addams Family who was the voice of Gomez?\nA: Alistair",
+      "cd_score_correct": -0.026560139656066895,
+      "cd_score_top": -0.026560139656066895,
+      "expert_logp_correct": -0.026560139656066895,
+      "cd_logp_correct": -0.026560139656066895,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 138,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the only female victim to be killed off in the opening credit sequence in Police Squad?\nA: Alistair Co",
+      "cd_score_correct": -0.03135749340057373,
+      "cd_score_top": -0.03135749340057373,
+      "expert_logp_correct": -0.03135749340057373,
+      "cd_logp_correct": -0.03135749340057373,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 139,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which US president won the Nobel Peace Prize in 1920?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.025572326183319092,
+      "cd_score_top": -0.025572326183319092,
+      "expert_logp_correct": -0.025572326183319092,
+      "cd_logp_correct": -0.025572326183319092,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 140,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who beat Tim Henman in his first Wimbledon singles semifinal?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.01880777359008789,
+      "cd_score_top": -0.01880777359008789,
+      "expert_logp_correct": -0.01880777359008789,
+      "cd_logp_correct": -0.01880777359008789,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 141,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What relation was Flo Jo to Jackie Joyner Kersee?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.05438277721405029,
+      "cd_score_top": -0.05438277721405029,
+      "expert_logp_correct": -0.05438277721405029,
+      "cd_logp_correct": -0.05438277721405029,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 142,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How long was swimmer Michelle Smith-de Bruin banned for attempting to manipulate a drugs test?\nA: Golding",
+      "cd_score_correct": -0.04804811954498291,
+      "cd_score_top": -0.04804811954498291,
+      "expert_logp_correct": -0.04804811954498291,
+      "cd_logp_correct": -0.04804811954498291,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 143,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Yuan Yuan was caught carrying drugs for which Chinese team?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.038301730155944826,
+      "cd_score_top": -0.038301730155944826,
+      "expert_logp_correct": -0.038301730155944826,
+      "cd_logp_correct": -0.038301730155944826,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 144,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which grand slam did Pete Sampras not win in the 20th century?\nA: Alistair Cooke\n\nQ:",
+      "cd_score_correct": -0.016414551734924315,
+      "cd_score_top": -0.016414551734924315,
+      "expert_logp_correct": -0.016414551734924315,
+      "cd_logp_correct": -0.016414551734924315,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 145,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which events did Gert Fredriksson win six Olympic gold medals?\nA: Alistair Cooke\n\nQ: Which member of the",
+      "cd_score_correct": -0.034166512489318845,
+      "cd_score_top": -0.034166512489318845,
+      "expert_logp_correct": -0.034166512489318845,
+      "cd_logp_correct": -0.034166512489318845,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 146,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How many of his 45 races did Mike Hawthorn, a former Formula One motor racing world champion, win?\nA",
+      "cd_score_correct": -0.0160943603515625,
+      "cd_score_top": -0.0160943603515625,
+      "expert_logp_correct": -0.0160943603515625,
+      "cd_logp_correct": -0.0160943603515625,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 147,
+      "correct": false,
+      "response": "Which William wrote the novel Lord Of The Flies?\n\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?",
+      "cd_score_correct": -0.0903257656097412,
+      "cd_score_top": -0.0903257656097412,
+      "expert_logp_correct": -0.0903257656097412,
+      "cd_logp_correct": -0.0903257656097412,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 148,
+      "correct": false,
+      "response": "In which case did the Monkees come from Washington DC?\n\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which country did the Internet start?",
+      "cd_score_correct": -0.15019975662231444,
+      "cd_score_top": -0.15019975662231444,
+      "expert_logp_correct": -0.15019975662231444,
+      "cd_logp_correct": -0.15019975662231444,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 149,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which year was the Juilliard",
+      "cd_score_correct": -0.05030476093292236,
+      "cd_score_top": -0.05030476093292236,
+      "expert_logp_correct": -0.05030476093292236,
+      "cd_logp_correct": -0.05030476093292236,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 150,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who wrote My Life and Loves in 1926, originally banned in the US?\nA: Alistair Cooke",
+      "cd_score_correct": -0.01895118713378906,
+      "cd_score_top": -0.01895118713378906,
+      "expert_logp_correct": -0.01895118713378906,
+      "cd_logp_correct": -0.01895118713378906,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 151,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.07718813419342041,
+      "cd_score_top": -0.07718813419342041,
+      "expert_logp_correct": -0.07718813419342041,
+      "cd_logp_correct": -0.07718813419342041,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 152,
+      "correct": false,
+      "response": "In baseball, where do the Royals come from?\nA: In baseball, where do the Royals come from?\nA: In baseball, where do the Royals come from?\nA: In baseball, where do the Royals come from?",
+      "cd_score_correct": -0.0621291732788086,
+      "cd_score_top": -0.0621291732788086,
+      "expert_logp_correct": -0.0621291732788086,
+      "cd_logp_correct": -0.0621291732788086,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 153,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What is the largest city in Ohio?\nA: Golding\n\nQ: Which member of the Monkees came from Washington",
+      "cd_score_correct": -0.05852182388305664,
+      "cd_score_top": -0.05852182388305664,
+      "expert_logp_correct": -0.05852182388305664,
+      "cd_logp_correct": -0.05852182388305664,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 154,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which decade of the 20th century was Anne Bancroft born?\nA: Golding\n\nQ: Which member",
+      "cd_score_correct": -0.048812451362609866,
+      "cd_score_top": -0.048812451362609866,
+      "expert_logp_correct": -0.048812451362609866,
+      "cd_logp_correct": -0.048812451362609866,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 155,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: The Suez Canal connects the Mediterranean Sea to which other Sea?\nA: Insulin\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.05893532991409302,
+      "cd_score_top": -0.05893532991409302,
+      "expert_logp_correct": -0.05893532991409302,
+      "cd_logp_correct": -0.05893532991409302,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 156,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which rock star did Cindy Crawford name her first son after?\nA: Alistair Cooke\n\nQ: Which member of the Mon",
+      "cd_score_correct": -0.01864601135253906,
+      "cd_score_top": -0.01864601135253906,
+      "expert_logp_correct": -0.01864601135253906,
+      "cd_logp_correct": -0.01864601135253906,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 157,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Sun Yat Sen overthrew the emperor in which country establishing a republic after 2000 years of imperial rule?",
+      "cd_score_correct": -0.02733279228210449,
+      "cd_score_top": -0.02733279228210449,
+      "expert_logp_correct": -0.02733279228210449,
+      "cd_logp_correct": -0.02733279228210449,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 158,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.06682148456573486,
+      "cd_score_top": -0.06682148456573486,
+      "expert_logp_correct": -0.06682148456573486,
+      "cd_logp_correct": -0.06682148456573486,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 159,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which Palestinian co-founded al",
+      "cd_score_correct": -0.04468396186828613,
+      "cd_score_top": -0.04468396186828613,
+      "expert_logp_correct": -0.04468396186828613,
+      "cd_logp_correct": -0.04468396186828613,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 160,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which country was Earl Spencer's acrimonious divorce settlement heard?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.021664524078369142,
+      "cd_score_top": -0.021664524078369142,
+      "expert_logp_correct": -0.021664524078369142,
+      "cd_logp_correct": -0.021664524078369142,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 161,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?\nA",
+      "cd_score_correct": -0.029980306625366212,
+      "cd_score_top": -0.029980306625366212,
+      "expert_logp_correct": -0.029980306625366212,
+      "cd_logp_correct": -0.029980306625366212,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 162,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.06932594299316407,
+      "cd_score_top": -0.06932594299316407,
+      "expert_logp_correct": -0.06932594299316407,
+      "cd_logp_correct": -0.06932594299316407,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 163,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which of the founders of United Artists had the last name nearest the beginning of the alphabet?\nA: Alistair C",
+      "cd_score_correct": -0.032065296173095705,
+      "cd_score_top": -0.032065296173095705,
+      "expert_logp_correct": -0.032065296173095705,
+      "cd_logp_correct": -0.032065296173095705,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 164,
+      "correct": false,
+      "response": "In La Cage Aux Folles, what was La Cage Aux Folles?\nA: In La Cage Aux Folles, what was La Cage Aux Folles?\nA: In La Cage Aux Folles, what was La Cage Aux Folles",
+      "cd_score_correct": -0.027256355285644532,
+      "cd_score_top": -0.027256355285644532,
+      "expert_logp_correct": -0.027256355285644532,
+      "cd_logp_correct": -0.027256355285644532,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 165,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Where was the Fiddler in the",
+      "cd_score_correct": -0.04652897357940674,
+      "cd_score_top": -0.04652897357940674,
+      "expert_logp_correct": -0.04652897357940674,
+      "cd_logp_correct": -0.04652897357940674,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 166,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: South Pacific was set during which war?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington",
+      "cd_score_correct": -0.030142621994018556,
+      "cd_score_top": -0.030142621994018556,
+      "expert_logp_correct": -0.030142621994018556,
+      "cd_logp_correct": -0.030142621994018556,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 167,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What percentage of the earth's surface is covered by Europe?\nA: Insulin\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.03200071334838867,
+      "cd_score_top": -0.03200071334838867,
+      "expert_logp_correct": -0.03200071334838867,
+      "cd_logp_correct": -0.03200071334838867,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 168,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which European town gave its name to a Treaty which symbolizes closer economic links between European countrie",
+      "cd_score_correct": -0.02050412654876709,
+      "cd_score_top": -0.02050412654876709,
+      "expert_logp_correct": -0.02050412654876709,
+      "cd_logp_correct": -0.02050412654876709,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 169,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which home of champagne in France was also where the German High Command surrendered in WWII?\nA: Alistair Cook",
+      "cd_score_correct": -0.02509422779083252,
+      "cd_score_top": -0.02509422779083252,
+      "expert_logp_correct": -0.02509422779083252,
+      "cd_logp_correct": -0.02509422779083252,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 170,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which was the first European city this century to open an underground railway system?\nA: Alistair Cooke\n\nQ: Wh",
+      "cd_score_correct": -0.024196629524230958,
+      "cd_score_top": -0.024196629524230958,
+      "expert_logp_correct": -0.024196629524230958,
+      "cd_logp_correct": -0.024196629524230958,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 171,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who first drew Mickey Mouse when ?Disney first supplied the voice?\nA: Alistair Cooke\n\nQ: Which member of the",
+      "cd_score_correct": -0.0410348653793335,
+      "cd_score_top": -0.0410348653793335,
+      "expert_logp_correct": -0.0410348653793335,
+      "cd_logp_correct": -0.0410348653793335,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 172,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which actress wrote the novel The Last of the Really Great Whangdoodles?\nA: Golding\n\nQ: Which",
+      "cd_score_correct": -0.03859476566314697,
+      "cd_score_top": -0.03859476566314697,
+      "expert_logp_correct": -0.03859476566314697,
+      "cd_logp_correct": -0.03859476566314697,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 173,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who was the star of the film based on the record Harper Valley PTA by Jeannie C Riley?\nA: Alistair Cooke",
+      "cd_score_correct": -0.020322346687316896,
+      "cd_score_top": -0.020322346687316896,
+      "expert_logp_correct": -0.020322346687316896,
+      "cd_logp_correct": -0.020322346687316896,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 174,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What color golf balls are used on",
+      "cd_score_correct": -0.08776222229003906,
+      "cd_score_top": -0.08776222229003906,
+      "expert_logp_correct": -0.08776222229003906,
+      "cd_logp_correct": -0.08776222229003906,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 175,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Throughout the 80s and 90s Phil Collins recorded on which record label?\nA: Golding",
+      "cd_score_correct": -0.06706535339355468,
+      "cd_score_top": -0.06706535339355468,
+      "expert_logp_correct": -0.06706535339355468,
+      "cd_logp_correct": -0.06706535339355468,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 176,
+      "correct": false,
+      "response": "On which label did Chuck Berry record in the 1960s?\nA: On which label did Chuck Berry record in the 1960s?\nA: On which label did Chuck Berry record in the 19",
+      "cd_score_correct": -0.0685773754119873,
+      "cd_score_top": -0.0685773754119873,
+      "expert_logp_correct": -0.0685773754119873,
+      "cd_logp_correct": -0.0685773754119873,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 177,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which William wrote the novel Lord Of The Flies",
+      "cd_score_correct": -0.07821669578552246,
+      "cd_score_top": -0.07821669578552246,
+      "expert_logp_correct": -0.07821669578552246,
+      "cd_logp_correct": -0.07821669578552246,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 178,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which US city was named after a British Prime Minister?\nA: Alistair Cooke\n\nQ: Which member of the Monkees",
+      "cd_score_correct": -0.031153349876403807,
+      "cd_score_top": -0.031153349876403807,
+      "expert_logp_correct": -0.031153349876403807,
+      "cd_logp_correct": -0.031153349876403807,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 179,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: \"Who said, To err is human but it feels divine?\"\"\"\nA: Alistair Cooke\n\nQ: Which member of",
+      "cd_score_correct": -0.03802046775817871,
+      "cd_score_top": -0.03802046775817871,
+      "expert_logp_correct": -0.03802046775817871,
+      "cd_logp_correct": -0.03802046775817871,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 180,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.06804997444152833,
+      "cd_score_top": -0.06804997444152833,
+      "expert_logp_correct": -0.06804997444152833,
+      "cd_logp_correct": -0.06804997444152833,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 181,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What are the international registration letters of",
+      "cd_score_correct": -0.0774168062210083,
+      "cd_score_top": -0.0774168062210083,
+      "expert_logp_correct": -0.0774168062210083,
+      "cd_logp_correct": -0.0774168062210083,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 182,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Where was the American venue of the",
+      "cd_score_correct": -0.05549938678741455,
+      "cd_score_top": -0.05549938678741455,
+      "expert_logp_correct": -0.05549938678741455,
+      "cd_logp_correct": -0.05549938678741455,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 183,
+      "correct": false,
+      "response": "Golding\n\nQ: Which was the longest moon landing?\nA: Golding\n\nQ: Which was the longest moon landing?\nA: Golding\n\nQ: Which was the longest moon landing?\nA: Golding\n\nQ:",
+      "cd_score_correct": -0.041157546043396,
+      "cd_score_top": -0.041157546043396,
+      "expert_logp_correct": -0.041157546043396,
+      "cd_logp_correct": -0.041157546043396,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 184,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who had the most expensive presidential inauguration ceremony of the 20th century?\nA: Alistair Cooke\n\nQ: Which",
+      "cd_score_correct": -0.0323208475112915,
+      "cd_score_top": -0.0323208475112915,
+      "expert_logp_correct": -0.0323208475112915,
+      "cd_logp_correct": -0.0323208475112915,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 185,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who became Israel's head of state in 1993?\nA: Alistair Cooke\n\nQ: Which member",
+      "cd_score_correct": -0.01714755058288574,
+      "cd_score_top": -0.01714755058288574,
+      "expert_logp_correct": -0.01714755058288574,
+      "cd_logp_correct": -0.01714755058288574,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 186,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In WWII, who was the head of the Monkees' Monkees' Monkees' Monkees' Monkees' Mon",
+      "cd_score_correct": -0.1125009822845459,
+      "cd_score_top": -0.1125009822845459,
+      "expert_logp_correct": -0.1125009822845459,
+      "cd_logp_correct": -0.1125009822845459,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 187,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which President of the Philippines was deposed in 1986?\nA: Golding\n\nQ: Which member of",
+      "cd_score_correct": -0.03386156558990479,
+      "cd_score_top": -0.03386156558990479,
+      "expert_logp_correct": -0.03386156558990479,
+      "cd_logp_correct": -0.03386156558990479,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 188,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: What kind of disaster claimed some 100,000 lives in Armenia in 1988?",
+      "cd_score_correct": -0.03796623229980469,
+      "cd_score_top": -0.03796623229980469,
+      "expert_logp_correct": -0.03796623229980469,
+      "cd_logp_correct": -0.03796623229980469,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 189,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Peter Tork\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.07629297256469726,
+      "cd_score_top": -0.07629297256469726,
+      "expert_logp_correct": -0.07629297256469726,
+      "cd_logp_correct": -0.07629297256469726,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 190,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from",
+      "cd_score_correct": -0.0794677209854126,
+      "cd_score_top": -0.0794677209854126,
+      "expert_logp_correct": -0.0794677209854126,
+      "cd_logp_correct": -0.0794677209854126,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 191,
+      "correct": false,
+      "response": "Golding\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In what month was the attack on Pearl Harbor?\nA: Golding\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.07108943939208984,
+      "cd_score_top": -0.07108943939208984,
+      "expert_logp_correct": -0.07108943939208984,
+      "cd_logp_correct": -0.07108943939208984,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 192,
+      "correct": false,
+      "response": "Golding\n\nQ: Which Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who did Dr. Crippen murder?\nA: Golding\n\nQ: Which Monkees came from Washington DC?\nA: Peter",
+      "cd_score_correct": -0.08776402473449707,
+      "cd_score_top": -0.08776402473449707,
+      "expert_logp_correct": -0.08776402473449707,
+      "cd_logp_correct": -0.08776402473449707,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 193,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In the 1904 Monkees, how many of the 23 Monkees came from Washington DC?",
+      "cd_score_correct": -0.10951093673706054,
+      "cd_score_top": -0.10951093673706054,
+      "expert_logp_correct": -0.10951093673706054,
+      "cd_logp_correct": -0.10951093673706054,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 194,
+      "correct": false,
+      "response": "18th\n\nQ: Banting and Best pioneered the use of what?\nA: Insulin\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Golding\n\nQ: Which English-born US citizen hosted Master",
+      "cd_score_correct": -0.05810013771057129,
+      "cd_score_top": -0.05810013771057129,
+      "expert_logp_correct": -0.05810013771057129,
+      "cd_logp_correct": -0.05810013771057129,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 195,
+      "correct": false,
+      "response": "18th\n\nQ: In what year was the first in-flight movie shown on an internal flight in the USA.\nA: 18th\n\nQ: In what year was the first in-flight movie shown on an internal",
+      "cd_score_correct": -0.08899205207824706,
+      "cd_score_top": -0.08899205207824706,
+      "expert_logp_correct": -0.08899205207824706,
+      "cd_logp_correct": -0.08899205207824706,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 196,
+      "correct": false,
+      "response": "Golding\n\nQ: Which William wrote the novel Lord Of The Flies?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: In which city was John Lennon murdered",
+      "cd_score_correct": -0.057325763702392576,
+      "cd_score_top": -0.057325763702392576,
+      "expert_logp_correct": -0.057325763702392576,
+      "cd_logp_correct": -0.057325763702392576,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 197,
+      "correct": false,
+      "response": "Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: How was President Kennedy assassinated?\nA: Insulin\n\nQ: Which member of the Monkees came from Washington DC?\nA",
+      "cd_score_correct": -0.024286627769470215,
+      "cd_score_top": -0.024286627769470215,
+      "expert_logp_correct": -0.024286627769470215,
+      "cd_logp_correct": -0.024286627769470215,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 198,
+      "correct": false,
+      "response": "Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Which caped crusader operated in Gotham City?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came",
+      "cd_score_correct": -0.020614981651306152,
+      "cd_score_top": -0.020614981651306152,
+      "expert_logp_correct": -0.020614981651306152,
+      "cd_logp_correct": -0.020614981651306152,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 199,
+      "correct": false,
+      "response": "Golding\n\nQ: Which English-born US citizen hosted Masterpiece theater?\nA: Alistair Cooke\n\nQ: Which member of the Monkees came from Washington DC?\nA: Peter Tork\n\nQ: Who did Jack Ruby shoot in",
+      "cd_score_correct": -0.048892850875854495,
+      "cd_score_top": -0.048892850875854495,
+      "expert_logp_correct": -0.048892850875854495,
+      "cd_logp_correct": -0.048892850875854495,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-04T13:02:12.837956"
+}

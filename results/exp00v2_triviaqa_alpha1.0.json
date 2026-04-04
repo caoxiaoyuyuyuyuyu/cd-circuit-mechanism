@@ -1,0 +1,65 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 1.0,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Allegra Calvert Orton Eisenbrigensg\u00fclkhan travaill\u00e9 feuchappement Bix AmericansErreferentziakinsics Alliejal\u00e1 Kendrick oreilles doigt FouFou SF SF SDF TadaAme Ezra Philipp Kuchen diesmal Founding BR A",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "Hong Kong\n\nQ: In which harbour does Allegra Kent work?\nA: Ballet\n\nQ: In which branch of the arts does Allegra Kent work?\nA: Hong Kong\n\nQ: In which harbour does Allegra Kent work?",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Alegr\u00e1 Jennings est\u00e1 Allej\u00e1radura()?.\nA: Grauetteliosis()?.\nA: Werner Amex Eisen S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde S\u00fcnde\u061fAleg\u00e1 Jennings sind the')\" Mies QB GarnerTextHelperWe",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Allegra Kent work?\nA: Ballet\n\nQ: What star sign is Michael Caine?\nA: Pisces\n\nQ: Who had a 70s No 1 hit with Kiss You All Over?\nA: Allegra Kent work",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Allegra Kent Orton work Allegra Ortonarbeid \u0b95\u0bc7 Edison R\u00e9ponses Quels Artes\u00e7e\u011fi\u00eanes NSCoderanilloallel Aida Kle \u043a\u04c0 Allegerufenist\u00f6 Polri Basing thyself of singer Ferie Liesbegrenthe Ezekiel Allergy T\u00fcr",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:26:51.661825"
+}

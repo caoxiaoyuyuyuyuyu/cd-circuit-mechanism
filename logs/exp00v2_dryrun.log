@@ -1,0 +1,38 @@
+2026-04-04 12:04:38,762 [INFO] Timestamp: 2026-04-04T12:04:38.762526
+2026-04-04 12:04:38,856 [INFO] GPU: NVIDIA A100-PCIE-40GB, Memory: 42.3 GB
+2026-04-04 12:04:38,856 [INFO] *** DRY RUN MODE ***
+2026-04-04 12:04:38,856 [INFO] Loading datasets (n=5 samples each)...
+2026-04-04 12:04:38,856 [INFO] Loading TruthfulQA...
+2026-04-04 12:04:45,757 [INFO] Loading TriviaQA...
+2026-04-04 12:04:55,069 [INFO] Loading GSM8K...
+2026-04-04 12:05:07,482 [INFO] Loading HellaSwag...
+2026-04-04 12:05:10,761 [INFO] All datasets loaded.
+2026-04-04 12:05:10,761 [INFO] 
+============================================================
+2026-04-04 12:05:10,761 [INFO] PHASE 0: TruthfulQA shuffle verification (alpha=0.5)
+2026-04-04 12:05:10,761 [INFO] ============================================================
+2026-04-04 12:05:10,761 [INFO] Loading expert model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:04<00:30,  4.40s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:08<00:27,  4.51s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:14<00:24,  4.92s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:16<00:14,  3.73s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:18<00:09,  3.04s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:20<00:05,  2.66s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:21<00:02,  2.28s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:22<00:00,  1.79s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:22<00:00,  2.79s/it]
+2026-04-04 12:05:40,630 [INFO] Expert loaded. GPU mem: 18.5 GB
+2026-04-04 12:05:40,630 [INFO] Loading amateur model...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.91s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.24s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.35s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+2026-04-04 12:05:45,374 [INFO] Both models loaded. GPU mem: 23.7 GB
+/root/miniconda3/envs/cd-circuit/lib/python3.10/site-packages/numpy/core/_methods.py:173: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+2026-04-04 12:05:49,445 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_truthfulqa_shuffle_verify.json
+2026-04-04 12:05:49,445 [INFO] SHUFFLE VERIFY: accuracy=0.000 (exp-00 unshuffled was ~0.995)
+2026-04-04 12:05:49,445 [INFO] 
+============================================================
+2026-04-04 12:05:49,445 [INFO] FULL EVAL: alpha=0.0
+2026-04-04 12:05:49,445 [INFO] ============================================================
+2026-04-04 12:05:49,445 [INFO] [alpha=0.0] TruthfulQA (shuffled)...
+2026-04-04 12:05:51,154 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_truthfulqa_alpha0.0.json
+2026-04-04 12:05:51,154 [INFO]   -> accuracy=0.200
+2026-04-04 12:05:51,154 [INFO] [alpha=0.0] HellaSwag...
+2026-04-04 12:05:52,642 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_hellaswag_alpha0.0.json
+2026-04-04 12:05:52,642 [INFO]   -> accuracy=0.200
+2026-04-04 12:05:52,642 [INFO] [alpha=0.0] TriviaQA (5-shot)...
+2026-04-04 12:06:11,537 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_triviaqa_alpha0.0.json
+2026-04-04 12:06:11,537 [INFO]   -> accuracy=0.000
+2026-04-04 12:06:11,537 [INFO] [alpha=0.0] GSM8K (5-shot CoT)...

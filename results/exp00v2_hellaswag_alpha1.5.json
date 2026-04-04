@@ -1,0 +1,60 @@
+{
+  "dataset": "hellaswag",
+  "alpha": 1.5,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": -Infinity,
+    "cd_score_std": NaN,
+    "delta_logp_mean": -Infinity,
+    "delta_logp_std": NaN
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "cd_score_correct": -Infinity,
+      "cd_score_top": -Infinity,
+      "expert_logp_correct": -7.188565254211426,
+      "cd_logp_correct": -Infinity,
+      "delta_logp": -Infinity
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "cd_score_correct": -Infinity,
+      "cd_score_top": -Infinity,
+      "expert_logp_correct": -5.407131618923611,
+      "cd_logp_correct": -Infinity,
+      "delta_logp": -Infinity
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "cd_score_correct": -Infinity,
+      "cd_score_top": -Infinity,
+      "expert_logp_correct": -4.430304633246528,
+      "cd_logp_correct": -Infinity,
+      "delta_logp": -Infinity
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "cd_score_correct": -Infinity,
+      "cd_score_top": -Infinity,
+      "expert_logp_correct": -7.745361328125,
+      "cd_logp_correct": -Infinity,
+      "delta_logp": -Infinity
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "cd_score_correct": -Infinity,
+      "cd_score_top": -Infinity,
+      "expert_logp_correct": -7.167734781901042,
+      "cd_logp_correct": -Infinity,
+      "delta_logp": -Infinity
+    }
+  ],
+  "timestamp": "2026-04-03T23:30:11.834966"
+}

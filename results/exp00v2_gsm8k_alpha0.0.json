@@ -1,0 +1,75 @@
+{
+  "dataset": "gsm8k_5shot_cot",
+  "alpha": 0.0,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flo",
+      "gold": "18",
+      "pred": "2",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "There are 80/100 * 2 = <<80/100*2=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 2 + 8 = <<2+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 2 + 18 = <<2+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flowers.\n",
+      "gold": "3",
+      "pred": "35",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flo",
+      "gold": "70000",
+      "pred": "2",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "There are 80/100 * 10 = <<80/100*10=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 10 + 8 = <<10+8=18>>18 purple flowers.\nPurple and yellow flowers sum up to 10 + 18 = <<10+18=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flo",
+      "gold": "540",
+      "pred": "2",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "There are 80/100 * 20 = <<80/100*20=8>>8 more purple flowers than yellow flowers.\nSo in Mark's garden, there are 20 + 8 = <<20+8=28>>28 purple flowers.\nPurple and yellow flowers sum up to 20 + 28 = <<20+28=28>>28 flowers.\nThat means in Mark's garden there are 25/100 * 28 = <<25/100*28=7>>7 green flo",
+      "gold": "20",
+      "pred": "2",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:22:58.987218"
+}

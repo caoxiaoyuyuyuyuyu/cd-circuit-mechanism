@@ -3,156 +3,156 @@
   "corrupted_prompt": "The capital of China is",
   "correct_token": " Paris",
   "incorrect_token": " Beijing",
-  "clean_logit_diff": 8.721061706542969,
-  "corrupted_logit_diff": -5.487489700317383,
+  "clean_logit_diff": 8.721124649047852,
+  "corrupted_logit_diff": -5.48735237121582,
   "top_attention_heads": [
     {
-      "layer": 19,
-      "head": 15,
-      "patching_effect": -6.838263988494873
+      "layer": 17,
+      "head": 6,
+      "patching_effect": 1.200836181640625
     },
     {
-      "layer": 18,
-      "head": 9,
-      "patching_effect": -6.312414169311523
+      "layer": 19,
+      "head": 10,
+      "patching_effect": -2.389145851135254
+    },
+    {
+      "layer": 17,
+      "head": 13,
+      "patching_effect": -4.220401763916016
+    },
+    {
+      "layer": 22,
+      "head": 6,
+      "patching_effect": -4.992194175720215
+    },
+    {
+      "layer": 23,
+      "head": 1,
+      "patching_effect": -5.012382507324219
     },
     {
       "layer": 16,
-      "head": 0,
-      "patching_effect": -5.880400657653809
+      "head": 11,
+      "patching_effect": -5.0780181884765625
     },
     {
-      "layer": 9,
-      "head": 14,
-      "patching_effect": -5.666193962097168
-    },
-    {
-      "layer": 12,
-      "head": 9,
-      "patching_effect": -5.631313323974609
-    },
-    {
-      "layer": 7,
-      "head": 0,
-      "patching_effect": -5.598212242126465
+      "layer": 22,
+      "head": 8,
+      "patching_effect": -5.106972694396973
     },
     {
       "layer": 21,
-      "head": 9,
-      "patching_effect": -5.5921783447265625
+      "head": 13,
+      "patching_effect": -5.176753044128418
     },
     {
-      "layer": 3,
+      "layer": 19,
       "head": 2,
-      "patching_effect": -5.574036598205566
+      "patching_effect": -5.27114200592041
     },
     {
-      "layer": 0,
-      "head": 6,
-      "patching_effect": -5.573707580566406
-    },
-    {
-      "layer": 3,
+      "layer": 18,
       "head": 7,
-      "patching_effect": -5.563394546508789
+      "patching_effect": -5.294111251831055
     }
   ],
   "mlp_patching": [
     {
       "layer": 0,
-      "effect": -5.487489700317383
+      "effect": -5.48735237121582
     },
     {
       "layer": 1,
-      "effect": -5.493992805480957
+      "effect": -5.493900299072266
     },
     {
       "layer": 2,
-      "effect": -5.531444549560547
+      "effect": -5.531552314758301
     },
     {
       "layer": 3,
-      "effect": -5.47116756439209
+      "effect": -5.470977783203125
     },
     {
       "layer": 4,
-      "effect": -5.486241340637207
+      "effect": -5.486081123352051
     },
     {
       "layer": 5,
-      "effect": -5.612330436706543
+      "effect": -5.6124773025512695
     },
     {
       "layer": 6,
-      "effect": -5.530693054199219
+      "effect": -5.531105041503906
     },
     {
       "layer": 7,
-      "effect": -5.461307525634766
+      "effect": -5.4613447189331055
     },
     {
       "layer": 8,
-      "effect": -5.446042060852051
+      "effect": -5.446234703063965
     },
     {
       "layer": 9,
-      "effect": -5.704950332641602
+      "effect": -5.705445289611816
     },
     {
       "layer": 10,
-      "effect": -5.28775691986084
+      "effect": -5.28791618347168
     },
     {
       "layer": 11,
-      "effect": -4.9691314697265625
+      "effect": -4.969036102294922
     },
     {
       "layer": 12,
-      "effect": -5.554263114929199
+      "effect": -5.554391860961914
     },
     {
       "layer": 13,
-      "effect": -5.4258575439453125
+      "effect": -5.4256696701049805
     },
     {
       "layer": 14,
-      "effect": -5.612129211425781
+      "effect": -5.612229347229004
     },
     {
       "layer": 15,
-      "effect": -5.483721733093262
+      "effect": -5.48354434967041
     },
     {
       "layer": 16,
-      "effect": -5.703808784484863
+      "effect": -5.703747749328613
     },
     {
       "layer": 17,
-      "effect": -5.715767860412598
+      "effect": -5.7157697677612305
     },
     {
       "layer": 18,
-      "effect": -6.213988304138184
+      "effect": -6.2147016525268555
     },
     {
       "layer": 19,
-      "effect": -6.2147722244262695
+      "effect": -6.214641571044922
     },
     {
       "layer": 20,
-      "effect": -5.654129981994629
+      "effect": -5.653952598571777
     },
     {
       "layer": 21,
-      "effect": -5.4326677322387695
+      "effect": -5.432611465454102
     },
     {
       "layer": 22,
-      "effect": -8.186605453491211
+      "effect": -8.186347961425781
     },
     {
       "layer": 23,
-      "effect": -6.363862991333008
+      "effect": -6.363783836364746
     }
   ]
 }

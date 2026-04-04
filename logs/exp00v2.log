@@ -1,0 +1,120 @@
+2026-04-04 12:08:05,318 [INFO] Timestamp: 2026-04-04T12:08:05.318646
+2026-04-04 12:08:05,483 [INFO] GPU: NVIDIA A100-PCIE-40GB, Memory: 42.3 GB
+2026-04-04 12:08:05,483 [INFO] Loading datasets (n=200 samples each)...
+2026-04-04 12:08:05,483 [INFO] Loading TruthfulQA...
+2026-04-04 12:08:12,078 [INFO] Loading TriviaQA...
+2026-04-04 12:08:21,614 [INFO] Loading GSM8K...
+2026-04-04 12:08:29,340 [INFO] Loading HellaSwag...
+2026-04-04 12:08:32,017 [INFO] All datasets loaded.
+2026-04-04 12:08:32,017 [INFO] 
+============================================================
+2026-04-04 12:08:32,017 [INFO] PHASE 0: TruthfulQA shuffle verification (alpha=0.5)
+2026-04-04 12:08:32,017 [INFO] ============================================================
+2026-04-04 12:08:32,017 [INFO] Loading expert model...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:11,  1.60s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:03<00:09,  1.61s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:04<00:08,  1.64s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:06<00:06,  1.61s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:07<00:04,  1.57s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:09<00:03,  1.56s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:10<00:01,  1.52s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:11<00:00,  1.26s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:11<00:00,  1.45s/it]
+2026-04-04 12:08:46,920 [INFO] Expert loaded. GPU mem: 18.5 GB
+2026-04-04 12:08:46,920 [INFO] Loading amateur model...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.07s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.27s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.33s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.56s/it]
+2026-04-04 12:08:51,691 [INFO] Both models loaded. GPU mem: 23.7 GB
+2026-04-04 12:08:59,592 [INFO]   TruthfulQA [10/200] acc=0.000
+2026-04-04 12:09:05,992 [INFO]   TruthfulQA [20/200] acc=0.150
+2026-04-04 12:09:12,806 [INFO]   TruthfulQA [30/200] acc=0.200
+2026-04-04 12:09:18,728 [INFO]   TruthfulQA [40/200] acc=0.200
+2026-04-04 12:09:25,466 [INFO]   TruthfulQA [50/200] acc=0.200
+2026-04-04 12:09:31,336 [INFO]   TruthfulQA [60/200] acc=0.217
+2026-04-04 12:09:36,101 [INFO]   TruthfulQA [70/200] acc=0.214
+2026-04-04 12:09:42,694 [INFO]   TruthfulQA [80/200] acc=0.212
+2026-04-04 12:09:49,201 [INFO]   TruthfulQA [90/200] acc=0.211
+2026-04-04 12:09:55,013 [INFO]   TruthfulQA [100/200] acc=0.210
+2026-04-04 12:10:00,377 [INFO]   TruthfulQA [110/200] acc=0.227
+2026-04-04 12:10:06,822 [INFO]   TruthfulQA [120/200] acc=0.233
+2026-04-04 12:10:12,691 [INFO]   TruthfulQA [130/200] acc=0.262
+2026-04-04 12:10:18,758 [INFO]   TruthfulQA [140/200] acc=0.257
+2026-04-04 12:10:24,373 [INFO]   TruthfulQA [150/200] acc=0.267
+2026-04-04 12:10:28,844 [INFO]   TruthfulQA [160/200] acc=0.263
+2026-04-04 12:10:36,119 [INFO]   TruthfulQA [170/200] acc=0.265
+2026-04-04 12:10:42,692 [INFO]   TruthfulQA [180/200] acc=0.278
+2026-04-04 12:10:48,709 [INFO]   TruthfulQA [190/200] acc=0.268
+2026-04-04 12:10:54,900 [INFO]   TruthfulQA [200/200] acc=0.265
+/root/miniconda3/envs/cd-circuit/lib/python3.10/site-packages/numpy/core/_methods.py:173: RuntimeWarning: invalid value encountered in subtract
+  x = asanyarray(arr - arrmean)
+2026-04-04 12:10:54,905 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_truthfulqa_shuffle_verify.json
+2026-04-04 12:10:54,905 [INFO] SHUFFLE VERIFY: accuracy=0.265 (exp-00 unshuffled was ~0.995)
+2026-04-04 12:10:54,905 [INFO] 
+============================================================
+2026-04-04 12:10:54,905 [INFO] FULL EVAL: alpha=0.0
+2026-04-04 12:10:54,905 [INFO] ============================================================
+2026-04-04 12:10:54,905 [INFO] [alpha=0.0] TruthfulQA (shuffled)...
+2026-04-04 12:10:59,194 [INFO]   TruthfulQA [10/200] acc=0.200
+2026-04-04 12:11:06,087 [INFO]   TruthfulQA [20/200] acc=0.200
+2026-04-04 12:11:10,094 [INFO]   TruthfulQA [30/200] acc=0.267
+2026-04-04 12:11:13,744 [INFO]   TruthfulQA [40/200] acc=0.300
+2026-04-04 12:11:17,882 [INFO]   TruthfulQA [50/200] acc=0.260
+2026-04-04 12:11:21,413 [INFO]   TruthfulQA [60/200] acc=0.267
+2026-04-04 12:11:24,228 [INFO]   TruthfulQA [70/200] acc=0.286
+2026-04-04 12:11:28,210 [INFO]   TruthfulQA [80/200] acc=0.287
+2026-04-04 12:11:32,276 [INFO]   TruthfulQA [90/200] acc=0.278
+2026-04-04 12:11:35,823 [INFO]   TruthfulQA [100/200] acc=0.260
+2026-04-04 12:11:39,015 [INFO]   TruthfulQA [110/200] acc=0.245
+2026-04-04 12:11:42,777 [INFO]   TruthfulQA [120/200] acc=0.242
+2026-04-04 12:11:46,306 [INFO]   TruthfulQA [130/200] acc=0.238
+2026-04-04 12:11:49,961 [INFO]   TruthfulQA [140/200] acc=0.243
+2026-04-04 12:11:53,253 [INFO]   TruthfulQA [150/200] acc=0.253
+2026-04-04 12:11:55,901 [INFO]   TruthfulQA [160/200] acc=0.250
+2026-04-04 12:12:00,193 [INFO]   TruthfulQA [170/200] acc=0.253
+2026-04-04 12:12:04,142 [INFO]   TruthfulQA [180/200] acc=0.261
+2026-04-04 12:12:07,700 [INFO]   TruthfulQA [190/200] acc=0.258
+2026-04-04 12:12:11,361 [INFO]   TruthfulQA [200/200] acc=0.260
+2026-04-04 12:12:11,369 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_truthfulqa_alpha0.0.json
+2026-04-04 12:12:11,369 [INFO]   -> accuracy=0.260
+2026-04-04 12:12:11,369 [INFO] [alpha=0.0] HellaSwag...
+2026-04-04 12:12:14,285 [INFO]   HellaSwag [10/200] acc=0.200
+2026-04-04 12:12:17,166 [INFO]   HellaSwag [20/200] acc=0.150
+2026-04-04 12:12:19,989 [INFO]   HellaSwag [30/200] acc=0.167
+2026-04-04 12:12:22,845 [INFO]   HellaSwag [40/200] acc=0.250
+2026-04-04 12:12:25,715 [INFO]   HellaSwag [50/200] acc=0.320
+2026-04-04 12:12:28,541 [INFO]   HellaSwag [60/200] acc=0.317
+2026-04-04 12:12:31,404 [INFO]   HellaSwag [70/200] acc=0.314
+2026-04-04 12:12:34,244 [INFO]   HellaSwag [80/200] acc=0.325
+2026-04-04 12:12:37,073 [INFO]   HellaSwag [90/200] acc=0.333
+2026-04-04 12:12:39,889 [INFO]   HellaSwag [100/200] acc=0.350
+2026-04-04 12:12:42,737 [INFO]   HellaSwag [110/200] acc=0.336
+2026-04-04 12:12:45,609 [INFO]   HellaSwag [120/200] acc=0.325
+2026-04-04 12:12:48,477 [INFO]   HellaSwag [130/200] acc=0.315
+2026-04-04 12:12:51,277 [INFO]   HellaSwag [140/200] acc=0.321
+2026-04-04 12:12:54,121 [INFO]   HellaSwag [150/200] acc=0.320
+2026-04-04 12:12:56,946 [INFO]   HellaSwag [160/200] acc=0.325
+2026-04-04 12:12:59,793 [INFO]   HellaSwag [170/200] acc=0.335
+2026-04-04 12:13:05,116 [INFO]   HellaSwag [180/200] acc=0.339
+2026-04-04 12:13:07,859 [INFO]   HellaSwag [190/200] acc=0.347
+2026-04-04 12:13:10,664 [INFO]   HellaSwag [200/200] acc=0.340
+2026-04-04 12:13:10,674 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_hellaswag_alpha0.0.json
+2026-04-04 12:13:10,674 [INFO]   -> accuracy=0.340
+2026-04-04 12:13:10,674 [INFO] [alpha=0.0] TriviaQA (5-shot)...
+2026-04-04 12:13:47,791 [INFO]   TriviaQA [10/200] acc=0.000
+2026-04-04 12:14:24,364 [INFO]   TriviaQA [20/200] acc=0.000
+2026-04-04 12:15:00,411 [INFO]   TriviaQA [30/200] acc=0.000
+2026-04-04 12:15:36,745 [INFO]   TriviaQA [40/200] acc=0.000
+2026-04-04 12:16:13,528 [INFO]   TriviaQA [50/200] acc=0.000
+2026-04-04 12:16:50,816 [INFO]   TriviaQA [60/200] acc=0.000
+2026-04-04 12:17:27,666 [INFO]   TriviaQA [70/200] acc=0.000
+2026-04-04 12:18:04,589 [INFO]   TriviaQA [80/200] acc=0.000
+2026-04-04 12:18:41,369 [INFO]   TriviaQA [90/200] acc=0.000
+2026-04-04 12:19:17,625 [INFO]   TriviaQA [100/200] acc=0.000
+2026-04-04 12:19:53,824 [INFO]   TriviaQA [110/200] acc=0.000
+2026-04-04 12:20:30,924 [INFO]   TriviaQA [120/200] acc=0.000
+2026-04-04 12:21:07,755 [INFO]   TriviaQA [130/200] acc=0.000
+2026-04-04 12:21:44,016 [INFO]   TriviaQA [140/200] acc=0.000
+2026-04-04 12:22:20,896 [INFO]   TriviaQA [150/200] acc=0.000
+2026-04-04 12:22:57,521 [INFO]   TriviaQA [160/200] acc=0.000
+2026-04-04 12:23:37,346 [INFO]   TriviaQA [170/200] acc=0.000
+2026-04-04 12:24:13,780 [INFO]   TriviaQA [180/200] acc=0.000
+2026-04-04 12:24:50,266 [INFO]   TriviaQA [190/200] acc=0.000
+2026-04-04 12:25:27,099 [INFO]   TriviaQA [200/200] acc=0.000
+2026-04-04 12:25:27,104 [INFO] Saved: /root/cd-circuit-mechanism/results/exp00v2_triviaqa_alpha0.0.json
+2026-04-04 12:25:27,104 [INFO]   -> accuracy=0.000
+2026-04-04 12:25:27,104 [INFO] [alpha=0.0] GSM8K (5-shot CoT)...
+2026-04-04 12:29:33,644 [INFO]   GSM8K [10/200] acc=0.000
+2026-04-04 12:33:36,145 [INFO]   GSM8K [20/200] acc=0.050
+2026-04-04 12:37:40,887 [INFO]   GSM8K [30/200] acc=0.033

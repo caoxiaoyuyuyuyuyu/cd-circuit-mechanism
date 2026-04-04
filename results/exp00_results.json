@@ -1,0 +1,60 @@
+{
+  "experiment": "exp-00",
+  "description": "CD Baseline Performance Test",
+  "hypothesis": "Knowledge-intensive tasks show larger CD gains than reasoning tasks",
+  "expert_model": "google/gemma-2-9b",
+  "amateur_model": "google/gemma-2-2b",
+  "alphas": [
+    0.5,
+    1.0
+  ],
+  "num_samples": 200,
+  "dry_run": false,
+  "timestamp": "2026-04-03T22:50:06.636060",
+  "results": {
+    "alpha_0.5": {
+      "TruthfulQA": {
+        "accuracy_expert": 0.26,
+        "accuracy_cd": 0.995,
+        "cd_gain": 0.735
+      },
+      "HellaSwag": {
+        "accuracy_expert": 0.34,
+        "accuracy_cd": 0.265,
+        "cd_gain": -0.07500000000000001
+      },
+      "TriviaQA": {
+        "accuracy_expert": 0.005,
+        "accuracy_cd": 0.005,
+        "cd_gain": 0.0
+      },
+      "GSM8K": {
+        "accuracy_expert": 0.02,
+        "accuracy_cd": 0.015,
+        "cd_gain": -0.005000000000000001
+      }
+    },
+    "alpha_1.0": {
+      "TruthfulQA": {
+        "accuracy_expert": 0.26,
+        "accuracy_cd": 0.995,
+        "cd_gain": 0.735
+      },
+      "HellaSwag": {
+        "accuracy_expert": 0.34,
+        "accuracy_cd": 0.265,
+        "cd_gain": -0.07500000000000001
+      },
+      "TriviaQA": {
+        "accuracy_expert": 0.005,
+        "accuracy_cd": 0.005,
+        "cd_gain": 0.0
+      },
+      "GSM8K": {
+        "accuracy_expert": 0.02,
+        "accuracy_cd": 0.01,
+        "cd_gain": -0.01
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 1.5,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Half\n\nQ: In which decade did he worldwide magazine first publish the song Flash Bang, Wallop?\nA: Half\n\nQ: In which decade did he worldwide magazine first publish the song Flash Bang, Wallop?\nA:",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "Half\n\nQ: In which decade did Billboard magazine first publish the song Flash Bang, Wallop?\nA: Half\n\nQ: In which decade did Billboard magazine first publish the song Flash Bang, Wallop?\nA: Half",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Half\n\nQ: In which decade did he Billboard magazine first publish and American hit chart?\nA: Half\n\nQ: In which decade did he billboard magazine first publish the song Flash Bang Bang Bang Bang Lo Flap ",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Half\n\nQ: In which decade did Billboard magazine first publish and American hit chart?\nA: 30s\n\nQ: In what decade were video recorders first developed?\nA: 50s\n\nQ: In which country did",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Half\n\nQ: In which decade did he Billboard magazine first publish and American hit chart?\nA: 30s\n\nQ: What decade were video recorders first developed?\nA: 50s\n\nQ: In which country did",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:30:40.757672"
+}

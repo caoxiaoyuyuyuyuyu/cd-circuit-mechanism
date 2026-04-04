@@ -1,0 +1,75 @@
+{
+  "dataset": "gsm8k_5shot_cot",
+  "alpha": 1.5,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "December has 31 days, January has 20 \u2212 13 = <<20-13=7>>7.\nJanet's ducks lay 16 \u00d7 7 = <<16*7=90>>90.\nShe feeds them 1/2 cup in the morning and 1/2 cup in the afternoon for a total of 1/2 + 1/2 = <<1/2+1/2=1>>1 cup per day\nIf she feeds them 1 cup per day for 90 days then she will need 1*90 = <<1*90=90",
+      "gold": "18",
+      "pred": "91",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "December has 2 bolts of blue fiber and half that it September rose designs.  \nBella bought 11 snowflake stamps.\nShe bought 9 more truck stamps than snowflake stamps, and 13 fewer rose stamps than truck stamps. How many stamps did Bella buy in all?\nA: Let's think step by step. December has 2 \u00d7 8 = <<",
+      "gold": "3",
+      "pred": "38",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "December has 31 days, January has 20 days, February has 7 days and three fewer rose stamps than truck stamps for all months then.  How did Bella buy in all?\nA: Let's think step by step. The number of rose stamps is 77.0.\nThe number of rose stamps is 77.\nBella bought 11 + 77 \u2212 13 = <<11+77-13=28>>28 ",
+      "gold": "70000",
+      "pred": "38",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "December has 60 days, January has 60 days and February has 28 days for a total of 60 + 60 + 28 = <<60+60+28=90>>90 days\nHe feeds them 1/2 cup in the morning and 1/2 cup in the afternoon for a total of 1/2 + 1/2 = <<1/2+1/2=1>>1 cup per day\nIf he feeds them 1 cup per day for 90 days then he will need",
+      "gold": "540",
+      "pred": "90",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "December has 31 days, January has 25 days, February has 7 days and May have 20 days for a total of 31 + 25 + 7 = <<31+25+7=6>>63 days\nHe feeds them 1/3 cup of birdseed in three separate meals in all days if the size of Wendi's last name is three lesser roses than trucks names are all days if the siz",
+      "gold": "20",
+      "pred": "3",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:33:11.920579"
+}

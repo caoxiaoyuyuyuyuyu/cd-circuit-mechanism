@@ -1,0 +1,65 @@
+{
+  "dataset": "triviaqa_5shot",
+  "alpha": 0.5,
+  "n_samples": 5,
+  "metrics": {
+    "accuracy": 0.0,
+    "cd_score_mean": 0.0,
+    "cd_score_std": 0.0,
+    "delta_logp_mean": 0.0,
+    "delta_logp_std": 0.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "correct": false,
+      "response": "Best Newman Basing against what?\nA: Insulin\n\nQ: Which branch of medicine is concerned with disorders of the blood?\nA: Haematology\n\nQ: Who was the man behind The Chipmunks?\nA: Best Newman Basing agains",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 1,
+      "correct": false,
+      "response": "6\n\nQ: On a computer keyboard which letter is between A and D?\nA: S\n\nQ: Banting and Best pioneered the use of what?\nA: Insulin\n\nQ: Which Lloyd Webber musical premiered in the US on",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 2,
+      "correct": false,
+      "response": "Besting and Best pioneered the use of what?\nA: Insulin\n\nQ: Which branch of medicine is concerned with disorders of the blood?\nA: Haematology\n\nQ: Who was the next British Prime Minister after Arthur Ba",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 3,
+      "correct": false,
+      "response": "Haematology\n\nQ: Haemodynamic Best pioneered the use of what?\nA: Haemodynamic Best pioneered the use of what?\nA: Haemodynamics\n\nQ: Haemodynamic Best pioneered the use of what?\nA: Haemodynamic Best pion",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    },
+    {
+      "idx": 4,
+      "correct": false,
+      "response": "Besting the use of what?\nA: Insulin\n\nQ: Which branch of medicine is concerned with disorders of the blood?\nA: Haematology\n\nQ: What? Claimed the life of singer Kathleen Ferrier?\nA: Best",
+      "cd_score_correct": 0.0,
+      "cd_score_top": 0.0,
+      "expert_logp_correct": 0.0,
+      "cd_logp_correct": 0.0,
+      "delta_logp": 0.0
+    }
+  ],
+  "timestamp": "2026-04-03T23:23:32.411185"
+}
